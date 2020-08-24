@@ -1,2 +1,2 @@
-# vocabularies
+# BGS Vocabularies
 
