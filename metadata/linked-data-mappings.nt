@@ -7434,10 +7434,6 @@
 <http://data.bgs.ac.uk/ref/CurrentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/CurrentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the current status of a concept"@en .
 <http://data.bgs.ac.uk/ref/CurrentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Current status"@en .
-<http://data.bgs.ac.uk/ref/Dataholding/Dataset> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Datasets"@en .
-<http://data.bgs.ac.uk/ref/Dataholding/Keyword> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Keywords"@en .
-<http://data.bgs.ac.uk/ref/Dataholding/Location> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Locations"@en .
-<http://data.bgs.ac.uk/ref/Dataholding/LocationType> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Location types"@en .
 <http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://purl.org/dc/terms/accessRights> <http://data.bgs.ac.uk/ref/void> .
 <http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://purl.org/dc/terms/description> "BGS discovery metadata describes the datasets BGS hold. These pages are derived from our discovery metadata database, which complies with ISO standard 19115:2003 for geographic information metadata. "@en .
@@ -7450,9 +7446,9 @@
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://purl.org/dc/terms/modified> "2008-01-23" .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://purl.org/dc/terms/title> "Earth Material Component Rank Types"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://www.w3.org/2000/01/rdf-schema#label> "Relative proportion that a rock component part takes within its parent composite material"@en .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Relative proportion that a rock component part takes within its parent composite material"@en .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRank> <http://www.w3.org/2000/01/rdf-schema#label> "Earth Material Component Rank Types"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRelation> <http://purl.org/dc/terms/created> "2008-01-23" .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRelation> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/ComponentRelation> <http://purl.org/dc/terms/description> "Types of nature or form that a rock component part may be observed within its parent composite material"@en .
@@ -7471,11 +7467,11 @@
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/description> "Classifies and describes the composition of rock types that are composed of one or more single rock types"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/isPartOf> <http://data.bgs.ac.uk/ref/EarthMaterialClass> .
-
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/title> "BGS Earth Material: Rock Composite Classes"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://www.w3.org/2000/01/rdf-schema#label> "Types and compositional descriptions of earth materials that may be found in logs or exposures that are composed of one or more single rock types"@en .
+
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> <http://purl.org/dc/terms/created> "2011-02-10" .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> <http://purl.org/dc/terms/description> "Classifies matter or absense of matter, other than earth material"@en .
@@ -7572,11 +7568,11 @@
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#label> "Types of material including single rock types, non earth materials and composite lithologies. This is an abstract schema that consists of 3 sub-schemas"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/bgsrcs/> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/data/services/vocabulary/1.0/home.html> .
-
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/data/vocabularies/dictionary.cfm?name=DIC_ROCK_ALL> .
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/Boundary"@en .
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/title> "A boundary between geological divisons of time "@en .
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://www.w3.org/2000/01/rdf-schema#label> "Geochronological Boundary"@en .
@@ -7673,11 +7669,11 @@
 <http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of ranks"@en .
 <http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered list of ranks"@en .
 <http://data.bgs.ac.uk/ref/Geochronology/rankList> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
-
 <http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking to the earliest date (ie maximum age) of a geological time division"@en .
 <http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking to the earliest date (ie maximum age) of a geological time division."@en .
 <http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#label> "maximum age"@en .
+
 <http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Boundary> .
 <http://data.bgs.ac.uk/ref/Geochronology/start> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
 <http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -7774,11 +7770,11 @@
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to the status of the lexicon definition "@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to the status of the lexicon definition"@en .
-
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has definition status"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Lexicon/DefinitionStatus> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasEquivalenceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
 <http://data.bgs.ac.uk/ref/Lexicon/hasEquivalenceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to a type of equivalence between two rock unit names or rock unit entities"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasEquivalenceType> <http://www.w3.org/2000/01/rdf-schema#label> "has equivalence type"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasEquivalenceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Lexicon/EquivalenceType> .
@@ -7875,11 +7871,11 @@
 <http://data.bgs.ac.uk/ref/Lexicon/hasRevisionNumber> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to the rank of the rock unit"@en .
-
 <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/2000/01/rdf-schema#label> "has rock unit rank"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Lexicon/RockUnitRank> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRoleDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
 <http://data.bgs.ac.uk/ref/Lexicon/hasRoleDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Property describes the role of the source reference"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRoleDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has role description"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasRoleDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
@@ -7976,11 +7972,11 @@
 <http://data.bgs.ac.uk/ref/Lexicon/isLocallyDominant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to a relationship between this lexicon entry and one that it is replaced by"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <http://www.w3.org/2000/01/rdf-schema#label> "is obsolete equivalent in"@en .
-
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to a current lexicon entry that an obsolete entry is replaced by"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to an equivalent rock unit term that replaced this obsolete term"@en .
+
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/2000/01/rdf-schema#label> "is obsolete equivalent of"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/replacedBy> .
@@ -7995,8 +7991,8 @@
 <http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 <http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.bgs.ac.uk/ref/Lexicon/hasSourceInfo> .
 <http://data.bgs.ac.uk/ref/Lexicon/isStratotypeFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Is Stratotype for"@en .
-<http://data.bgs.ac.uk/ref/Lexicon/isStratotypeFor> <http://www.w3.org/2000/01/rdf-schema#comment> "is stratotype for"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isStratotypeFor> <http://www.w3.org/2000/01/rdf-schema#label> "Is Stratotype for"@en .
+<http://data.bgs.ac.uk/ref/Lexicon/isStratotypeFor> <http://www.w3.org/2000/01/rdf-schema#label> "is stratotype for"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isStratotypeFor> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
 <http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 <http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to the rock unit in the BGS Lexicon for which this is a type locality"@en .
@@ -8055,8 +8051,12 @@
 <http://data.bgs.ac.uk/ref/Spatial/hasPointLocation> <https://www.w3.org/ns/shacl#order> "5000" .
 <http://data.bgs.ac.uk/ref/Spatial> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/Spatial> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
-<http://data.bgs.ac.uk/ref/Spatial> <http://purl.org/dc/terms/title> "Location, bounding box, point"@en .
 <http://data.bgs.ac.uk/ref/Spatial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Spatial> <http://www.w3.org/2000/01/rdf-schema#comment> "Location, bounding box, point"@en .
+<http://data.bgs.ac.uk/ref/dataHolding/Dataset> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Datasets"@en .
+<http://data.bgs.ac.uk/ref/dataHolding/Keyword> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Keywords"@en .
+<http://data.bgs.ac.uk/ref/dataHolding/Location> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Locations"@en .
+<http://data.bgs.ac.uk/ref/dataHolding/LocationType> <http://purl.org/dc/terms/title> "BGS Discovery Metadata - Location types"@en .
 <http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that indicates the current status of a concept"@en .
 <http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Current Status of the resource"@en .
@@ -8200,7 +8200,7 @@
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Coverage"@en .
 <http://purl.org/dc/terms/spatial> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
 <http://purl.org/dc/terms/spatial> <https://www.w3.org/ns/shacl#order> "5000" .
-<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use dct:Coverage"@en .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use "dct:Coverage""@en .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en .
 <http://purl.org/dc/terms/subject> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
 <http://purl.org/dc/terms/subject> <https://www.w3.org/ns/shacl#order> "3000" .
