@@ -8200,7 +8200,7 @@
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Coverage"@en .
 <http://purl.org/dc/terms/spatial> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
 <http://purl.org/dc/terms/spatial> <https://www.w3.org/ns/shacl#order> "5000" .
-<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use "dct:Coverage""@en .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use dct:Coverage"@en .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en .
 <http://purl.org/dc/terms/subject> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
 <http://purl.org/dc/terms/subject> <https://www.w3.org/ns/shacl#order> "3000" .
@@ -8217,12 +8217,12 @@
 <http://purl.org/dc/terms/type> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
 <http://purl.org/dc/terms/type> <https://www.w3.org/ns/shacl#order> "2000" .
 <http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of a location. For example 37.42242 WGS 84"@en .
-<http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of a location. For example <code>37.42242</code> (<a href="https://en.wikipedia.org/wiki/World_Geodetic_System">WGS 84</a>)."@en .
+<http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The latitude of a location. For example <code>37.42242</code> https://en.wikipedia.org/wiki/World_Geodetic_System (WGS 84)."@en .
 <http://schema.org/latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude"@en .
 <http://schema.org/latitude> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
 <http://schema.org/latitude> <https://www.w3.org/ns/shacl#order> "5020" .
 <http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The longitude of a location. For example -122.08585 WGS 84."@en .
-<http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The longitude of a location. For example <code>-122.08585</code> (<a href="https://en.wikipedia.org/wiki/World_Geodetic_System">WGS 84</a>)."@en .
+<http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#comment> "The longitude of a location. For example <code>-122.08585</code> https://en.wikipedia.org/wiki/World_Geodetic_System (WGS 84)."@en .
 <http://schema.org/longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude"@en .
 <http://schema.org/longitude> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
 <http://schema.org/longitude> <https://www.w3.org/ns/shacl#order> "5021" .
@@ -8296,7 +8296,7 @@
 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Inverse Of"@en .
 <http://www.w3.org/2002/07/owl#inverseOf> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
 <http://www.w3.org/2002/07/owl#inverseOf> <https://www.w3.org/ns/shacl#order> "2000" .
-<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that two URI references actually refer to the same thing: the individuals have the same "identity". "@en .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that two URI references actually refer to the same thing: the individuals have the same identity. "@en .
 <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "Same As"@en .
 <http://www.w3.org/2002/07/owl#sameAs> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
 <http://www.w3.org/2002/07/owl#sameAs> <https://www.w3.org/ns/shacl#order> "15000" .
@@ -8397,7 +8397,7 @@
 <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "has narrower transitive"@en .
 <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
 <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://www.w3.org/ns/shacl#order> "6000" .
-<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#comment> "A notation is a string of characters such as "T58.5" or "303.4833" used to uniquely identify a concept within the scope of a given concept scheme"@en .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#comment> "A notation is a string of characters such as T58.5 or 303.4833 used to uniquely identify a concept within the scope of a given concept scheme"@en .
 <http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#label> "notation"@en .
 <http://www.w3.org/2004/02/skos/core#notation> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
 <http://www.w3.org/2004/02/skos/core#notation> <https://www.w3.org/ns/shacl#order> "1000" .
