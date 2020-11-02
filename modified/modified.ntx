@@ -8409,3 +8409,23 @@
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TINTO> <http://www.w3.org/2004/02/skos/core#notation> "TINTO"@en .
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOR5> <http://www.w3.org/2004/02/skos/core#notation> "TOR5"@en .
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRI> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISIN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Comprises an inner, fine-grained, granite (G1) and an outer, coarse-grained, granite (G)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JAPT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Grey slaty mudstone with sandstone, conglomerate and associated volcanic rocks."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Spilitic lavas, interbedded dark green, spilitic tuffs and slates with lenses of limestone; some limestone is crinoidal."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Greenish grey micaceous silt with sand and clay interbeds. Sulphide-rich wisps and laminae and strong smell of hydrogen sulphide gas common. Shells increasing in abundance towards the base."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Thin- to thick-bedded dark grey crinoidal wackestones with abundant chert beds interbedded with mudstones and nodular limestones. Packstones present in uppermost part. Deposited in a distal ramp setting."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JAPT> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Believed to be conformable on the Harbour Cove Slate Formation, but faulted."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at base of spilitic tuff of Kingsteignton Volcanic Group where it rests conformably on grey-green slates of the Nordon Slate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JAPT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "100m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "195m approx."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JAPT> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Not seen, faulted."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at conformable upward passage from spilitic lava and tuff of the Kingsteignton Volcanic Group to grey limestone of the Chercombe Bridge Limestone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISIN> <http://www.w3.org/2000/01/rdf-schema#label> "Isles Of Scilly Intrusion"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAMA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISIN> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Carboniferous Period - to - Permian Period (358.9-252.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JAPT> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate, mudstone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Frasnian Age (Devonian Period) (382.7-372.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Givetian Age - to - Frasnian Age (Devonian Period) (387.7-372.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://www.w3.org/2004/02/skos/core#definition> "Lava with subsidiary metabasaltic-rock, slate and tuff and trace limestone. Stratified bedrock. Occurs onshore. Deposited during the Eifelian Age (Devonian Period) (393.3-387.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Frasnian Age - to - Famennian Age (Devonian Period) (382.7-358.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAMA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISIN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isles Of Scilly Intrusion"@en .
