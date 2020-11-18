@@ -8477,3 +8477,34 @@
 -<http://data.bgs.ac.uk/id/dataHolding/13607447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 -<http://data.bgs.ac.uk/id/dataHolding/13607552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 -<http://data.bgs.ac.uk/id/dataHolding/13607653> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSHC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S746> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Greenish grey quartz-chlorite-mica slate, locally interbedded with thinly bedded, commonly lenticular bioclastic limestone and dolomite beds, up to 0.15m thick, and with sandstone, siltstone and rare tuff beds."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pale grey silty laminated dark grey slate with regular beds of structureless siltstone, from 0.03-0.10m  thick, interbedded. Sporadic thin beds of sandstone and limestone also occur, the latter particularly in the upper part of the formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Faulted."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Conformable on Bedruthan Formation in cliffs [SW 8487 6993] near Queen Bess rock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "500-800m (estimated structural thickness)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.3900m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Faulted."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Conformable with the overlying Harbour Cove Formation in the cliff facing Lower Merope Island [SW 8943 7700]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Hard Bed Band Marine Band [Local Name: See MFMB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MLG> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Bernician"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MPMU> <http://www.w3.org/2004/02/skos/core#altLabel> "Mohuns Park Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTNSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper River Terrace Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NANN> <http://www.w3.org/2004/02/skos/core#altLabel> "Nansen Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NIMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides Nititoides Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSBR> <http://www.w3.org/2004/02/skos/core#altLabel> "Heavitree Breccia"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> <http://www.w3.org/2004/02/skos/core#altLabel> "Herne Bay Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Eday Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> <http://www.w3.org/2004/02/skos/core#altLabel> "Plymouth Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYL> <http://www.w3.org/2004/02/skos/core#altLabel> "Plymouth Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAMA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> <http://www.w3.org/2004/02/skos/core#definition> "Slate with subsidiary dolomitic limestone and limestone and trace sandstone, siltstone and tuff. Stratified bedrock. Occurs onshore. Deposited during the Famennian Age (Devonian Period) (372.2-358.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://www.w3.org/2004/02/skos/core#definition> "Slate with subsidiary siltstone and trace limestone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Eifelian Age - to - Frasnian Age (Devonian Period) (393.3-372.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USL> <http://www.w3.org/2004/02/skos/core#definition> "Siliciclastic argillaceous rock, siltstone and slate with subsidiary sandstone. Stratified bedrock. Occurs onshore. Deposited during the Famennian Age (Devonian Period) (372.2-358.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Palaeogene Period (66-23.03 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPSL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Givetian Age (Devonian Period) (387.7-382.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Slate with subsidiary metabasaltic-rock. Stratified bedrock. Occurs onshore. Deposited during the Famennian Age (Devonian Period) - to - Tournaisian Stage (Carboniferous Period) (372.2-346.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAMA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSL> .
