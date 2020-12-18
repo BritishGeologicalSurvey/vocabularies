@@ -22853,3 +22853,76 @@
 -<http://data.bgs.ac.uk/id/dataHolding/13607535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 -<http://data.bgs.ac.uk/id/dataHolding/13607639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Predominantly cold-phase sands and gravels that underlie the Holme Pierrepont Terrace. Generally pinkish, poorly sorted and compositionally rather immature matrix-supported, sandy, trough-cross bedded (braided river) gravels with syndepositional ice-wedge casts. Gravel dominated by rounded pebbles of \"Bunter\" quartz/quartzite (typically c.80%), plus flint, Triassic and Upper Carboniferous sandstone, Lower Carboniferous cherts, etc, and other \"exotic\" lithogies. Forms a fairly well preserved terrace typically 1 to 2m above the floodplain in the upper and middle Trent, with the deposits extending beneath those of the younger Hemington Terrace and the floodplain alluvium."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S548> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S548> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Off-white quartz mica schists and flaggy medium grained to gritty quartzose psammites."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fissile dark grey shaly mudstones with abundant bivalves."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Conformable with normal Glenelly Formation schist."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3205> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5062> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRSA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWSG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3968> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H315> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4786> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.40m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Conformable with normal Glenelly Formation schist."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H315> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3205> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4786> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTB> <http://www.w3.org/2004/02/skos/core#altLabel> "Betton Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H315> <http://www.w3.org/2004/02/skos/core#altLabel> "Hagley Volcanic Formation [Duplicate Code: Use HGY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3205> <http://www.w3.org/2004/02/skos/core#altLabel> "Betton Shale Formation [Duplicate Code: Use BET]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4786> <http://www.w3.org/2004/02/skos/core#altLabel> "Meadowtown Formation [Duplicate Code: Use MTN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Hagley Ash"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> <http://www.w3.org/2004/02/skos/core#altLabel> "Rubble Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> <http://www.w3.org/2004/02/skos/core#altLabel> "Meadowtown Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S548> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Heathen Coal (South Staffordshire) [Duplicate Code: Use LHEC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QRS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMGP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULGS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLLS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INDX> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULGS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIDO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LASH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LASH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QRS> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage (Ordovician Period) (465.5-460.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <http://www.w3.org/2004/02/skos/core#definition> "Psammite and schist. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRAY> <http://www.w3.org/2004/02/skos/core#definition> "Clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTC> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Courceyan Substage (Carboniferous Period) (358.9-346.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> <http://www.w3.org/2004/02/skos/core#definition> "Limestone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYNB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Westphalian Stage (Carboniferous Period) (319-308 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.4-449 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INDX> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIDO> <http://www.w3.org/2004/02/skos/core#definition> "Siltstone and silty mudstone with subsidiary limestone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Bathonian Age (Jurassic Period) (168.3-166.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bathonian Age (Jurassic Period) (168.3-166.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPLG> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage (Ordovician Period) (465.5-460.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLLS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LASH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIDO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LASH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QRS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMGP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULGS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULGS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INDX> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QRS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRAY> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYDS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYNB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INDX> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIDO> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHEA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPLG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
