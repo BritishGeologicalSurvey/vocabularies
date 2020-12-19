@@ -22926,3 +22926,52 @@
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOFN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPLG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
 -<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The deposits of the first terrace are largely gravels of Carboniferous sandstone with scattered flints, with thin seams of clayey sand and sandy clay, 1.5 to 7m thick. The clasts are up to 20mm in diameter, increasing to 130mm at the base."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable on bedrock of Palaeogene and Late Carboniferous age."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Interfingers with Benan Conglomerate. Also rests conformably on Stinchar Limestone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H420> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H449> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1832> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4889> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To about 7m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to 25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "At the land surface."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain/interfingers with Benan Conglomerate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1832> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H420> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H449> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4889> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <http://www.w3.org/2000/01/rdf-schema#label> "Nantglyn Flags Formation And Nant-Ysgollon Mudstone Formation (Undifferentiated) [Duplicate Name: Use NYNG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NYNG> <http://www.w3.org/2000/01/rdf-schema#label> "Nant-Ysgollon Mudstone Formation And Nantglyn Flags Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1832> <http://www.w3.org/2004/02/skos/core#altLabel> "Superstes Mudstone Formation [Duplicate Code: Use SMU]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H420> <http://www.w3.org/2004/02/skos/core#altLabel> "Nantglyn Flags Formation And Nant-Ysgollon Mudstone Formation (Undifferentiated) [Duplicate Name: Use NYNG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H430> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant-Ysgollon Mudstone Formation And Nantglyn Flags Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H449> <http://www.w3.org/2004/02/skos/core#altLabel> "Petrockstow River Terrace Deposits, 1 Member [Duplicate Code: Use PET1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4889> <http://www.w3.org/2004/02/skos/core#altLabel> "Superstes Mudstone Formation [Duplicate Code: Use SMU]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <http://www.w3.org/2004/02/skos/core#altLabel> "Nantglyn Flags Formation And Nant-Ysgollen Mudstone Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 1 (Petrockstow)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STA> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandy And Micaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cocklett Scar Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://www.w3.org/2004/02/skos/core#altLabel> "Didymograptus Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://www.w3.org/2004/02/skos/core#altLabel> "Didymograptus Superstes Mudstones"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETRO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Wenlock Epoch - to - Ludlow Epoch (Silurian Period) (433.4-423.6 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay, sand and silt and trace peat. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RPSL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Llandovery Epoch (Silurian Period) (443.8-433.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <http://www.w3.org/2004/02/skos/core#definition> "Sand and sandstone. Bedrock. Occurs onshore. Formed during the Tithonian Age (Jurassic Period) - to - Barremian Age (Cretaceous Period) (152.1-126.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.4-449 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETRO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nantglyn Flags Formation And Nant-Ysgollon Mudstone Formation (Undifferentiated) [Duplicate Name: Use NYNG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NYNG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant-Ysgollon Mudstone Formation And Nantglyn Flags Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGNY> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PETR1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RPSL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
