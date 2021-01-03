@@ -1,80 +1,116 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://www.w3.org/2000/01/rdf-schema#label> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QURK> <http://www.w3.org/2000/01/rdf-schema#label> "Queen's Rock Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandringham Sand Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H263> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4659> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H916> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandringham Sand Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHOS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FXD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANXG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCVC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLTD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRHS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCAU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSY> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILSI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNHD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KAMET> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFIC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KICM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNPK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/L4FCO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOYD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTND> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSTI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MA10> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBSL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DABH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEMA3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MINO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOMC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MU> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/N2RC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NIT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVON> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NTM1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NTM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORKG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEGP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGWS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNMF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWCB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QYFH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BKI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RHOC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROCC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOHI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SARTC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULGS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDCAV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDPV> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHBA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAEF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXGL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMDD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRGL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMPP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CECU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCPAD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORKY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HJG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KELSO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDEA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSSG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCMS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCTS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NETD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEMU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLMU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHOS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faringdon Sponge Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QURK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Queen's Rock Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandringham Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/K> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Very clayey, fine-grained, glauconitic sand."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The formation is composed of red and yellow sponge gravels, in the lower part of the unit, overlain by clayey sands and sandy clays and capped by ferruginous sands and sandstones.   The sponge gravels are highly fossiliferous, with abundant sponges, and \"the matrix is a coarse quartz sand with many small, smooth quartz and lydite pebbles\" (Arkell, 1947). The \"Red Gravel\" shows ferruginous staining. Locally thers is a pebble bed at the base.  Resting on an erosion surface, a pebble bed passes up into glauconitic sandy clays, clayey sands and silts. The clay minerals are dominantly calcium montmorillonite and illite with small amounts of Kaolinite and fuller's earth is well developed in two seams.  Brown, ferruginous, cross-bedded, medium to coarse-grained sands and sandstones, resting on an erosion surface, occurs at the top of the formation. Scattered pebbles, bands of grit and cherty sandstones also occur in places. Fossil fragments are common. The top of the member is indurated to form a hard sandstone which caps a number of hills in the Abingdon district."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LZB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Incoherent, moderately clean, pale grey (locally green, yellow or orange), fine- to medium-grained, cross-bedded quartz sands with subordinate bands of silt or clay. Pyrite nodules are present and glauconite is locally abundant."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The formation comprises silty and clayey sands, sporadic clay ironstones, with cleaner quartz sands at the top.  Four members are recognised [Casey and Gallois, 1973; Gallois, 1984, 1994]:  Incoherant, moderately clean, pale grey [locally green, yellow or orange]. fine- to medium-grained, cross-bedded quartz sands with surbordinate bands of silt or clay.  Pyrite nodules are present and glauconite is locally abundant.  [Leziate Sand Member].  Glauconitic, clayey, grey and green sands with bands and \"doggers\" of brown weathering clay-ironstone and seams of phosphatic nodules [picking out erosion surfaces].   A prominent band of phosphatic nodules occurs at the base.  [Mintlyn Member].  Green, glauconitic, clayey sands with abundant phosphatic nodules [Runcton Sand Member].  Grey and yellow-green, pyritic, silty sands with an indurated basal pebbly sandstone with phosphatic nodules and derived Kimmeridgian debris [Roxham Sand Member]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "An erosion surface separates the sponge gravels from the underlying Jurassic Ampthill Clay and Coral Rag."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LZB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The base is taken at the up-section change from glauconitic, clayey, grey and green sands with bands and \"doggers\" of brown-weathering clay-ironstone and seams of phosphatic nodules (Mintlyn Sands Member) to incoherent, moderately clean, pale grey (locally green, yellow or orange), fine- to medium-grained, cross-bedded quartz sands with subordinate bands of silt or clay (Leziate Member)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Incises bedrock or older superficial deposits."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RXB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "A down-section change from sands, with a pebbly base, to mudstones (Kimmeridge Clay Formation). An erosion surface separates the two units."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "A down-section change from sands, with a pebbly base, to mudstones [Kimmeridge Clay Formation].  An erosion surface separates the two formations."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SE2> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Sharp, undulating, erosional contact, mainly on reddish brown, clayey, sandstone-rich diamicton of the Gretna Till Formation or on bedrock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKLM> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The member unconformably overlies chalk rich till."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDPV> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Intrusive."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Lies unconformably on the rocks of the Staddon Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THKD> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Not defined."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TUMQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Gradational boundary with underlying Bruar Psammite Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPR> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "In the eastern part of the London Basin, the Upnor Formation rests on silty fine-grained sand at a burrowed contact with the Thanet Formation, with burrows extending as much as 0.5m into the Thanet Formation, or on a channelled erosion surface (King in prep). The Upnor Formation is likely to be composed of medium to coarse-grained sand that is greener and commonly more gravelly than that of the Thanet Formation but in places has a confusingly similar lithology, especially where, as in the far east of the London Basin, bioturbation has produced a gradational juction (Ellison et al.,1994). According to Morton (1982), the top of the Thanet Formation has been leached during a period of exposure, probably with some erosion, prior to deposition of the Upnor Formation. In the west of the London Basin, to the west of the Thanet Formation outcrop and subcrop, the Upnor Formation rests on a burrowed contact with chalk and flints of the Chalk Group, commonly modified by karstic dissolution. In East Anglia, the Upnor Formation rests on a burrowed contact with the clay of the Ormesby Clay Member."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGL> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "On bedrock or overlying the Pishlinn Burn Gravel Bed."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WUMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Conformable."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACSF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDCM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1335> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3844> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BINS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3216> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BPLM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3865> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1391> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CABS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2669> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEVY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHEV> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2692> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKST> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4542> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMBN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4515> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COO> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1450> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H168> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWSG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2731> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H189> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4596> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DLN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H866> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRTM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2157> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1519> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CACG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1989> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBSA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3551> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4192> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "113" .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "152.1" .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0-5 metres."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BKGS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 48m in the Uffington Borehole SU38NW/1 [3065 8948] (Poole et al., 1971)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHOS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Variable depending on local superposition of constituent members that have maximum thicknesses of about 50m (Faringdon Sponge Gravel Member), up to 48m (Baulking Sand Member) and at least 24m (Fernham Sand Member)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHMS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "24m+ in the Furze Hill Borehole  SU29SE/16 [2905 9281] (Poole et al., 1971)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Between 0.5 and 80m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to an estimated 49m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LZB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 30m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to c. 15 m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RXB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 6m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to c. 50m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Usually capped by a thin pebble bed that marks the basal bed of the Gault. Where the pebble bed is absent, the boundary is drawn at the change from very clayey glauconitic sand, to glauconitic sandy clay."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BKGS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The top of the formation is the unconformable contact with the Fernham Sand Member, marked by the sharp upward facies change from mudstone to ferruginous sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Not seen. The Fernham Sand Member occurs as hill-cappings in the Baulking area. The top of the formation is locally defined by the depth of the present-day weathered zone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHMS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Not seen. The Fernham Sand Member occurs as hill-cappings in the Baulking area. The top of the formation is locally defined by the depth of the present-day weathered zone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The upper boundary of the Faringdon Formation is rarely seen. In the Uffingham Borehole and some of the Baulking boreholes, mudstone of the Gault Formation is seen to rest disconformably on the sands of the Faringdon Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LZB> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "In the King's Lynn district, the upper boundary is defined by an up-section change from incoherant, moderately clean, pale grey (locally green, yellow or orange), fine- to medium-grained, cross-bedded quartz sands with surbordinate bands of silt or clay into thinly bedded, fine-grained, silty sands and sandstones (Dersingham Formation). Locally the sands of the Leziate Member are overlain by mid to dark grey clay (?Snettisham Clay) (Gallois, 1994). In the Gayton-Marham area, pebbly, ferruginous sandstones (Carstone Formation) overstep the incoherant, moderately clean, pale grey Leziate Member."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RXB> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Green, glauconitic, clayey sands with abundant phosphatic nodules (Runcton Sand Member) overlies grey and yellow-green, pyritic, silty sands (Roxham Sand Member)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "South of Gayton, the pebbly sands of the Carstone Formation overstep the silty and clayey sands and clean sands [Sandringham Sand Formation], resting progressively on the Roxham and Runcton members, the Mintlyn Member and finally the Leziate Member.  In Northern Norfolk the upper boundary is defined by the down-section change from the clayey sands [Dersinham Formation] to incoherent, generally clean quartz sands [Leziate Member, Sandringham Sand Formation].  Beneath The Wash, the Leziate Member passes into the Claxby Ironstone Formation and the overlying Dersingham Formation passes laterally into the Tealby Formation [Gallois, 1994]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "145" .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBSA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3551> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4192> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSC> <http://www.w3.org/2000/01/rdf-schema#label> "Culham Sands With Cherts Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHS> <http://www.w3.org/2000/01/rdf-schema#label> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSS> <http://www.w3.org/2000/01/rdf-schema#label> "Woodland Sands Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDNS> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sponge Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Faringdon Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1024> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1274> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1299> <http://www.w3.org/2004/02/skos/core#altLabel> "Culham Sands With Cherts Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1299> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodland Sands Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://www.w3.org/2004/02/skos/core#altLabel> "Monk's Bay Sandstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2533> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3551> <http://www.w3.org/2004/02/skos/core#altLabel> "Munday's Hill Phosphatic Sandstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3762> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4192> <http://www.w3.org/2004/02/skos/core#altLabel> "Munday's Hill Phosphatic Sandstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4417> <http://www.w3.org/2004/02/skos/core#altLabel> "Culham Sands With Cherts Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4417> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodland Sands Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4974> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Carstone Of The Isle Of Wight"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> <http://www.w3.org/2004/02/skos/core#altLabel> "Junction Beds (parts) of Wonham and Elliott (1996)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> <http://www.w3.org/2004/02/skos/core#altLabel> "Transition Series (Carstone And Shenley Limestone) Of Johnson And Levell (1995)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PB> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PL> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHS> <http://www.w3.org/2004/02/skos/core#altLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAW> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEDS> <http://www.w3.org/2004/02/skos/core#definition> "Glauconitic sand and sand. Stratified bedrock. Occurs onshore. Deposited during the Albian Age (Cretaceous Period) (113-100.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSG> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone with subsidiary gravel and mudstone and trace smectite-claystone. Stratified bedrock. Occurs onshore. Deposited during the Aptian Age (Cretaceous Period) (126.3-113 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNB> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Stratified bedrock. Occurs onshore. Deposited during the Tithonian Age (Jurassic Period) (152.1-145 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Culham Sands With Cherts Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Whitchurch Sand Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodland Sands Member"@en .
