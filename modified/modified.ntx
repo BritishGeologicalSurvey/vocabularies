@@ -1,65 +1,40 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFEI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NIT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1085> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NYB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OVLA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4240> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PER> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2972> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2748> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RESI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2999> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROSI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RWN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3015> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3662> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHSA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3674> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://www.w3.org/2004/02/skos/core#altLabel> "Sidmouth Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORD> <http://www.w3.org/2004/02/skos/core#altLabel> "Morainic Drift [Not Recommended For Future Use: See MORD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Sub-Brooch Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/N1LC> <http://www.w3.org/2004/02/skos/core#altLabel> "Big Rider Coal (South Wales)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Nothe Grit Member [Obsolete Code: Use NGT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NRD> <http://www.w3.org/2004/02/skos/core#altLabel> "Cerdic Shore"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OF> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Acid Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Overtoun Sandstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PDE> <http://www.w3.org/2004/02/skos/core#altLabel> "Fordon Evaporite Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PG> <http://www.w3.org/2004/02/skos/core#altLabel> "Equivalent To Skipton Moor Grit."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLPB> <http://www.w3.org/2004/02/skos/core#altLabel> "Portland Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POCR> <http://www.w3.org/2004/02/skos/core#altLabel> "Portencross Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PSND> <http://www.w3.org/2004/02/skos/core#altLabel> "Portland Sand"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Nodosum Marine Band [Obsolete Code: Use R1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RD> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Marl Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RHS> <http://www.w3.org/2004/02/skos/core#altLabel> "Cwmsymlog Formation [Obsolete Name And Code: See RHS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROAD> <http://www.w3.org/2004/02/skos/core#altLabel> "Kallirhyncia Sharpi Beds"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSYC> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Swansea Six Feet Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S117> <http://www.w3.org/2004/02/skos/core#altLabel> "Union Coal (Burnley)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S187> <http://www.w3.org/2004/02/skos/core#altLabel> "Meltonfield Coal (South And West Yorkshire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://www.w3.org/2004/02/skos/core#altLabel> "Macduff Slate [Obsolete Name And Code: Use MCD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S324> <http://www.w3.org/2004/02/skos/core#altLabel> "Peterlee Sand And Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S394> <http://www.w3.org/2004/02/skos/core#altLabel> "Bacton Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S465> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodston Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Sands And Gravels [Obsolete Name And Code: See KGCA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S611> <http://www.w3.org/2004/02/skos/core#altLabel> "Arun Terrace Deposits, 2a Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S674> <http://www.w3.org/2004/02/skos/core#altLabel> "Avon Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S747> <http://www.w3.org/2004/02/skos/core#altLabel> "Barnwell Station Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S823> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Waterloo Coal (Nottingham And Derby)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S896> <http://www.w3.org/2004/02/skos/core#altLabel> "Hookes Coal (Milford, South Wales)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S962> <http://www.w3.org/2004/02/skos/core#altLabel> "Yard Coal (Goyt Trough)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBS> <http://www.w3.org/2004/02/skos/core#altLabel> "St Bees Sandstone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEH> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Magnesian Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHIC> <http://www.w3.org/2004/02/skos/core#altLabel> "Acre Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Keuper Marl(s)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3677> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4008> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H529> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Permian Period - to - Triassic Period (298.9-201.3 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Early Triassic Epoch - to - Ladinian Age (Triassic Period) (252.2-237 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BULMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S131> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S387> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CROL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGLM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DINA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEMB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERIS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H426> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDVS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1873> <http://www.w3.org/2000/01/rdf-schema#label> "Woodthorpe Formation Plus Colwick Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4935> <http://www.w3.org/2000/01/rdf-schema#label> "Woodthorpe Formation Plus Waterstones Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H680> <http://www.w3.org/2000/01/rdf-schema#label> "Midford Sand(S)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <http://www.w3.org/2000/01/rdf-schema#label> "Woodthorpe Formation [Obsolete Name And Code: Part Of SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Formation [Obsolete Name And Code: Part Of SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Formation Plus Colwick Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Formation Plus Waterstones Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Rhaetian Age (Triassic Period) (209.5-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1314> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3805> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4632> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5135> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H680> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H681> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H701> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone. Bedrock. Occurs onshore. Formed during the Early Triassic Epoch - to - Anisian Age (Triassic Period) (252.2-241.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEWG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Gypsum-stone and mudstone. Bedrock. Occurs onshore. Formed during the Norian Age (Triassic Period) (228.4-209.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S284> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TUT> <http://www.w3.org/2004/02/skos/core#definition> "Gypsum-stone and mudstone. Bedrock. Occurs onshore. Formed during the Norian Age (Triassic Period) (228.4-209.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Anisian Age (Triassic Period) (247.1-241.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1873> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodthorpe Formation Plus Colwick Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4935> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodthorpe Formation Plus Waterstones Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Midford Sand(S)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodthorpe Formation [Obsolete Name And Code: Part Of SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEWG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S284> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
