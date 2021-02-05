@@ -1,16 +1,65 @@
--<http://data.bgs.ac.uk/id/dataHolding/13480157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13480376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13603115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYC> <http://www.w3.org/2000/01/rdf-schema#label> "Craig-Y-Cwm Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAGO> <http://www.w3.org/2000/01/rdf-schema#label> "Garn-Gofen Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUNT> <http://www.w3.org/2000/01/rdf-schema#label> "Huntsham Hill Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> <http://www.w3.org/2000/01/rdf-schema#label> "Portishead Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SES> <http://www.w3.org/2000/01/rdf-schema#label> "Skrinkle Sandstone Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1463> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig-Y-Cwm Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2812> <http://www.w3.org/2004/02/skos/core#altLabel> "Garn-Gofen Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAGO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1A2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDMC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIDO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CALIF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMA4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUNT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SES> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWAT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUP> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPH> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OFS> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OROV> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCOT> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNO> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QSEDU> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVF> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S179> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S270> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S360> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S452> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S543> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S725> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S817> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S907> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBSB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKE> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STBC> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/T1T2> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TLMR> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UBLR> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UIIO> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPWL> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WESTL> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SES> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAGO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWAT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig-Y-Cwm Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAGO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garn-Gofen Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUNT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Huntsham Hill Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Portishead Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skrinkle Sandstone Subgroup"@en .
