@@ -1,26 +1,4 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DICT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S142> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S142> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DICT> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMMU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly mudstone and laminated siltstone, with quartzite-dominated conglomerate intercalations"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWHC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone, pebbly sandstone and  largely volcaniclastic conglomerate."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A conglomerate with boulders up to 1m across, o f mainly 'Highland' provenance, with interbedded sandstone lenses."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABS> <http://www.w3.org/2000/01/rdf-schema#label> "Auchencar Burn Sandstones Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMMU> <http://www.w3.org/2000/01/rdf-schema#label> "Allt A'Mhuilinn Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOBC> <http://www.w3.org/2000/01/rdf-schema#label> "Brig O'Balgownie Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DICT> <http://www.w3.org/2004/02/skos/core#altLabel> "Replaced By Cowie Harbour Siltstone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2004> <http://www.w3.org/2004/02/skos/core#altLabel> "Brig O'Balgownie Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3788> <http://www.w3.org/2004/02/skos/core#altLabel> "Auchencar Burn Sandstones Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3838> <http://www.w3.org/2004/02/skos/core#altLabel> "Brig O'Balgownie Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S142> <http://www.w3.org/2004/02/skos/core#altLabel> "Dictyocaris Member [Obsolete Name And Code: Use CHSI]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S234> <http://www.w3.org/2004/02/skos/core#altLabel> "Auchencar Burn Sandstones Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DICT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GHS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOHH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNK> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DICT> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GHS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOHH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Auchencar Burn Sandstones Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt A'Mhuilinn Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOBC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brig O'Balgownie Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOBC> <http://www.w3.org/2000/01/rdf-schema#label> "Brig o' Balgownie Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2004> <http://www.w3.org/2004/02/skos/core#altLabel> "Brig o' Balgownie Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3838> <http://www.w3.org/2004/02/skos/core#altLabel> "Brig o' Balgownie Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOBC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brig o' Balgownie Formation"@en .
