@@ -1,102 +1,91 @@
--<http://data.bgs.ac.uk/id/dataHolding/13480088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13480305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13602982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/ANHY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CASPGB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CSB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/DIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/FELS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GDTN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/HY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/LPASH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MARGST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MCANOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MCGNAF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MCOLNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MDLPSP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MG1KMB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MHYBSD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MLVRY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MOOPGB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MQRCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MSV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MYLTIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/PCSZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/PHT_TEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/PVSZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/RYLTGB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SICOG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SVLC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/TUF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VPYR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AROCLS> <http://www.w3.org/2000/01/rdf-schema#label> "Interbedded argillaceous rock and [subequal/subordinate] limestone"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMZD> <http://www.w3.org/2000/01/rdf-schema#label> "Diorite and monzodiorite"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMCM> <http://www.w3.org/2000/01/rdf-schema#label> "Limestone, mudstone and calcareous mudstone"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MPSP> <http://www.w3.org/2000/01/rdf-schema#label> "Micaceous psammite, semipelite and pelite"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSQUSP> <http://www.w3.org/2000/01/rdf-schema#label> "Psammite, quartzite and semipelite"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMPS> <http://www.w3.org/2000/01/rdf-schema#label> "Mica schist and psammite"@en .
--<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSC> <http://www.w3.org/2000/01/rdf-schema#label> "Sand and clay [UDCS-X]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S965> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S966> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCBA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCBA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S965> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S966> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Blackheath Member is dominated by flint gravel, partly clast-supported, in a matrix of fine- to coarse-grained sand, with lenses of sand and thin clay layers. The gravel is almost exclusively black and well-rounded, and composed of flint, and rare siliceous sandstones and conglomerates (resembling sarsen stones and ‘puddingstone’ and probably representing silcretes from the Lambeth Group). The clasts are generally less than 20 mm in diameter although cobbles up to 150 mm long are known (Baker and Priest, 1919; Dewey et al., 1924; Ellison et al., 1994). The gravels are interlayered, interlensed or interdigitated with pale-coloured fine-grained non-glauconitic quartz and flint sands, locally with scattered gravel and, at Charlton, a basal bed of clay pellets. Streaks of concentrated heavy minerals occur in the sands (Dewey et al., 1924). Both gravels and sands locally include shell-rich beds (coquinas) and occasional thin beds of grey clay. Cross-bedding occurs in the gravels and ripple-bedding in the sands, with the gravel beds forming series of superimposed channel-fill deposits (Ellison et al., 2004, fig. 24; Tracey, 1986). Calcareous, siliceous or ferruginous cements occur in places, locally forming masses several metres thick (Dewey and Bromehead, 1921; Dewey et al., 1924), particularly in the extensive outcrops in south-east London. In degraded sections, the deposit can appear to consist entirely of sandy gravel. The most common fossils are of shallow marine or brackish-water molluscs, but a coral, various fish, reptiles, a bird, and a considerable terrestrial mammal fauna have also been recorded (Hooker, 1991, 2010)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Harwich Formation varies regionally. In the south of the London Basin, it typically comprises glauconitic silty or sandy clays, silts and fine- to coarse-grained glauconitic sands, some gravelly, varying to flint gravel beds. Thin beds of grey clay occur in some parts, as do shell-rich beds and thin beds of argillaceous limestone. Volcanic ash is a significant minor component in some parts of Kent and southern Essex. The Harwich Formation commonly includes a shelly marine fauna but locally a brackish water fauna. \r\n\r\nIn East Anglia, the Harwich Formation comprises mainly bioturbated silty clays and sandy clayey silts with subordinate sandy silts and silty sands, some of which are glauconitic. There is a notable component of volcanic ash, both disseminated and in discrete beds (Knox and Ellison, 1979; Knox and Harland, 1979). \r\n\r\nFossils include marine invertebrates, especially molluscs, with birds and mammals (Benton and Cook, 2006; Hooker, 1991, 1996, 2010)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Lessness Shell Bed comprises fine- to medium-grained sand with shelly lenses and scattered very well-rounded flint gravel. It interfingers with non-shelly buff-coloured sand. It contains a varied fossil fauna including brackish to marine molluscs, fish teeth, birds and a significant, diverse assemblage of terrestrial mammals (Hooker, 1991, 2010; King, 1981,  p.20)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Silty clay/mudstone, sandy silts and sandy clayey silts of marine origin."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The Blackheath Member lies on an erosional surface, in part deeply channelled, cut into the Upper Shelly Clay or older parts of the Lambeth Group, and locally into the Thanet Formation and the Chalk Group (see also comments on Geographical Limit).\r\nAt the Charlton Pit, in some places the Blackheath Member rests on the Striped Loams of the Woolwich Formation and in others on strata as old as the Upnor Formation (Hooker, 2010; Leach and Young, 1908). At Abbey Woods, the Blackheath Member rests on strata ranging from the lower part of the Upnor Formation to the lower part of the Thanet Formation within about 300 m lateral distance. At the north-east side of Plumstead Common, the Blackheath Member rests on the Shelly Clay of the Woolwich Formation, but only about 350m to the south it rests on the Upnor Formation (Leach and Polkinghorne, 1906)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "In both the Hampshire and London Basins the boundary is placed at the erosion surface below the glauconitic sands and sandy clays of the Oldhaven Formation of King (1981), which rest on the Woolwich and Reading Beds (King, 1981), or the Lambeth Group (Ellison et al, 1994)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2081> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At the type section, the Blackheath Member has been measured as 4.3m thick, although an unknown part has been removed from the top by erosion, and past exposures nearby imply that at least 9m are present (Hooker, 2010). Mapped outcrop patterns imply that the Blackheath Member is locally as much as 24m thick (Dewey et al., 1924)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNSH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "The Lessness Shell Bed varies in thickness from 0 to 2m over only a few metres lateral distance."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.110-115m in the Hampshire Basin."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "In the Hampshire Basin the boundary is placed at the erosion surface at the base of the Wittering Formation of the Bracklesham Group, where the dark grey bioturbated silty clay of the London Clay gives way upwards to the glauconitic sands and silty clays of the Wittering Formation."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2081> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAC> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLB> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2081> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAC> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Blackheath Beds"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Blackheath Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Hales Clay Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "London Clay Basement Bed [See Also HWH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Oldhaven Beds"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCBA> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#definition> "Glauconitic sand and sand with subsidiary clay and silt and trace calcilutite, gravel and volcaniclastic-sediment. Stratified bedrock. Occurs onshore. Deposited during the Ypresian Age (Palaeogene Period) (56-47.8 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCBA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Palaeogene Period (66-23.03 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNSH> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary gravel. Stratified bedrock. Occurs onshore. Deposited during the Ypresian Age (Palaeogene Period) (56-47.8 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S965> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S966> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THAM> <http://www.w3.org/2004/02/skos/core#definition> "Sand and silty clay with subsidiary clay, mudstone and silt. Stratified bedrock. Occurs both onshore and offshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCBA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S965> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S966> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLOH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S967> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S967> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLOH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> " Glauconitic silty sands and sandy silts."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The St Ann's Hill Pebble Bed comprises a unit of cross-bedded gravelly sand and gravel, some imbricated. The clasts are well-rounded black flint gravel and cobbles generally between 2 and 10cm in diameter (Ellison and Williamson, 1999)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Stanners Hill Pebble Bed consists of cross-bedded glauconitic gravelly sand and gravel. The gravel is mainly composed of flint but some is made of quartz or of Lower Cretaceous chert (Dewey and Bromehead, 1915, p.55)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The base of the described peloidal wackestone, packstone or grainstone, overlying calcareous mudstone or fine-grained ooidal grainstones of the Hampen Formation or calcareous mudstone of the Rutland Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OTBK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5053> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEPH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBPE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLYNT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4636> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PQL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2378> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4294> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H500> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RWG1> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RHWG1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3661> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHNA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5048> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2430> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPHT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2442> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STGO> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4347> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4354> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TBE> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H561> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THQ> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3725> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2499> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UIGH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2516> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S722> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4975> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "22-25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "12-13.5m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHP> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to about 3.5m thick"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "The Stanners Hill Pebble Bed is up to about 4m thick."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "47.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "23.03"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5079> <http://www.w3.org/2000/01/rdf-schema#label> "Division B And The Lower Part Of Division C"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5088> <http://www.w3.org/2000/01/rdf-schema#label> "Division A3"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5095> <http://www.w3.org/2000/01/rdf-schema#label> "'Lower Unit' Of The Middle Bagshot Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVLY> <http://www.w3.org/2004/02/skos/core#altLabel> "Division B And The Lower Part Of Division C"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGS> <http://www.w3.org/2004/02/skos/core#altLabel> "Bracklesham Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bagshot Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bracklesham Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bracklesham Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1608> <http://www.w3.org/2004/02/skos/core#altLabel> "Woolwich Beds-Oldhaven Beds [Obsolete Name And Code: see WL and OH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://www.w3.org/2004/02/skos/core#altLabel> "Marsh Farm Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Oldhaven Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARF> <http://www.w3.org/2004/02/skos/core#altLabel> "Earnley \"Division\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OCKD> <http://www.w3.org/2004/02/skos/core#altLabel> "Division A3"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OH> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCL> <http://www.w3.org/2004/02/skos/core#altLabel> "'Lower Unit' Of The Middle Bagshot Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLOH> <http://www.w3.org/2004/02/skos/core#altLabel> "Oldhaven Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGP> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ypresian Age (Palaeogene Period) (56-47.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1518> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2602> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5079> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5085> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5088> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5095> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S967> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S968> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHP> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified bedrock. Occurs onshore. Deposited during the Ypresian Age (Palaeogene Period) (56-47.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Palaeogene Period (66-23.03 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIDS> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary mudstone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5079> <http://www.w3.org/2004/02/skos/core#prefLabel> "Division B And The Lower Part Of Division C"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5088> <http://www.w3.org/2004/02/skos/core#prefLabel> "Division A3"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5095> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Lower Unit' Of The Middle Bagshot Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S967> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
