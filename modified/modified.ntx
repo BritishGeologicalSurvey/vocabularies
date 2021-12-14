@@ -1,4 +1,18 @@
--<http://data.bgs.ac.uk/id/dataHolding/13480180> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df51-6332-37a8-e044-0003ba9b0d98> .
--<http://data.bgs.ac.uk/id/dataHolding/13480180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13480180> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480180> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 10.4m at Hooken Cliffs."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S729> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YCOM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2000/01/rdf-schema#label> "Pounds Pool Sandy Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://www.w3.org/2004/02/skos/core#altLabel> "Pounds Pool Sandy Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2637> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pounds Pool Sandy Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
