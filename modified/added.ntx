@@ -1,20 +1,92 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2637> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 10.4 m at Hooken Cliffs."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S729> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YCOM> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2000/01/rdf-schema#label> "Pounds Pool Sandy Limestone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRHD> <http://www.w3.org/2004/02/skos/core#altLabel> "Pounds Pool Sandy Limestone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2637> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pounds Pool Sandy Limestone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S21> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S745> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13607852> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/d28b8581-8e0f-2a6d-e054-002128a47908> .
++<http://data.bgs.ac.uk/id/dataHolding/13480083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13480305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13602982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607852> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607852> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607852> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Northern Province: Thinly bedded dark-coloured calcareous mudstone (marl) overlain by rubbly limestone and calcareous silty beds followed by a higher calcareous mudstone siltstone (marl). \r\n\r\nSouthern Province: Interbedded coloured marl and chalk. \r\n\r\nUpper Cretaceous, Cenomanian (Metoicoceras geslinianum Zone)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Northern Province: An uneven erosion surface that may be stained with iron minerals and glauconite, at the top of a succession of marly chalk (the Ferriby Chalk Formation). This member and the newly proposed Black Band Member above, generally form a topographical slack at outcrop, which facilitates the mapping of the base of the Welton Formation, and can also be recognised from its higher gamma-ray geophysical log signature in boreholes. \r\n\r\nSouthern Province: Conformable beneath the lowest marl on the underlying Zig Zag Chalk Formation. Sequence constitutes the lowest member of the Holywell Nodular Chalk Formation and the White Chalk Subgroup."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4223> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3221> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1271> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4475> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H607> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLNM> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "In thicker successions this formation is generally 25 to 35 m thick. It thins rapidly into the \"Transitional\" Province of the North Downs, Berkshire Downs and the Chilterns (10 to 15 m) and is almost absent in the southwest of Dorset and in Devon."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Northern Province: About 1.15 m at the type site but to as little as 0.25 m elsewhere. \r\n\r\nSouthern Province: Usually in the range 1 to 1.5 m but known to be up to 3.0 m at the Holywell Cafe cliff section in Eastbourne."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHCK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Variable depending on degree of post-Cretaceous erosion and the relative development of its constituent formations. Onshore the thickest development is within the Hampshire/Sussex area of the Southern Province, where up to about 470 to 515 m of strata are preserved; the most chronostratigraphically complete succession is in Norfolk but is thought there to be only some 350 m thick; within the Northern Province up to 500 m are preserved but the thickest succession is within the North Sea area where about 800 to 1100 m are preserved."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Northern Province: Conformable at the base of the Black Band (the 'Main Black Band' of Wood et al., 1997), the lowest unit of the Black Band Member. \r\n\r\nSouthern Province: Conformable at the bedding plane above the highest marl and below the hard nodular limestone of the Melbourn Rock Member."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3221> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4223> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1271> <http://www.w3.org/2000/01/rdf-schema#label> "Sussex White Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1589> <http://www.w3.org/2000/01/rdf-schema#label> "Holywell Nodular Chalk Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://www.w3.org/2000/01/rdf-schema#label> "'Expanded Standard Black Band Succession'"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4223> <http://www.w3.org/2000/01/rdf-schema#label> "Shakespeare Cliff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H607> <http://www.w3.org/2000/01/rdf-schema#label> "Middle and Upper Chalk Undivided"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2000/01/rdf-schema#label> "Lower and Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BKBD> <http://www.w3.org/2004/02/skos/core#altLabel> "'Expanded Standard Black Band Succession'"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://www.w3.org/2004/02/skos/core#altLabel> "Plenus Marls Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3221> <http://www.w3.org/2004/02/skos/core#altLabel> "Plenus Marls Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4223> <http://www.w3.org/2004/02/skos/core#altLabel> "Holywell Nodular Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2004/02/skos/core#altLabel> "Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Holywell Nodular Chalk Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Shakespeare Cliff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Holywell Nodular Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower and Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Holywell Nodular Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower and Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Shakespeare Cliff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://www.w3.org/2004/02/skos/core#altLabel> "'Expanded Standard Black Band Succession'"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://www.w3.org/2004/02/skos/core#altLabel> "Basal Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Middle and Upper Chalk Undivided"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Sussex White Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4475> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H607> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Cenomanian Age - to - Turonian Age (Cretaceous Period) (100.5-89.8 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.8 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMA> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous mudstone and chalk with subsidiary limestone. Stratified bedrock. Occurs onshore. Deposited during the Cenomanian Age (Cretaceous Period) (100.5-93.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLNM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Cenomanian Age (Cretaceous Period) (100.5-93.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1271> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sussex White Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1589> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holywell Nodular Chalk Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3220> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Expanded Standard Black Band Succession'"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shakespeare Cliff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H607> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle and Upper Chalk Undivided"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower and Middle Holywell Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
