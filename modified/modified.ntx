@@ -1,18 +1,54 @@
--<http://data.bgs.ac.uk/id/dataHolding/13480082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13480304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13602981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13605542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRK> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The base is conformable within the Kensworth Nodular Chalk Member at an indistinct boundary marking a significant increase in nodularity between 2 and 3m above the uppermost hardground of the Chalk Rock Member."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLCH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLNM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 0.5m up to 4 to 5m where fully developed."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.2.5 to c.4m in the Hitchin and Leighton Buzzard districts."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "The formation is thickest in the basinal successions of the Southern Province in east Hampshire and Sussex where it attains c.35 to 60m in the east and up to 80m in the west. The formation thins towards the margins of the outcrop and over synsedimentary structural highs."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 3m in the classic Chiltern area but noted in the Hitchin Memoir to be between 2 and 7m (Hopson et al., 1996). A range of 2.7 to 4m is given in Mortimore (1986)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Typically between 35 and 50m but  is as little as 10 to 25m thick in Wiltshire, north Hampshire and Berkshire over synsedimentary structural highs. The formation expands in the \"Transitional\" Province where it is thought to be up to 75 to 80m thick."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Generally in the range 50 to 80m in the basinal successions of Sussex and Hampshire within the Southern Province. Equivalent beds in Kent are in the range 55 to 60m. Over considerable areas of Southern England the thickness of this unit is limited by erosion beneath the sub-Palaeogene unconformity."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not known in detail, estimated to be 2 to 3m. Member might be one of a number of such beds of hard chalk between 5 and 10m below the mapped base of the Newhaven Chalk Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0.8 to 1.0m in Cambridgeshire. 0.3m to 1.0m in to Chilterns, to which areas it is essentially confined."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The top is conformable at the base of Glynde Marl 1 in Sussex, but one of the higher marls elsewhere although invariably in the interval Glynde Marls to Southerham Marls in the Southern Province. The mapping boundary is placed at the appearance of nodular chalks and significant flint development within that range of marls. \r\nIn the \"Transitional\" Province the formation expands in response to the later inception of nodularity and hardground development (characteristic of the Lewes Nodular Chalk Formation) such that the upper boundary is diachronous here and placed below the \"Chalk Rock Member\" at the Reed Marl (the lateral equivalent of the Bridgewick Marls of the Southern Province)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLCH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCK> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLNM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2286> <http://www.w3.org/2000/01/rdf-schema#label> "Lewes Nodular And Flinty Chalk Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Holywell Beds And New Pit Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4756> <http://www.w3.org/2000/01/rdf-schema#label> "Akers Steps And St Margarets Members"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Seaford And Newhaven Chalk"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://www.w3.org/2004/02/skos/core#altLabel> "New Pit Chalk Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://www.w3.org/2004/02/skos/core#altLabel> "Blandford Chalk Member [Obsolete Name And Code: See SECK And NCK]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Top Rock Bed"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#altLabel> "Akers Steps And St Margarets Members"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#altLabel> "Lewes Nodular And Flinty Chalk Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Holywell Beds And New Pit Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> <http://www.w3.org/2004/02/skos/core#altLabel> "Plenus Marl [Obsolete Name And Code: See PLMA And PLMN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLNM> <http://www.w3.org/2004/02/skos/core#altLabel> "Plenus Marls Member (Northern Province)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRK> <http://www.w3.org/2004/02/skos/core#altLabel> "Kensworth Nodular Chalk Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPBE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPUH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1708> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2091> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2459> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPBE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPUH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Cenomanian Age (Cretaceous Period) (100.5-93.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S698> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPBE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPCH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPUH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2286> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lewes Nodular And Flinty Chalk Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Holywell Beds And New Pit Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4756> <http://www.w3.org/2004/02/skos/core#prefLabel> "Akers Steps And St Margarets Members"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPBE> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPUH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLMN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S698> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
