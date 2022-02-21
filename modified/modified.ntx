@@ -1,318 +1,185 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBG> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/K> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDMM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGML> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHUR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLNF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNKC> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CORE> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRHM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAEB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDI> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCDF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DEUB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DLMP> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCO> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUSA> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EF2> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENS> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FBIR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRC> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GE> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GIBH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSAF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRAB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GU> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Interbedded, cleaved calcareous mudstones and nodular, argillaceous limestones with subordinate conglomerates, sandstones, siltstones, shales and acid volcanic rocks."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHSAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Thin-bedded and laminated sandstone, interpreted as distal turbidites."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Comprising flags, grits, slates and breccias."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Silty mudstone with some turbidite sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IBK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNTN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "443.8"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNTN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IBK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGNG> <http://www.w3.org/2000/01/rdf-schema#label> "Agneash Grit (Manx Slates) [Obsolete Name And Code: See CGA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRSL> <http://www.w3.org/2000/01/rdf-schema#label> "Barrule Slates (Manx Slates) [Obsolete Name And Code: See BRUL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://www.w3.org/2000/01/rdf-schema#label> "Coniston Limestone Group [Obsolete Name And Code: Use DNT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> <http://www.w3.org/2000/01/rdf-schema#label> "Grits In Skiddaw Slates [Obsolete Name And Code: Part Of SKG Or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1007> <http://www.w3.org/2000/01/rdf-schema#label> "Sunderland Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1516> <http://www.w3.org/2000/01/rdf-schema#label> "Drygill Shales"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1588> <http://www.w3.org/2000/01/rdf-schema#label> "Hope Beck Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1633> <http://www.w3.org/2000/01/rdf-schema#label> "Kirk Stile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1674> <http://www.w3.org/2000/01/rdf-schema#label> "Loweswater Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1867> <http://www.w3.org/2000/01/rdf-schema#label> "Tarn Moor Mudstones"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://www.w3.org/2000/01/rdf-schema#label> "Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> <http://www.w3.org/2000/01/rdf-schema#label> "Coniston Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2000/01/rdf-schema#label> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2491> <http://www.w3.org/2000/01/rdf-schema#label> "Windermere Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2529> <http://www.w3.org/2000/01/rdf-schema#label> "Watch Hill Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2687> <http://www.w3.org/2000/01/rdf-schema#label> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2860> <http://www.w3.org/2000/01/rdf-schema#label> "Maughold Banded Group And Sulby Slump Breccia"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddavian (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3083> <http://www.w3.org/2000/01/rdf-schema#label> "Tarn Moor Mudstone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://www.w3.org/2000/01/rdf-schema#label> "Barrule Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3244> <http://www.w3.org/2000/01/rdf-schema#label> "Barrule Slates And Slieau Managh Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3504> <http://www.w3.org/2000/01/rdf-schema#label> "Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H352> <http://www.w3.org/2000/01/rdf-schema#label> "Mosser Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H353> <http://www.w3.org/2000/01/rdf-schema#label> "Mosser-Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Slate (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3577> <http://www.w3.org/2000/01/rdf-schema#label> "Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H372> <http://www.w3.org/2000/01/rdf-schema#label> "Parts Port Erin Formation, Santon Formation, Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> <http://www.w3.org/2000/01/rdf-schema#label> "Tarn Moor Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3758> <http://www.w3.org/2000/01/rdf-schema#label> "Wharfe Conglomerate"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3975> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Slate Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4003> <http://www.w3.org/2000/01/rdf-schema#label> "Coniston Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4138> <http://www.w3.org/2000/01/rdf-schema#label> "Blakefell \"Mudstone\""@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4174> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddaw Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddaw Slate Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> <http://www.w3.org/2000/01/rdf-schema#label> "Coniston Limestone Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4740> <http://www.w3.org/2000/01/rdf-schema#label> "Black Slates Of Skiddaw"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4741> <http://www.w3.org/2000/01/rdf-schema#label> "Mosser Striped Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Group Undivided"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4891> <http://www.w3.org/2000/01/rdf-schema#label> "Santon Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4930> <http://www.w3.org/2000/01/rdf-schema#label> "Mudstones Of Tarn Moor"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H608> <http://www.w3.org/2000/01/rdf-schema#label> "Grits Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHSAM> <http://www.w3.org/2000/01/rdf-schema#label> "Knott Hill Formation (Metasomatically Altered) [Obsolete Usage: Use KHSA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LONF> <http://www.w3.org/2000/01/rdf-schema#label> "Lonan Flags [Obsolete Name And Code: See LNN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBF> <http://www.w3.org/2000/01/rdf-schema#label> "Maughold Banded Formation [Obsolete Name And Code: See MGD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBN> <http://www.w3.org/2000/01/rdf-schema#label> "Milburn Beds (Group, Rocks, Series, Stage) [Obsolete Name And Code: Use KDF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Slate Group [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXSL> <http://www.w3.org/2000/01/rdf-schema#label> "Manx Slates [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddaw Slates [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddavian [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2000/01/rdf-schema#label> "Slates And Sandstones In Skiddaw Slates [Obsolete Name And Code: part of SKG or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRUL> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRUL> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates (Manx Slates) [Obsolete Name And Code: See BRUL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRUL> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates And Slieau Managh Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Agneash Grit (Manx Slates) [Obsolete Name And Code: See CGA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMR> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMR> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALBY> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALBY> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slates [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Group [Obsolete Name And Code: Use DNT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Drygill Shales"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRN> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://www.w3.org/2004/02/skos/core#altLabel> "Creg Agneash Sandstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Group [Obsolete Name And Code: Use DNT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#altLabel> "Keristal Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#altLabel> "Ny Garvain Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2004/02/skos/core#altLabel> "Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2004/02/skos/core#altLabel> "Creggan Moar Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2004/02/skos/core#altLabel> "Injebreck Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate Group [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> <http://www.w3.org/2004/02/skos/core#altLabel> "Coniston Limestone Group [Obsolete Name And Code: Use DNT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBE> <http://www.w3.org/2004/02/skos/core#altLabel> "Hope Beck Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IBK> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IBK> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Group And Sulby Slump Breccia"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDF> <http://www.w3.org/2004/02/skos/core#altLabel> "Milburn Beds (Group, Rocks, Series, Stage) [Obsolete Name And Code: Use KDF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDF> <http://www.w3.org/2004/02/skos/core#altLabel> "Milburn Beds (Group, Rocks, Series, Stage) [Obsolete Name And Code: Use KDF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERI> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Knott Hill Formation (Metasomatically Altered) [Obsolete Usage: Use KHSA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Slates Of Skiddaw"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Blakefell \"Mudstone\""@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirk Stile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Mosser Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Mosser Striped Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Mosser-Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KST> <http://www.w3.org/2004/02/skos/core#altLabel> "Sunderland Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan Flags [Obsolete Name And Code: See LNN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Parts Port Erin Formation, Santon Formation, Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWF> <http://www.w3.org/2004/02/skos/core#altLabel> "Grits In Skiddaw Slates [Obsolete Name And Code: Part Of SKG Or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWF> <http://www.w3.org/2004/02/skos/core#altLabel> "Loweswater Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWF> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate Group [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slates [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBN> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkland Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Formation [Obsolete Name And Code: See MGD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NBY> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slate Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NBY> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Slates [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGN> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGN> <http://www.w3.org/2004/02/skos/core#altLabel> "Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grits In Skiddaw Slates [Obsolete Name And Code: Part Of SKG Or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddavian (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddavian [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Slate Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Slates [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Slates And Sandstones In Skiddaw Slates [Obsolete Name And Code: part of SKG or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Grits In Skiddaw Slates [Obsolete Name And Code: Part Of SKG Or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddavian (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddavian [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Slate Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Slates [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#altLabel> "Slates And Sandstones In Skiddaw Slates [Obsolete Name And Code: part of SKG or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Mudstones Of Tarn Moor"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Tarn Moor Mudstone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Tarn Moor Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Tarn Moor Mudstones"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNTH> <http://www.w3.org/2004/02/skos/core#altLabel> "Windermere Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFC> <http://www.w3.org/2004/02/skos/core#altLabel> "Wharfe Conglomerate"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grits Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHG> <http://www.w3.org/2004/02/skos/core#altLabel> "Watch Hill Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Windermere Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Arenig Series (Ordovician Period) (477.7-465.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Arenig Series - to - Abereiddian Stage (Ordovician Period) (477.7-460.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1007> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1516> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1588> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1633> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1674> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1867> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2491> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2529> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2687> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2860> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3083> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3244> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3504> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H352> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H353> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3577> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H372> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3758> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3975> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4003> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4138> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4174> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4740> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4741> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4891> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4930> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H608> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LONF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Tremadoc Series (Ordovician Period) (485.4-477.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Tremadoc Series - to - Arenig Series (Ordovician Period) (485.4-465.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Arenig Series - to - Abereiddian Stage (Ordovician Period) (477.7-460.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Arenig Series - to - Abereiddian Stage (Ordovician Period) (477.7-460.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone and slate. Bedrock. Occurs onshore. Formed during the Arenig Series - to - Abereiddian Stage (Ordovician Period) (477.7-460.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIN> <http://www.w3.org/2004/02/skos/core#definition> "Siltstone and silty mudstone with subsidiary mudstone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Llandovery Epoch - to - Pridoli Epoch (Silurian Period) (443.8-419.2 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGNG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agneash Grit (Manx Slates) [Obsolete Name And Code: See CGA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrule Slates (Manx Slates) [Obsolete Name And Code: See BRUL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coniston Limestone Group [Obsolete Name And Code: Use DNT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTSK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grits In Skiddaw Slates [Obsolete Name And Code: Part Of SKG Or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sunderland Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1516> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drygill Shales"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1588> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hope Beck Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1633> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirk Stile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1674> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loweswater Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1867> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tarn Moor Mudstones"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2075> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2107> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coniston Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lonan And Niarbyl Flags"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2491> <http://www.w3.org/2004/02/skos/core#prefLabel> "Windermere Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Watch Hill Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2687> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maughold Banded Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2860> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maughold Banded Group And Sulby Slump Breccia"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddavian (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3083> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tarn Moor Mudstone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrule Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3244> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrule Slates And Slieau Managh Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Group Undivided and Agneash Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3504> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H352> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mosser Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H353> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mosser-Kirkstile Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3571> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Slate (Series)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3577> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H372> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parts Port Erin Formation, Santon Formation, Ny Garvain Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tarn Moor Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3758> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wharfe Conglomerate"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3975> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Slate Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coniston Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4138> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blakefell \"Mudstone\""@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4174> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddaw Grits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4329> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddaw Slate Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4563> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coniston Limestone Series"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4740> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black Slates Of Skiddaw"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4741> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mosser Striped Slates"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4792> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Group Undivided"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4891> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santon Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4930> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mudstones Of Tarn Moor"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H608> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grits Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHSAM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Knott Hill Formation (Metasomatically Altered) [Obsolete Usage: Use KHSA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LONF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lonan Flags [Obsolete Name And Code: See LNN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maughold Banded Formation [Obsolete Name And Code: See MGD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milburn Beds (Group, Rocks, Series, Stage) [Obsolete Name And Code: Use KDF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Slate Group [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MXSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manx Slates [Obsolete Name And Code: See MANX]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete Usage: Use SKG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddaw Slates [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKVN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddavian [Obsolete Name And Code: See SKG And SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slates And Sandstones In Skiddaw Slates [Obsolete Name And Code: part of SKG or SKGM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3727> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone in laminated silty mudstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use LNN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BRUL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mixed succession of volcanogenic siltstone, mudstone, sandstone and conglomerate. Overall fining upwards succession that is capped by a palaeosol."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Well sorted, thickly bedded, reddish purple protoquartzite; rare shale partings in lower and middle parts, reddish-purple shale beds + 1 metre at top."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone beds to 75cm thick within siltstone and mudstone sequence of the Bannisdale Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Base of volcanogenic sedimentary succession that overlies various parts of the Millom Park Formation (Borrowdale Volcanic Group)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1951> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/OR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O4> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "477.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "458.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/OR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 170m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Base of overlying calcareous siltstone (Kirkley Bank Formation)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/OR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/OA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "465.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "443.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1951> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://www.w3.org/2000/01/rdf-schema#label> "Applethwaite Beds [Obsolete Name And Code: Partially Replaced By AP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASL> <http://www.w3.org/2000/01/rdf-schema#label> "Bannisdale Slates [Obsolete Name And Code: Use BND]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <http://www.w3.org/2000/01/rdf-schema#label> "Burlington Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> <http://www.w3.org/2000/01/rdf-schema#label> "Crag Hill Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> <http://www.w3.org/2000/01/rdf-schema#label> "Douk Ghyll Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> <http://www.w3.org/2000/01/rdf-schema#label> "Glion Cam Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1044> <http://www.w3.org/2000/01/rdf-schema#label> "Lady Port Banded Group And Ballanayre Slump Breccia"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1309> <http://www.w3.org/2000/01/rdf-schema#label> "Applethwaite Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1366> <http://www.w3.org/2000/01/rdf-schema#label> "White Limestone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H181> <http://www.w3.org/2000/01/rdf-schema#label> "Cystoid Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1951> <http://www.w3.org/2000/01/rdf-schema#label> "Applethwaite Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2000/01/rdf-schema#label> "Lonan and Niarbyl Flags [Obsolete Name and Code: Use LNN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2723> <http://www.w3.org/2000/01/rdf-schema#label> "Crag Hill Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H282> <http://www.w3.org/2000/01/rdf-schema#label> "Glion Cam Unit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H283> <http://www.w3.org/2000/01/rdf-schema#label> "Lonan And Niarbyl Flags, Glen Dhoo Flags And Cronkshamerk Slates"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3027> <http://www.w3.org/2000/01/rdf-schema#label> "Style End Grassing Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://www.w3.org/2000/01/rdf-schema#label> "Barrule Slates [Obsolete Name and Code: Use BRUL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3345> <http://www.w3.org/2000/01/rdf-schema#label> "Staurocephalus Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3637> <http://www.w3.org/2000/01/rdf-schema#label> "Rebecca Grit (Member)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3666> <http://www.w3.org/2000/01/rdf-schema#label> "Stile End Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3793> <http://www.w3.org/2000/01/rdf-schema#label> "Ashgill Shale Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3883> <http://www.w3.org/2000/01/rdf-schema#label> "Borrowdale Volcanic Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4422> <http://www.w3.org/2000/01/rdf-schema#label> "Ashgill Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4574> <http://www.w3.org/2000/01/rdf-schema#label> "Cautley Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4728> <http://www.w3.org/2000/01/rdf-schema#label> "High Haume Mudstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H828> <http://www.w3.org/2000/01/rdf-schema#label> "Cautley Volcanic Group (Ingham 1966)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://www.w3.org/2000/01/rdf-schema#label> "Ladyport Formation [Obsolete Code: See LPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://www.w3.org/2000/01/rdf-schema#label> "Low Scales Beck Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REN> <http://www.w3.org/2000/01/rdf-schema#label> "Redmain Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <http://www.w3.org/2000/01/rdf-schema#label> "Rusland Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <http://www.w3.org/2000/01/rdf-schema#label> "Applethwaite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <http://www.w3.org/2000/01/rdf-schema#label> "Applethwaite Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> <http://www.w3.org/2000/01/rdf-schema#label> "Swindale Shale Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashgill Shale Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashgill Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Beds [Obsolete Name And Code: Partially Replaced By AP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AP> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMR> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BND> <http://www.w3.org/2004/02/skos/core#altLabel> "Bannisdale Slates [Obsolete Name And Code: Use BND]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRUL> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates [Obsolete Name and Code: Use BRUL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVG> <http://www.w3.org/2004/02/skos/core#altLabel> "Borrowdale Volcanic Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Crag Hill Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTV> <http://www.w3.org/2004/02/skos/core#altLabel> "Cautley Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTV> <http://www.w3.org/2004/02/skos/core#altLabel> "Cautley Volcanic Group (Ingham 1966)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cystoid Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYO> <http://www.w3.org/2004/02/skos/core#altLabel> "Staurocephalus Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Glion Cam Unit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan And Niarbyl Flags, Glen Dhoo Flags And Cronkshamerk Slates"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan and Niarbyl Flags [Obsolete Name and Code: Use LNN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRN> <http://www.w3.org/2004/02/skos/core#altLabel> "Barrule Slates [Obsolete Name and Code: Use BRUL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1951> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3328> <http://www.w3.org/2004/02/skos/core#altLabel> "Ladyport Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4143> <http://www.w3.org/2004/02/skos/core#altLabel> "Redmain Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKB> <http://www.w3.org/2004/02/skos/core#altLabel> "High Haume Mudstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Lonan and Niarbyl Flags [Obsolete Name and Code: Use LNN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Lady Port Banded Group And Ballanayre Slump Breccia"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Ladyport Formation [Obsolete Code: See LPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Manx Group Undivided and Agneash Grits [Obsolete Name and Code: Use MANX]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REB> <http://www.w3.org/2004/02/skos/core#altLabel> "Rebecca Grit (Member)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Beds [Obsolete Name And Code: Partially Replaced By AP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <http://www.w3.org/2004/02/skos/core#altLabel> "Applethwaite Beds [Obsolete Name And Code: Partially Replaced By AP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Stile End Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Style End Grassing Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWL> <http://www.w3.org/2004/02/skos/core#altLabel> "Staurocephalus Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UND> <http://www.w3.org/2004/02/skos/core#altLabel> "Bannisdale Slates [Obsolete Name And Code: Use BND]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NORB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BND> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Ludlow Epoch (Silurian Period) (427.4-423.6 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone and silty mudstone. Stratified bedrock. Occurs onshore. Deposited during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ashgill Series (Ordovician Period) (449-443.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Cautleyan Stage (Ordovician Period) (448-447 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Arenig Series (Ordovician Period) (477.7-465.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1044> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1309> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1366> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H181> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2723> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H282> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H283> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3027> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3345> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3637> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3666> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3793> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3883> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4422> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4574> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4728> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H828> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Arenig Series (Ordovician Period) (477.7-465.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://www.w3.org/2004/02/skos/core#definition> "Volcaniclastic rocks (both pyroclastic and reworked volcanic rocks) and volcaniclastic-sandstone with subsidiary conglomerate, mudstone and siltstone. Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series - to - Ashgill Series (Ordovician Period) (458.4-443.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REN> <http://www.w3.org/2004/02/skos/core#definition> "Quartzite and trace mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arenig Series (Ordovician Period) (477.7-465.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Ludlow Epoch (Silurian Period) (427.4-423.6 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> <http://www.w3.org/2004/02/skos/core#definition> "Siltstone. Stratified bedrock. Occurs onshore. Deposited during the Ashgill Series (Ordovician Period) (449-443.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BND> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKB> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANX> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NORB> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applethwaite Beds [Obsolete Name And Code: Partially Replaced By AP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bannisdale Slates [Obsolete Name And Code: Use BND]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Burlington Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crag Hill Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Douk Ghyll Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glion Cam Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1044> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lady Port Banded Group And Ballanayre Slump Breccia"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1309> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applethwaite Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1366> <http://www.w3.org/2004/02/skos/core#prefLabel> "White Limestone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H181> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cystoid Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1951> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applethwaite Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2206> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lonan and Niarbyl Flags [Obsolete Name and Code: Use LNN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2723> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crag Hill Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H282> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glion Cam Unit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H283> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lonan And Niarbyl Flags, Glen Dhoo Flags And Cronkshamerk Slates"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Style End Grassing Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrule Slates [Obsolete Name and Code: Use BRUL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3345> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staurocephalus Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3637> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rebecca Grit (Member)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3666> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stile End Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3793> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashgill Shale Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3883> <http://www.w3.org/2004/02/skos/core#prefLabel> "Borrowdale Volcanic Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4422> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashgill Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4574> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cautley Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4728> <http://www.w3.org/2004/02/skos/core#prefLabel> "High Haume Mudstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H828> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cautley Volcanic Group (Ingham 1966)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ladyport Formation [Obsolete Code: See LPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Low Scales Beck Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Redmain Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rusland Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applethwaite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applethwaite Series"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Swindale Shale Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOU> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S240> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S241> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
