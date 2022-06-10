@@ -1,17 +1,49 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWLS> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UHBC> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alternations of structureless reddish brown mudstone and laminated greenish grey and reddish brown mudstones. NOTE: The contact between the Byley Mudstones and overlying Wych Mudstones is not currently shown on British Geological Survey maps, and they have been mapped as one division."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial Deposits (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvial Deposits (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AEOLD> <http://www.w3.org/2004/02/skos/core#definition> "Aeolian deposits include wind-blown deposits formed in a variety of depositional environments and climates. Synonym: wind-blown deposits. Obsolete: eolian."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF> <http://www.w3.org/2004/02/skos/core#definition> "Alluvial fan deposits are low, outspread, relatively flat to gently sloping masses of loose rock material, shaped like a fan or segment of a cone. They are deposited by streams at the mouths of tributary valleys onto a plain or broad valley. Synonym: alluvial cone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCHDS> <http://www.w3.org/2004/02/skos/core#definition> "Beach dune sand refers to backshore deposits of well-sorted, wind blown sand, which can be subdivided on the basis of morphology into transverse, oblique, parabolic forms."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA> <http://www.w3.org/2004/02/skos/core#definition> "Blown sand is sand that has been transported by wind, or sand consisting predominantly of wind-borne particles."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSO> <http://www.w3.org/2004/02/skos/core#definition> "Older blown sand comprises Pleistocene beach dune sands and coversands."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSD> <http://www.w3.org/2004/02/skos/core#definition> "Coversands are periglacial aeolian blanket deposits of lowland areas comprising fine- to very fine-grained sand, usually horizontally bedded although they may form subaerial dunes with large-scale cross-bedding. Size sorting is not as marked as in coastal beach dune sands."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#definition> "Fluvio-aeolian deposits are loess-like, usually structureless deposits of primarily aeolian silt or very fine-grained sand which has been moved, redeposited and/or modified in situ by various secondary processes (for example, fluvial, colluvial, pedogenic processes). Deposits may be variably sandy or clayey, but retain a dominant particle size within the coarse silt to very fine-grained sand range."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#definition> "Fluvial deposits are sedimentary deposits consisting of material transported by, suspended in, and laid down by a river or stream."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOES> <http://www.w3.org/2004/02/skos/core#definition> "Loess deposits are wind-blown dust accumulations which comprise homogeneous, structureless, highly porous, buff-coloured silt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAEOL> <http://www.w3.org/2004/02/skos/core#definition> "Niveo-aeolian deposits are massive unbedded sands deposited by wind in heavy snow storms."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWLL> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel-rich sand and silt, with a cone-like form. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel-rich sand and silt, developed at the mouths of tributary valleys. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium with a low-angle cone form developed at the mouths of tributary valleys [generic description: 'TMOS' procedures]; very localised source. [Descriptions from East Anglian data]. Older than 'Alluvial Fan Deposits'."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Normally soft to firm consolidated, compressible silty clay, but can contain layers of silt, sand, peat and a basal gravel. A stronger, desiccated surface zone may be present. [Generic description]. Older than \"Alluvium\"."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand, pale brown, fine-grained, uncemented; older than 'Blown Sand'. [Generic description: 'TMOS' procedures]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Interglacial fluvial deposits are Quaternary fluvial deposits of pre-Late Devensian age.\r\n\r\nVariable lithology."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Cone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Delta"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Fan Deposits 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvium 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvium 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVM> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Deposits, Buried, Postglacial Estuarine-Marine [See Descriptions For Limitations Of Use]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVT> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Deposits, Postglacial, Terrestrial [See Descriptions For Limitations Of Use]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2000/01/rdf-schema#label> "Blown Sand, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Fan"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF> <http://www.w3.org/2004/02/skos/core#altLabel> "Alluvial Fan"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2004/02/skos/core#definition> "Silty clay with subsidiary gravel and sand and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV> <http://www.w3.org/2004/02/skos/core#definition> "Alluvium is a general term for clay, silt, sand and gravel. It is the unconsolidated detrital material deposited by a river, stream or other body of running water as a sorted or semi-sorted sediment in the bed of the stream or on its floodplain or delta, or as a cone or fan at the base of a mountain slope. Synonym: alluvial deposits."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2004/02/skos/core#definition> "Clay, silt and silty clay with subsidiary gravel and sand and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://www.w3.org/2004/02/skos/core#definition> "Interglacial fluvial deposits are Quaternary fluvial deposits of pre-Late Devensian age."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> <http://www.w3.org/2004/02/skos/core#definition> "River Terrace Deposits consist of alluvium forming one of a series of level surfaces in a stream or river valley, produced as the dissected remnants of earlier abandoned floodplains."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WARP> <http://www.w3.org/2004/02/skos/core#definition> "Warp is artificially induced alluvium."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Cone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Delta"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Fan Deposits 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvium 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvium 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Deposits, Buried, Postglacial Estuarine-Marine [See Descriptions For Limitations Of Use]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Deposits, Postglacial, Terrestrial [See Descriptions For Limitations Of Use]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blown Sand, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Fan"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
