@@ -1,49 +1,53 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWLL> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel-rich sand and silt, with a cone-like form. [Generic description]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel-rich sand and silt, developed at the mouths of tributary valleys. [Generic description]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium with a low-angle cone form developed at the mouths of tributary valleys [generic description: 'TMOS' procedures]; very localised source. [Descriptions from East Anglian data]. Older than 'Alluvial Fan Deposits'."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Normally soft to firm consolidated, compressible silty clay, but can contain layers of silt, sand, peat and a basal gravel. A stronger, desiccated surface zone may be present. [Generic description]. Older than \"Alluvium\"."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand, pale brown, fine-grained, uncemented; older than 'Blown Sand'. [Generic description: 'TMOS' procedures]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Interglacial fluvial deposits are Quaternary fluvial deposits of pre-Late Devensian age.\r\n\r\nVariable lithology."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Cone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Delta"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Fan Deposits 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvium 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvium 2"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVM> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Deposits, Buried, Postglacial Estuarine-Marine [See Descriptions For Limitations Of Use]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVT> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Deposits, Postglacial, Terrestrial [See Descriptions For Limitations Of Use]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2000/01/rdf-schema#label> "Blown Sand, 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2000/01/rdf-schema#label> "Alluvial Fan"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF> <http://www.w3.org/2004/02/skos/core#altLabel> "Alluvial Fan"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2004/02/skos/core#definition> "Silty clay with subsidiary gravel and sand and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV> <http://www.w3.org/2004/02/skos/core#definition> "Alluvium is a general term for clay, silt, sand and gravel. It is the unconsolidated detrital material deposited by a river, stream or other body of running water as a sorted or semi-sorted sediment in the bed of the stream or on its floodplain or delta, or as a cone or fan at the base of a mountain slope. Synonym: alluvial deposits."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2004/02/skos/core#definition> "Clay, silt and silty clay with subsidiary gravel and sand and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://www.w3.org/2004/02/skos/core#definition> "Interglacial fluvial deposits are Quaternary fluvial deposits of pre-Late Devensian age."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> <http://www.w3.org/2004/02/skos/core#definition> "River Terrace Deposits consist of alluvium forming one of a series of level surfaces in a stream or river valley, produced as the dissected remnants of earlier abandoned floodplains."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WARP> <http://www.w3.org/2004/02/skos/core#definition> "Warp is artificially induced alluvium."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLUV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Cone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Delta"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Fan Deposits 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvium 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvium 2"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Deposits, Buried, Postglacial Estuarine-Marine [See Descriptions For Limitations Of Use]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Deposits, Postglacial, Terrestrial [See Descriptions For Limitations Of Use]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blown Sand, 1"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluvial Fan"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1541> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial Deposits (Undifferentiated) [Obsolete Name and Code: Use FLUV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALF1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZDU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Interbedded clay, silt, sand and peat"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCZD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Lithologically diverse. Sand, silt and clay, with gravel and possibly peat, formed in the coastal or marine environment."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZDU> <http://www.w3.org/2000/01/rdf-schema#label> "Older Coastal Zone Deposits Of Holocene Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2320> <http://www.w3.org/2000/01/rdf-schema#label> "Marine Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2935> <http://www.w3.org/2000/01/rdf-schema#label> "Marine And Coastal Zone Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5257> <http://www.w3.org/2000/01/rdf-schema#label> "Older Coastal Zone Deposits Of Flandrian Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDDD> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Marine Deltaic Deposits, Devensian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal zone deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal zone deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZDU> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Coastal Zone Deposits Of Flandrian Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5257> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Coastal Zone Deposits Of Holocene Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCZD> <http://www.w3.org/2004/02/skos/core#altLabel> "Marine And Coastal Zone Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDU> <http://www.w3.org/2004/02/skos/core#altLabel> "Marine Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBPT> <http://www.w3.org/2004/02/skos/core#definition> "Blanket bog peat is a bog peat of an ombotrophic mire, with little or no input of inorganic mineral nutrients, covering stable features of original surfaces on long slopes and gentle ridges subjected to high rainfall."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIOD> <http://www.w3.org/2004/02/skos/core#definition> "Biological deposits are deposits directly formed and characterised by living organisms which secrete either silica or carbonate to form a skeleton or shell."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNPT> <http://www.w3.org/2004/02/skos/core#definition> "Basin peat is peat formed of decomposed plants growing in a minerotrophic mire or swamp occupying hollows, valley bottoms or lake basins fed by inorganic mineral nutrients from groundwater."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSND> <http://www.w3.org/2004/02/skos/core#definition> "Bioclastic sand deposits are deposits of sand composed of broken and fragmental remains of organisms including shells, coral and lithothamnium algae."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://www.w3.org/2004/02/skos/core#definition> "Coastal zone deposits include all deposits of the nearshore environment including foreshore, backshore, estuary (intertidal deposits) and saltmarsh/lowland hinterland (supratidal deposits)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIAT> <http://www.w3.org/2004/02/skos/core#definition> "Diatomite is a type of siliceous rock which is predominantly composed of diatoms, single-celled siliceous plants which lived in either marine or freshwater. It is the lithified equivalent of diatomaceous-ooze."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENPT> <http://www.w3.org/2004/02/skos/core#definition> "Fen peat is peat formed of decomposed fen plants including sedges growing in a minerotrophic mire or swamp which is fed by inorganic mineral nutrients from groundwater. The peat contains little or no sphagnum."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLDI> <http://www.w3.org/2004/02/skos/core#definition> "Fluvial diatomite is diatomite which has been deposited in a river or stream."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2320> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2935> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5257> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLPT> <http://www.w3.org/2004/02/skos/core#definition> "Hill peat is upland blanket peat, as occurs particularly on plateau mountain tops."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGMD> <http://www.w3.org/2004/02/skos/core#definition> "Interglacial marine deposits are Quaternary marine deposits of pre-Late Devensian age."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LACDI> <http://www.w3.org/2004/02/skos/core#definition> "Lacustrine diatomite is diatomite which has been deposited in a lake."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MADD> <http://www.w3.org/2004/02/skos/core#definition> "Marine deltaic deposits comprise a coarsening upward sequence of sediments laid down in a prograding delta at the fluvial-marine boundary as the fluvial current velocity is dissipated. The deposits comprise sand, silt and clay. Deltas can be subdivided into fluvial-, wave- and tidal-dominated depositional environments each of which has a characteristic morphology. Progradation gives rise to topset, foreset and bottomset beds."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCZD> <http://www.w3.org/2004/02/skos/core#definition> "Deposited by water in a marine, coastal or tide-affected environment (e.g. beach, salt-marsh, estuary or fen). Includes many types of sediment (e.g. clay, silt, sand, peat and gravel)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDU> <http://www.w3.org/2004/02/skos/core#definition> "Marine deposits are the unconsolidated sediments that cover the sea bed beneath the fully marine areas of any water depth."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://www.w3.org/2004/02/skos/core#definition> "Organic deposits are those where the organic content is sufficiently high to have a noticeable effect on composition."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEAT> <http://www.w3.org/2004/02/skos/core#definition> "Peat is a partially decomposed mass of semi-carbonized vegetation which has grown under waterlogged, anaerobic conditions, usually in bogs or swamps."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PFLO> <http://www.w3.org/2004/02/skos/core#definition> "Peat flow is a flow of peat produced in a peat bog by a bog burst. The burst is a response to the release of pressure as the bog swells due to the retention of water by a marginal dam of growing vegetation or for anthropogenic reasons (for example by landfill loading)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBPT> <http://www.w3.org/2004/02/skos/core#definition> "Raised bog peat refers to a bog with thickest accumulation of peat in the centre. The surface is largely covered by sphagnum mosses which because of their high degree of water retention make the bog more dependent on rainfall than on the water table. A raised bog peat may develop over a basin infilled with fen peat."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDD> <http://www.w3.org/2004/02/skos/core#definition> "Raised marine deltaic deposits are isostatically uplifted marine deltaic deposits which crop out in part above high water mark."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFD> <http://www.w3.org/2004/02/skos/core#definition> "Shoreface deposits comprise sands and gravels distributed within a narrow steeply sloping zone by oscillating waves and changing currents. The zone spans the area from the low-water shoreline to fair-weather wave base."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHEL> <http://www.w3.org/2004/02/skos/core#definition> "Shell bank deposits are mound-like or ridge-like deposits consisting largely of unbroken shells, mainly in situ."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLM> <http://www.w3.org/2004/02/skos/core#definition> "Shell marl is a light coloured calcareous deposit formed in freshwater lakes and composed largely of uncemented mollusc shells and precipitated calcium carbonate, along with the hard parts of minute organisms. Synonym: shell-rich gyttja."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUF> <http://www.w3.org/2004/02/skos/core#definition> "Submerged forest refers to the remains of stumps and trunks of trees visible between tide marks or detected below low water mark, still in place of growth usually in peaty soil or peat."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOSD> <http://www.w3.org/2004/02/skos/core#definition> "Tabular or sheet deposits."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZDU> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDDD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Coastal Zone Deposits Of Holocene Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2320> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2935> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine And Coastal Zone Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5257> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Coastal Zone Deposits Of Flandrian Age, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDDD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Marine Deltaic Deposits, Devensian"@en .
