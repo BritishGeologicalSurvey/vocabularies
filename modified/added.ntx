@@ -1,178 +1,130 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13607948> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/e3ac1042-874d-613d-e053-0937940a19ec> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607948> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607948> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COME> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Coal Measures Supergroup comprises the Scottish Coal Measures Group (CMSC), the Pennine Coal Measures Group (PCM) and the South Wales Coal Measures Group (SWCM). See the constituent groups and formations for information."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RBDPG, RMBDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RBDLG, RMBDD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use LDE]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See ITD Intertidal deposits. \r\n\r\nVariable lithology. Gravel through to clay, may be rich in organic matter; from the intertidal coastal zone. [Generic description]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See ITDU Intertidal deposits (undifferentiated). Intertidal deposits (undifferentiated), 1 is older than Intertidal deposits (undifferentiated) in the same map area. \r\n\r\nVariable lithology. Gravel through to clay, may be rich in organic matter; from the intertidal coastal zone. [Generic description]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Lacustrine beach deposits are intertidal zone deposits comprising mainly sand with subsidiary gravel. \r\n\r\nShingle, sand, silt and clay; may be bedded or chaotic; lacustrine beach deposits may be in the form of dunes, sheets or banks."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LABD Lacustrine beach deposits. Lacustrine beach deposits, 1 is older than Lacustrine beach deposits in the same map area."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits. Lacustrine deposits, 1 is older than Lacustrine deposits in the same map area. \r\n\r\nSilt and clay (can include organic and/or calcareous muds). Of lacustrine origin. [Generic description: from East Anglian data."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits. Lacustrine deposits, 2 is older than Lacustrine deposits, 1 in the same map area."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits. Clay and sand."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits. Clay and silt."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits. Clay, sand and silt."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See LDE Lacustrine deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information. \r\n\r\nTypically sand and gravel; lacustrine deposits from within the active wave and beach zones. [Generic description]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Raised beach deposits, 1 is older than Raised beach deposits in the same map area. \r\n\r\nShingle, sand, silt and clay; may be bedded or chaotic; beach deposits may be in the form of dunes, sheets or banks - [generic description}; now above the level of the present shoreline as a result of earth movement or a general fall in sea level. [Generic description: earth science dictionaries in the BGS library]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Raised beach deposits, 2 is older than Raised beach deposits, 1 in the same map area. \r\n\r\nShingle, sand, silt and clay; may be bedded or chaotic; beach deposits may be in the form of dunes, sheets or banks - [generic description}; now above the level of the present shoreline as a result of earth movement or a general fall in sea level. [Generic description: earth science dictionaries in the BGS library]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Raised beach deposits, 3 is older than Raised beach deposits, 2 in the same map area. Sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDLG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Raised beach deposits older is older than Raised beach deposits in the same map area. \r\n\r\nShingle, sand, silt and clay; may be bedded or chaotic; beach deposits may be in the form of dunes, sheets or banks - [generic description]; now above the level of the present shoreline as a result of earth movement or a general fall in sea level. [Generic description: earth science dictionaries in the BGS library]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDPG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Sand and gravel, with silt and clay."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Sand."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits. Raised beach deposits younger is younger than Raised beach deposits in the same map area. \r\n\r\nShingle, sand, silt and clay; may be bedded or chaotic; beach deposits may be in the form of dunes, sheets or banks - [generic description]; now above the level of the present shoreline as a result of earth movement or a general fall in sea level. [Generic description: earth science dictionaries in the BGS library]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RBDU Raised beach deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDLG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDPG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDPG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDLG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> <http://www.w3.org/2000/01/rdf-schema#label> "Raised beach deposits of post-glacial age [Obsolete Name and Code: Use RBDPG, RMBDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> <http://www.w3.org/2000/01/rdf-schema#label> "Raised beach deposits of late-glacial age [Obsolete Name and Code: Use RBDLG, RMBDD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits (undifferentiated) [Obsolete Name and Code: Use RMD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits (undifferentiated) [Obsolete Name and Code: Use LDE]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Flandrian age [Obsolete Name and Code: Use RMDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD1> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine beach deposits, 1"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE1> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits, 1"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE2> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits, 2"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN1> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits (Lough Neagh, first level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN2> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits (Lough Neagh, second level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN3> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits (Lough Neagh, third level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine deposits (Lough Neagh, undifferentiated)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGBD> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine gravel beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://www.w3.org/2000/01/rdf-schema#label> "Lacustrine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits, post-glacial"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits, late-glacial"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://www.w3.org/2004/02/skos/core#altLabel> "Lacustrine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> <http://www.w3.org/2004/02/skos/core#altLabel> "Lacustrine deposits (undifferentiated) [Obsolete Name and Code: Use LDE]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://www.w3.org/2004/02/skos/core#altLabel> "Lacustrine beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://www.w3.org/2004/02/skos/core#altLabel> "Lacustrine shoreface deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Lacustrine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDLG> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits of late-glacial age [Obsolete Name and Code: Use RBDLG, RMBDD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDPG> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits of post-glacial age [Obsolete Name and Code: Use RBDPG, RMBDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDD> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits of late-glacial age [Obsolete Name and Code: Use RBDLG, RMBDD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDF> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits of post-glacial age [Obsolete Name and Code: Use RBDPG, RMBDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits (undifferentiated) [Obsolete Name and Code: Use RMD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Flandrian age [Obsolete Name and Code: Use RMDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGBD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDY> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary clay, gravel, silt and silty clay. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary clay and gravel. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://www.w3.org/2004/02/skos/core#definition> "Clay, gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> <http://www.w3.org/2004/02/skos/core#definition> "Clay, silt and silty clay with subsidiary sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#definition> "Clay, gravel, sand, silt and silty clay. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ITDU1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGBD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBD3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBDF> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMBR3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1790> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised beach deposits of post-glacial age [Obsolete Name and Code: Use RBDPG, RMBDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2395> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised beach deposits of late-glacial age [Obsolete Name and Code: Use RBDLG, RMBDD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3641> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits (undifferentiated) [Obsolete Name and Code: Use RMD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4755> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits (undifferentiated) [Obsolete Name and Code: Use LDE]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Flandrian age [Obsolete Name and Code: Use RMDF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LABD1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine beach deposits, 1"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits, 1"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDE2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits, 2"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits (Lough Neagh, first level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits (Lough Neagh, second level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLN3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits (Lough Neagh, third level)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDLNU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine deposits (Lough Neagh, undifferentiated)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGBD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine gravel beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSBD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lacustrine shoreface and beach deposits"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13607949> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/e3c0b004-a309-2e24-e053-0937940ad152> .
++<http://data.bgs.ac.uk/id/dataHolding/13607949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607949> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607949> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDV2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDF2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDF3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDF4]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RMDF1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. Raised marine deposits, 1 is older than Raised marine and coastal zone deposits in the same map area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. Raised marine deposits, 2 is older than Raised marine deposits, 1 in the same map area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. Raised marine deposits, 3 is older than Raised marine deposits, 2 in the same map area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. \r\n\r\nVariable lithology. Gravel (shingle), sand, silt and clay; commonly charged with organic debris (plant and shell); now above the level of the present shoreline as a result of earth movement or a general fall in sea level; of Flandrian age. [Generic description: from East Anglian data]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMDF Raised marine deposits of Holocene age. Raised marine deposits of Holocene age, 1 is older than Raised marine deposits of Holocene age in the same map area. \r\n\r\nMainly sand and gravel underlying shelving raised shoreface (beach) features, but commonly passing landwards, and downwards, into interbedded sand,silt, clay and organic mud underlying flat-lying ground."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMDF Raised marine deposits of Holocene age. Raised marine deposits of Holocene age, 2 is older than Raised marine deposits of Holocene age, 1 in the same map area. \r\n\r\nMainly sand and gravel underlying shelving raised shoreface (beach) features, but commonly passing landwards, and downwards, into interbedded sand,silt, clay and organic mud underlying flat-lying ground."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMDF Raised marine deposits of Holocene age. Raised marine deposits of Holocene age, 3 is older than Raised marine deposits of Holocene age, 2 in the same map area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMDF Raised marine deposits of Holocene age. Raised marine deposits of Holocene age, 4 is older than Raised marine deposits of Holocene age, 3 in the same map area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. \r\n\r\nVariable lithology. Gravel (shingle), sand, silt and clay; commonly charged with organic debris (plant and shell); now above the level of the present shoreline as a result of earth movement or a general fall in sea level; of Devensian age. [Generic description: from East Anglian data]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly silty sand, gravel and cobbles, poorly sorted, forming shelving raised beaches. The deposits commonly pass landwards into interbedded sand, silt and clay underlying raised tidal flats and lagoons."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMIS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See RMD Raised marine and coastal zone deposits. \r\n\r\nComposite deposit: 'Raised Marine Intertidal Deposits': variable lithology - gravel through to clay, may be rich in organic matter; from the marine intertidal coastal zone, but now above the level of the present shoreline as a result of earth movement or a general fall in sea level. 'Raised Subtidal Deposits': also a variable lithology - any deposit laid down in the subtidal zone ie. below mean low water, but now above the level of the present shoreline as a result of earth movement or a general fall in sea level. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://www.w3.org/2000/01/rdf-schema#label> "Raised beach deposits, 2, 3 etc. [Obsolete Name and Code: Use RMDV2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Flandrian age, 2 [Obsolete Name and Code: Use RMDF2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Flandrian age, 3 [Obsolete Name and Code: Use RMDF3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Flandrian age, 4 [Obsolete Name and Code: Use RMDF4]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Flandrian age, 1 [Obsolete Name and Code: Use RMDF1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD1> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD2> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD3> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, 3"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Holocene age"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Holocene age, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Holocene age, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Holocene age, 3"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits of Holocene age, 4"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, Devensian"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV1> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, late Devensian, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine deposits, late Devensian, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMIS> <http://www.w3.org/2000/01/rdf-schema#label> "Raised marine intertidal and subtidal deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits, late Devensian, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Holocene age, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Holocene age, 3"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Holocene age, 4"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5256> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Holocene age"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Holocene age, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Flandrian age, 1 [Obsolete Name and Code: Use RMDF1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Flandrian age, 2 [Obsolete Name and Code: Use RMDF2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Flandrian age, 3 [Obsolete Name and Code: Use RMDF3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised marine deposits of Flandrian age, 4 [Obsolete Name and Code: Use RMDF4]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised beach deposits, 2, 3 etc. [Obsolete Name and Code: Use RMDV2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMIS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://www.w3.org/2004/02/skos/core#definition> "[Obsolete Name and Code: Use RMDF1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt with subsidiary clay. Superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMIS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised beach deposits, 2, 3 etc. [Obsolete Name and Code: Use RMDV2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5251> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Flandrian age, 2 [Obsolete Name and Code: Use RMDF2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5252> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Flandrian age, 3 [Obsolete Name and Code: Use RMDF3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5253> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Flandrian age, 4 [Obsolete Name and Code: Use RMDF4]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5258> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Flandrian age, 1 [Obsolete Name and Code: Use RMDF1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMD3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, 3"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Holocene age"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Holocene age, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Holocene age, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Holocene age, 3"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDF4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits of Holocene age, 4"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, Devensian"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, late Devensian, 1"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMDV2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine deposits, late Devensian, 2"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMIS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised marine intertidal and subtidal deposits"@en .
