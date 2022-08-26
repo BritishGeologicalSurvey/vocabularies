@@ -1,34 +1,74 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HTKN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UEIT> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWHL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "At Barrow Hill a basalt pipe is intruded within vent agglomerates and country-rock of the Etruria Formation. The vent agglomerate comprises fault-bounded blocks of volcanic breccia with clasts of Etruria Formation and Pennine Coal Measures mudstones, coal and rounded quartzite pebbles in a tuffaceous matrix. The basalt is also fault-bounded and contains abundant Pennine Coal Measures and Etruria Formation xenoliths up to 4.5 m diameter. The basalt is typically fine, microporphyritic, with labradorite microphenocrysts commonly clustered around serpentinized olivine or as flow-aligned laths. Groundmass comprises labradorite-andesine laths, augite, magnetite and interstitial analcime.\r\nAt Tansey Green, the Etruria Formation includes volcaniclastic deposits associated with tuffisitic and agglomeratic dykes and pipes and alkaline basalt dykes. The bedded volcaniclastic sequence comprises 31 m of volcanic breccia, scoriaceous lapilli-tuff and tuffaceous mudstone and siltstone. The lapilli-tuff preserves conifer stems in growth position. An agglomerate pipe, up to 10 m in diameter, and a single alkaline basalt dyke (0.3 m width) are also present."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Diverse range of limestone facies with subordinate sandstone and mudstone units, and exhibiting local dolomitisation. Records the initiation and growth of a carbonate platform along the northern flank of the Wales-Brabant Massif."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Predominantly limestones with bands of carbonaceous mudstone. Lowest beds contain cherts and dolomites and dolomitic limestone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "In places conformably succeeds reddened siliciclastic facies of the \"Basement Beds\"; elsewhere rests with marked unconformity on Lower Palaeozoic rocks."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIGR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCSA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MULD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABBV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "1000"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFICI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PTRE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "449"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOWI> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 900m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Conformable base of Pentre Chert Formation or Cefn-y-fedw Sandstone Formation in northeast Wales; elsewhere marked by an unconformity with younger Carboniferous or Permo-Triassic rocks."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SP> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PTN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGLS> <http://www.w3.org/2000/01/rdf-schema#label> "Alla Glen Limestone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYL> <http://www.w3.org/2000/01/rdf-schema#label> "Dyserth Limestone Group [Obsolete Name And Code: Use CLWYD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKS> <http://www.w3.org/2000/01/rdf-schema#label> "Gargunnock Sandstone [Obsolete Name And Code: Use KPF for the top part, SCK for the lower part]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H830> <http://www.w3.org/2000/01/rdf-schema#label> "Oil-Shale"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROBHL> <http://www.w3.org/2000/01/rdf-schema#label> "Robins Hill Palaeosol Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BELB> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete Name And code]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://www.w3.org/2004/02/skos/core#altLabel> "Dyserth Limestone Group [Obsolete Name And Code: Use CLWYD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> <http://www.w3.org/2004/02/skos/core#altLabel> "Clwyd Limestone Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://www.w3.org/2004/02/skos/core#definition> "Dolomitic limestone and limestone with subsidiary mudstone and sandstone and trace chert. Stratified bedrock. Occurs onshore. Deposited during the Chadian Substage - to - Brigantian Substage (Carboniferous Period) (346.7-329 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dyserth Limestone Group [Obsolete Name And Code: Use CLWYD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HTK> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UEI> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Medium- to coarse-grained sandstones and subordinate mudstones."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Silt and clay, interbedded, commonly laminated; of glaciolacustrine origin; older than 'Glaciolacustrine Silt and Clay' in the same map area. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDI> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits, Devensian (Irish Sea Ice)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDA> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits (Anglian)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDD> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits, Devensian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDI> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits (Irish Sea Ice)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits (Age Unknown)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLMP> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits, Mid Pleistocene"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Silt and Clay"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Sub-Glacial Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H12> <http://www.w3.org/2000/01/rdf-schema#label> "Glacial lake deposits [Obsolete Name and Code: Use ALNE, GLLD, BANM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2546> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deposits, undifferentiated [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3153> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine sand and gravel [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine Deposits (Loch Lomond Readvance)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://www.w3.org/2000/01/rdf-schema#label> "Older Glaciolacustrine Silt and Clay"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALNE> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial lake deposits [Obsolete Name and Code: Use ALNE, GLLD, BANM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BANM> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial lake deposits [Obsolete Name and Code: Use ALNE, GLLD, BANM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial lake deposits [Obsolete Name and Code: Use ALNE, GLLD, BANM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSTOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine deposits, undifferentiated [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSTOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine sand and gravel [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILL1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLACI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILL2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLACI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLBD> <http://www.w3.org/2004/02/skos/core#definition> "Glaciolacustrine beach deposits are equivalent to coastal zone and lacustrine beach deposits."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not available."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSAF> <http://www.w3.org/2004/02/skos/core#definition> "Glaciolacustrine subaqueous fan deposits are stratified sand and gravel deposited by glacial meltwater issuing from the glacier margin in a body of standing fresh water."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://www.w3.org/2004/02/skos/core#definition> "Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://www.w3.org/2004/02/skos/core#definition> "Silty clay and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://www.w3.org/2004/02/skos/core#definition> "Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDI> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDA> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDI> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLMP> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLACI> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILL1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLACI> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILL2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits, Devensian (Irish Sea Ice)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits (Anglian)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits, Devensian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits (Irish Sea Ice)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits (Age Unknown)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLMP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits, Mid Pleistocene"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Silt and Clay"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Sub-Glacial Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glacial lake deposits [Obsolete Name and Code: Use ALNE, GLLD, BANM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2546> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deposits, undifferentiated [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3153> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine sand and gravel [Obsolete Name and Code: Use YSTOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine Deposits (Loch Lomond Readvance)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Glaciolacustrine Silt and Clay"@en .
