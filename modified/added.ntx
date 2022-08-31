@@ -1,102 +1,65 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HTHN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UED> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGBD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGMD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGBD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGMD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "This was originally used as part of the Sellafield Quaternary Domains Map. To avoid potential confusion it should be used only for similar purposes in future. See also GLDF, GLDG and GLDS. The full description on the original map was \"GLACIOLACUSTRINE DEPOSITS (mainly beyond Scottish Readvance)\"."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Glaciolacustrine deltaic deposits are equivalent to coastal zone and lacustrine deltaic deposits. \r\n\r\nSand, gravel, silt and clay."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See GLDD Glaciolacustrine deltaic deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "This was originally used as part of the Sellafield Quaternary Domains Map. To avoid potential confusion it should be used only for similar purposes in future. See also GLD, GLDG and GLDS. The full description on the original map was \"GLACIOLACUSTRINE DEPOSITS (mainly beyond Scottish Readvance), Mostly fines."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "This was originally used as part of the Sellafield Quaternary Domains Map. To avoid potential confusion it should be used only for similar purposes in future. See also GLDF, GLDS and GLD. The full description on the original map was \"GLACIOLACUSTRINE DEPOSITS (mainly beyond Scottish Readvance), Mostly gravels\".."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "This was originally used as part of the Sellafield Quaternary Domains Map. To avoid potential confusion it should be used only for similar purposes in future. See also GLDF, GLDG and GLD. The full description on the original map was \"GLACIOLACUSTRINE DEPOSITS (mainly beyond Scottish Readvance), Mostly sands\"."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1610> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use IGBD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2278> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use LADD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use IGFD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information. \r\n\r\nClay, silt, sand and shingle; from beach and marine shoreface environments, and interglacial periods. Beach deposits may have sheet, dune or bank forms. [Generic description]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2546> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3153> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LADD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSAFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LADD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSAFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LADD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSAFD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LADD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSAFD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2546> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3153> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deposits [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDD> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deltaic deposits, Devensian"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deposits, mostly fines [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deposits, mostly gravels [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciolacustrine deposits, mostly sands [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://www.w3.org/2000/01/rdf-schema#label> "Interglacial terrace deposits [Obsolete Name and Code: Use IGFD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://www.w3.org/2000/01/rdf-schema#label> "Interglacial marine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://www.w3.org/2000/01/rdf-schema#label> "Interglacial silt and clay"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine deposits, undifferentiated [Obsolete Name and Code: Use GLLD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLD> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine sand and gravel [Obsolete Name and Code: Use GLLD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2546> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3153> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciolacustrine deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial fluvial deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGBD> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial marine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial terrace deposits [Obsolete Name and Code: Use IGFD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGMD> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial marine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial marine deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial terrace deposits [Obsolete Name and Code: Use IGFD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDD> <http://www.w3.org/2004/02/skos/core#definition> "Clay, gravel, sand and silt. Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGLD> <http://www.w3.org/2004/02/skos/core#definition> "Clay, sand and silt and trace peat. Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://www.w3.org/2004/02/skos/core#definition> "Clay and silt. Superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LADD> <http://www.w3.org/2004/02/skos/core#definition> "Clay, sand and silt with subsidiary gravel. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSAFD> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSFD> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deposits [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDDD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deltaic deposits, Devensian"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deposits, mostly fines [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deposits, mostly gravels [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLDS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciolacustrine deposits, mostly sands [see descriptions for limitations of use]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interglacial terrace deposits [Obsolete Name and Code: Use IGFD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IMSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interglacial marine shoreface and beach deposits"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Interglacial silt and clay"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3211> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Areas of low-lying ground, e.g. marsh or tidal flats, that have been enclosed by embankments and drained."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOCL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3235> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLITH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/FH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAT> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/FH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/FH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLITH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/CL> <http://www.w3.org/2000/01/rdf-schema#label> "Class (artificial, rank 1)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/TY> <http://www.w3.org/2000/01/rdf-schema#label> "Type (artificial, rank 2)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/UN> <http://www.w3.org/2000/01/rdf-schema#label> "Unit (artificial, rank 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <http://www.w3.org/2000/01/rdf-schema#label> "Blanket head [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2000/01/rdf-schema#label> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2000/01/rdf-schema#label> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3211> <http://www.w3.org/2000/01/rdf-schema#label> "Blanket head (regolith) [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://www.w3.org/2000/01/rdf-schema#label> "Rock creep"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGAO> <http://www.w3.org/2000/01/rdf-schema#label> "Sand and gravel of uncertain age and origin"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2004/02/skos/core#altLabel> "Organic deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2004/02/skos/core#altLabel> "Organic deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLITH> <http://www.w3.org/2004/02/skos/core#altLabel> "Blanket head (regolith) [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLITH> <http://www.w3.org/2004/02/skos/core#altLabel> "Blanket head [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASMD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Regolith. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOUN> <http://www.w3.org/2004/02/skos/core#definition> "Mass movement (landslide) deposits. Occurs onshore. Formed during the Phanerozoic Eon () (541-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAT> <http://www.w3.org/2004/02/skos/core#definition> "Silty clay with subsidiary clay, gravel, sand and silt and trace peat. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://www.w3.org/2004/02/skos/core#definition> "Blocks, clast-supported [undifferentiated]. Mass movement (landslide) deposits. Occurs onshore. Formed during the Phanerozoic Eon () (541-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDGR> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASMD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/CL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Class (artificial, rank 1)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/TY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type (artificial, rank 2)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/UN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unit (artificial, rank 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blanket head [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3211> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blanket head (regolith) [Obsolete Name and Code: Use RLITH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCRP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rock creep"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGAO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sand and gravel of uncertain age and origin"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHED> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
