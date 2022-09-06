@@ -1,176 +1,36 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Well rounded gravel and cobble gravel comprising white quartzite, vein quartz and flint, in white micaceous silty sand matrix or in a white sandy kaolinitic clay matrix."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IAG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandy diamictons (till), sand, gravel, silt and clay. Clasts are derived predominantly from the comminution of Devonian (Old Red Sandstone) sandstone, siltstone and conglomerate."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Artificially induced marine deposits and sand. [Generic description: 'TMOS' Procedures]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Artificially induced alluvium at a raised level. [Generic description: 'TMOS' Procedures]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A suite of glacial, glaciofluvial and glaciolacustrine deposits that contain clasts derived predominantly from rocks cropping out on the Shetland archipelago, including sandy diamictons (till), sand, gravel, silt and clay. Deposited by ice that radiated outwards from an ice divide positioned along the axis of the archipelago."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Terrace deposit of artificially induced alluvium. [Generic description: 'TMOS' Procedures]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/N> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARTOF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".86"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "10 to 25m+"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At least 25m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 10m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "10m+"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Unconformable, below till or \"head\", or at the surface."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Unconformable, below till or 'head', or at the surface."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Unconformable contact with units of the Shetland Glacigenic Subgroup or Flandrian deposits, predominantly peat."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Unconformable, below till and 'head', or at the surface."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/N> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/N> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/XR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCB> <http://www.w3.org/2000/01/rdf-schema#label> "Buchan Beds [Obsolete Name And Code: Use BUG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://www.w3.org/2000/01/rdf-schema#label> "Pliocene gravels [Obsolete Name and Code: Use WING, BUG, BURG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H772> <http://www.w3.org/2000/01/rdf-schema#label> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral Working"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://www.w3.org/2000/01/rdf-schema#label> "Marine Warp And Sand"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Warp"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://www.w3.org/2000/01/rdf-schema#label> "Salt Extraction Subsidence"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace Of Warp"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://www.w3.org/2004/02/skos/core#altLabel> "Buchan Beds [Obsolete Name And Code: Use BUG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://www.w3.org/2004/02/skos/core#altLabel> "Pliocene gravels [Obsolete Name and Code: Use WING, BUG, BURG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://www.w3.org/2004/02/skos/core#altLabel> "Pliocene gravels [Obsolete Name and Code: Use WING, BUG, BURG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGAG> <http://www.w3.org/2004/02/skos/core#altLabel> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGDR> <http://www.w3.org/2004/02/skos/core#altLabel> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://www.w3.org/2004/02/skos/core#altLabel> "Buchan Ridge Gravel Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://www.w3.org/2004/02/skos/core#altLabel> "Windy Hills Gravel Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IAG> <http://www.w3.org/2004/02/skos/core#altLabel> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INVG> <http://www.w3.org/2004/02/skos/core#altLabel> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://www.w3.org/2004/02/skos/core#altLabel> "Pliocene gravels [Obsolete Name and Code: Use WING, BUG, BURG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARTOF> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs offshore. Age not applicable."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay, micaceous sand and sand. Stratified bedrock. Occurs onshore. Deposited during the Palaeogene Period - to - Neogene Period (66-2.588 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BURG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and micaceous sand. Stratified bedrock. Occurs onshore. Deposited during the Palaeogene Period - to - Neogene Period (66-2.588 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs offshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary clay and gravel. Artifical (anthropogenic) deposits and excavations. Occurs offshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary clay and gravel. Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDAG> <http://www.w3.org/2004/02/skos/core#definition> "Diamicton and gravel with subsidiary clay, sand and silt. Stratified superficial deposits. Occurs onshore. Formed during the Cromerian Stage - to - Wolstonian Stage (Quaternary Period) (.86-.126 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and sandy mud (sea bed sediment, based on folk). Artifical (anthropogenic) deposits and excavations. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> <http://www.w3.org/2004/02/skos/core#definition> "Artifical (anthropogenic) deposits and excavations. Occurs onshore. Being formed at the present day."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WING> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and micaceous sand. Stratified bedrock. Occurs onshore. Deposited during the Neogene Period - to - Quaternary Period (23.03-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARTOF> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFHI> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLC> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFLD> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUD> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFUT> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWM> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFWT> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRGC> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRRC> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSG> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSL> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUDD> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEDO> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEUS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buchan Beds [Obsolete Name And Code: Use BUG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2648> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pliocene gravels [Obsolete Name and Code: Use WING, BUG, BURG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H772> <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Grampian Drift Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mineral Working"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine Warp And Sand"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Warp"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salt Extraction Subsidence"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Terrace Of Warp"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFMW> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RW> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUEB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOCR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Diamicton and gravel that form moraines, fluted hummocks and terraces laid down in the uplands of the central part of the Lake District by corrie glaciers and their associated meltwaters during the Loch Lomond Stadial. Two members are recognised: The Wolf Crags Till Member is a yellowish brown sandy diamicton, with clasts of Borrowdale Volcanic Group and Skiddaw Group rocks, and subordinate numbers of clasts of Threlkeld Microgranite. The Wolf Crags Gravel Member forms a series of terraces in the Mosedale Beck valley. It is composed of coarse gravel (with clasts up to 1m diameter) with subordinate amounts of finer gravel and sand. It contains clasts of Borrowdale Volcanic Group rocks and Threlkeld Microgranite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHO> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5123> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4868> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAMO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNDL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FTWC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLST> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "152.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLBC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLBU> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3WS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/SI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 5m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEAR> <http://www.w3.org/2000/01/rdf-schema#label> "Ceardaich Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://www.w3.org/2000/01/rdf-schema#label> "Crovie Till Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H43> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Or South Easterly Drift"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOSG> <http://www.w3.org/2000/01/rdf-schema#label> "Lochton Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPSI> <http://www.w3.org/2000/01/rdf-schema#label> "Linn Of Pattack Silt Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCD> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Or South Easterly Drift"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Or South Easterly Drift"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H43> <http://www.w3.org/2004/02/skos/core#altLabel> "Crovie Till Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://www.w3.org/2004/02/skos/core#definition> "Diamicton with subsidiary gravel, sand and silty clay. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H43> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEAR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceardaich Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crovie Till Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H43> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Or South Easterly Drift"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lochton Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPSI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linn Of Pattack Silt Formation"@en .
