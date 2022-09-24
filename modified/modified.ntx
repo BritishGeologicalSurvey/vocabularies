@@ -1,117 +1,130 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel, locally with lenses of silt, clay or organic material; of glaciofluvial origin. [Generic description]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel with rare clay interbeds; often cross-bedded; of glacial origin. [Generic description: academic papers and BGS Memoirs]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4632> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1092> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1730> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4224> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOC> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1092> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1730> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4224> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4632> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvioglacial Sand And Gravel [Obsolete Name And Code: Use GFSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://www.w3.org/2000/01/rdf-schema#label> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2000/01/rdf-schema#label> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1092> <http://www.w3.org/2000/01/rdf-schema#label> "Esker [Obsolete Name and Code: Use EK, NPEG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> <http://www.w3.org/2000/01/rdf-schema#label> "Older Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> <http://www.w3.org/2000/01/rdf-schema#label> "Brickclay"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4224> <http://www.w3.org/2000/01/rdf-schema#label> "Glacial Till"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4264> <http://www.w3.org/2000/01/rdf-schema#label> "Poppleton Glaciofluvial Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvio-Glacial Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4827> <http://www.w3.org/2000/01/rdf-schema#label> "Old Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OSTB> <http://www.w3.org/2000/01/rdf-schema#label> "Older Storm Beach Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSG> <http://www.w3.org/2000/01/rdf-schema#label> "West Leys Sand And Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOC> <http://www.w3.org/2004/02/skos/core#altLabel> "North Pennine Glacigenic Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBB> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestone [Duplicate Lexicon Entry: Use HYDL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EK> <http://www.w3.org/2004/02/skos/core#altLabel> "Esker [Obsolete Name and Code: Use EK, NPEG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FL> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FULB> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvioglacial Sand And Gravel [Obsolete Name And Code: Use GFSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Poppleton Glaciofluvial Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1092> <http://www.w3.org/2004/02/skos/core#altLabel> "North Pennine Glacigenic Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1730> <http://www.w3.org/2004/02/skos/core#altLabel> "North Pennine Glacigenic Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> <http://www.w3.org/2004/02/skos/core#altLabel> "Hall Carleton Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> <http://www.w3.org/2004/02/skos/core#altLabel> "Lunan Clay Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4224> <http://www.w3.org/2004/02/skos/core#altLabel> "North Pennine Glacigenic Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> <http://www.w3.org/2004/02/skos/core#altLabel> "Poppleton Glaciofluvial Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4265> <http://www.w3.org/2004/02/skos/core#altLabel> "West Leys Sand And Gravel Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4632> <http://www.w3.org/2004/02/skos/core#altLabel> "Eller Beck Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://www.w3.org/2004/02/skos/core#altLabel> "Poppleton Glaciofluvial Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4827> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Storm Beach Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALC> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHLCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickclay"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTNSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Boulder clay [Obsolete Name and Code: Use TILL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Esker [Obsolete Name and Code: Use EK, NPEG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Till"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Moraine [Obsolete Name and Code: Use MORD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OSTB> <http://www.w3.org/2004/02/skos/core#altLabel> "Old Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-Glacial Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Poppleton Glaciofluvial Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Sand and gravel [Obsolete Name and Code: Use SGAO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Sand and gravel [Obsolete Name and Code: Use SGAO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Gravel and sand and trace clay. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvioglacial Sand And Gravel [Obsolete Name And Code: Use GFSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glaciofluvial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glacial Sand and Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1092> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esker [Obsolete Name and Code: Use EK, NPEG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4080> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brickclay"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4224> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glacial Till"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poppleton Glaciofluvial Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvio-Glacial Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4827> <http://www.w3.org/2004/02/skos/core#prefLabel> "Old Storm Beach"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OSTB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Storm Beach Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "West Leys Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Clays, silt, sands, gravels and peat. Gravels are composed of clasts derived from rocks cropping out throughout Great Britain and the Isle of Man."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A suite of fluvial, lacustrine, mass movement and periglacial deposits that contain clasts derived from Palaeozoic rocks and glacigenic deposits cropping out in the catchment of the River Clyde and other rivers flowing directly to the Firth of Clyde, including the River Leven, and Waters of Girvan, Ayr and Irvine. The deposits include alluvium and river terrace deposits of the Clyde Valley Formation, fluvial deposits of the Strathendrick Formation and Strathkelvin Formation, lacustrine deposits of the Kilmarnock Silt Formation, peat of the Clippens Peat Formation and other units defined simply as lithogenetic categories. The deposits of the subgroup comprise gravel, sand, silt, peat and head. Rock types are principally of Carboniferous and Devonian strata (sandstone, siltstone) with volcanic (basalt) and intrusive igneous rocks (microdiorite) of Midland Valley provenance. Variable but generally minor components of Dalradian metasedimentary and Caledonian igneous rocks derived from the Grampian Highlands are present. Southern Uplands sourced greywacke sandstone and siltstone and Caledonian igneous rocks form a component of clastic fluvial deposits in parts of catchments close to the Southern Uplands."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel; of fluvial origin; includes modern and historical deposits. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel with silt and clay; of fluvial origin; includes modern and historical deposits. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A suite of fluvial (river terrace sand and gravel and alluvium) and related lacustrine (clay, silt) and organic (peat) deposits. The fluvial sand and gravels are derived from bedrock and glacigenic sediments. Clasts are composed of mainly Palaeozoic rocks cropping out in the Midland Valley of Scotland and southern Grampian Highlands. Rock types are principally of Carboniferous and Devonian strata (sandstone, siltstone) with volcanic (basalt) and intrusive igneous rocks (microdiorite) of Midland Valley provenance. Variable but generally minor components of Dalradian metasedimentary and Caledonian intrusive igneous rocks derived from the Grampian Highlands are present."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Great Britain Superficial Deposits Supergroup is established for all natural superficial deposits including till (diamicton), sand, gravel, silt, clay and peat."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand, gravel, clay and organic deposits. Sand, gravel and boulders include clasts derived from rocks cropping out in the eastern Grampian Mountains and Buchan."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NHC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A suite of fluvial, lacustrine, mass movement, periglacial and aeolian deposits that contain clasts derived from rocks cropping out in the northern Highlands and Argyll, including alluvium, river terrace deposits, peat, head and blown sand."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Stourbridge: Sand and pebbly sand with gravel lenses."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvial, organic and mass movement deposits  typical of the Solway Lowlands, but also including the entire catchment area of the Solway Firth bordering the coast between Stranraer and St Bees Head [McMillan and Hamblin, 2000]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A suite of fluvial (river terrace sand and gravel and alluvium) and related lacustrine (silt and clay) and organic (peat) deposits derived from bedrock and glacigenic sediments. Clast rock types of the fluvial sands and gravels include Devonian strata (sandstone, siltstone), volcanic (andesite and basalt) together with intrusive igneous rocks (granite and microdiorite) and metasedimentary rocks of the Grampian Highlands. In the valley of the Tummel and the higher reaches of the Tay, Earn, Almond, Isla, north and south Esk clasts are dominantly of Dalradian metasedimentary rocks and Caledonian intrusive igneous rocks."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Generally a comformable boundary with formations and members of the Irish Sea Coast Glacigenic Subgroup."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable contact with units of the Mearns, Central Grampian and East Grampians Glacigenic subgroups and bedrock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLVY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4336> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4914> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1798> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORCA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NHC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "30 m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 25m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally the ground surface, but units of this Subgroup interfinger locally with units of the Great Britain Coastal Deposits Group."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Ground surface or contact with \"overlying\" man-made deposits."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLVY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4336> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4914> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial And Older River Sands And Gravels"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial And Older River Sands And Gravels With Associated Clay"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1216> <http://www.w3.org/2000/01/rdf-schema#label> "Postglacial deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1798> <http://www.w3.org/2000/01/rdf-schema#label> "First terrace of warp [Obsolete Name and Code: Use RTFF1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> <http://www.w3.org/2000/01/rdf-schema#label> "Flandrian deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4309> <http://www.w3.org/2000/01/rdf-schema#label> "Second Terrace Of Warp"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H433> <http://www.w3.org/2000/01/rdf-schema#label> "Older Glaciofluvial Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4336> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Sand And Gravel, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4337> <http://www.w3.org/2000/01/rdf-schema#label> "Southrey Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4914> <http://www.w3.org/2000/01/rdf-schema#label> "Holocene Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5254> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Tidal Flat Deposits Of Flandrian Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5255> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Tidal Flat Deposits Of Flandrian Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGFD> <http://www.w3.org/2000/01/rdf-schema#label> "Older Glaciofluvial Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORG> <http://www.w3.org/2000/01/rdf-schema#label> "Older River Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2000/01/rdf-schema#label> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVD> <http://www.w3.org/2000/01/rdf-schema#label> "Older River Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits: Ipswichian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF1> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Tidal Flat Deposits Of Holocene Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF2> <http://www.w3.org/2000/01/rdf-schema#label> "Raised Tidal Flat Deposits Of Holocene Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTSG> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Sand And Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2000/01/rdf-schema#label> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLVY> <http://www.w3.org/2004/02/skos/core#altLabel> "Clyde Catchments Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Clyde Valley Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FULB> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H110> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1798> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Holocene Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1837> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> <http://www.w3.org/2004/02/skos/core#altLabel> "Solway Catchments Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4308> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits: Ipswichian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4309> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Holocene Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H433> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Glaciofluvial Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4336> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4337> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4914> <http://www.w3.org/2004/02/skos/core#altLabel> "Solway Catchments Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5254> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Holocene Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5255> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Holocene Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTNSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Older Glaciofluvial Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://www.w3.org/2004/02/skos/core#altLabel> "Interglacial terrace deposits [Obsolete Name and Code: Use IGFD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF1> <http://www.w3.org/2004/02/skos/core#altLabel> "First terrace of warp [Obsolete Name and Code: Use RTFF1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF1> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Flandrian Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF2> <http://www.w3.org/2004/02/skos/core#altLabel> "Raised Tidal Flat Deposits Of Flandrian Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF2> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Terrace Of Warp"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S329> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits: Ipswichian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Sand And Gravel, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Southrey Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://www.w3.org/2004/02/skos/core#altLabel> "Flandrian deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://www.w3.org/2004/02/skos/core#altLabel> "Holocene Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://www.w3.org/2004/02/skos/core#altLabel> "Postglacial deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCAT> <http://www.w3.org/2004/02/skos/core#definition> "Excluding the deposits of the Dunwich Group, the Britannia Catchments Group is established for mid-Pleistocene and younger gravels, sands and silts of fluvial and lacustrine deposits. Aeolian (cover sands and loess) and organic beds (including peat and soils) and mass movement (head) deposits are also included within the group."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBG> <http://www.w3.org/2004/02/skos/core#definition> "The supergroup distinguishes superficial deposits from bedrock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRCA> <http://www.w3.org/2004/02/skos/core#definition> "The Grampian Catchments Subgroup encompasses the mainly late-Devensian and Holocene alluvial and river terrace deposits that occur in the Grampian Highlands."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1798> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4309> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5254> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5255> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sand with subsidiary clay and gravel. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORG> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVD> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF1> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF2> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTSG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial And Older River Sands And Gravels"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial And Older River Sands And Gravels With Associated Clay"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1216> <http://www.w3.org/2004/02/skos/core#prefLabel> "Postglacial deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1798> <http://www.w3.org/2004/02/skos/core#prefLabel> "First terrace of warp [Obsolete Name and Code: Use RTFF1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2466> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flandrian deposits [Obsolete Name and Code: Use SYDR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4309> <http://www.w3.org/2004/02/skos/core#prefLabel> "Second Terrace Of Warp"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Glaciofluvial Deposits (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4336> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Sand And Gravel, Undifferentiated"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4337> <http://www.w3.org/2004/02/skos/core#prefLabel> "Southrey Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4914> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holocene Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5254> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Tidal Flat Deposits Of Flandrian Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5255> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Tidal Flat Deposits Of Flandrian Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGFD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older Glaciofluvial Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older River Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older River Sand and Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Older River Deposits"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTDI> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits: Ipswichian"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Tidal Flat Deposits Of Holocene Age, 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFF2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raised Tidal Flat Deposits Of Holocene Age, 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Sand And Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Southrey Sand And Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
