@@ -1,4 +1,107 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13607951> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/e4ca40d4-a6bb-399b-e053-0937940aef71> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607951> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607951> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSCL> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYRD> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFDU> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4908> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFDU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4908> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in Cumbria, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCDMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in part(s) of the South Wales Coalfield, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in part(s) of the South Staffordshire and Cannock areas, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSEMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in parts of the Bristol and Somerset coalfield areas, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUKMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in part(s) of the Lancashire Coalfield, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in Wyre Forest area, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COME]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use -4908]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4430> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use GFDU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use ALV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use RTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use SOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in the Kent Coalfield, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NNNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in part(s) of the Warwickshire Coalfield, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OSLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in the South Derbyshire area, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PPTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in part(s) of the South Wales Coalfield, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in the Midland Valley of Scotland, possibly still to an extent in current use. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in the Canonbie Coalfield, possibly still to an extent in current use. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The code was originated for use in describing Quaternary Domains in the Sellafield (Cumbria) area. Hence, all pre-Quaternary ages encountered in this area are potentially included. See also SOLX and SOLC."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The code was originated for use in describing Quaternary Domains in the Sellafield (Cumbria) area. Hence all pre-Carboniferous ages encountered in this area are potentially included. See also SOLX and SOL."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The code was originated for use in describing Quaternary Domains in the Sellafield (Cumbria) area. Hence, all pre-Quaternary ages relating to sedimentary bedrock units encountered in this area are potentially included. See also SOL and SOLC."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WARMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for AGMB Aegiranum Marine Band in the Denbighshire and Flintshire coalfields, possibly still to an extent in current use. Mudstone. Bolsovian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COME> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4430> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COME> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://www.w3.org/2000/01/rdf-schema#label> "Coal Measures [Obsolete Name and Code: Use COME]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://www.w3.org/2000/01/rdf-schema#label> "Second Terrace Deposits [Duplicate Lexicon Entry: Use -4908]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4430> <http://www.w3.org/2000/01/rdf-schema#label> "Glacial meltwater deposits [Obsolete Name and Code: Use GFDU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2000/01/rdf-schema#label> "Coastal deposits and glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://www.w3.org/2000/01/rdf-schema#label> "Freshwater alluvium [Obsolete Name and Code: Use ALV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> <http://www.w3.org/2000/01/rdf-schema#label> "River terrace (undifferentiated) [Obsolete Name and Code: Use RTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://www.w3.org/2000/01/rdf-schema#label> "Solid at or near surface [Obsolete Name and Code: Use SOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://www.w3.org/2000/01/rdf-schema#label> "Bedrock at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLC> <http://www.w3.org/2000/01/rdf-schema#label> "Bedrock (pre-Carboniferous rocks) at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://www.w3.org/2000/01/rdf-schema#label> "Bedrock (sedimentary cover) at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALV> <http://www.w3.org/2004/02/skos/core#altLabel> "Freshwater alluvium [Obsolete Name and Code: Use ALV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMNGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial meltwater deposits [Obsolete Name and Code: Use GFDU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCD> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal deposits and glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COME> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures [Obsolete Name and Code: Use COME]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CZD> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal deposits and glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOVA> <http://www.w3.org/2004/02/skos/core#altLabel> "Freshwater alluvium [Obsolete Name and Code: Use ALV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFDU> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal deposits and glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Supergroup"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Terrace Deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2004/02/skos/core#altLabel> "Coastal zone deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2004/02/skos/core#altLabel> "Glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H464> <http://www.w3.org/2004/02/skos/core#altLabel> "Poppleton Glaciofluvial Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://www.w3.org/2004/02/skos/core#altLabel> "Alluvium"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> <http://www.w3.org/2004/02/skos/core#altLabel> "River terrace deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedrock at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4908> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Terrace Deposits [Duplicate Lexicon Entry: Use -4908]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTH> <http://www.w3.org/2004/02/skos/core#altLabel> "River terrace (undifferentiated) [Obsolete Name and Code: Use RTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-glacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTD> <http://www.w3.org/2004/02/skos/core#altLabel> "River terrace (undifferentiated) [Obsolete Name and Code: Use RTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://www.w3.org/2004/02/skos/core#altLabel> "Solid at or near surface [Obsolete Name and Code: Use SOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures [Obsolete Name and Code: Use COME]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUPD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://www.w3.org/2004/02/skos/core#definition> "Rock. Stratified bedrock. Occurs onshore. Age not applicable."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLC> <http://www.w3.org/2004/02/skos/core#definition> "Rock. Stratified bedrock. Occurs onshore. Age not applicable."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not applicable."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUPD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coal Measures [Obsolete Name and Code: Use COME]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4386> <http://www.w3.org/2004/02/skos/core#prefLabel> "Second Terrace Deposits [Duplicate Lexicon Entry: Use -4908]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4430> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glacial meltwater deposits [Obsolete Name and Code: Use GFDU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coastal deposits and glaciofluvial deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4655> <http://www.w3.org/2004/02/skos/core#prefLabel> "Freshwater alluvium [Obsolete Name and Code: Use ALV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4762> <http://www.w3.org/2004/02/skos/core#prefLabel> "River terrace (undifferentiated) [Obsolete Name and Code: Use RTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4894> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solid at or near surface [Obsolete Name and Code: Use SOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bedrock at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bedrock (pre-Carboniferous rocks) at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOLX> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bedrock (sedimentary cover) at or near surface [see descriptions for limitations of use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4445> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
