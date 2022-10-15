@@ -1,4 +1,21 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13607985> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/eaec2401-f090-18e7-e053-0937940aa3f2> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607985> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607985> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF] \r\n\r\nRed-brown siltstones, thinly interlayered with very fine- to fine-grained sandstones and mudstones. Ripple marks, halite pseudomorphs, micaceous surfaces common."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3089> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF, SGBK, HEY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4008> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use DST, SGBK, TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4935> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H579> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TPSF] \r\n\r\nSiltstone, interbedded and interlaminated with subordinate mudstones and sandstones. Most siltstones are red-brown and most of the sandstones are grey-green. Ripple marks and pseudomorphs after halite are common."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://www.w3.org/2000/01/rdf-schema#label> "Denstone Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H579> <http://www.w3.org/2000/01/rdf-schema#label> "Retford Formation plus Colwick Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Waterstones [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2000/01/rdf-schema#label> "Maer Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4008> <http://www.w3.org/2004/02/skos/core#altLabel> "Denstone Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Denstone Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Waterstones [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Maer Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Retford Formation plus Colwick Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://www.w3.org/2004/02/skos/core#prefLabel> "Denstone Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H579> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retford Formation plus Colwick Formation [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Waterstones [Obsolete Name and Code: Use TPSF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maer Formation [Obsolete Name and Code: Use TPSF]"@en .
