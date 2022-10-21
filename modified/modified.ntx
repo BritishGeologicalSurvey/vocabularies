@@ -1,19 +1,77 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red-brown siltstones, thinly interlayered with very fine- to fine-grained sandstones and mudstones. Ripple marks, halite pseudomorphs, micaceous surfaces common."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Siltstone, interbedded and interlaminated with subordinate mudstones and sandstones. Most siltstones are red-brown and most of the sandstones are grey-green. Ripple marks and pseudomorphs after halite are common."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://www.w3.org/2000/01/rdf-schema#label> "Denstone Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H579> <http://www.w3.org/2000/01/rdf-schema#label> "Retford Formation Plus Colwick Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Waterstones [Obsolete Name And Code: Part Of TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2000/01/rdf-schema#label> "Maer Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4008> <http://www.w3.org/2004/02/skos/core#altLabel> "Denstone Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2004/02/skos/core#altLabel> "Maer Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Waterstones [Obsolete Name And Code: Part Of TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Denstone Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Waterstones [Obsolete Name And Code: Part Of TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Maer Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Retford Formation Plus Colwick Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DST> <http://www.w3.org/2004/02/skos/core#prefLabel> "Denstone Formation [Obsolete Name And Code: Use TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H579> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retford Formation Plus Colwick Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Waterstones [Obsolete Name And Code: Part Of TPSF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MER> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maer Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALPS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Siliceous psammite and micaceous psammite; generally grey to buff. Medium-fine grained, but locally gritty or pebbly (clast size up to 30 mm) layers, especially lower down in the stratigraphy. Locally pelite or semipelite layers up to a few metres thick; these increase in abundance upwards in the formation. Commonly deformed, then with flaggy structure. Where undeformed, locally well preserved sedimentary structures that include planar cross-bedding, trough cross-bedding, channels and abundant soft-sediment deformation structures, eg. water escape structures and slump folds. Bed thickness where undeformed ranges from 0.2 to 4 m thick."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Well-bedded, flaggy to massive, white to pale grey and buff psammite, with abundant sedimentary structures. Garnetiferous semipelite bands are common in the lower portion, and it is locally pebbly in the upper part."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Massive, schistose, garnet-mica bearing pelite and semipelite, with calc-silsicate bands, increasingly pelitic towards the top."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Massive, white to grey and buff, feldspathic and siliceous psammite with rare semipelitic and pelitic bands."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Oops - this is a duplicate Lexicon entry. Please refer to the other entry for Woodthorpe Formation plus Colwick Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Oops - this is a duplicate Lexicon entry. Please refer to the other entry for Woodthorpe Formation plus Waterstones Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dominantly red, less commonly green-grey, mudstones and subordinate siltstones with thick halite-bearing units in some basinal areas. Thin beds of gypsum/anhydrite are widespread; thin sandstones are also present."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone and siltstone, reddish brown, interbedded with buff-grey, fine- to medium-grained sandstone, micaceous, pebbly beds in lower half."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALPS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The Altnaharra Formation is thought to be deposited unconformably upon the Lewisianoid Gneiss Complex, but the contact is generally highly sheared. Locally, as at Achness Falls, a semipeltic layers occus just above the unconformity. In most places the exposed base of the formation is formed by the Moine thrust or the Achness Thrust (Krabbendam et al. 2011)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Overlies the Crom Psammitic Formation, defined as where predominantly psammitic lithologies pass into predominantly pelitic lithologies."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Gradational boundary with the Glen Achall Psammite And Semipelite Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MABP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2500"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2500"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2500"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "252.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "250"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "250"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MABP> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not recorded."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not recorded."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not recorded."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Lower (western) margin of Vaich Pelite Formation where predominantly psammitic lithologies pass into predominantly pelitic lithologies."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MABP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MABP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://www.w3.org/2000/01/rdf-schema#label> "Woodthorpe Formation plus Colwick Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://www.w3.org/2000/01/rdf-schema#label> "Woodthorpe Formation plus Waterstones Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDNSG> <http://www.w3.org/2000/01/rdf-schema#label> "Seisdon Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2000/01/rdf-schema#label> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://www.w3.org/2004/02/skos/core#altLabel> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1809> <http://www.w3.org/2004/02/skos/core#altLabel> "Seisdon Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://www.w3.org/2004/02/skos/core#altLabel> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Formation plus Colwick Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Formation plus Waterstones Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodthorpe Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTF> <http://www.w3.org/2004/02/skos/core#altLabel> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHPT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOPT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALPS> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary pelite and schistose calcsilicate-rock and trace hornfelsed psammite, migmatitic psammite, quartzite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Tonian Period (Precambrian) (1000-850 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPS> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary pebbly psammite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Proterozoic Eon (Precambrian) (2500-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIEP> <http://www.w3.org/2004/02/skos/core#definition> "Pelite and semipelite with subsidiary psammite. Stratified bedrock. Occurs onshore. Deposited during the Proterozoic Eon (Precambrian) (2500-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLPS> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary pelite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Proterozoic Eon (Precambrian) (2500-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1873> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MABP> <http://www.w3.org/2004/02/skos/core#definition> "Gneissose pelite and metaconglomerate and trace pelite and psammite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous mudstone, mudstone and silty mudstone with subsidiary anhydrite-stone, gypsum-stone, halite, sandstone and siltstone and trace breccia. Stratified bedrock. Occurs both onshore and offshore. Deposited during the Early Triassic Epoch - to - Rhaetian Age (Triassic Period) (252.2-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIM> <http://www.w3.org/2004/02/skos/core#definition> "Dolomitic silicate-mudstone, mudstone and siltstone with subsidiary breccia, dolomitic siltstone and halite and trace dolomitic sandstone and gypsum-stone. Stratified bedrock. Occurs onshore. Deposited during the Olenekian Age - to - Carnian Age (Triassic Period) (250-228.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPSF> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone, sandstone and siltstone and trace conglomerate, gypsum-stone and limestone. Stratified bedrock. Occurs onshore. Deposited during the Olenekian Age - to - Anisian Age (Triassic Period) (250-241.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHPT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYDR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOPT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1192> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodthorpe Formation plus Colwick Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4890> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodthorpe Formation plus Waterstones Formation [Obsolete Name and Code: Use SNT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDNSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seisdon Sand And Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sneinton Formation [Obsolete Name And Code: Use TPSF]"@en .
