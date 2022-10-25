@@ -1,42 +1,37 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13607986> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/eb892197-3c73-4f2f-e053-0937940a2677> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13607986> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607986> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use WLLEV] Allen, 1987."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use WLLEV] Bowen, 1999."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use WLLEV] Allen, 1987."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "In the type area it lies unconformably on bedrock, fluvioglacial sand and gravel of Welsh Ice origin, and locally on Brecknockshire Formation."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Generally 9 to 12 m, though locally more in the region of buried channels. 15 m proved in borehole [ST58NW/2] at Sudbrook."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2000/01/rdf-schema#label> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESAL> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLEV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1920> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3133> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLEV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wentlooge Member"@en .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/3510> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://sweetontology.net/matrNaturalResource/NaturalGas> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/3510> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://vocab.nerc.ac.uk/collection/P04/current/H106/> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/3510> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://vocab.nerc.ac.uk/collection/P14/current/GVAR0544/> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/3510> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://vocab.nerc.ac.uk/collection/P64/current/H106/> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/6142> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.wikidata.org/entity/Q17314691> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/6143> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.eionet.europa.eu/gemet/concept/15290> .
++<http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/6143> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.wikidata.org/entity/Q564726> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TFD] \r\n\r\nNormally a consolidated soft silty clay, with layers of peat, sand and a basal gravel. A stronger, desiccated surface zone can be present locally. Formed within tidally-influenced estuaries. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use WLLEV] Allen, 1987."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use WLLEV] Allen, 1987."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/ON> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "450.25"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESAL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESAL> <http://www.w3.org/2000/01/rdf-schema#label> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://www.w3.org/2000/01/rdf-schema#label> "Rumney Formation [Obsolete Name and Code: Use WLLEV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://www.w3.org/2000/01/rdf-schema#label> "Wentlooge Formation [Obsolete Name and Code: Use WLLEV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OALEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Rumney Formation [Obsolete Name and Code: Use WLLEV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLLEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Wentlooge Formation [Obsolete Name and Code: Use WLLEV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Onnian Substage (Ordovician Period) - to - Quaternary Period (450.25-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESAL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuarine Alluvium [Obsolete Name and Code: Use TFD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H612> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rumney Formation [Obsolete Name and Code: Use WLLEV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H613> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wentlooge Formation [Obsolete Name and Code: Use WLLEV]"@en .
