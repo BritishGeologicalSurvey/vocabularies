@@ -1,4 +1,35 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VYORK> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VYORK> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VYORK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VYORK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and silt; laminated; thought to be water-lain (possibly lacustrine). \r\n\r\nOrganic silts 14C dated to 18,500 +/- 400 and 18,240 +/- 250 (Penny et al., 1969). \r\n\r\nLate Devensian, Dimlington Stadial (MIS 2)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Comprises up to about 16 m of sand and gravel forming a sinuous, beaded ridge that bifurcates in places that extends for 13 km from Brooms House [SE 399 633] in the north through Hunsingore to Lingcroft [SE 437 512] in the south (Cooper and Burgess, 1993). \r\n\r\nLate Devensian, Dimlington Stadial (MIS 2)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Comprises up to 20 m or more of sand and gravel forming a beaded ridge that extends discontinuously for about 55 km in a north-north-west - south-south-east direction from the Thirsk area in the north to Aldwark in the south. At its southern end it terminates as a delta deposit in the Alne pro-glacial lake. South of this the Poppleton Glaciofluvial Member and the Crockey Hill Esker Member both have the same orientation and may be related as precursor deposits when the ice-front was further south (Powell et al., 1992; Cooper and Burgess, 1993). \r\n\r\nLate Devensian, Dimlington Stadial (MIS 2)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Drab Clay of Bisat, 1940. \r\n\r\nLate Devensian, Dimlington Stadial (MIS 2)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".026"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".026"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".026"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".026"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to about 16 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 20 m or more."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0147"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0147"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0147"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0147"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://www.w3.org/2000/01/rdf-schema#label> "Dimlington Bed (Dimlington Silts)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOLD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://www.w3.org/2004/02/skos/core#definition> "Sand and silt. Stratified superficial deposits. Occurs onshore. Formed during the Dimlington Stadial (Quaternary Period) (.026-.0147 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUE> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Dimlington Stadial (Quaternary Period) (.026-.0147 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWE> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Dimlington Stadial (Quaternary Period) (.026-.0147 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKTI> <http://www.w3.org/2004/02/skos/core#definition> "Clay. Stratified superficial deposits. Occurs onshore. Formed during the Dimlington Stadial (Quaternary Period) (.026-.0147 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOLD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dimlington Bed (Dimlington Silts)"@en .
