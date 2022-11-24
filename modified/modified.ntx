@@ -1,5 +1,23 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNF> <http://www.w3.org/2000/01/rdf-schema#label> "Horton Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Horton Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFL> <http://www.w3.org/2004/02/skos/core#altLabel> "Horton Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKRMC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCCB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Brigantian Substage (Carboniferous Period) (330.9-329 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H259> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNDL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STBT> <http://www.w3.org/2004/02/skos/core#definition> "Diamicton with subsidiary gravel, sand and silt. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALBY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/-3938> <http://www.w3.org/2004/02/skos/core#notation> "-3938"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTIC> <http://www.w3.org/2004/02/skos/core#notation> "CTIC"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/METH> <http://www.w3.org/2004/02/skos/core#notation> "METH"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFC> <http://www.w3.org/2004/02/skos/core#notation> "WFC"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edge Hill Eleven Foot And Three Foot Coals (New Cumnock Area)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4812> <http://www.w3.org/2004/02/skos/core#prefLabel> "First Terrace Deposits or Floodplain Gravels Plus Sunk Channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Horton Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pittenweem Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QUC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDMGR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H653> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RHLC1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
