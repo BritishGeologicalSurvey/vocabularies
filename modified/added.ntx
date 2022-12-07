@@ -1,32 +1,102 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMBE> <http://www.w3.org/2000/01/rdf-schema#label> "Combe Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOH> <http://www.w3.org/2000/01/rdf-schema#label> "Gordon House Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLE> <http://www.w3.org/2000/01/rdf-schema#label> "North Leigh Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRSG> <http://www.w3.org/2000/01/rdf-schema#label> "Princes Risborough Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAH> <http://www.w3.org/2000/01/rdf-schema#label> "Ramsden Heath Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> <http://www.w3.org/2000/01/rdf-schema#label> "Stretton Sand Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WMLO> <http://www.w3.org/2000/01/rdf-schema#label> "Waterman's Lodge Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Waterman's Lodge Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMBE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WMLO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGSG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMBE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WMLO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMBE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Combe Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gordon House Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLE> <http://www.w3.org/2004/02/skos/core#prefLabel> "North Leigh Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Princes Risborough Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ramsden Heath Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stretton Sand Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WMLO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waterman's Lodge Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13605517> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/7822e848-822d-45a5-8584-56d352fd2170> .
++<http://data.bgs.ac.uk/id/dataHolding/13605696> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/d2b4ace1-091e-4804-e044-0003ba9b0d98> .
++<http://data.bgs.ac.uk/id/dataHolding/13606810> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2008e0bb-a4ae-5a34-e054-002128a47908> .
++<http://data.bgs.ac.uk/id/dataHolding/13607973> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/e943ecb2-c82d-240b-e053-0937940ac5ca> .
++<http://data.bgs.ac.uk/id/dataHolding/13607974> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/e943ecb2-c82e-240b-e053-0937940ac5ca> .
++<http://data.bgs.ac.uk/id/dataHolding/13605517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605517> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13605696> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13606810> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13607973> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13607974> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13605517> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13605696> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13606810> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607973> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607974> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OKSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> <http://www.w3.org/2000/01/rdf-schema#label> "Allenton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDTN> <http://www.w3.org/2000/01/rdf-schema#label> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOSG> <http://www.w3.org/2000/01/rdf-schema#label> "Borrowash Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMG> <http://www.w3.org/2000/01/rdf-schema#label> "Dunsmore Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISA> <http://www.w3.org/2000/01/rdf-schema#label> "Hillmorton Sand Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> <http://www.w3.org/2000/01/rdf-schema#label> "Hathern Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OKSG> <http://www.w3.org/2000/01/rdf-schema#label> "Ockbrook Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://www.w3.org/2000/01/rdf-schema#label> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLSG> <http://www.w3.org/2000/01/rdf-schema#label> "Shawell Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THT> <http://www.w3.org/2000/01/rdf-schema#label> "Thrussington Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDGE> <http://www.w3.org/2000/01/rdf-schema#label> "Woolridge Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://www.w3.org/2000/01/rdf-schema#label> "Whisby Farm Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIGS> <http://www.w3.org/2000/01/rdf-schema#label> "Wigston Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOC> <http://www.w3.org/2000/01/rdf-schema#label> "Wolston Clay Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHE> <http://www.w3.org/2000/01/rdf-schema#label> "Wolford Heath Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOC> <http://www.w3.org/2004/02/skos/core#altLabel> "Thrussington Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRHA> <http://www.w3.org/2004/02/skos/core#altLabel> "Dunsmore Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1230> <http://www.w3.org/2004/02/skos/core#altLabel> "Thrussington Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1231> <http://www.w3.org/2004/02/skos/core#altLabel> "Thrussington Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1913> <http://www.w3.org/2004/02/skos/core#altLabel> "Whisby Farm Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1918> <http://www.w3.org/2004/02/skos/core#altLabel> "Wigston Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2562> <http://www.w3.org/2004/02/skos/core#altLabel> "Allenton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3023> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H325> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3833> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3834> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4394> <http://www.w3.org/2004/02/skos/core#altLabel> "Woolridge Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4450> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4486> <http://www.w3.org/2004/02/skos/core#altLabel> "Borrowash Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4874> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H603> <http://www.w3.org/2004/02/skos/core#altLabel> "Woolridge Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H683> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H896> <http://www.w3.org/2004/02/skos/core#altLabel> "Ockbrook Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORG> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Whisby Farm Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S261> <http://www.w3.org/2004/02/skos/core#altLabel> "Dunsmore Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OKSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OKSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOLS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allenton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balderton Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Borrowash Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dunsmore Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hillmorton Sand Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hathern Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OKSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ockbrook Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scarle Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shawell Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thrussington Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDGE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woolridge Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Whisby Farm Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIGS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wigston Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wolston Clay Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wolford Heath Sand and Gravel Member"@en .
