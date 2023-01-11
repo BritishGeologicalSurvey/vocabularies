@@ -1,4 +1,70 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608012> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f19549a8-8d3e-5588-e053-0937940a790b> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608012> .
++<http://data.bgs.ac.uk/id/dataHolding/13608014> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f1e5a4e3-781a-2e2e-e053-0937940a6e17> .
++<http://data.bgs.ac.uk/id/dataHolding/13608014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608014> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608014> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://www.w3.org/2000/01/rdf-schema#label> "Beaconsfield Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://www.w3.org/2000/01/rdf-schema#label> "Cold Ash Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://www.w3.org/2000/01/rdf-schema#label> "Chorleywood Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCGR> <http://www.w3.org/2000/01/rdf-schema#label> "Gerrards Cross Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://www.w3.org/2000/01/rdf-schema#label> "Heales Lock Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://www.w3.org/2000/01/rdf-schema#label> "Hamstead Marshall Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> <http://www.w3.org/2000/01/rdf-schema#label> "Netley Heath Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://www.w3.org/2000/01/rdf-schema#label> "Thatcham Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> <http://www.w3.org/2000/01/rdf-schema#label> "Winter Hill Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://www.w3.org/2000/01/rdf-schema#label> "Woodford Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodford Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3829> <http://www.w3.org/2004/02/skos/core#altLabel> "Beaconsfield Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4058> <http://www.w3.org/2004/02/skos/core#altLabel> "Gerrards Cross Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://www.w3.org/2004/02/skos/core#altLabel> "Beaconsfield Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://www.w3.org/2004/02/skos/core#altLabel> "Winter Hill Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Thatcham Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNHD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BPGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNHD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCHR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCHR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNHD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNHD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BPGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beaconsfield Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cold Ash Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorleywood Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gerrards Cross Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heales Lock Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hamstead Marshall Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netley Heath Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thatcham Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winter Hill Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodford Gravel Member"@en .
