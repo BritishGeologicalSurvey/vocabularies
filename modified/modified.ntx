@@ -1,30 +1,32 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "River terrace gravels, sands and associated organic sediments."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sands, sandy gravels, gravels, some being clayey. The gravel component is predominantly subangular flint with subordinate debris of chert, polished quartz grains and larger fragments of pebbly ferruginous sandstone derived from the Lower Cretaceous sequences to the north. Subrounded flint nodules are also present in places. Locally clayey and sandy silt and silty clay mask the sands and gravels, perhaps indicating preservation of overbank or aeolian deposits at the top of the fluvial cycle."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly river terrace sand and gravel and alluvial floodplain silt, silty clay and sand, together with related organic and mass movement deposits of the rivers Ouse (Sussex), Arun, Rother (Sussex) and Cuckmere."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Incises bedrock or older superficial deposits."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable on Cretaceous bedrock."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Average 4m, although may reach 8 to 10m in places."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Each terrace averages 4m thick, reaching to 8 to 10m in places."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 10m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "At surface or locally overlain by younger deposits including head and alluvium."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <http://www.w3.org/2000/01/rdf-schema#label> "Sussex Rother Terrace Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> <http://www.w3.org/2000/01/rdf-schema#label> "Arun Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARUN> <http://www.w3.org/2004/02/skos/core#altLabel> "Arun Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSX> <http://www.w3.org/2004/02/skos/core#altLabel> "Sussex Rother Terrace Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#definition> "The Adur has three aggradations (AD1–AD3) above the alluvium."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUKM> <http://www.w3.org/2004/02/skos/core#definition> "The Cuckmere has two aggradations above the alluvium."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXCAT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand, silt and silty clay with subsidiary clay and trace peat and tufa. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch - to - Holocene Epoch (Quaternary Period) (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXOU> <http://www.w3.org/2004/02/skos/core#definition> "The Sussex Ouse has four aggradations above the alluvium."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sussex Rother Terrace Deposits"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arun Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S583> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S738> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2T3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Three aggradations AD1 to AD3 above alluvium."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUKM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium and river terrace deposits of the Cuckmere River. Two aggradations above alluvium."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly river terrace sand and gravel and alluvial floodplain silt, silty clay and sand, together with related organic and mass movement deposits of the rivers Stour and Rother (Kent)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXOU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Four aggradations above alluvium."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable on Cretaceous bedrock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 10m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <http://www.w3.org/2004/02/skos/core#altLabel> "South Kent Catchments Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://www.w3.org/2004/02/skos/core#altLabel> "South Kent Catchments Subgroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Kentish Stour Formation [Duplicate Lexicon Entry: Use KEST]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Pegwell Formation [Obsolete Name and Code: Use PEGWL, SKCAT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEST> <http://www.w3.org/2004/02/skos/core#definition> "Defined to include the fluvial and associated gravel terrace deposits of the River Stour."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand, silt and silty clay with subsidiary clay and trace peat and tufa. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch - to - Holocene Epoch (Quaternary Period) (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1T2> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2T3> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
