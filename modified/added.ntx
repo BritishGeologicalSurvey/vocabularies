@@ -1,47 +1,112 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608013> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f19549a8-8d3f-5588-e053-0937940a790b> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608016> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f287da43-4912-77ff-e053-0937940a0d43> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608017> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f287da43-4913-77ff-e053-0937940a0d43> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608013> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608016> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608017> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608013> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608016> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608017> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "First terrace of the River Adur."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1T2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "First and second terraces of the River Adur, undifferentiated."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Second terrace of the River Adur. Sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2T3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Second and third terraces of the River Adur, undifferentiated. Sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Third terrace of the River Adur."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium and river terrace deposits of the River Adur. There are three aggradations AD1 to AD3 above the alluvium."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUKM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium and river terrace deposits of the River Cuckmere. There are two aggradations above the alluvium."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3678> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use SKCAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Defined by Gibbard and Preece (pp. 59-60 in Bowen, 1999) to include the fluvial and associated gravel terrace deposits of the River Stour. They defined the Chislet Member (pre-Devensian), Folkestone Battery Bed (faunal evidence suggests correlation with the Ipswichian, MIS 5e stage) and Kennington Member (Devensian). BGS maps show up to 10 aggradations above the alluvium."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Floodplain alluvium comprises soft silts and clays, commonly with beds of peat and a basal bed of sand and gravel. River terrace deposits are largely sand and gravel. Peat is a minor component, and minor marine deposits are included where they are intercalated in dominantly fluvial formations."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXOU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alluvium and river terrace deposits of the Sussex Ouse. There are four aggradations above the alluvium."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable on Lower Cretaceous bedrock."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".86"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 10 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1T2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2T3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEST> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage - to - Devensian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKCAT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand, silt and silty clay with subsidiary clay and trace peat and tufa. Stratified superficial deposits. Occurs onshore. Formed during the Cromerian Stage - to - Holocene Epoch (Quaternary Period) (.86-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD1T2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD2T3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADUR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AD3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1824> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCDC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use CRAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASZ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use PENMY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use CRKM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Obsolete except in Northern Ireland. Replaced by Scottish Coal Measures Group (CMSC), Pennine Coal Measures Group (PCM), and South Wales Coal Measures Group (SWCM). \r\n\r\nAlternation of sandstone, grey siltstone and grey mudstone, with frequent coal seams and seatearth horizons. \r\n\r\nLower Westphalian (Waters et al., 2007)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNPL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use ELCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use SILS] \r\n\r\nMudstone (claystone) grey to blue-grey, shaly, fossiliferous (bivalves and goniatites) with common calcite mudstone nodules and siderite-mudstone lenses in upper part."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BPLM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1764> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1859> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2477> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3076> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3077> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3317> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3318> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3319> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3354> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH, DDC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3370> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4364> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4618> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4920> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4921> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H804> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use TCH] \r\n\r\nBlack glassy chert with thin shale interbeds. Elsewhere the chert beds include thin to thick pale grey siltstone laminae. Black siliceous slaty mudstone structurally below the chert contains rare limestone lenses."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S642> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BHC, PECH, COH, SHWK, WHCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRAD> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At least 40 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> <http://www.w3.org/2000/01/rdf-schema#label> "Mount Ararat Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCDC> <http://www.w3.org/2000/01/rdf-schema#label> "Barracados Cherts [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDC> <http://www.w3.org/2000/01/rdf-schema#label> "Bydown Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <http://www.w3.org/2000/01/rdf-schema#label> "Caered Flags [Obsolete Name and Code: Use CRAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASZ> <http://www.w3.org/2000/01/rdf-schema#label> "Central Anglesey Shear Zone [Obsolete Name and Code: Use PENMY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMB> <http://www.w3.org/2000/01/rdf-schema#label> "Carrickmore Marine Band [Obsolete Name and Code: Use CRKM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNPL> <http://www.w3.org/2000/01/rdf-schema#label> "Cannapark Limestone [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> <http://www.w3.org/2000/01/rdf-schema#label> "Cornstone Beds (of Inverness, Nairn, Banff) [Obsolete Name and Code: Use ELCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> <http://www.w3.org/2000/01/rdf-schema#label> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTF> <http://www.w3.org/2000/01/rdf-schema#label> "Chert Formation [Obsolete Name and Code: Use BPLM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWC> <http://www.w3.org/2000/01/rdf-schema#label> "Combe Wood Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYGC> <http://www.w3.org/2000/01/rdf-schema#label> "Craig-y-Gaer Coral Bed"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCF> <http://www.w3.org/2000/01/rdf-schema#label> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1764> <http://www.w3.org/2000/01/rdf-schema#label> "Spara Bridge Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4618> <http://www.w3.org/2000/01/rdf-schema#label> "Downie Point Conglomerate Formation [Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCF> <http://www.w3.org/2000/01/rdf-schema#label> "Meldon Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCH> <http://www.w3.org/2000/01/rdf-schema#label> "Newton Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> <http://www.w3.org/2004/02/skos/core#altLabel> "Teign Chert Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BPLM> <http://www.w3.org/2004/02/skos/core#altLabel> "Chert Formation [Obsolete Name and Code: Use BPLM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COH> <http://www.w3.org/2004/02/skos/core#altLabel> "Bydown Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COH> <http://www.w3.org/2004/02/skos/core#altLabel> "Combe Wood Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COH> <http://www.w3.org/2004/02/skos/core#altLabel> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRAD> <http://www.w3.org/2004/02/skos/core#altLabel> "Caered Flags [Obsolete Name and Code: Use CRAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKM> <http://www.w3.org/2004/02/skos/core#altLabel> "Carrickmore Marine Band [Obsolete Name and Code: Use CRKM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DPCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Downie Point Conglomerate Formation [Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCC> <http://www.w3.org/2004/02/skos/core#altLabel> "Downie Point Conglomerate Formation [Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Cornstone Beds (of Inverness, Nairn, Banff) [Obsolete Name and Code: Use ELCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H170> <http://www.w3.org/2004/02/skos/core#altLabel> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H171> <http://www.w3.org/2004/02/skos/core#altLabel> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2953> <http://www.w3.org/2004/02/skos/core#altLabel> "Newton Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3336> <http://www.w3.org/2004/02/skos/core#altLabel> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H77> <http://www.w3.org/2004/02/skos/core#altLabel> "Newton Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENMY> <http://www.w3.org/2004/02/skos/core#altLabel> "Central Anglesey Shear Zone [Obsolete Name and Code: Use PENMY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> <http://www.w3.org/2004/02/skos/core#altLabel> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Barracados Cherts [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Cannapark Limestone [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Meldon Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Mount Ararat Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Newton Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Spara Bridge Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCDC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Brigantian Substage (Carboniferous Period) (330.9-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the St David's Series (Cambrian Period) (508-499 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASZ> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Visean Stage (Carboniferous Period) (346.7-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNPL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Brigantian Substage (Carboniferous Period) (330.9-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Calcareous sandstone with subsidiary chert, limestone and sandy limestone. Stratified bedrock. Occurs onshore. Deposited during the Late Devonian Epoch (Devonian Period) (382.7-358.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Silicate-claystone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Holkerian Substage - to - Brigantian Substage (Carboniferous Period) (343-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage - to - Brigantian Substage (Carboniferous Period) (337-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mount Ararat Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCDC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barracados Cherts [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bydown Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caered Flags [Obsolete Name and Code: Use CRAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Central Anglesey Shear Zone [Obsolete Name and Code: Use PENMY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carrickmore Marine Band [Obsolete Name and Code: Use CRKM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNPL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cannapark Limestone [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornstone Beds (of Inverness, Nairn, Banff) [Obsolete Name and Code: Use ELCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caton Shale [Obsolete Name and Code: Use SILS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chert Formation [Obsolete Name and Code: Use BPLM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Combe Wood Chert [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig-y-Gaer Coral Bed"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1764> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spara Bridge Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Downie Point Conglomerate Formation [Obsolete Name and Code: Use DPCO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meldon Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newton Chert Formation [Obsolete Name and Code: Use TCH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCDC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASZ> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNPL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNI> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
