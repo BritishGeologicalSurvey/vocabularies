@@ -1,8 +1,198 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608019> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f29b083f-7f7e-25c8-e053-0937940aa403> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608020> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f29b7676-e4b0-2ec0-e053-0937940abbf3> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608019> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608020> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608019> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608020> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEGWL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEGWL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Represents the deposits of the second terrace of the Kennet valley on BGS maps. Gravel, variably sandy and clayey."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1182> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use SIGR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2601> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BGGR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3284> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4116> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use KGSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use PEGWL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Heales Lock Gravel Member represents the deposits of the First Terrace of the Kennet valley in the Reading and Newbury districts (Mathers and Smith, 2000; Aldiss et al., 2006). Gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Represents the deposits of the fifth terrace of the Kennet valley on BGS maps. Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The River Ouse of Kent has two aggradations (OK1 and OK2) above the alluvium."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Kentish Rother has four aggradations (RO1-RO4) above the alluvium."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use KGCA] \r\n\r\nInterbedded quartz and quartzite rich sands and sandy gravels in a number of terrace aggradations. NOTE: Type sections given in Whiteman and Rose 1992, Table 3, p. 369.Pebbly sand, gravel and silt - [Generic description: from East Anglian data]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use KES] \r\n\r\nPebbly sand, gravel and silt. [Generic description: from East Anglian data]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly gravels characterised by quartz and quartzite from the Triassic, Carboniferous and Devonian rocks of the West Midlands, Welsh Borderland and possibly south-western Pennines, and by felsic volcanic rocks from northern Wales. The members comprise bodies of cross-bedded and massive, moderately sorted sand and gravel. The upper part of the gravels which dominate the subgroup are commonly affected by pedogenesis. The Valley Farm Soil is a rubified and clay-enriched horizon affecting the top 1.0 - 1.5 m and indicating warm interglacial conditions. The Barham Arctic Structure Soil is a complex pedogenic horizon affecting the topmost 1.0 - 1.5 m of the subgroup and of the Valley Farm Soil (Rose and Allen 1977; Rose et al., 1985). \r\n\r\nPleistocene (MIS ?61 - 13)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use KGCA] \r\n\r\nPebbly sand, gravel and silt. [Generic description: from East Anglian data]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Established for terrace deposits of the Kennet Valley."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use KEOU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "First terrace of the River Ouse, Kent. Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Second terrace of the River Ouse, Kent."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Third terrace of the River Ouse, Kent."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fourth terrace of the River Ouse, Kent."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEGWL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Comprises up to 3 m of loessic deposits (also termed 'head brickearth') with a cold stage molluscan fauna at some sites (Preece, 1990)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code] \r\n\r\nFlint pebbles, sub-angular, with clasts of rounded flint, sarsen sandstone, vein quartz, in a clay-rich quartz matrix; fluviatile in origin, laid down on erosional shelves. [Generic description: 1:50 k map margins]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "First terrace of the River Rother, Kent. Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Second terrace of the River Rother, Kent. Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Third terrace of the River Rother, Kent. Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fourth terrace of the River Rother, Kent. Sand and gravel, locally with lenses of silt, clay or peat. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Represents the deposits of the sixth terrace of the Kennet valley on BGS maps. Gravel, variably clayey and sandy."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Thames Catchments Subgroup comprises river terrace deposits of Anglian and younger age of the River Thames and its tributaries. Mass movement deposits and organic deposits (organic clay, tufa and peat) of the catchments are also included. The Thames river system is one of the most intensively studied in Britain. Organic fossiliferous beds interbedded with the 'cold stage' terrace sand and gravel aggradations have been correlated with interglacial 'warm stages' allowing the establishment of a detailed climate-related stratigraphical framework. \r\n\r\nMainly river terrace sand and gravel, brickearth silt and alluvial floodplain silt, silty clay and sand. The subgroup includes interbedded units of locally fossilferous silty sand, silt, together with organic clay, tufa and peat that are biostratigraphically correlated with interglacial (warm) stages. Terrace deposit gravel clasts are mainly limestone lithogies (upper Thames) and flint, vein quartz and local bedrock lithologies including chert (middle and lower Thames). \r\n\r\nThe subgroup is currently divided into the Upper Thames Valley Formation and the Maidenhead Formation (middle and lower Thames valley) for deposits of the main valley and some tributary valleys. The Kennet Valley Formation and the Medway Valley Formation is established for terrace deposits of those valleys. The terrace deposits are depicted on British Geological Survey maps using numbered terrace symbols. Modern British Geological Survey maps also show the terrace deposits as named units that are here interpreted as members of the relevant valley formation. \r\n\r\nAnglian to Holocene (MIS 12-1)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Represents the deposits of the third terrace of the Kennet valley on BGS maps. Gravel, variably sandy and clayey."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGRL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Subdivision of Thatcham Gravel based on morphology, by break-of-slope only. Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGRU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Subdivision of Thatcham Gravel based on morphology, by break-of-slope only. Sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code] \r\n\r\nSand and gravel, locally with lenses of silt, clay or organic material. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QPM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QPE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4116> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".781"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".48"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QPM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGSG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK4> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO4> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 10 m of gravel underlying the terrace surface."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 8 m of gravel underlie the terrace surface around Silchester."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THCAT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Single terrace aggradations range from 3 to 12 m. Interglacial units are up to 12 m thick."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "It comprises 3-4 m of gravel underlying the terrace surface at Thatcham."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The terrace, which is modified by erosion, lies 1-3 m above Kennet Floodplain."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The terrace, which is modified by erosion, is about 8-10 m above the Kennet Floodplain."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QPM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QPM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4116> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Formation [Duplicate Lexicon Entry 2: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3284> <http://www.w3.org/2000/01/rdf-schema#label> "Essex White Ballast [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4116> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Sands and Gravels [Duplicate Lexicon Entry: Use KGSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://www.w3.org/2000/01/rdf-schema#label> "Pegwell Formation [Duplicate Lexicon Entry: Use PEGWL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Formation [Duplicate Lexicon Entry 1: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGSG> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Sands and Gravels [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits (Undifferentiated) (Ouse, Kent) [Obsolete Name and Code: Use KEOU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://www.w3.org/2000/01/rdf-schema#label> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://www.w3.org/2000/01/rdf-schema#label> "Kesgrave Formation [Duplicate Lexicon Entry 3: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://www.w3.org/2000/01/rdf-schema#label> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLEAK> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOULC> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCHR> <http://www.w3.org/2004/02/skos/core#altLabel> "Essex White Ballast [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCHR> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Duplicate Lexicon Entry 2: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COCKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRESH> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FROGF> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Catchment Subgroup"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEADW> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits (Undifferentiated) (Ouse, Kent) [Obsolete Name and Code: Use KEOU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Duplicate Lexicon Entry 1: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Duplicate Lexicon Entry 2: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Duplicate Lexicon Entry 3: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Essex White Ballast [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Glacial sand and gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Sands and Gravels [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCRO> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEGWL> <http://www.w3.org/2004/02/skos/core#altLabel> "Pegwell Formation [Duplicate Lexicon Entry: Use PEGWL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Essex White Ballast [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Formation [Duplicate Lexicon Entry 2: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Kesgrave Sands and Gravels [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNTCA> <http://www.w3.org/2004/02/skos/core#altLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STGEO> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUDPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/T7T9> <http://www.w3.org/2004/02/skos/core#altLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWACR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIHG> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Mid Pleistocene Epoch (Quaternary Period) (.781-.126 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage - to - Holocene Epoch (Quaternary Period) (.116-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage - to - Holocene Epoch (Quaternary Period) (.116-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sand and sandy gravel. Stratified superficial deposits. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGCA> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt and trace peat. Stratified superficial deposits. Occurs onshore. Formed during the Early Pleistocene Epoch - to - Mid Pleistocene Epoch (Quaternary Period) (2.588-.126 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGSG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sand and sandy gravel. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNTV> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Anglian Stage - to - Holocene Epoch (Quaternary Period) (.48-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK1> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK2> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK3> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK4> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Flinty gravel and gravel with subsidiary clay. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO1> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO2> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO3> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO4> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEOU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK4> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KERO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RO4> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1621> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Formation [Duplicate Lexicon Entry 2: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3284> <http://www.w3.org/2004/02/skos/core#prefLabel> "Essex White Ballast [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Sands and Gravels [Duplicate Lexicon Entry: Use KGSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pegwell Formation [Duplicate Lexicon Entry: Use PEGWL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Formation [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KESF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Formation [Duplicate Lexicon Entry 1: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KGSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Sands and Gravels [Obsolete Name and Code: Use KGCA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits (Undifferentiated) (Ouse, Kent) [Obsolete Name and Code: Use KEOU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plateau Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S539> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kesgrave Formation [Duplicate Lexicon Entry 3: Use KES]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valley Gravel [Obsolete Name and Code]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4328> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OK> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VLGR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
