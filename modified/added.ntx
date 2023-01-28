@@ -1,39 +1,229 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608021> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f32d0b47-f9d3-6dbe-e053-0937940a37f7> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608021> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608021> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BADL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BADL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BADL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BADL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BRH]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use R2B4]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use CMBA] \r\n\r\nMassive to thickly bedded sequence of dacitic volcanic breccia, lapilli tuffs and tuffaceous mudstones/siltstones."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone. Marsdenian."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <http://www.w3.org/2000/01/rdf-schema#label> "Baddoch Burn Limestone Member [Duplicate Lexicon Entry: Use BADL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <http://www.w3.org/2000/01/rdf-schema#label> "Bouley Rhyolite Formation [Duplicate Lexicon Entry: Use BRH]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Eometabilinguis Marine Band [Duplicate Lexicon Entry: Use R2B4]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> <http://www.w3.org/2000/01/rdf-schema#label> "Benscliffe Breccia Member [Duplicate Lexicon Entry: Use CMBA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BADL> <http://www.w3.org/2004/02/skos/core#altLabel> "Baddoch Burn Limestone Member [Duplicate Lexicon Entry: Use BADL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRH> <http://www.w3.org/2004/02/skos/core#altLabel> "Bouley Rhyolite Formation [Duplicate Lexicon Entry: Use BRH]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Eometabilinguis Marine Band [Duplicate Lexicon Entry: Use R2B4]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> <http://www.w3.org/2004/02/skos/core#definition> "Dacite and volcaniclastic-breccia with subsidiary lapilli-tuff and trace tuffaceous-mudstone and tuffaceous-siltstone. Stratified bedrock. Occurs onshore. Deposited during the Ediacaran Period (Precambrian) (635-541 Ma BP)."@en .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baddoch Burn Limestone Member [Duplicate Lexicon Entry: Use BADL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bouley Rhyolite Formation [Duplicate Lexicon Entry: Use BRH]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Eometabilinguis Marine Band [Duplicate Lexicon Entry: Use R2B4]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Benscliffe Breccia Member [Duplicate Lexicon Entry: Use CMBA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBLM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BENS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BROO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRDL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRDL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BROO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUHN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUHN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BROO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRDL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone. Brigantian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BRDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FAEOL] \r\n\r\nVaries from silt to clay, usually yellow-brown and massive. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BROO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coal. Duckmantian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BRI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use SAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FFL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BUHN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BUCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red agglomerate and ashes, fine-grained grey ashes and shales, pebbly feldspar ashes, bouldery spilitic ashes, spilites, felsite agglomerate, keratophyres, breccias and ashes."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate Lexicon Entry: Use BSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H76> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BOV, HALL, LLSA, MDT, POLG, ULSA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FAEOL] \r\n\r\nVaries from silt to clay, usually yellow-brown and massive. Poorly sorted and poorly stratified, formed mostly by solifluction and/or hillwash and soil creep. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FAEOL] \r\n\r\nVaries from silt to clay, usually yellow-brown and massive. Poorly sorted and poorly stratified, formed mostly by solifluction and/or hillwash and soil creep; older than \"Head Brickearth\" in the same map area. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FAEOL] \r\n\r\nVaries from silt to clay, usually yellow-brown and massive. Poorly sorted and poorly stratified, formed mostly by solifluction and/or hillwash and soil creep. Younger than \"Head  Brickearth\" in the same map area. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marsdenian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marsdenian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marsdenian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone. Marsdenian."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use FAEOL] \r\n\r\nVaries from silt to clay, commonly yellow-brown and massive; of fluvial origin. [Generic description]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Neoproterozoic."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at the base of the red agglomerate and ashes formation where they rest unconformably upon the Landrindod and Shale Group."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "609 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at the conformable upward passage of the keratophyres, breccias and ashes group with the base of the Newmead Group."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCY> <http://www.w3.org/2000/01/rdf-schema#label> "Brick clay"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <http://www.w3.org/2000/01/rdf-schema#label> "Brooch Coal (South Staffordshire) [Duplicate Lexicon Entry: Use BROO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge Limestone [Duplicate Lexicon Entry: Use BRDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://www.w3.org/2000/01/rdf-schema#label> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <http://www.w3.org/2000/01/rdf-schema#label> "Bridgnorth Sandstone Formation [Duplicate Lexicon Entry: Use BRI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Superbilinguis Marine Band [Duplicate Lexicon Entry: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <http://www.w3.org/2000/01/rdf-schema#label> "St Saviour's Andesite Formation [Duplicate Lexicon Entry: Use SAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> <http://www.w3.org/2000/01/rdf-schema#label> "Buccleuch Limestone [Obsolete Name and Code: Use FFL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <http://www.w3.org/2000/01/rdf-schema#label> "Buchan Formation [Duplicate Lexicon Entry: Use BUHN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://www.w3.org/2000/01/rdf-schema#label> "Buccleuch Limestone [Duplicate Lexicon Entry: Use BUCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUV> <http://www.w3.org/2000/01/rdf-schema#label> "Builth Volcanic Formation [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <http://www.w3.org/2000/01/rdf-schema#label> "Bovisand Formation [Duplicate Lexicon Entry: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <http://www.w3.org/2000/01/rdf-schema#label> "Bowland Shale Formation [Duplicate Lexicon Entry: Use BSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> <http://www.w3.org/2000/01/rdf-schema#label> "The Builth Volcanic Series [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> <http://www.w3.org/2000/01/rdf-schema#label> "Bovisand Beds [Obsolete Name and Code: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://www.w3.org/2000/01/rdf-schema#label> "Head brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://www.w3.org/2000/01/rdf-schema#label> "Head brickearth, older [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://www.w3.org/2000/01/rdf-schema#label> "Head brickearth, younger [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://www.w3.org/2000/01/rdf-schema#label> "River brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPMB> <http://www.w3.org/2000/01/rdf-schema#label> "Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BANM> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> <http://www.w3.org/2004/02/skos/core#altLabel> "Bovisand Beds [Obsolete Name and Code: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOV> <http://www.w3.org/2004/02/skos/core#altLabel> "Bovisand Formation [Duplicate Lexicon Entry: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRDL> <http://www.w3.org/2004/02/skos/core#altLabel> "Bridge Limestone [Duplicate Lexicon Entry: Use BRDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRI> <http://www.w3.org/2004/02/skos/core#altLabel> "Bridgnorth Sandstone Formation [Duplicate Lexicon Entry: Use BRI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-aeolian deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BROO> <http://www.w3.org/2004/02/skos/core#altLabel> "Brooch Coal (South Staffordshire) [Duplicate Lexicon Entry: Use BROO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Bowland Shale Formation [Duplicate Lexicon Entry: Use BSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> <http://www.w3.org/2004/02/skos/core#altLabel> "Buccleuch Limestone [Duplicate Lexicon Entry: Use BUCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUHN> <http://www.w3.org/2004/02/skos/core#altLabel> "Buchan Formation [Duplicate Lexicon Entry: Use BUHN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://www.w3.org/2004/02/skos/core#altLabel> "Buccleuch Limestone [Obsolete Name and Code: Use FFL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Builth Volcanic Formation [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://www.w3.org/2004/02/skos/core#altLabel> "The Builth Volcanic Series [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESI> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#altLabel> "Head brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#altLabel> "Head brickearth, older [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#altLabel> "Head brickearth, younger [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAEOL> <http://www.w3.org/2004/02/skos/core#altLabel> "River brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFL> <http://www.w3.org/2004/02/skos/core#altLabel> "Buccleuch Limestone [Obsolete Name and Code: Use FFL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> <http://www.w3.org/2004/02/skos/core#altLabel> "Builth Volcanic Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4149> <http://www.w3.org/2004/02/skos/core#altLabel> "Brick clay"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> <http://www.w3.org/2004/02/skos/core#altLabel> "Bovisand Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-aeolian deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-aeolian deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-aeolian deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILSI> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LASI> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Brick clay"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Superbilinguis Marine Band [Duplicate Lexicon Entry: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvio-aeolian deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROBHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROSI> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAN> <http://www.w3.org/2004/02/skos/core#altLabel> "St Saviour's Andesite Formation [Duplicate Lexicon Entry: Use SAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPIT> <http://www.w3.org/2004/02/skos/core#altLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Brigantian Substage (Carboniferous Period) (330.9-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Clay and silt with subsidiary sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Permian Period (298.9-252.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Devonian Period (419.2-358.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Brigantian Substage (Carboniferous Period) (330.9-329 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUVO> <http://www.w3.org/2004/02/skos/core#definition> "Agglomerate, ash and volcaniclastic-breccia. Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage (Ordovician Period) (465.5-460.5 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Emsian Age (Devonian Period) (407.6-393.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs both onshore and offshore. Deposited during the Visean Stage - to - Namurian Stage (Carboniferous Period) (346.7-319 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Clay and silt. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brick clay"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate Lexicon Entry: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brooch Coal (South Staffordshire) [Duplicate Lexicon Entry: Use BROO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bridge Limestone [Duplicate Lexicon Entry: Use BRDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bridgnorth Sandstone Formation [Duplicate Lexicon Entry: Use BRI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Superbilinguis Marine Band [Duplicate Lexicon Entry: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <http://www.w3.org/2004/02/skos/core#prefLabel> "St Saviour's Andesite Formation [Duplicate Lexicon Entry: Use SAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buccleuch Limestone [Obsolete Name and Code: Use FFL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buchan Formation [Duplicate Lexicon Entry: Use BUHN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buccleuch Limestone [Duplicate Lexicon Entry: Use BUCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Builth Volcanic Formation [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bovisand Formation [Duplicate Lexicon Entry: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bowland Shale Formation [Duplicate Lexicon Entry: Use BSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B3]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3257> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Builth Volcanic Series [Obsolete Name and Code: Use BUVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete Name and Code: Use R2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H97> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bovisand Beds [Obsolete Name and Code: Use BOV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Head brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Head brickearth, older [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Head brickearth, younger [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <http://www.w3.org/2004/02/skos/core#prefLabel> "River brickearth [Obsolete Name and Code: Use FAEOL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Superbilingue Marine Band [Obsolete Name and Code: Use R2C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRID> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRK> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSV> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUCH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVSB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWSF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBO> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBY> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
