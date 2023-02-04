@@ -1,107 +1,24 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel, variably clayey and sandy. [Generic description: Geol Soc Lond Special Publication Report 4, 2nd edition]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel, locally with lenses of silt, clay or peat and organic material. [Generic description]."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fluvial, aeolian and sabkha sediments overlying the lacustrine flagstones of the Caithness Flagstone Group. NOTE: Composite of formational type sections in northern Caithness and Orkney. Various cliff sections in the Orkney Islands."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel characterised by clasts of the following lithologies: abundant angular flint (65-79%), common rounded flint (12.8-29.6%), sporadic Lower Greensand (4.6-12.2%) and very sparse quartz and quartzite (up to 0.8%)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4631> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDUI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S65> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WATM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1-7m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALBY> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 1200 m thick."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1-10m, average 4m thick."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNNS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Not exposed, faulted out."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHRS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMCG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCBR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DLS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "319"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFCH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDUI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A3> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4631> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S65> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://www.w3.org/2000/01/rdf-schema#label> "Eumorphoceras Ferrimontanum Marine Band [Obsolete Code: Use E2A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides Edalensis Marine Band [Obsolete Code: Use E2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <http://www.w3.org/2000/01/rdf-schema#label> "Eumorphoceras Yatesae Marine Band [Obsolete Code: Use E2A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4631> <http://www.w3.org/2000/01/rdf-schema#label> "Eumorphoceras Bisulcatum Marine Band [Obsolete Name and Code: Use E2A2, EFMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2000/01/rdf-schema#label> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S65> <http://www.w3.org/2000/01/rdf-schema#label> "[Obsolete Code: Use OYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras Bisulcatum Marine Band [Obsolete Name and Code: Use E2A2, EFMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras Ferrimontanum Marine Band [Obsolete Code: Use E2A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A3> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras Yatesae Marine Band [Obsolete Code: Use E2A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides Edalensis Marine Band [Obsolete Code: Use E2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDY> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras Bisulcatum Marine Band [Obsolete Name and Code: Use E2A2, EFMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> <http://www.w3.org/2004/02/skos/core#altLabel> "Loch Duich Gneisses"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides Edalensis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4241> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4626> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4631> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras Ferrimontanum Marine Band [Obsolete Code: Use E2A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4828> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOY> <http://www.w3.org/2004/02/skos/core#altLabel> "[Obsolete Code: Use OYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDUI> <http://www.w3.org/2004/02/skos/core#altLabel> "Eastern Gneisses"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Eday Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Eday Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2004/02/skos/core#altLabel> "[Obsolete Code: Use OYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S65> <http://www.w3.org/2004/02/skos/core#altLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> <http://www.w3.org/2004/02/skos/core#definition> "Orthogneiss and trace calcsilicate-rock, felsic orthogneiss, gneiss, gneissose psammite, graphitic schist, hornblende-bearing orthogneiss, mafic orthogneiss, marble, ortho-amphibolite, peridotite and serpentinite. Bedrock. Occurs onshore. Formed during the Archaean Eon - to - Proterozoic Eon (Precambrian) (4000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUHG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eumorphoceras Ferrimontanum Marine Band [Obsolete Code: Use E2A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides Edalensis Marine Band [Obsolete Code: Use E2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eumorphoceras Yatesae Marine Band [Obsolete Code: Use E2A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4631> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eumorphoceras Bisulcatum Marine Band [Obsolete Name and Code: Use E2A2, EFMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orkney Sandstone Group [Obsolete Name And Code: Use EDY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S65> <http://www.w3.org/2004/02/skos/core#prefLabel> "[Obsolete Code: Use OYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EFMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel, variably clayey and sandy."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel, variably clayey and sandy."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel, sandy and clayey in part, with some laminated silty beds.Sand and gravel, locally with lenses of silt, clay or peat and organic material - [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEHE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coarse-grained, poorly sorted, cross-bedded, abundantly shelly sands (in East Anglia). Dark green and glauconitic when unoxidised, but typically oxidised to yellow or reddish brown with ferruginous concretions (iron pan). Basal bed of rounded flint pebbles. Offshore, fine- to medium-grained, muddy, calcareous, glauconitic sands."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel, locally with lenses of silt, clay or peat and organic material. [Generic description]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 4m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1-5m commonly"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1-15m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "70m maximum offshore (Flemish Bight Sheet). Onshore commonly to 20m but thicker in coastal areas of east Norfolk and Suffolk and within the Stradbroke Trough, locally reaching c.40 to 45m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SZWL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 13m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1-10m, average 5m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSGR> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Terrace surface at 100 - 105m OD around Beenham."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Onshore overlain unconformably by sands of the Norwich Crag Formation, which are less coarse-grained, better sorted, less shelly and generally paler in colour. Offshore overlain unconformably by early Pleistocene or Holocene sediments."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay, sand and silt. Stratified superficial deposits. Occurs onshore. Formed during the Cromerian Stage - to - Anglian Stage (Quaternary Period) (.86-.423 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2472> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SZWL> <http://www.w3.org/2004/02/skos/core#definition> "Sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel with subsidiary clay and sand. Stratified superficial deposits. Occurs onshore. Formed during the Cromerian Stage - to - Anglian Stage (Quaternary Period) (.86-.423 Ma BP)."@en .
