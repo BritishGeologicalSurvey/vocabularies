@@ -1,150 +1,53 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608028> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/f4cddb09-51af-12fa-e053-0937940a6554> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608028> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608028> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Third terrace deposits of the Lugg Valley."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel, river terrace deposit; Middle Devensian (interstadial) in age. [Generic description]."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use MARDN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use MORTN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use KINGF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use SUTTW]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Post-Anglian fluvial deposits (after Brandon, 1989; Worssam et al., 1989; Brandon, pp. 29-32 in Bowen, 1999)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sands and gravels."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Second terrace deposits of the Lugg Valley."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fourth terrace deposits of the Lugg Valley."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Middle to Late Devensian fluvial (river terrace) and lacustrine deposits associated with the proto-Teme drainage system between the present day valleys of the Rivers Teme and Lugg, described by Cross and Hodgson (1975). The deposits include the Bank Farm Sand and Gravel (BFSG), Shakenhurst Sand and Gravel (STSG), Little Hereford Sand and Gravel (LHSG), Ashford Sand and Gravel (ADSG), Bromfield Sand and Gravel (BMSG), and Woofferton Sand and Gravel (WNSG)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGEL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "2 - 4 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2000/01/rdf-schema#label> "Kingsfield Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 1 (Lugg) [Obsolete Name and Code: Use MARDN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 2 (Lugg) [Obsolete Name and Code: Use MORTN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 3 (Lugg) [Obsolete Name and Code: Use KINGF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 4 (Lugg) [Obsolete Name and Code: Use SUTTW]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2000/01/rdf-schema#label> "Marden Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2000/01/rdf-schema#label> "Moreton on Lugg Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton Walls Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2000/01/rdf-schema#label> "Teme Palaeovalley Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 3 (Lugg) [Obsolete Name and Code: Use KINGF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://www.w3.org/2004/02/skos/core#altLabel> "Marden Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://www.w3.org/2004/02/skos/core#altLabel> "Moreton on Lugg Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingsfield Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://www.w3.org/2004/02/skos/core#altLabel> "Sutton Walls Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 1 (Lugg) [Obsolete Name and Code: Use MARDN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 2 (Lugg) [Obsolete Name and Code: Use MORTN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 4 (Lugg) [Obsolete Name and Code: Use SUTTW]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SACA> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage (Quaternary Period) (.362-.126 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage - to - Devensian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage (Quaternary Period) (.362-.126 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUGG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SACA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNSG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#notation> "KINGF"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#notation> "MARDN"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#notation> "MORTN"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#notation> "SUTTW"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#notation> "TMPV"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingsfield Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 1 (Lugg) [Obsolete Name and Code: Use MARDN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 2 (Lugg) [Obsolete Name and Code: Use MORTN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 3 (Lugg) [Obsolete Name and Code: Use KINGF]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 4 (Lugg) [Obsolete Name and Code: Use SUTTW]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marden Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moreton on Lugg Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sutton Walls Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Teme Palaeovalley Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KINGF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG3> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUG4> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARDN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORTN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUTTW> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMPV> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRLY> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWYR> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLDU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Clay, sand, silt."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Third terrace deposits of the Wye Valley."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete Name and Code: Use HLACY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Post-Anglian fluvial deposits (after Brandon, 1989; Worssam et al., 1989; Brandon, pp. 29-32 in Bowen, 1999)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3462> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3462> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3462> <http://www.w3.org/2000/01/rdf-schema#label> "Fifth (Bushley Green Lower Part) Terrace of the Severn [Obsolete Name and Code: Use BGT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2000/01/rdf-schema#label> "Holme Lacy Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 3 (Wye) [Obsolete Name and Code: Use HLACY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2000/01/rdf-schema#label> "Wye Valley Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Fifth (Bushley Green Lower Part) Terrace of the Severn [Obsolete Name and Code: Use BGT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3462> <http://www.w3.org/2004/02/skos/core#altLabel> "Bushley Green Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#altLabel> "River Terrace Deposits, 3 (Wye) [Obsolete Name and Code: Use HLACY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://www.w3.org/2004/02/skos/core#altLabel> "Holme Lacy Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SACA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEATH> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage (Quaternary Period) (.362-.126 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage (Quaternary Period) (.362-.126 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SACA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#notation> "HLACY"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#notation> "WYVA"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3462> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fifth (Bushley Green Lower Part) Terrace of the Severn [Obsolete Name and Code: Use BGT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holme Lacy Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 3 (Wye) [Obsolete Name and Code: Use HLACY]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wye Valley Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLACY> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE3> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
