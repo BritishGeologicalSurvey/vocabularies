@@ -1,54 +1,274 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWYNC> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLCV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pebbly volcaniclastic sandstone with intercalations of bedded fine- to coarse-grained volcaniclastic sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1138> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H496> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3050> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.588"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE1> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE2> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1138> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3050> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H496> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1138> <http://www.w3.org/2000/01/rdf-schema#label> "Second (Worcester) Terrace of the Severn [Obsolete Name and Code: Use RDFD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3050> <http://www.w3.org/2000/01/rdf-schema#label> "Third (Main) Terrace of the Severn [Obsolete Name and Code: Use STAU]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H496> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth (Kidderminster) Terrace of the Severn [Obsolete Name and Code: Use RMLY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE1> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 1 (Wye)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE2> <http://www.w3.org/2000/01/rdf-schema#label> "River Terrace Deposits, 2 (Wye)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1138> <http://www.w3.org/2004/02/skos/core#altLabel> "Rudford Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3050> <http://www.w3.org/2004/02/skos/core#altLabel> "Staunton Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H496> <http://www.w3.org/2004/02/skos/core#altLabel> "Redmarley Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://www.w3.org/2004/02/skos/core#altLabel> "Second (Worcester) Terrace of the Severn [Obsolete Name and Code: Use RDFD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://www.w3.org/2004/02/skos/core#altLabel> "Fourth (Kidderminster) Terrace of the Severn [Obsolete Name and Code: Use RMLY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://www.w3.org/2004/02/skos/core#altLabel> "Third (Main) Terrace of the Severn [Obsolete Name and Code: Use STAU]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLVA> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDFD> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMLY> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAU> <http://www.w3.org/2004/02/skos/core#definition> "Gravel, sand and silt with subsidiary clay. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.588-.0118 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE1> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE2> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYVA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1138> <http://www.w3.org/2004/02/skos/core#prefLabel> "Second (Worcester) Terrace of the Severn [Obsolete Name and Code: Use RDFD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3050> <http://www.w3.org/2004/02/skos/core#prefLabel> "Third (Main) Terrace of the Severn [Obsolete Name and Code: Use STAU]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fourth (Kidderminster) Terrace of the Severn [Obsolete Name and Code: Use RMLY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE1> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 1 (Wye)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE2> <http://www.w3.org/2004/02/skos/core#prefLabel> "River Terrace Deposits, 2 (Wye)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE1> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYE2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDOE> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S653> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S653> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDOE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gravel and sand, locally with silt and clay interbeds; sheet-like form, restricted to the floodplain environment. [Generic description: 1:50 k map margins]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandy, clayey, silty sand diamicton, brown. Interpreted as a truncated gleyed brown earth soil profile developed under temperate climate conditions. The truncated palaeosol bed represents the pedogenically modified upper c.0.80m of the Rottenhill Till Formation. Pedogenic development is indicated by the following properties: the upper 0.70m of the deposit has a strong brown colour in contrast to the lower part of the deposit which is yellowish brown. It also displays coarse mottles of yellowish red and greyish brown to brown due to Fe oxide segregation. Mafic igneous and granite clasts have been converted to gruss in situ and clay minerals show alteration from illite to mica-smectite up profile. Disrupted void argillans (evidence of clay translocation and subsequent disruption) and erect pebbles have been recorded in thin section, indicating that the palaeosol has superimposed cold climate soil features."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The lower boundary of the palaeosol bed is gradational (over c.0.10m) between the pedogenically modified diamicton and the relatively unaltered diamicton of the Rottenhill Till Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Contact typically sheared with arkosic-banded dominantly psammitic gneisses of the underlying glen banchor succession. Over large parts of the area contact zone is marked by sheet of amphibolite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FARH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEFR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H242> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSDT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTWN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDOE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4813> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 0.80m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOCF> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Supposedly interfingers laterally with and merges gradationally upwards into Raveagh Sandstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDOE> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGT> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FARH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSDT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTWN> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H242> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEFR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAB> <http://www.w3.org/2000/01/rdf-schema#label> "Falmouth Beds [Obsolete Name And Code: Use PORO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FADF> <http://www.w3.org/2000/01/rdf-schema#label> "Fernagh Andesite And Dacite Formation [Obsolete Name And Code: Use FRNA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2000/01/rdf-schema#label> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FBB> <http://www.w3.org/2000/01/rdf-schema#label> "Fulletby Beds [Obsolete Name And Code: Use ROH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FBQ> <http://www.w3.org/2000/01/rdf-schema#label> "False-Bedded Quartzite Member [Obsolete Name and Code: Use BAQ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCF> <http://www.w3.org/2000/01/rdf-schema#label> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCFE> <http://www.w3.org/2000/01/rdf-schema#label> "Frome Clay and Fuller's Earth (Undifferentiated) [Obsolete Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDMA> <http://www.w3.org/2000/01/rdf-schema#label> "Foel-Y-Ddinas Mudstones [Obsolete Name And Code: Use FYD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2000/01/rdf-schema#label> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FETH> <http://www.w3.org/2000/01/rdf-schema#label> "Fethaland 'Series' [Obsolete Name and Code: Use SDVO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFA> <http://www.w3.org/2000/01/rdf-schema#label> "Ffairfach Group [Obsolete Name And Code: Use FFG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFB> <http://www.w3.org/2000/01/rdf-schema#label> "Ffestiniog Formation [Obsolete Name And Code: Use FF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGR> <http://www.w3.org/2000/01/rdf-schema#label> "Fell Green Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGT> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvioglacial Terrace [Obsolete Name And Code: See GFTD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHC> <http://www.w3.org/2000/01/rdf-schema#label> "Fowls Heugh Conglomerate Formation [Obsolete Name And Code: See WCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINUC> <http://www.w3.org/2000/01/rdf-schema#label> "Fourteen Inch Under Coal [Inappropriate Name And Code: Use PFIUC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2000/01/rdf-schema#label> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLS> <http://www.w3.org/2000/01/rdf-schema#label> "Fell Sandstone Group [Obsolete Name And Code: Use FELL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FMEER> <http://www.w3.org/2000/01/rdf-schema#label> "Felsenmeer"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOE> <http://www.w3.org/2000/01/rdf-schema#label> "Fordon Evaporite [Obsolete Code: Use FOEV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial and older river sands and gravels [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://www.w3.org/2000/01/rdf-schema#label> "Fluvial and older river sands and gravels with associated clay [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <http://www.w3.org/2000/01/rdf-schema#label> "Flood Plain Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FR> <http://www.w3.org/2000/01/rdf-schema#label> "Farewell Rock [Obsolete Name]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRA> <http://www.w3.org/2000/01/rdf-schema#label> "Frondderw Ash [Obsolete Name And Code: See FRT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRES> <http://www.w3.org/2000/01/rdf-schema#label> "Freestone Series [Obsolete Name And Code: Use POFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRSB> <http://www.w3.org/2000/01/rdf-schema#label> "Fresgeo Sandstone [Unit Name And Code Obsolete: Use FGSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRNT> <http://www.w3.org/2000/01/rdf-schema#label> "Granite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUF> <http://www.w3.org/2000/01/rdf-schema#label> "Gourock Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2000/01/rdf-schema#label> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H242> <http://www.w3.org/2000/01/rdf-schema#label> "Frome Clay and Fuller's Earth [Undifferentiated] [Obsolete Name and Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2777> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain gravels [Obsolete Name and Code: Use ECTN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H291> <http://www.w3.org/2000/01/rdf-schema#label> "Gourock Sand Formation [Obsolete Name and Code: Use GOSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2958> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain terrace deposits plus buried channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H325> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain terrace [Obsolete Name and Code: Use SCSG, HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3478> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain sand and gravel [Obsolete Name and Code: Use HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3584> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain terrace deposits [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4813> <http://www.w3.org/2000/01/rdf-schema#label> "Floodplain Terrace Deposits and Submerged Channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S49> <http://www.w3.org/2000/01/rdf-schema#label> "Fuller's Earth Formation and Frome Clay Formation [Undifferentiated]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S653> <http://www.w3.org/2000/01/rdf-schema#label> "Loch Laggan Psammite Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAL> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAQ> <http://www.w3.org/2004/02/skos/core#altLabel> "False-Bedded Quartzite Member [Obsolete Name and Code: Use BAQ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFA> <http://www.w3.org/2004/02/skos/core#altLabel> "Fell Green Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLOC> <http://www.w3.org/2004/02/skos/core#altLabel> "Felsenmeer"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COH> <http://www.w3.org/2004/02/skos/core#altLabel> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ECTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain gravels [Obsolete Name and Code: Use ECTN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FARH> <http://www.w3.org/2004/02/skos/core#altLabel> "Grey Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCFE> <http://www.w3.org/2004/02/skos/core#altLabel> "Fuller's Earth Formation and Frome Clay Formation [Undifferentiated]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEFR> <http://www.w3.org/2004/02/skos/core#altLabel> "Frome Clay and Fuller's Earth (Undifferentiated) [Obsolete Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEFR> <http://www.w3.org/2004/02/skos/core#altLabel> "Frome Clay and Fuller's Earth [Undifferentiated] [Obsolete Name and Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FELL> <http://www.w3.org/2004/02/skos/core#altLabel> "Fell Sandstone Group [Obsolete Name And Code: Use FELL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FF> <http://www.w3.org/2004/02/skos/core#altLabel> "Ffestiniog Formation [Obsolete Name And Code: Use FF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FF> <http://www.w3.org/2004/02/skos/core#altLabel> "Ffestiniog Formation [Obsolete Name And Code: Use FF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFG> <http://www.w3.org/2004/02/skos/core#altLabel> "Ffairfach Group [Obsolete Name And Code: Use FFG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Fresgeo Sandstone [Unit Name And Code Obsolete: Use FGSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Shanmullagh Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINF> <http://www.w3.org/2004/02/skos/core#altLabel> "Gardenstown Conglomerate Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLB> <http://www.w3.org/2004/02/skos/core#altLabel> "Gorpley Grit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOEV> <http://www.w3.org/2004/02/skos/core#altLabel> "Fordon Evaporite [Obsolete Code: Use FOEV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRNA> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernagh Andesite And Dacite Formation [Obsolete Name And Code: Use FRNA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRT> <http://www.w3.org/2004/02/skos/core#altLabel> "Frondderw Ash [Obsolete Name And Code: See FRT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernieslack Palaeosol Bed"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSLCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernieslack Palaeosol Bed"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYD> <http://www.w3.org/2004/02/skos/core#altLabel> "Foel-Y-Ddinas Mudstones [Obsolete Name And Code: Use FYD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL1> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL2> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL3> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL4> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL5> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL6> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL7> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL8> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 3"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 4"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 5"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 6"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 7"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 8"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALA> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDC> <http://www.w3.org/2004/02/skos/core#altLabel> "Findon Fish Bed"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDE> <http://www.w3.org/2004/02/skos/core#altLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDOE> <http://www.w3.org/2004/02/skos/core#altLabel> "Loch Laggan Psammite Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFTD> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvioglacial Terrace [Obsolete Name And Code: See GFTD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Fletcher Bank Grit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLRB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ballyshannon Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gourock Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Gourock Sand Formation [Obsolete Name and Code: Use GOSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRO> <http://www.w3.org/2004/02/skos/core#altLabel> "Falmouth Beds [Obsolete Name And Code: Use PORO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Far House Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRY> <http://www.w3.org/2004/02/skos/core#altLabel> "Grey Sandstone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSDT> <http://www.w3.org/2004/02/skos/core#altLabel> "Grey Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTWN> <http://www.w3.org/2004/02/skos/core#altLabel> "Kincraig Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1548> <http://www.w3.org/2004/02/skos/core#altLabel> "Fresgeo Sandstone [Unit Name And Code Obsolete: Use FGSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 3"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 4"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 5"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 6"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 7"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#altLabel> "Gala Unit 8"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H242> <http://www.w3.org/2004/02/skos/core#altLabel> "Fuller's Earth Formation and Frome Clay Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H243> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3397> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3431> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4649> <http://www.w3.org/2004/02/skos/core#altLabel> "Fell Green Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain sand and gravel [Obsolete Name and Code: Use HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain terrace [Obsolete Name and Code: Use SCSG, HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNCG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grantown Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Flood Plain Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#altLabel> "Fethaland 'Series' [Obsolete Name and Code: Use SDVO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSRL> <http://www.w3.org/2004/02/skos/core#altLabel> "Granite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NO> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain Terrace Deposits and Submerged Channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NO> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain terrace deposits [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NO> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain terrace deposits plus buried channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORGD> <http://www.w3.org/2004/02/skos/core#altLabel> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvial and older river sands and gravels [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Fluvial and older river sands and gravels with associated clay [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PFIUC> <http://www.w3.org/2004/02/skos/core#altLabel> "Fourteen Inch Under Coal [Inappropriate Name And Code: Use PFIUC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POFR> <http://www.w3.org/2004/02/skos/core#altLabel> "Freestone Series [Obsolete Name And Code: Use POFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PORO> <http://www.w3.org/2004/02/skos/core#altLabel> "Falmouth Beds [Obsolete Name And Code: Use PORO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROH> <http://www.w3.org/2004/02/skos/core#altLabel> "Fulletby Beds [Obsolete Name And Code: Use ROH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROH> <http://www.w3.org/2004/02/skos/core#altLabel> "Fulletby Beds [Obsolete Name And Code: Use ROH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S403> <http://www.w3.org/2004/02/skos/core#altLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S49> <http://www.w3.org/2004/02/skos/core#altLabel> "Frome Clay and Fuller's Earth (Undifferentiated) [Obsolete Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernagh Andesite And Dacite Formation [Obsolete Name And Code: Use FRNA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S518> <http://www.w3.org/2004/02/skos/core#altLabel> "Freestone Series [Obsolete Name And Code: Use POFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S613> <http://www.w3.org/2004/02/skos/core#altLabel> "False-Bedded Quartzite Member [Obsolete Name and Code: Use BAQ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S653> <http://www.w3.org/2004/02/skos/core#altLabel> "Glen Doe Psammite Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S697> <http://www.w3.org/2004/02/skos/core#altLabel> "Fethaland 'Series' [Obsolete Name and Code: Use SDVO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Floodplain terrace [Obsolete Name and Code: Use SCSG, HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Fethaland 'Series' [Obsolete Name and Code: Use SDVO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAN> <http://www.w3.org/2004/02/skos/core#altLabel> "Fintona Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TELPP> <http://www.w3.org/2004/02/skos/core#altLabel> "Farewell Rock [Obsolete Name]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Fowls Heugh Conglomerate Formation [Obsolete Name And Code: See WCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDMA> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Ashgill Series (Ordovician Period) (449-443.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Mid Devonian Epoch (Devonian Period) (393.3-382.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRA> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Soudleyan Substage (Ordovician Period) (455.25-454 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRES> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Tithonian Age (Jurassic Period) (152.1-145 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRNT> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4813> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Falmouth Beds [Obsolete Name And Code: Use PORO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FADF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fernagh Andesite And Dacite Formation [Obsolete Name And Code: Use FRNA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAORG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faunal organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FBB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fulletby Beds [Obsolete Name And Code: Use ROH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FBQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "False-Bedded Quartzite Member [Obsolete Name and Code: Use BAQ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire Beacon Chert Formation [Obsolete Name and Code: Use COH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCFE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frome Clay and Fuller's Earth (Undifferentiated) [Obsolete Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDMA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foel-Y-Ddinas Mudstones [Obsolete Name And Code: Use FYD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fen Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FETH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fethaland 'Series' [Obsolete Name and Code: Use SDVO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ffairfach Group [Obsolete Name And Code: Use FFG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FFB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ffestiniog Formation [Obsolete Name And Code: Use FF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fell Green Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvioglacial sand and gravel [Obsolete Name and Code: Use GFSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FGT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvioglacial Terrace [Obsolete Name And Code: See GFTD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fowls Heugh Conglomerate Formation [Obsolete Name And Code: See WCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FINUC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fourteen Inch Under Coal [Inappropriate Name And Code: Use PFIUC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLORG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floral organic deposits [Obsolete Name and Code: Use ORGD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fell Sandstone Group [Obsolete Name And Code: Use FELL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FMEER> <http://www.w3.org/2004/02/skos/core#prefLabel> "Felsenmeer"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fordon Evaporite [Obsolete Code: Use FOEV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial and older river sands and gravels [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FORC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fluvial and older river sands and gravels with associated clay [Obsolete Name and Code: Use ORSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flood Plain Gravel"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farewell Rock [Obsolete Name]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frondderw Ash [Obsolete Name And Code: See FRT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Freestone Series [Obsolete Name And Code: Use POFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fresgeo Sandstone [Unit Name And Code Obsolete: Use FGSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRNT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Granite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gourock Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1552> <http://www.w3.org/2004/02/skos/core#prefLabel> "Queensberry Grits [Obsolete Name and Code: Use GDE, GALA, GAL1, GAL2, GAL3, GAL4, GAL5, GAL6, GAL7, GAL8]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H242> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frome Clay and Fuller's Earth [Undifferentiated] [Obsolete Name and Code: Use FEFR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2777> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain gravels [Obsolete Name and Code: Use ECTN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H291> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gourock Sand Formation [Obsolete Name and Code: Use GOSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2958> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain terrace deposits plus buried channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H325> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain terrace [Obsolete Name and Code: Use SCSG, HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3478> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain sand and gravel [Obsolete Name and Code: Use HPSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3584> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain terrace deposits [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4813> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floodplain Terrace Deposits and Submerged Channel [Obsolete Name and Code: Use NO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S49> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fuller's Earth Formation and Frome Clay Formation [Undifferentiated]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S653> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loch Laggan Psammite Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPGR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRNT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
