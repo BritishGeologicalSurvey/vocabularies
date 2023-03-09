@@ -1,351 +1,163 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSCL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSCL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use -1702]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LSCL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use WKSA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1803> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2095> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H285> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3200> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3970> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H455> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4979> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4995> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H72> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/G> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H789> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WKSA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WKSA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0.5 to 2 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALHI> <http://www.w3.org/2000/01/rdf-schema#label> "Alne Hills Mudstone Bed [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMA> <http://www.w3.org/2000/01/rdf-schema#label> "Cwm-Amliw Tuff Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNHC> <http://www.w3.org/2000/01/rdf-schema#label> "Clousden Hill Coal (Northumberland) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNYSG> <http://www.w3.org/2000/01/rdf-schema#label> "Coney Weston Sand and Gravel Member [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRCC> <http://www.w3.org/2000/01/rdf-schema#label> "Crawstone Coal (Coalbrookdale) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://www.w3.org/2000/01/rdf-schema#label> "East Grange Till Member [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1030> <http://www.w3.org/2000/01/rdf-schema#label> "Llandeilo to Ashgill Rocks (Undifferentiated) [Obsolete: use LLDA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1264> <http://www.w3.org/2000/01/rdf-schema#label> "Avon Second Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1349> <http://www.w3.org/2000/01/rdf-schema#label> "Bifidus Slate Formation and Murchisoni Beds (Undifferentiated) [Obsolete: use BFMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1387> <http://www.w3.org/2000/01/rdf-schema#label> "Avon First Terrace (Deposits) [Obsolete: use BRET]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Keuper Marl [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1739> <http://www.w3.org/2000/01/rdf-schema#label> "Oadby Till (Trias-Rich) [Obsolete: use ODTT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1750> <http://www.w3.org/2000/01/rdf-schema#label> "Oxford Clay and Kellaways Formations (Undifferentiated) [Obsolete: use OXKL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1779> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Pebidian (Undifferentiated) [Obsolete: use PVL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1803> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Vale Marineband [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Keuper Marl(s) [Duplicate: use -1702]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2000/01/rdf-schema#label> "Uriconian Group (Undifferentiated) [Obsolete: use UO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1905> <http://www.w3.org/2000/01/rdf-schema#label> "Second or Wasperton Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1974> <http://www.w3.org/2000/01/rdf-schema#label> "Previously Comprised Lower, Middle and Upper Border Groups [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2095> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Estuarine Series (pars) (Fox-Strangways, 1892) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://www.w3.org/2000/01/rdf-schema#label> "Earnley \"Division\" [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://www.w3.org/2000/01/rdf-schema#label> "Carstone of the Isle of Wight [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Holywell Beds and New Pit Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H285> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Chalk (part) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3200> <http://www.w3.org/2000/01/rdf-schema#label> "Cotswold Sands [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://www.w3.org/2000/01/rdf-schema#label> "Seaford and Newhaven Chalk [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3614> <http://www.w3.org/2000/01/rdf-schema#label> "Variegated Beds (lower part) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3925> <http://www.w3.org/2000/01/rdf-schema#label> "Stonesfield Slate Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3960> <http://www.w3.org/2000/01/rdf-schema#label> "Corton Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3970> <http://www.w3.org/2000/01/rdf-schema#label> "Brora Arenaceous Series and upper part of Brora Argillaceous Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4206> <http://www.w3.org/2000/01/rdf-schema#label> "River and glaciofluvial sheet deposits, undivided [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4523> <http://www.w3.org/2000/01/rdf-schema#label> "Part of the Eaglesham Lavas on Scotland Sheet 22NE 1:50 000 2000 [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H455> <http://www.w3.org/2000/01/rdf-schema#label> "Plenus Marls [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4979> <http://www.w3.org/2000/01/rdf-schema#label> "Mottled Sandstone, Upper [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4995> <http://www.w3.org/2000/01/rdf-schema#label> "Division D of the Bristol Area [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5004> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Fuller's Earth (Member) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Shelly Clay [Duplicate: use LSCL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5112> <http://www.w3.org/2000/01/rdf-schema#label> "Building Stones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H633> <http://www.w3.org/2000/01/rdf-schema#label> "Tertiary Deposits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H696> <http://www.w3.org/2000/01/rdf-schema#label> "Peat and submerged and buried forest [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H72> <http://www.w3.org/2000/01/rdf-schema#label> "In part: Chatburn Limestone Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H789> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Deltaic Series (Hemingway, 1949) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2000/01/rdf-schema#label> "Lower and Middle Holywell Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAS> <http://www.w3.org/2000/01/rdf-schema#label> "Hastings Beds (Subgroup) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSLS> <http://www.w3.org/2000/01/rdf-schema#label> "Harbour Cove Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://www.w3.org/2000/01/rdf-schema#label> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFSLS> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFB> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFG> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://www.w3.org/2000/01/rdf-schema#label> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://www.w3.org/2000/01/rdf-schema#label> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVT> <http://www.w3.org/2000/01/rdf-schema#label> "Kinbane Vent [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBNC> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Bench Coal (Warwickshire) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBY> <http://www.w3.org/2000/01/rdf-schema#label> "Ledbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCSM> <http://www.w3.org/2000/01/rdf-schema#label> "Not Defined [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESTB> <http://www.w3.org/2000/01/rdf-schema#label> "Lester Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESTS> <http://www.w3.org/2000/01/rdf-schema#label> "Lester Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLBO> <http://www.w3.org/2000/01/rdf-schema#label> "Llanbodo Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLTE> <http://www.w3.org/2000/01/rdf-schema#label> "Lower London Tertiaries [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCLFB> <http://www.w3.org/2000/01/rdf-schema#label> "Marble Cliff Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MFF> <http://www.w3.org/2000/01/rdf-schema#label> "Monkey's Fold Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MILFR> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRGF> <http://www.w3.org/2000/01/rdf-schema#label> "Blue Lias Formation (Marginal Facies) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRI> <http://www.w3.org/2000/01/rdf-schema#label> "Merope Island Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRSR> <http://www.w3.org/2000/01/rdf-schema#label> "Mylor Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NKSC> <http://www.w3.org/2000/01/rdf-schema#label> "Skerries Conglomerates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NKSG> <http://www.w3.org/2000/01/rdf-schema#label> "Skerries Grits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARY> <http://www.w3.org/2000/01/rdf-schema#label> "Parys Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARYG> <http://www.w3.org/2000/01/rdf-schema#label> "Parys Green Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCOT> <http://www.w3.org/2000/01/rdf-schema#label> "Porthcovan Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLB> <http://www.w3.org/2000/01/rdf-schema#label> "Plateau Beds Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGF> <http://www.w3.org/2000/01/rdf-schema#label> "Porth Yr Ogof Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PPRID> <http://www.w3.org/2000/01/rdf-schema#label> "Porth Pridd Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QC> <http://www.w3.org/2000/01/rdf-schema#label> "Quartz Conglomerate Formation (Forest of Dean) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> <http://www.w3.org/2000/01/rdf-schema#label> "Quartz Conglomerate Group (South Wales) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDBN> <http://www.w3.org/2000/01/rdf-schema#label> "Redbourne Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://www.w3.org/2000/01/rdf-schema#label> "Red Marl Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://www.w3.org/2000/01/rdf-schema#label> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLGES> <http://www.w3.org/2000/01/rdf-schema#label> "Rotliegendes Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://www.w3.org/2000/01/rdf-schema#label> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHA> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy Haven Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDWC> <http://www.w3.org/2000/01/rdf-schema#label> "Second Waterloo Coal (Nottingham and Derby) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLBD> <http://www.w3.org/2000/01/rdf-schema#label> "Slaughterbridge Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMG> <http://www.w3.org/2000/01/rdf-schema#label> "St Maughans Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://www.w3.org/2000/01/rdf-schema#label> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPL> <http://www.w3.org/2000/01/rdf-schema#label> "Single Post Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THB> <http://www.w3.org/2000/01/rdf-schema#label> "Thornbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TREY> <http://www.w3.org/2000/01/rdf-schema#label> "Treyarnon Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TREYS> <http://www.w3.org/2000/01/rdf-schema#label> "Treyarnon Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TT> <http://www.w3.org/2000/01/rdf-schema#label> "Througham Tilestone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULUS> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Ludlow Shales Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VRGN> <http://www.w3.org/2000/01/rdf-schema#label> "Volcanic Rocks and Greenstones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBK> <http://www.w3.org/2000/01/rdf-schema#label> "Woodbank Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WINTF> <http://www.w3.org/2000/01/rdf-schema#label> "Winterton Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPEAR> <http://www.w3.org/2000/01/rdf-schema#label> "Wild Pear Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Tertiary Deposits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bifidus Slate Formation and Murchisoni Beds (Undifferentiated) [Obsolete: use BFMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Peat and submerged and buried forest [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLI> <http://www.w3.org/2004/02/skos/core#altLabel> "Blue Lias Formation (Marginal Facies) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRET> <http://www.w3.org/2004/02/skos/core#altLabel> "Avon First Terrace (Deposits) [Obsolete: use BRET]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRS> <http://www.w3.org/2004/02/skos/core#altLabel> "Monkey's Fold Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGP> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Middle Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWA> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartz Conglomerate Group (South Wales) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FNSTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Building Stones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWW> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Redbourne Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1071> <http://www.w3.org/2004/02/skos/core#altLabel> "Blue Lias Formation (Marginal Facies) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1190> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H139> <http://www.w3.org/2004/02/skos/core#altLabel> "Cwm-Amliw Tuff Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H142> <http://www.w3.org/2004/02/skos/core#altLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Keuper Marl(s) [Duplicate: use -1702]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Keuper Marl [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2101> <http://www.w3.org/2004/02/skos/core#altLabel> "Cwm-Amliw Tuff Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2230> <http://www.w3.org/2004/02/skos/core#altLabel> "Hastings Beds (Subgroup) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2239> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2405> <http://www.w3.org/2004/02/skos/core#altLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2872> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H306> <http://www.w3.org/2004/02/skos/core#altLabel> "Hastings Beds (Subgroup) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H339> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H340> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3491> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3492> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3744> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Ludlow Shales Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3753> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4114> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H422> <http://www.w3.org/2004/02/skos/core#altLabel> "Skerries Grits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Marl Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4335> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4368> <http://www.w3.org/2004/02/skos/core#altLabel> "Thornbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4560> <http://www.w3.org/2004/02/skos/core#altLabel> "Clousden Hill Coal (Northumberland) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4706> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4707> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4868> <http://www.w3.org/2004/02/skos/core#altLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4941> <http://www.w3.org/2004/02/skos/core#altLabel> "Througham Tilestone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Shelly Clay (Woolwich Formation)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H590> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Ludlow Shales Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H795> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H959> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H988> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H989> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Harbour Cove Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Merope Island Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEY> <http://www.w3.org/2004/02/skos/core#altLabel> "Building Stones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower and Middle Holywell Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower and Middle Holywell Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartz Conglomerate Formation (Forest of Dean) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INO> <http://www.w3.org/2004/02/skos/core#altLabel> "Redbourne Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVG> <http://www.w3.org/2004/02/skos/core#altLabel> "Volcanic Rocks and Greenstones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCLT> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower London Tertiaries [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLBG> <http://www.w3.org/2004/02/skos/core#altLabel> "Llanbodo Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLBG> <http://www.w3.org/2004/02/skos/core#altLabel> "Porth Pridd Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLC> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLDA> <http://www.w3.org/2004/02/skos/core#altLabel> "Llandeilo to Ashgill Rocks (Undifferentiated) [Obsolete: use LLDA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Shelly Clay [Duplicate: use LSCL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lester Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lester Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ledbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandy Haven Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Thornbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Mylor Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTNSG> <http://www.w3.org/2004/02/skos/core#altLabel> "River and glaciofluvial sheet deposits, undivided [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYEI> <http://www.w3.org/2004/02/skos/core#altLabel> "Parys Green Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYEI> <http://www.w3.org/2004/02/skos/core#altLabel> "Parys Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NK> <http://www.w3.org/2004/02/skos/core#altLabel> "Skerries Conglomerates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NK> <http://www.w3.org/2004/02/skos/core#altLabel> "Skerries Grits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPBE> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Holywell Beds and New Pit Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPUH> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Holywell Beds and New Pit Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ODTT> <http://www.w3.org/2004/02/skos/core#altLabel> "Oadby Till (Trias-Rich) [Obsolete: use ODTT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXKL> <http://www.w3.org/2004/02/skos/core#altLabel> "Oxford Clay and Kellaways Formations (Undifferentiated) [Obsolete: use OXKL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PBR> <http://www.w3.org/2004/02/skos/core#altLabel> "Mylor Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENN> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartz Conglomerate Group (South Wales) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNYF> <http://www.w3.org/2004/02/skos/core#altLabel> "Plateau Beds Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POB> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartz Conglomerate Group (South Wales) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVL> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Pebidian (Undifferentiated) [Obsolete: use PVL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RD> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLG> <http://www.w3.org/2004/02/skos/core#altLabel> "Rotliegendes Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S823> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Waterloo Coal (Nottingham and Derby) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S938> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://www.w3.org/2004/02/skos/core#altLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Porth Yr Ogof Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THRG> <http://www.w3.org/2004/02/skos/core#altLabel> "Througham Tilestone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSLH> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower London Tertiaries [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Marble Cliff Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Porthcovan Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Treyarnon Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Treyarnon Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UDSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Slaughterbridge Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULU> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Ludlow Shales Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group (Undifferentiated) [Obsolete: use UO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Avon Second Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Second or Wasperton Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Wild Pear Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://www.w3.org/2004/02/skos/core#altLabel> "Redbourne Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1803> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2095> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H285> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3200> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3925> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3970> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H455> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4979> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H789> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALHI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alne Hills Mudstone Bed [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cwm-Amliw Tuff Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clousden Hill Coal (Northumberland) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNYSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coney Weston Sand and Gravel Member [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRCC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crawstone Coal (Coalbrookdale) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://www.w3.org/2004/02/skos/core#prefLabel> "East Grange Till Member [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1030> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llandeilo to Ashgill Rocks (Undifferentiated) [Obsolete: use LLDA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avon Second Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1349> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bifidus Slate Formation and Murchisoni Beds (Undifferentiated) [Obsolete: use BFMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1387> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avon First Terrace (Deposits) [Obsolete: use BRET]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1702> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Keuper Marl [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1739> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oadby Till (Trias-Rich) [Obsolete: use ODTT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1750> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oxford Clay and Kellaways Formations (Undifferentiated) [Obsolete: use OXKL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1779> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Pebidian (Undifferentiated) [Obsolete: use PVL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1803> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Vale Marineband [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1822> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Keuper Marl(s) [Duplicate: use -1702]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uriconian Group (Undifferentiated) [Obsolete: use UO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1905> <http://www.w3.org/2004/02/skos/core#prefLabel> "Second or Wasperton Terrace (Deposits) [Obsolete: use WAT]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1974> <http://www.w3.org/2004/02/skos/core#prefLabel> "Previously Comprised Lower, Middle and Upper Border Groups [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2095> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Estuarine Series (pars) (Fox-Strangways, 1892) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2309> <http://www.w3.org/2004/02/skos/core#prefLabel> "Earnley \"Division\" [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2312> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carstone of the Isle of Wight [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2342> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Holywell Beds and New Pit Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H285> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Chalk (part) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cotswold Sands [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seaford and Newhaven Chalk [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3614> <http://www.w3.org/2004/02/skos/core#prefLabel> "Variegated Beds (lower part) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3925> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stonesfield Slate Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3960> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corton Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3970> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brora Arenaceous Series and upper part of Brora Argillaceous Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4206> <http://www.w3.org/2004/02/skos/core#prefLabel> "River and glaciofluvial sheet deposits, undivided [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4523> <http://www.w3.org/2004/02/skos/core#prefLabel> "Part of the Eaglesham Lavas on Scotland Sheet 22NE 1:50 000 2000 [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H455> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plenus Marls [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4979> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mottled Sandstone, Upper [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4995> <http://www.w3.org/2004/02/skos/core#prefLabel> "Division D of the Bristol Area [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Fuller's Earth (Member) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Shelly Clay [Duplicate: use LSCL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5112> <http://www.w3.org/2004/02/skos/core#prefLabel> "Building Stones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H633> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tertiary Deposits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peat and submerged and buried forest [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H72> <http://www.w3.org/2004/02/skos/core#prefLabel> "In part: Chatburn Limestone Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H789> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Deltaic Series (Hemingway, 1949) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H953> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower and Middle Holywell Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hastings Beds (Subgroup) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harbour Cove Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hibaldstow Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFSLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirton Cementstone Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kinbane Vent [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBNC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Bench Coal (Warwickshire) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ledbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCSM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Not Defined [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESTB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lester Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESTS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lester Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLBO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llanbodo Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLTE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower London Tertiaries [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCLFB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marble Cliff Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MFF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monkey's Fold Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MILFR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Ilfracombe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blue Lias Formation (Marginal Facies) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Merope Island Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mylor Series [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NKSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skerries Conglomerates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NKSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skerries Grits [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parys Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parys Green Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCOT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Porthcovan Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plateau Beds Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Porth Yr Ogof Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PPRID> <http://www.w3.org/2004/02/skos/core#prefLabel> "Porth Pridd Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartz Conglomerate Formation (Forest of Dean) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartz Conglomerate Group (South Wales) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDBN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Redbourne Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Marl Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raglan Mudstone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLGES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rotliegendes Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raventhorpe Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy Haven Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDWC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Second Waterloo Coal (Nottingham and Derby) [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLBD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slaughterbridge Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMG> <http://www.w3.org/2004/02/skos/core#prefLabel> "St Maughans Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santon Oolite [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Single Post Limestone [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thornbury Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TREY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treyarnon Slate Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TREYS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treyarnon Slates [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Througham Tilestone Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULUS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Ludlow Shales Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VRGN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volcanic Rocks and Greenstones [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodbank Group [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WINTF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winterton Formation [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPEAR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wild Pear Beds [Obsolete]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5072> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5247> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLKH> <http://www.w3.org/2000/01/rdf-schema#label> "Blackhall Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLTL> <http://www.w3.org/2000/01/rdf-schema#label> "Calton Limestone [Obsolete: use MI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDA> <http://www.w3.org/2000/01/rdf-schema#label> "Dolomite Beds (of Appin) (Not Appin Dolomite) [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDAC> <http://www.w3.org/2000/01/rdf-schema#label> "Edder Acres Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDUR> <http://www.w3.org/2000/01/rdf-schema#label> "East Durham Till Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENDI> <http://www.w3.org/2000/01/rdf-schema#label> "Ennerdale Intrusion, diorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENGR> <http://www.w3.org/2000/01/rdf-schema#label> "Ennerdale Intrusion, granite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENN> <http://www.w3.org/2000/01/rdf-schema#label> "Ennerdale Intrusion, granophyre [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENNR> <http://www.w3.org/2000/01/rdf-schema#label> "Ennerdale Intrusion, microdiorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGD> <http://www.w3.org/2000/01/rdf-schema#label> "Eskdale Intrusion, granodiorite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGM> <http://www.w3.org/2000/01/rdf-schema#label> "Eskdale Intrusion, microgranite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGR> <http://www.w3.org/2000/01/rdf-schema#label> "Eskdale Intrusion, granite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2014> <http://www.w3.org/2000/01/rdf-schema#label> "First Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2015> <http://www.w3.org/2000/01/rdf-schema#label> "No.1 Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2123> <http://www.w3.org/2000/01/rdf-schema#label> "No.4 Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2245> <http://www.w3.org/2000/01/rdf-schema#label> "Main Terrace Deposits (River Severn) [Obsolete: use HOHE]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2350> <http://www.w3.org/2000/01/rdf-schema#label> "Oadby Till (Lias-rich) [Obsolete: use ODTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2366> <http://www.w3.org/2000/01/rdf-schema#label> "Avon Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2422> <http://www.w3.org/2000/01/rdf-schema#label> "Sandrock (Isle of Wight) [Obsolete: use SIOW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2441> <http://www.w3.org/2000/01/rdf-schema#label> "Sixth Terrace (Deposits) [Obsolete: use SPHT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2519> <http://www.w3.org/2000/01/rdf-schema#label> "Glauconitic sands (in part) and ferruginous grit [Obsolete: use USPS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2543> <http://www.w3.org/2000/01/rdf-schema#label> "Wolvercote (Gravel) Formation [Obsolete: use WV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2629> <http://www.w3.org/2000/01/rdf-schema#label> "Junction Bed and Marlstone (Rock Bed) [Obsolete: use BNLS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H272> <http://www.w3.org/2000/01/rdf-schema#label> "Garburn Formation (part) [Obsolete: use GAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2724> <http://www.w3.org/2000/01/rdf-schema#label> "Avon Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2726> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth or Ailstone Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2858> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Estuarine Series (Inferior Oolite) [Obsolete: use HYSA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2930> <http://www.w3.org/2000/01/rdf-schema#label> "Ludlow and Wenlock Sedimentary Rocks (Undifferentiated) [Obsolete: use LWU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2973> <http://www.w3.org/2000/01/rdf-schema#label> "Fifth or Pershore Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3026> <http://www.w3.org/2000/01/rdf-schema#label> "Selbornian (Stage) [Obsolete: use SELB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3118> <http://www.w3.org/2000/01/rdf-schema#label> "Wasperton Terrace Deposits (Warwickshire Avon) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3396> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Devonian (Lower Old Red Sandstone) Lavas [Obsolete: use EYVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3527> <http://www.w3.org/2000/01/rdf-schema#label> "Llandeilo to Caradoc Rocks (Undifferentiated) [Obsolete: use LLDC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3531> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Devil's Bridge Formation and Middle Devil's Bridge Formation (Undifferentiated) [Obsolete: use LMDB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3585> <http://www.w3.org/2000/01/rdf-schema#label> "Northmoor (Gravel) Formation [Obsolete: use NO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3609> <http://www.w3.org/2000/01/rdf-schema#label> "No 5 Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3752> <http://www.w3.org/2000/01/rdf-schema#label> "No.2 Terrace (Deposits) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3870> <http://www.w3.org/2000/01/rdf-schema#label> "Bretford Terrace Deposits (Warwickshire Avon) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3916> <http://www.w3.org/2000/01/rdf-schema#label> "Harestones Rhyolite (in Carrock Fell Complex) [Obsolete: use CFCOH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3962> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4141> <http://www.w3.org/2000/01/rdf-schema#label> "Lewisian Rocks (Undifferentiated) [Obsolete: use L]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4197> <http://www.w3.org/2000/01/rdf-schema#label> "Mottled Member (Lower Llandovery) [Obsolete: use MMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4250> <http://www.w3.org/2000/01/rdf-schema#label> "Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://www.w3.org/2000/01/rdf-schema#label> "West Walton Formation and Oxford Clay Formation (Undifferentiated) [Obsolete: use OXWW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4532> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Crag Microgranite (In Carrock Fell Complex) [Obsolete: use CFCOI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4533> <http://www.w3.org/2000/01/rdf-schema#label> "Carrock Fell Complex (Mosedale Division) [Obsolete: use CFCOM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4679> <http://www.w3.org/2000/01/rdf-schema#label> "Garden Course (Vein) [Obsolete: use GNCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4770> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Wenlock Limestone and Basement Beds (Together) [Obsolete: use LQL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H482> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Beds and London Clay (Undifferentiated) [Obsolete: use RBLC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4950> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Greensand Formation (Except Devon) [Obsolete: use UGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4981> <http://www.w3.org/2000/01/rdf-schema#label> "Worcester Terrace Deposits (River Severn) [Obsolete: use WORT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H500> <http://www.w3.org/2000/01/rdf-schema#label> "Roach (Stone) [Obsolete: use ROH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H870> <http://www.w3.org/2000/01/rdf-schema#label> "Dunnottar and Crawton Groups (Undifferentiated) [Obsolete: use DRCR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H911> <http://www.w3.org/2000/01/rdf-schema#label> "Ford (Magnesian Limestone) Formation [Obsolete: use FML]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H950> <http://www.w3.org/2000/01/rdf-schema#label> "Hanborough (Gravel) Formation [Obsolete: use HAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H989> <http://www.w3.org/2000/01/rdf-schema#label> "Kirton Cementstones and Kirton (Cement) Shale [Obsolete: use KCM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Junction Bed and Marlstone (Rock Bed) [Obsolete: use BNLS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRET> <http://www.w3.org/2004/02/skos/core#altLabel> "Bretford Terrace Deposits (Warwickshire Avon) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRET> <http://www.w3.org/2004/02/skos/core#altLabel> "First Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRET> <http://www.w3.org/2004/02/skos/core#altLabel> "No.1 Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOH> <http://www.w3.org/2004/02/skos/core#altLabel> "Harestones Rhyolite (in Carrock Fell Complex) [Obsolete: use CFCOH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOI> <http://www.w3.org/2004/02/skos/core#altLabel> "Iron Crag Microgranite (In Carrock Fell Complex) [Obsolete: use CFCOI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOM> <http://www.w3.org/2004/02/skos/core#altLabel> "Carrock Fell Complex (Mosedale Division) [Obsolete: use CFCOM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTD> <http://www.w3.org/2004/02/skos/core#altLabel> "Avon Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTD> <http://www.w3.org/2004/02/skos/core#altLabel> "Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTD> <http://www.w3.org/2004/02/skos/core#altLabel> "Fourth or Ailstone Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTD> <http://www.w3.org/2004/02/skos/core#altLabel> "No.4 Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> <http://www.w3.org/2004/02/skos/core#altLabel> "Dunnottar and Crawton Groups (Undifferentiated) [Obsolete: use DRCR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Ennerdale Intrusion, diorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Ennerdale Intrusion, granite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Ennerdale Intrusion, granophyre [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Ennerdale Intrusion, microdiorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESK> <http://www.w3.org/2004/02/skos/core#altLabel> "Eskdale Intrusion, granite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESK> <http://www.w3.org/2004/02/skos/core#altLabel> "Eskdale Intrusion, granodiorite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESK> <http://www.w3.org/2004/02/skos/core#altLabel> "Eskdale Intrusion, microgranite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Devonian (Lower Old Red Sandstone) Lavas [Obsolete: use EYVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FML> <http://www.w3.org/2004/02/skos/core#altLabel> "Ford (Magnesian Limestone) Formation [Obsolete: use FML]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAD> <http://www.w3.org/2004/02/skos/core#altLabel> "Garburn Formation (part) [Obsolete: use GAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNCC> <http://www.w3.org/2004/02/skos/core#altLabel> "Garden Course (Vein) [Obsolete: use GNCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAN> <http://www.w3.org/2004/02/skos/core#altLabel> "Hanborough (Gravel) Formation [Obsolete: use HAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOHE> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Terrace Deposits (River Severn) [Obsolete: use HOHE]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Estuarine Series (Inferior Oolite) [Obsolete: use HYSA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstones and Kirton (Cement) Shale [Obsolete: use KCM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/L> <http://www.w3.org/2004/02/skos/core#altLabel> "Lewisian Rocks (Undifferentiated) [Obsolete: use L]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLDC> <http://www.w3.org/2004/02/skos/core#altLabel> "Llandeilo to Caradoc Rocks (Undifferentiated) [Obsolete: use LLDC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMDB> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Devil's Bridge Formation and Middle Devil's Bridge Formation (Undifferentiated) [Obsolete: use LMDB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LQL> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Wenlock Limestone and Basement Beds (Together) [Obsolete: use LQL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWU> <http://www.w3.org/2004/02/skos/core#altLabel> "Ludlow and Wenlock Sedimentary Rocks (Undifferentiated) [Obsolete: use LWU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Mottled Member (Lower Llandovery) [Obsolete: use MMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NO> <http://www.w3.org/2004/02/skos/core#altLabel> "Northmoor (Gravel) Formation [Obsolete: use NO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ODTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Oadby Till (Lias-rich) [Obsolete: use ODTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> <http://www.w3.org/2004/02/skos/core#altLabel> "West Walton Formation and Oxford Clay Formation (Undifferentiated) [Obsolete: use OXWW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PERT> <http://www.w3.org/2004/02/skos/core#altLabel> "Avon Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PERT> <http://www.w3.org/2004/02/skos/core#altLabel> "Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PERT> <http://www.w3.org/2004/02/skos/core#altLabel> "Fifth or Pershore Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PERT> <http://www.w3.org/2004/02/skos/core#altLabel> "No 5 Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBLC> <http://www.w3.org/2004/02/skos/core#altLabel> "Reading Beds and London Clay (Undifferentiated) [Obsolete: use RBLC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROH> <http://www.w3.org/2004/02/skos/core#altLabel> "Roach (Stone) [Obsolete: use ROH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SELB> <http://www.w3.org/2004/02/skos/core#altLabel> "Selbornian (Stage) [Obsolete: use SELB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIOW> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandrock (Isle of Wight) [Obsolete: use SIOW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPHT> <http://www.w3.org/2004/02/skos/core#altLabel> "Sixth Terrace (Deposits) [Obsolete: use SPHT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UGS> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Greensand Formation (Except Devon) [Obsolete: use UGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USPS> <http://www.w3.org/2004/02/skos/core#altLabel> "Glauconitic sands (in part) and ferruginous grit [Obsolete: use USPS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://www.w3.org/2004/02/skos/core#altLabel> "No.2 Terrace (Deposits) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Wasperton Terrace Deposits (Warwickshire Avon) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WORT> <http://www.w3.org/2004/02/skos/core#altLabel> "Worcester Terrace Deposits (River Severn) [Obsolete: use WORT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://www.w3.org/2004/02/skos/core#altLabel> "Wolvercote (Gravel) Formation [Obsolete: use WV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLKH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blackhall Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLTL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calton Limestone [Obsolete: use MI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dolomite Beds (of Appin) (Not Appin Dolomite) [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDAC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edder Acres Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EDUR> <http://www.w3.org/2004/02/skos/core#prefLabel> "East Durham Till Formation [Obsolete]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENDI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ennerdale Intrusion, diorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ennerdale Intrusion, granite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ennerdale Intrusion, granophyre [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENNR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ennerdale Intrusion, microdiorite [Obsolete: use ENIN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eskdale Intrusion, granodiorite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eskdale Intrusion, microgranite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eskdale Intrusion, granite [Obsolete: use ESK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2014> <http://www.w3.org/2004/02/skos/core#prefLabel> "First Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2015> <http://www.w3.org/2004/02/skos/core#prefLabel> "No.1 Terrace (Deposits) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2123> <http://www.w3.org/2004/02/skos/core#prefLabel> "No.4 Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2245> <http://www.w3.org/2004/02/skos/core#prefLabel> "Main Terrace Deposits (River Severn) [Obsolete: use HOHE]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2350> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oadby Till (Lias-rich) [Obsolete: use ODTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2366> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avon Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2422> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandrock (Isle of Wight) [Obsolete: use SIOW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sixth Terrace (Deposits) [Obsolete: use SPHT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2519> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glauconitic sands (in part) and ferruginous grit [Obsolete: use USPS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2543> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wolvercote (Gravel) Formation [Obsolete: use WV]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2629> <http://www.w3.org/2004/02/skos/core#prefLabel> "Junction Bed and Marlstone (Rock Bed) [Obsolete: use BNLS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H272> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garburn Formation (part) [Obsolete: use GAD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2724> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avon Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2726> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fourth or Ailstone Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2858> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Estuarine Series (Inferior Oolite) [Obsolete: use HYSA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2930> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ludlow and Wenlock Sedimentary Rocks (Undifferentiated) [Obsolete: use LWU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2973> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fifth or Pershore Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3026> <http://www.w3.org/2004/02/skos/core#prefLabel> "Selbornian (Stage) [Obsolete: use SELB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3118> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wasperton Terrace Deposits (Warwickshire Avon) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3396> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Devonian (Lower Old Red Sandstone) Lavas [Obsolete: use EYVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llandeilo to Caradoc Rocks (Undifferentiated) [Obsolete: use LLDC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3531> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Devil's Bridge Formation and Middle Devil's Bridge Formation (Undifferentiated) [Obsolete: use LMDB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3585> <http://www.w3.org/2004/02/skos/core#prefLabel> "Northmoor (Gravel) Formation [Obsolete: use NO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3609> <http://www.w3.org/2004/02/skos/core#prefLabel> "No 5 Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3752> <http://www.w3.org/2004/02/skos/core#prefLabel> "No.2 Terrace (Deposits) [Obsolete: use WAT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3870> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bretford Terrace Deposits (Warwickshire Avon) [Obsolete: use BRET]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3916> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harestones Rhyolite (in Carrock Fell Complex) [Obsolete: use CFCOH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3962> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fourth Terrace (Deposits) [Obsolete: use CRTD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lewisian Rocks (Undifferentiated) [Obsolete: use L]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4197> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mottled Member (Lower Llandovery) [Obsolete: use MMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4250> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fifth Terrace (Deposits) [Obsolete: use PERT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://www.w3.org/2004/02/skos/core#prefLabel> "West Walton Formation and Oxford Clay Formation (Undifferentiated) [Obsolete: use OXWW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4532> <http://www.w3.org/2004/02/skos/core#prefLabel> "Iron Crag Microgranite (In Carrock Fell Complex) [Obsolete: use CFCOI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4533> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carrock Fell Complex (Mosedale Division) [Obsolete: use CFCOM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4679> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garden Course (Vein) [Obsolete: use GNCC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4770> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Wenlock Limestone and Basement Beds (Together) [Obsolete: use LQL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H482> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reading Beds and London Clay (Undifferentiated) [Obsolete: use RBLC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4950> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Greensand Formation (Except Devon) [Obsolete: use UGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4981> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worcester Terrace Deposits (River Severn) [Obsolete: use WORT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roach (Stone) [Obsolete: use ROH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H870> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dunnottar and Crawton Groups (Undifferentiated) [Obsolete: use DRCR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H911> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ford (Magnesian Limestone) Formation [Obsolete: use FML]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H950> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hanborough (Gravel) Formation [Obsolete: use HAN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H989> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirton Cementstones and Kirton (Cement) Shale [Obsolete: use KCM]"@en .
