@@ -17,6 +17,13 @@ Thus repository's content are licensed under the [Open Government Licence 3.0 (O
 
 <https://www.bgs.ac.uk/staff/profiles/0639.html>
  
+## Vocablary vs Ontology
+
+The difference between a vocablary & ontology can be sujecive, and is generally around the level of complexity. 
+
+> "A Controlled vocabulary is a list of terms that describes a certain domain of knowledge. In the controlled vocabulary you only use one term to describe one particular phenomenon, excluding all other synonyms. The vocabulary should provide a definition for the term, and any synonyms. In a publicly managed controlled vocabulary, the terms should also have unique identifiers, so that they can be referenced.
+>
+>An ontology (in this context) is a controlled vocabulary, that apart from being a list of agreed terms, also captures relationships between these terms."
 
 ## Other Geoscience Vocalaries
 
