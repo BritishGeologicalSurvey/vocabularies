@@ -25,7 +25,9 @@ The difference between a vocablary & ontology can be sujecive, and is generally 
 >
 >An ontology (in this context) is a controlled vocabulary, that apart from being a list of agreed terms, also captures relationships between these terms."
 
-## Other Geoscience Vocalaries
+## Other Geoscience Vocablaries
+
+Loads of terms to be found in https://vocabs.ardc.edu.au/ 
 
 ### CGI
 
