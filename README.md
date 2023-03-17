@@ -25,9 +25,23 @@ The difference between a vocablary & ontology can be sujecive, and is generally 
 >
 >An ontology (in this context) is a controlled vocabulary, that apart from being a list of agreed terms, also captures relationships between these terms."
 
+### https://lov.linkeddata.es/
+
+a vocabulary is basically synonymous of ontology. However, we differentiate vocabulary from an ontology by characteristics enabling reuse and integration by other
+vocabularies:
+ ─ Small size
+ ─ Low formal constraints (basically RDFS and a fistful of OWL)
+ ─ Few instances except for examples
+ ─ Rich user documentation (Labels, comments, definition, description, etc.)
+
+By linking and reusing each other, vocabularies contribute to the growth of an awesome ecosystem: "The Linked Open Vocabularies". 
+
 ## Other Geoscience Vocablaries
 
-Loads of terms to be found in https://vocabs.ardc.edu.au/ 
+Loads of terms to be found in:
+ - https://vocabs.ardc.edu.au/ 
+ - https://vocab.getty.edu/ 
+ - https://confluence.csiro.au/public/VOCAB/vocabulary-content/compendium-of-vocabularies 
 
 ### CGI
 
@@ -40,6 +54,13 @@ Replicated on https://vocabs.ardc.edu.au/
 
 https://vocabularyserver.com/cnr/ml/earth/en/index.php?tema=103230&/earth-sciences
 
+### Linked Earth
+
+Service down but files at - https://github.com/LinkedEarth/Ontology/ 
+
+### ISPRAM
+
+http://dati.isprambiente.it/ontology/core/#classes 
 
 ### INSPIRE    
 
