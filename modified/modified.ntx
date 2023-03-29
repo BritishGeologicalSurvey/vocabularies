@@ -1,16 +1,47 @@
--<http://data.bgs.ac.uk/id/dataHolding/13606912> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/310f9311-96bf-64ba-e054-002128a47908> .
--<http://data.bgs.ac.uk/id/dataHolding/13607023> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/3f5d93c7-378b-2fb2-e054-002128a47908> .
--<http://data.bgs.ac.uk/id/dataHolding/13607051> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/421f5a13-9aa2-72c3-e054-002128a47908> .
--<http://data.bgs.ac.uk/id/dataHolding/13607841> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/d0949d7e-0b88-0d90-e054-002128a47908> .
--<http://data.bgs.ac.uk/id/dataHolding/13606912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13606912> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/id/dataHolding/13607023> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/id/dataHolding/13607051> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/id/dataHolding/13607841> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13606912> .
--<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607023> .
--<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607051> .
--<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607841> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The pelitic, tectonically upper, part of the Sand Voe Group."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use GCKP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/G> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2000/01/rdf-schema#label> "Graveland Lens Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2000/01/rdf-schema#label> "Garnet Mica Schist \"Unit\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://www.w3.org/2000/01/rdf-schema#label> "Moine \"Series\" [Obsolete: use GCKP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2000/01/rdf-schema#label> "Hillswick Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2000/01/rdf-schema#label> "Yell Sound 'Division'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCKP> <http://www.w3.org/2004/02/skos/core#altLabel> "Moine \"Series\" [Obsolete: use GCKP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#altLabel> "Yell Sound 'Division'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARQ> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2004/02/skos/core#definition> "Pelite with subsidiary semipelite. Bedrock. Occurs onshore. Formed during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary metaconglomerate, pyritic quartzite, pyritic semipelite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://www.w3.org/2004/02/skos/core#definition> "Gneissose pelite and gneissose psammite and trace amphibolite and psammite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#definition> "Trace calcsilicate-rock, gneiss, gneissose micaceous psammite, gneissose pelite, gneissose psammite, hornblende schist, metalimestone, microcline-plagioclase gneiss, microcline-porphyroblastic gneiss, pelite, plagioclase gneiss, psammite, quartzite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Graveland Lens Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garnet Mica Schist \"Unit\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moine \"Series\" [Obsolete: use GCKP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hillswick Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yell Sound 'Division'"@en .
