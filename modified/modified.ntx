@@ -1,47 +1,84 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The pelitic, tectonically upper, part of the Sand Voe Group."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use GCKP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/G> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2000/01/rdf-schema#label> "Graveland Lens Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2000/01/rdf-schema#label> "Garnet Mica Schist \"Unit\""@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://www.w3.org/2000/01/rdf-schema#label> "Moine \"Series\" [Obsolete: use GCKP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2000/01/rdf-schema#label> "Hillswick Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2000/01/rdf-schema#label> "Yell Sound 'Division'"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCKP> <http://www.w3.org/2004/02/skos/core#altLabel> "Moine \"Series\" [Obsolete: use GCKP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#altLabel> "Yell Sound 'Division'"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARQ> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2004/02/skos/core#definition> "Pelite with subsidiary semipelite. Bedrock. Occurs onshore. Formed during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary metaconglomerate, pyritic quartzite, pyritic semipelite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGN> <http://www.w3.org/2004/02/skos/core#definition> "Gneissose pelite and gneissose psammite and trace amphibolite and psammite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNES> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#definition> "Trace calcsilicate-rock, gneiss, gneissose micaceous psammite, gneissose pelite, gneissose psammite, hornblende schist, metalimestone, microcline-plagioclase gneiss, microcline-porphyroblastic gneiss, pelite, plagioclase gneiss, psammite, quartzite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/M> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRLM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Graveland Lens Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GTMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garnet Mica Schist \"Unit\""@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3418> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moine \"Series\" [Obsolete: use GCKP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIWK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hillswick Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yell Sound 'Division'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Cromerian Complex Interglacial 2 To Elsterian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CESND> <http://www.w3.org/2000/01/rdf-schema#label> "Cromerian Complex Interglacial 2 To Elsterian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Cromerian Complex Interglacial 2 To Saalian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EEMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Eemian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Elsterian To Holsteinian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMFH> <http://www.w3.org/2000/01/rdf-schema#label> "Elsterian To Holsteinian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHSND> <http://www.w3.org/2000/01/rdf-schema#label> "Elsterian To Holsteinian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWGRV> <http://www.w3.org/2000/01/rdf-schema#label> "Eemian To Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Eemian To Weichselian Sand And Gravel, Interebedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMFH> <http://www.w3.org/2000/01/rdf-schema#label> "Eemian To Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWSND> <http://www.w3.org/2000/01/rdf-schema#label> "Eemian To Weichselian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWGRV> <http://www.w3.org/2000/01/rdf-schema#label> "Late Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Late Weichselian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMFH> <http://www.w3.org/2000/01/rdf-schema#label> "Late Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMVS> <http://www.w3.org/2000/01/rdf-schema#label> "Late Weichselian Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWSND> <http://www.w3.org/2000/01/rdf-schema#label> "Late Weichselian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSQH> <http://www.w3.org/2000/01/rdf-schema#label> "Marine Sediments, Holocene (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSQP> <http://www.w3.org/2000/01/rdf-schema#label> "Marine Sediments, Pleistocene (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Praetiglian To Cromerian Complex Interglacial 1 Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMVS> <http://www.w3.org/2000/01/rdf-schema#label> "Praetiglian To Cromerian Complex Interglacial 1 Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCSND> <http://www.w3.org/2000/01/rdf-schema#label> "Praetiglian To Cromerian Complex Interglacial 1 Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MAS> <http://www.w3.org/2000/01/rdf-schema#label> "Quaternary Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MVS> <http://www.w3.org/2000/01/rdf-schema#label> "Quaternary Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWGRV> <http://www.w3.org/2000/01/rdf-schema#label> "Saalian To Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMAS> <http://www.w3.org/2000/01/rdf-schema#label> "Saalian To Weichselian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMFH> <http://www.w3.org/2000/01/rdf-schema#label> "Saailian To Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMVS> <http://www.w3.org/2000/01/rdf-schema#label> "Saalian To Weichselian Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSND> <http://www.w3.org/2000/01/rdf-schema#label> "Saalian To Weichselian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk), mud, sand (sea bed sediment, based on folk) and sand. Stratified superficial deposits. Occurs offshore. Formed during the Cromerian Complex - to - Elsterian Stage (Quaternary Period) (.86-.423 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CESND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Stratified superficial deposits. Occurs offshore. Formed during the Cromerian Complex - to - Elsterian Stage (Quaternary Period) (.86-.423 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk), mud, sand (sea bed sediment, based on folk) and sand. Stratified superficial deposits. Occurs offshore. Formed during the Cromerian Complex - to - Saalian Stage (Quaternary Period) (.86-.126 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EEMAS> <http://www.w3.org/2004/02/skos/core#definition> "Gravel (Sea bed sediment, based on Folk), gravel, sand (sea bed sediment, based on folk) and sand. Superficial deposits. Occurs offshore. Formed during the Eemian Stage (Quaternary Period) (.126-.116 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk), mud, sand (sea bed sediment, based on folk) and sand. Superficial deposits. Occurs offshore. Formed during the Elsterian Stage - to - Holsteinian Stage (Quaternary Period) (.48-.362 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMFH> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Elsterian Stage - to - Holsteinian Stage (Quaternary Period) (.48-.362 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHSND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Superficial deposits. Occurs offshore. Formed during the Elsterian Stage - to - Holsteinian Stage (Quaternary Period) (.48-.362 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWGRV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel (Sea bed sediment, based on Folk) and gravel. Superficial deposits. Occurs offshore. Formed during the Eemian Stage - to - Weichselian Stage (Quaternary Period) (.126-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMAS> <http://www.w3.org/2004/02/skos/core#definition> "Gravel (Sea bed sediment, based on Folk), gravel, sand (sea bed sediment, based on folk) and sand. Superficial deposits. Occurs offshore. Formed during the Eemian Stage - to - Weichselian Stage (Quaternary Period) (.126-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMFH> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Eemian Stage - to - Weichselian Stage (Quaternary Period) (.126-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWSND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Superficial deposits. Occurs offshore. Formed during the Eemian Stage - to - Weichselian Stage (Quaternary Period) (.126-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWGRV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel (Sea bed sediment, based on Folk) and gravel. Superficial deposits. Occurs offshore. Formed during the Weichselian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud, sand (sea bed sediment, based on folk) and sand. Superficial deposits. Occurs offshore. Formed during the Weichselian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMFH> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Weichselian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMVS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Weichselian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWSND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Superficial deposits. Occurs offshore. Formed during the Weichselian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSQH> <http://www.w3.org/2004/02/skos/core#definition> "Trace gravel (sea bed sediment, based on folk), mud and sand (sea bed sediment, based on folk). Superficial deposits. Occurs both onshore and offshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk), mud, sand (sea bed sediment, based on folk) and sand. Stratified superficial deposits. Occurs offshore. Formed during the Praetiglian Stage - to - Cromerian Complex (Quaternary Period) (2.56-.48 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMVS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Stratified superficial deposits. Occurs offshore. Formed during the Praetiglian Stage - to - Cromerian Complex (Quaternary Period) (2.56-.48 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCSND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Stratified superficial deposits. Occurs offshore. Formed during the Praetiglian Stage - to - Cromerian Complex (Quaternary Period) (2.56-.48 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud, sand (sea bed sediment, based on folk) and sand. Superficial deposits. Occurs offshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MVS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Quaternary Period (2.588-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWGRV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel (Sea bed sediment, based on Folk) and gravel. Superficial deposits. Occurs offshore. Formed during the Saalian Stage - to - Weichselian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMAS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk), mud, sand and sandy mud (sea bed sediment, based on folk). Superficial deposits. Occurs offshore. Formed during the Saalian Stage - to - Weichselian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMFH> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Saalian Stage - to - Weichselian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMVS> <http://www.w3.org/2004/02/skos/core#definition> "Mud (Sea bed sediment, based on Folk) and mud. Superficial deposits. Occurs offshore. Formed during the Saalian Stage - to - Weichselian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSND> <http://www.w3.org/2004/02/skos/core#definition> "Sand (Sea bed sediment, based on Folk) and sand. Superficial deposits. Occurs offshore. Formed during the Saalian Stage - to - Weichselian Stage (Quaternary Period) (.362-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOW> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Gravel, sand and sandy mud (sea bed sediment, based on folk). Artifical (anthropogenic) deposits and excavations. Occurs onshore. Formed during the Holocene Epoch (Quaternary Period) (.0118-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cromerian Complex Interglacial 2 To Elsterian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CESND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cromerian Complex Interglacial 2 To Elsterian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cromerian Complex Interglacial 2 To Saalian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EEMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eemian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elsterian To Holsteinian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHMFH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elsterian To Holsteinian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EHSND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elsterian To Holsteinian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWGRV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eemian To Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eemian To Weichselian Sand And Gravel, Interebedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWMFH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eemian To Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWSND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eemian To Weichselian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWGRV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Late Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Late Weichselian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMFH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Late Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWMVS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Late Weichselian Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWSND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Late Weichselian Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSQH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine Sediments, Holocene (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSQP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine Sediments, Pleistocene (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Praetiglian To Cromerian Complex Interglacial 1 Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMVS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Praetiglian To Cromerian Complex Interglacial 1 Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCSND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Praetiglian To Cromerian Complex Interglacial 1 Sand (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quaternary Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/Q1MVS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quaternary Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWGRV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saalian To Weichselian Gravel (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saalian To Weichselian Mud And Sand, Interbedded (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMFH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saailian To Weichselian Mud, Firm To Hard (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWMVS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saalian To Weichselian Mud, Very Soft To Soft (Offshore)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWSND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saalian To Weichselian Sand (Offshore)"@en .
