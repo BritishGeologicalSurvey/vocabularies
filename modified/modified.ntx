@@ -1,10 +1,25 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEOS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "See the Lithology descriptions for the component units."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGU> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDW> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEOS> <http://www.w3.org/2000/01/rdf-schema#label> "Headon Beds And Osborne Beds (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDW> <http://www.w3.org/2004/02/skos/core#altLabel> "Sand and gravel of unknown age [Obsolete: use SGAO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEHI> <http://www.w3.org/2004/02/skos/core#altLabel> "Headon Beds And Osborne Beds (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGU> <http://www.w3.org/2004/02/skos/core#altLabel> "Bathampton Down Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEOS> <http://www.w3.org/2004/02/skos/core#definition> "Siliciclastic argillaceous rock with subsidiary sandstone. Bedrock. Occurs onshore. Formed during the Bartonian Age (Palaeogene Period) (41.2-37.8 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEOS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Headon Beds And Osborne Beds (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEOS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Rhythmic pale greyish red sandstones with subordinate siltstone and mudstone; pale green reduction spots common throughout."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "At lower limit of graphitic pelite. Overlying calcareous semipelites and psammites of the Cock Burn Calcarous Schist Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLSL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4473> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKIS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2425> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DDF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MUB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/5RDMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "315.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GELI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "309.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "83.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMSC> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/G> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACHS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOHL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGC> <http://www.w3.org/2000/01/rdf-schema#label> "Haggis Grit And Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLS> <http://www.w3.org/2000/01/rdf-schema#label> "Hayle Sandstones"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKRI> <http://www.w3.org/2004/02/skos/core#altLabel> "Haggis Grit And Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRO> <http://www.w3.org/2004/02/skos/core#altLabel> "Hayle Sandstones"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGC> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Telychian Age (Silurian Period) (438.5-433.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Bedrock. Occurs onshore. Formed during the Givetian Age - to - Frasnian Age (Devonian Period) (387.7-372.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haggis Grit And Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hayle Sandstones"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HLS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
