@@ -1,117 +1,48 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HABR> <http://www.w3.org/2000/01/rdf-schema#label> "Heavitree And Alphington Breccias [Obsolete Code: Use AHBR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAC> <http://www.w3.org/2000/01/rdf-schema#label> "Hales Clay Member [Obsolete: use UPR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAF> <http://www.w3.org/2000/01/rdf-schema#label> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAG> <http://www.w3.org/2000/01/rdf-schema#label> "Hangman Grits [Obsolete: use HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALG> <http://www.w3.org/2000/01/rdf-schema#label> "Happendon Limestones [Obsolete Name And Code: Subsumed Within PGP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAW> <http://www.w3.org/2000/01/rdf-schema#label> "Hawksmoor Formation [Obsolete Name And Code Use: CHES]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAWC> <http://www.w3.org/2000/01/rdf-schema#label> "Haweswater Complex [Obsolete Name And Code: See HAWS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSLS> <http://www.w3.org/2000/01/rdf-schema#label> "Harbour Cove Slates [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HD> <http://www.w3.org/2000/01/rdf-schema#label> "Hadley Formation [Obsolete Name And Code: See ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDMC> <http://www.w3.org/2000/01/rdf-schema#label> "Hard Mine Coal [Obsolete Code: Probably Replaced By HARD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEG> <http://www.w3.org/2000/01/rdf-schema#label> "Head Gravel [Obsolete: use HEAD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEL> <http://www.w3.org/2000/01/rdf-schema#label> "Helman Head Beds [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFL> <http://www.w3.org/2000/01/rdf-schema#label> "Horton Flags [Obsolete Name And Code: See HNF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGMS> <http://www.w3.org/2000/01/rdf-schema#label> "Hangman Sandstone Group [Obsolete Name And Code: See HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIF> <http://www.w3.org/2000/01/rdf-schema#label> "High Ireby Formation [Obsolete Name And Code: Undifferentiated Part Of EVG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIG> <http://www.w3.org/2000/01/rdf-schema#label> "High Ireby Group [Obsolete Name And Code: See Also HIF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIH> <http://www.w3.org/2000/01/rdf-schema#label> "Clyth Subgroup (Helman Head Beds) [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://www.w3.org/2000/01/rdf-schema#label> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOG> <http://www.w3.org/2000/01/rdf-schema#label> "Hotwells Group [Obsolete Name And Code: Within PEMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOHE> <http://www.w3.org/2000/01/rdf-schema#label> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOL> <http://www.w3.org/2000/01/rdf-schema#label> "Hollington Formation [Obsolete Name And Code Use: HEY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPRD> <http://www.w3.org/2000/01/rdf-schema#label> "Hartlepool And Roker Dolomite [Obsolete: use ROD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRQ> <http://www.w3.org/2000/01/rdf-schema#label> "Harlequin Formation [Obsolete Name And Code: Part Of GUN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HVG> <http://www.w3.org/2000/01/rdf-schema#label> "Hagley Volcanic Group [Obsolete Name And Code: See HGY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWM> <http://www.w3.org/2000/01/rdf-schema#label> "Harwich Member [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYDL> <http://www.w3.org/2000/01/rdf-schema#label> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYG> <http://www.w3.org/2000/01/rdf-schema#label> "Highley Formation [Obsolete Name And Code: See HA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AHBR> <http://www.w3.org/2004/02/skos/core#altLabel> "Heavitree And Alphington Breccias [Obsolete Code: Use AHBR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHES> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawksmoor Formation [Obsolete Name And Code Use: CHES]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYTH> <http://www.w3.org/2004/02/skos/core#altLabel> "Clyth Subgroup (Helman Head Beds) [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLYTH> <http://www.w3.org/2004/02/skos/core#altLabel> "Helman Head Beds [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EBB> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELL> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Hadley Formation [Obsolete Name And Code: See ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Hadley Formation [Obsolete Name And Code: See ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EVG> <http://www.w3.org/2004/02/skos/core#altLabel> "High Ireby Formation [Obsolete Name And Code: Undifferentiated Part Of EVG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GS> <http://www.w3.org/2004/02/skos/core#altLabel> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUN> <http://www.w3.org/2004/02/skos/core#altLabel> "Harlequin Formation [Obsolete Name And Code: Part Of GUN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1599> <http://www.w3.org/2004/02/skos/core#altLabel> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2239> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2245> <http://www.w3.org/2004/02/skos/core#altLabel> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H335> <http://www.w3.org/2004/02/skos/core#altLabel> "Highley Formation [Obsolete Name And Code: See HA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4106> <http://www.w3.org/2004/02/skos/core#altLabel> "Hales Clay Member [Obsolete: use UPR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4109> <http://www.w3.org/2004/02/skos/core#altLabel> "Highley Formation [Obsolete Name And Code: See HA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4632> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4706> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4707> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H709> <http://www.w3.org/2004/02/skos/core#altLabel> "Hollington Formation [Obsolete Name And Code Use: HEY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H959> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HA> <http://www.w3.org/2004/02/skos/core#altLabel> "Highley Formation [Obsolete Name And Code: See HA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HA> <http://www.w3.org/2004/02/skos/core#altLabel> "Highley Formation [Obsolete Name And Code: See HA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAG> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Sandstone Group [Obsolete Name And Code: See HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HARD> <http://www.w3.org/2004/02/skos/core#altLabel> "Hard Mine Coal [Obsolete Code: Probably Replaced By HARD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Grits [Obsolete: use HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Grits [Obsolete: use HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Sandstone Group [Obsolete Name And Code: See HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Sandstone Group [Obsolete Name And Code: See HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Haweswater Complex [Obsolete Name And Code: See HAWS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Harbour Cove Slates [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEAD> <http://www.w3.org/2004/02/skos/core#altLabel> "Head Gravel [Obsolete: use HEAD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEY> <http://www.w3.org/2004/02/skos/core#altLabel> "Hollington Formation [Obsolete Name And Code Use: HEY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGMS> <http://www.w3.org/2004/02/skos/core#altLabel> "Hangman Grits [Obsolete: use HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGY> <http://www.w3.org/2004/02/skos/core#altLabel> "Hagley Volcanic Group [Obsolete Name And Code: See HGY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGY> <http://www.w3.org/2004/02/skos/core#altLabel> "Hagley Volcanic Group [Obsolete Name And Code: See HGY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIF> <http://www.w3.org/2004/02/skos/core#altLabel> "High Ireby Group [Obsolete Name And Code: See Also HIF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIG> <http://www.w3.org/2004/02/skos/core#altLabel> "High Ireby Formation [Obsolete Name And Code: Undifferentiated Part Of EVG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HNF> <http://www.w3.org/2004/02/skos/core#altLabel> "Horton Flags [Obsolete Name And Code: See HNF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNT> <http://www.w3.org/2004/02/skos/core#altLabel> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORW> <http://www.w3.org/2004/02/skos/core#altLabel> "Hales Clay Member [Obsolete: use UPR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PECH> <http://www.w3.org/2004/02/skos/core#altLabel> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Hotwells Group [Obsolete Name And Code: Within PEMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGP> <http://www.w3.org/2004/02/skos/core#altLabel> "Happendon Limestones [Obsolete Name And Code: Subsumed Within PGP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROD> <http://www.w3.org/2004/02/skos/core#altLabel> "Hartlepool And Roker Dolomite [Obsolete: use ROD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMD> <http://www.w3.org/2004/02/skos/core#altLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://www.w3.org/2004/02/skos/core#altLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPR> <http://www.w3.org/2004/02/skos/core#altLabel> "Hales Clay Member [Obsolete: use UPR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRAB> <http://www.w3.org/2004/02/skos/core#altLabel> "Harwich Member [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Mid Devonian Epoch (Devonian Period) (393.3-382.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Bedrock. Occurs onshore. Formed during the Namurian Stage (Carboniferous Period) (329-319 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HARE> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Ordovician Period (485.4-443.8 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBGR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Comley Series (Cambrian Period) - to - Arenig Series (Ordovician Period) (526-465.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Gorstian Age (Silurian Period) (427.4-425.6 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPRD> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Guadalupian Epoch - to - Lopingian Epoch (Permian Period) (272.3-252.2 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUSH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Llandovery Epoch (Silurian Period) (443.8-433.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HW> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HABR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heavitree And Alphington Breccias [Obsolete Code: Use AHBR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hales Clay Member [Obsolete: use UPR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halkyn Formation [Obsolete Name And Code: See Revision Data]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hangman Grits [Obsolete: use HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HALG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Happendon Limestones [Obsolete Name And Code: Subsumed Within PGP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hawksmoor Formation [Obsolete Name And Code Use: CHES]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAWC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haweswater Complex [Obsolete Name And Code: See HAWS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HCSLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harbour Cove Slates [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hadley Formation [Obsolete Name And Code: See ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDMC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hard Mine Coal [Obsolete Code: Probably Replaced By HARD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Head Gravel [Obsolete: use HEAD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Helman Head Beds [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Horton Flags [Obsolete Name And Code: See HNF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hangman Sandstone Group [Obsolete Name And Code: See HASA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIF> <http://www.w3.org/2004/02/skos/core#prefLabel> "High Ireby Formation [Obsolete Name And Code: Undifferentiated Part Of EVG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIG> <http://www.w3.org/2004/02/skos/core#prefLabel> "High Ireby Group [Obsolete Name And Code: See Also HIF]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clyth Subgroup (Helman Head Beds) [Obsolete Name And Code: See CLYTH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hibaldstow Limestone [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hotwells Group [Obsolete Name And Code: Within PEMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOHE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Holt Heath Sand And Gravel [Obsolete: use HHSG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hollington Formation [Obsolete Name And Code Use: HEY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HPRD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hartlepool And Roker Dolomite [Obsolete: use ROD]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harlequin Formation [Obsolete Name And Code: Part Of GUN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HVG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hagley Volcanic Group [Obsolete Name And Code: See HGY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harwich Member [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYDL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydraulic Limestones [Obsolete Name And Code: See SMD, BNT, ELL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Highley Formation [Obsolete Name And Code: See HA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Conglomerate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Metalimestone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNDL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YNYSS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNFIG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNDL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNFIG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YNYSS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2000/01/rdf-schema#label> "Ampthill Clay Formation And Kimmeridge Clay Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2000/01/rdf-schema#label> "Isohomoceras Sp. Nov. Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2000/01/rdf-schema#label> "Igneous Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2000/01/rdf-schema#label> "Islay Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2000/01/rdf-schema#label> "Isohomoceras Sp Nov Marine Band [Obsolete Code: Use H1B2]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2000/01/rdf-schema#label> "Kimmeridge Clay Formation And Ampthill Clay Formation (Undifferentiated) [Obsolete Code: Use AMKC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2004/02/skos/core#altLabel> "Kimmeridge Clay Formation And Ampthill Clay Formation (Undifferentiated) [Obsolete Code: Use AMKC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAIL> <http://www.w3.org/2004/02/skos/core#altLabel> "Islay Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Igneous Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Isohomoceras Sp Nov Marine Band [Obsolete Code: Use H1B2]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#altLabel> "Isohomoceras Sp. Nov. Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ampthill Clay Formation And Kimmeridge Clay Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Kendal Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNDL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkby Moor Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Kempton Park Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Kempton Park Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkwood Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRW> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkwood Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DABA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2004/02/skos/core#definition> "Metalimestone. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Chokierian Substage (Carboniferous Period) (324-323 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Siliciclastic argillaceous rock. Bedrock. Occurs onshore. Formed during the Kimmeridgian Age (Jurassic Period) (157.3-152.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DABA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ampthill Clay Formation And Kimmeridge Clay Formation (Undifferentiated)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isohomoceras Sp. Nov. Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Igneous Conglomerate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Islay Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isohomoceras Sp Nov Marine Band [Obsolete Code: Use H1B2]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kimmeridge Clay Formation And Ampthill Clay Formation (Undifferentiated) [Obsolete Code: Use AMKC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
