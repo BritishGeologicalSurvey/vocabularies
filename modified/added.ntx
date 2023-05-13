@@ -1,38 +1,25 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNFIG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YNYSS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YNYSS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNFIG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use FEN] Conglomerate."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> " [Obsolete: use DAIL] Metalimestone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use H1B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use AMKC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2000/01/rdf-schema#label> "Ampthill Clay Formation and Kimmeridge Clay Formation (Undifferentiated)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2000/01/rdf-schema#label> "Isohomoceras sp. nov. Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2000/01/rdf-schema#label> "Igneous Conglomerate [Obsolete: use FEN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2000/01/rdf-schema#label> "Islay Limestone [Obsolete: use DAIL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2000/01/rdf-schema#label> "Isohomoceras sp. Nov. Marine Band [Duplicate: use H1B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2000/01/rdf-schema#label> "Kimmeridge Clay Formation and Ampthill Clay Formation (Undifferentiated) [Duplicate: use AMKC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2004/02/skos/core#altLabel> "Kimmeridge Clay Formation and Ampthill Clay Formation (Undifferentiated) [Duplicate: use AMKC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAIL> <http://www.w3.org/2004/02/skos/core#altLabel> "Islay Limestone [Obsolete: use DAIL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Igneous Conglomerate [Obsolete: use FEN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Isohomoceras sp. Nov. Marine Band [Duplicate: use H1B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#altLabel> "Isohomoceras sp. nov. Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ampthill Clay Formation and Kimmeridge Clay Formation (Undifferentiated)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Metalimestone. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Chokierian Substage (Carboniferous Period) (324-323 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#definition> "Siliciclastic argillaceous rock. Bedrock. Occurs onshore. Formed during the Kimmeridgian Age (Jurassic Period) (157.3-152.1 Ma BP)."@en .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMKC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ampthill Clay Formation and Kimmeridge Clay Formation (Undifferentiated)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isohomoceras sp. nov. Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Igneous Conglomerate [Obsolete: use FEN]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Islay Limestone [Obsolete: use DAIL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isohomoceras sp. Nov. Marine Band [Duplicate: use H1B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kimmeridge Clay Formation and Ampthill Clay Formation (Undifferentiated) [Duplicate: use AMKC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISLL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISSN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCAM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use KIPH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use KYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use KPSC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2000/01/rdf-schema#label> "Kilchiaran Phyllite Formation [Duplicate: use KIPH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2000/01/rdf-schema#label> "Kingsley Sandstone [Duplicate: use KYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2000/01/rdf-schema#label> "Kupferschiefer Formation [Duplicate: use KPSC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> <http://www.w3.org/2004/02/skos/core#altLabel> "Kilchiaran Phyllite Formation [Duplicate: use KIPH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> <http://www.w3.org/2004/02/skos/core#altLabel> "Kupferschiefer Formation [Duplicate: use KPSC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingsley Sandstone [Duplicate: use KYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2004/02/skos/core#definition> "Semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Permian Period (298.9-252.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kilchiaran Phyllite Formation [Duplicate: use KIPH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingsley Sandstone [Duplicate: use KYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kupferschiefer Formation [Duplicate: use KPSC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
