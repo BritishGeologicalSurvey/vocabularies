@@ -1,21 +1,183 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2000/01/rdf-schema#label> "Kilchiaran Phyllite Formation [Obsolete Code: Use KIPH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2000/01/rdf-schema#label> "Kingsley Sandstone [Obsolete Code: Use KYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2000/01/rdf-schema#label> "Kupferschiefer Formation [Obsolete Code: Use KPSC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIPH> <http://www.w3.org/2004/02/skos/core#altLabel> "Kilchiaran Phyllite Formation [Obsolete Code: Use KIPH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSC> <http://www.w3.org/2004/02/skos/core#altLabel> "Kupferschiefer Formation [Obsolete Code: Use KPSC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingsley Sandstone [Obsolete Code: Use KYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Semipelite. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone. Bedrock. Occurs onshore. Formed during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs offshore. Deposited during the Permian Period (298.9-252.2 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kilchiaran Phyllite Formation [Obsolete Code: Use KIPH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingsley Sandstone [Obsolete Code: Use KYS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kupferschiefer Formation [Obsolete Code: Use KPSC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KITH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KUPF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRG> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use YWS, HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At least 725m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to 290m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 68.7m [Smith,1994]."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Red Sandstone [Obsolete: use YWS, HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4102> <http://www.w3.org/2000/01/rdf-schema#label> "Beds At J To M [Obsolete: use HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ICON> <http://www.w3.org/2000/01/rdf-schema#label> "Icconhurst Sandstone [Obsolete Entry: Use ICS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFSLS> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Slates [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFB> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFG> <http://www.w3.org/2000/01/rdf-schema#label> "Ilfracombe Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INOW> <http://www.w3.org/2000/01/rdf-schema#label> "Inferior Oolite Formation (Wessex)[Obsolete Name And Code Use: INO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JNF> <http://www.w3.org/2000/01/rdf-schema#label> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JUB> <http://www.w3.org/2000/01/rdf-schema#label> "Junction Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBF> <http://www.w3.org/2000/01/rdf-schema#label> "Kirkbeck Formation [Obsolete Name And Code: See SAML And HEBD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBR> <http://www.w3.org/2000/01/rdf-schema#label> "Kenilworth Breccia Group [Obsolete Name And Code: See KHS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBSL> <http://www.w3.org/2000/01/rdf-schema#label> "Kate Brook Slate [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://www.w3.org/2000/01/rdf-schema#label> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://www.w3.org/2000/01/rdf-schema#label> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDL> <http://www.w3.org/2000/01/rdf-schema#label> "Kingsdale Limestones [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDM> <http://www.w3.org/2000/01/rdf-schema#label> "Kidderminster Formation [Obsolete name and code, use CHES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KE> <http://www.w3.org/2000/01/rdf-schema#label> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEB> <http://www.w3.org/2000/01/rdf-schema#label> "Kemble Beds [Obsolete Name And Code: See BLAD And SI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEIT> <http://www.w3.org/2000/01/rdf-schema#label> "Keith Limestone Member [Obsolete Name And Code: See CUTL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIL> <http://www.w3.org/2000/01/rdf-schema#label> "Kingsdale Limestone [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLIT> <http://www.w3.org/2000/01/rdf-schema#label> "Dolomitic Conglomerate And Red Marl [Obsolete Name And Code: See MMMF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLR> <http://www.w3.org/2000/01/rdf-schema#label> "Kellaways Rock [Obsolete Name And Code: See KLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KM> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Marl [Obsolete Name And Code: See MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMS> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Marl And Sandstone [Obsolete: use MMG And SSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSG> <http://www.w3.org/2000/01/rdf-schema#label> "Keith-Portsoy Syn-Tectonic Granitic Suite [Obsolete Name: See KEPO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSB> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Saliferous Beds [Obsolete Name And Code: See DHT, NWHF, WHT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSC> <http://www.w3.org/2000/01/rdf-schema#label> "Keuper Sandstone Conglomerate [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KTB> <http://www.w3.org/2000/01/rdf-schema#label> "Kinlet Formation [Obsolete Name And Code: See ETM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KZ> <http://www.w3.org/2000/01/rdf-schema#label> "Cwm Clwyd Ash [Obsolete Name And Code: See CCT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LARG> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSA> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Red Sandstone (Wenlock Series)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRS> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UARG> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URS> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALY> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALY> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BACO> <http://www.w3.org/2004/02/skos/core#altLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAD> <http://www.w3.org/2004/02/skos/core#altLabel> "Kemble Beds [Obsolete Name And Code: See BLAD And SI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNP> <http://www.w3.org/2004/02/skos/core#altLabel> "Kidderminster Formation [Obsolete name and code, use CHES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRWH> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Sandstone Conglomerate [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CATC> <http://www.w3.org/2004/02/skos/core#altLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCT> <http://www.w3.org/2004/02/skos/core#altLabel> "Cwm Clwyd Ash [Obsolete Name And Code: See CCT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHES> <http://www.w3.org/2004/02/skos/core#altLabel> "Kidderminster Formation [Obsolete name and code, use CHES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Keith Limestone Member [Obsolete Name And Code: See CUTL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHT> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Saliferous Beds [Obsolete Name And Code: See DHT, NWHF, WHT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinlet Formation [Obsolete Name And Code: See ETM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinlet Formation [Obsolete Name And Code: See ETM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Kemble Beds [Obsolete Name And Code: See BLAD And SI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingsdale Limestone [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingsdale Limestones [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1619> <http://www.w3.org/2004/02/skos/core#altLabel> "Kenilworth Breccia Group [Obsolete Name And Code: See KHS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1620> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1947> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2871> <http://www.w3.org/2004/02/skos/core#altLabel> "Kenilworth Breccia Group [Obsolete Name And Code: See KHS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2872> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H337> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkbeck Formation [Obsolete Name And Code: See SAML And HEBD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H339> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H340> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H341> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://www.w3.org/2004/02/skos/core#altLabel> "Henshaw Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3491> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3492> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3494> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3505> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinlet Formation [Obsolete Name And Code: See ETM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3903> <http://www.w3.org/2004/02/skos/core#altLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4114> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H988> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H989> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H990> <http://www.w3.org/2004/02/skos/core#altLabel> "Kidderminster Formation [Obsolete name and code, use CHES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HA> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HA> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HEBD> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkbeck Formation [Obsolete Name And Code: See SAML And HEBD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Beds At J To M [Obsolete: use HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Red Sandstone [Obsolete: use YWS, HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Middle Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ICS> <http://www.w3.org/2004/02/skos/core#altLabel> "Icconhurst Sandstone [Obsolete Entry: Use ICS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INO> <http://www.w3.org/2004/02/skos/core#altLabel> "Inferior Oolite Formation (Wessex)[Obsolete Name And Code Use: INO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEPO> <http://www.w3.org/2004/02/skos/core#altLabel> "Keith-Portsoy Syn-Tectonic Granitic Suite [Obsolete Name: See KEPO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEPO> <http://www.w3.org/2004/02/skos/core#altLabel> "Keith-Portsoy Syn-Tectonic Granitic Suite [Obsolete Name: See KEPO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KHS> <http://www.w3.org/2004/02/skos/core#altLabel> "Kenilworth Breccia Group [Obsolete Name And Code: See KHS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Kellaways Rock [Obsolete Name And Code: See KLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> <http://www.w3.org/2004/02/skos/core#altLabel> "Leys Till Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEYST> <http://www.w3.org/2004/02/skos/core#altLabel> "Leys Till Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Follifoot Grit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFG> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Follifoot Grit"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHPS> <http://www.w3.org/2004/02/skos/core#altLabel> "Junction Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Marl And Sandstone [Obsolete: use MMG And SSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Marl [Obsolete Name And Code: See MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMMF> <http://www.w3.org/2004/02/skos/core#altLabel> "Dolomitic Conglomerate And Red Marl [Obsolete Name And Code: See MMMF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRD> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ilfracombe Slates [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Saliferous Beds [Obsolete Name And Code: See DHT, NWHF, WHT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAL> <http://www.w3.org/2004/02/skos/core#altLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAML> <http://www.w3.org/2004/02/skos/core#altLabel> "Kirkbeck Formation [Obsolete Name And Code: See SAML And HEBD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SI> <http://www.w3.org/2004/02/skos/core#altLabel> "Kemble Beds [Obsolete Name And Code: See BLAD And SI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SJKS> <http://www.w3.org/2004/02/skos/core#altLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Marl And Sandstone [Obsolete: use MMG And SSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVY> <http://www.w3.org/2004/02/skos/core#altLabel> "Kate Brook Slate [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHT> <http://www.w3.org/2004/02/skos/core#altLabel> "Keuper Saliferous Beds [Obsolete Name And Code: See DHT, NWHF, WHT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Red Sandstone [Obsolete: use YWS, HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs both onshore and offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JCS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Eifelian Age (Devonian Period) (393.3-387.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Frasnian Age (Devonian Period) - to - Tournaisian Stage (Carboniferous Period) (382.7-346.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLIT> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Triassic Period (252.2-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Callovian Age (Jurassic Period) (166.1-163.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone with subsidiary sandstone. Bedrock. Occurs onshore. Formed during the Triassic Period (252.2-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Conglomerate with subsidiary sandstone. Bedrock. Occurs onshore. Formed during the Early Triassic Epoch (Triassic Period) (252.2-247.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KZ> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Caradoc Series (Ordovician Period) (458.4-449 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LARG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSA> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Bedrock. Occurs onshore. Formed during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Bedrock. Occurs onshore. Formed during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UARG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Bedrock. Occurs onshore. Formed during the Wenlock Epoch (Silurian Period) (433.4-427.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Red Sandstone [Obsolete: use YWS, HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4102> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beds At J To M [Obsolete: use HSW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ICON> <http://www.w3.org/2004/02/skos/core#prefLabel> "Icconhurst Sandstone [Obsolete Entry: Use ICS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IFSLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Slates [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILFG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ilfracombe Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INOW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inferior Oolite Formation (Wessex)[Obsolete Name And Code Use: INO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JNF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Johnshaven Formation [Obsolete Name And Code: See CATC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JUB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Junction Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirkbeck Formation [Obsolete Name And Code: See SAML And HEBD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kenilworth Breccia Group [Obsolete Name And Code: See KHS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kate Brook Slate [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirton Cementstone Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kirton Cementstone Beds (Knoll-Reef) [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingsdale Limestones [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kidderminster Formation [Obsolete name and code, use CHES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keele Formation [Obsolete: use ALY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kemble Beds [Obsolete Name And Code: See BLAD And SI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEIT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keith Limestone Member [Obsolete Name And Code: See CUTL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingsdale Limestone [Obsolete Name And Code: See GDLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLIT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dolomitic Conglomerate And Red Marl [Obsolete Name And Code: See MMMF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KLR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kellaways Rock [Obsolete Name And Code: See KLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Marl [Obsolete Name And Code: See MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Marl And Sandstone [Obsolete: use MMG And SSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KPSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keith-Portsoy Syn-Tectonic Granitic Suite [Obsolete Name: See KEPO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Saliferous Beds [Obsolete Name And Code: See DHT, NWHF, WHT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keuper Sandstone Conglomerate [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KTB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kinlet Formation [Obsolete Name And Code: See ETM]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cwm Clwyd Ash [Obsolete Name And Code: See CCT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LARG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Red Sandstone (Wenlock Series)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UARG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Argillaceous Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Red Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LARG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRSA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MRS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UARG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
