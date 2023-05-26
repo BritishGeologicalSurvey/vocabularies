@@ -1,93 +1,40 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Rests conformably on the Lappathorn Member which is pink in colour and contains ironstone spherules."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIRV> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3854> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCLY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/PLC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/2F9C> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDGY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POSA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "152.1"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APMB> <http://www.w3.org/2000/01/rdf-schema#label> "Anthracoceras Paucilobum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Eometabilinguis Marine Band [Duplicate: use R2B4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [See Also: R2B1 R2B2 R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cancelloceras Cumbriense Marine Band [Duplicate: use G1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cancelloceras Cancellatum Marine Band [Duplicate: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1A1> <http://www.w3.org/2000/01/rdf-schema#label> "Cancelloceras Cancellatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1B1> <http://www.w3.org/2000/01/rdf-schema#label> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCNMB> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrioceras Cancellatum Marine Band [Obsolete: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B1> <http://www.w3.org/2000/01/rdf-schema#label> "Homoceras Beyrichianum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2058> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrioceras Cumbriense Marine Band [Obsolete: use G1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3488> <http://www.w3.org/2000/01/rdf-schema#label> "Homoceras Subglobosum Marine Band [Obsolete: use ISMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4466> <http://www.w3.org/2000/01/rdf-schema#label> "[Reticuloceras] Bilingue Marine Band [Obsolete: use BIMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMB> <http://www.w3.org/2000/01/rdf-schema#label> "Homoceras Beyrichianum Marine Band [Duplicate: use H1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISMB> <http://www.w3.org/2000/01/rdf-schema#label> "Isohomoceras Subglobosum Marine Band [See Also: H1A1, H1A2, H1A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Eometabilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Bilingue Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Eometabilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> <http://www.w3.org/2004/02/skos/core#altLabel> "[Reticuloceras] Bilingue Marine Band [Obsolete: use BIMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cancellatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1A1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cancellatum Marine Band [Duplicate: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1A1> <http://www.w3.org/2004/02/skos/core#altLabel> "Gastrioceras Cancellatum Marine Band [Obsolete: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Gastrioceras Cumbriense Marine Band [Obsolete: use G1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cancellatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Homoceras Beyrichianum Marine Band [Duplicate: use H1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2058> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3488> <http://www.w3.org/2004/02/skos/core#altLabel> "Isohomoceras Subglobosum Marine Band [See Also: H1A1, H1A2, H1A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4466> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [See Also: R2B1 R2B2 R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4524> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Homoceras Beyrichianum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Homoceras Subglobosum Marine Band [Obsolete: use ISMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Eometabilinguis Marine Band [Duplicate: use R2B4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Bilinguis Marine Band [See Also: R2B1 R2B2 R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anthracoceras Paucilobum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Eometabilinguis Marine Band [Duplicate: use R2B4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [See Also: R2B1 R2B2 R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIMB3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band [Duplicate: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cancelloceras Cumbriense Marine Band [Duplicate: use G1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cancelloceras Cancellatum Marine Band [Duplicate: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1A1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cancelloceras Cancellatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cancelloceras Cumbriense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCNMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gastrioceras Cancellatum Marine Band [Obsolete: use G1A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Homoceras Beyrichianum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2058> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gastrioceras Cumbriense Marine Band [Obsolete: use G1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2609> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2610> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Homoceras Subglobosum Marine Band [Obsolete: use ISMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4466> <http://www.w3.org/2004/02/skos/core#prefLabel> "[Reticuloceras] Bilingue Marine Band [Obsolete: use BIMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4467> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band [Obsolete: use R2B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Homoceras Beyrichianum Marine Band [Duplicate: use H1B1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ISMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isohomoceras Subglobosum Marine Band [See Also: H1A1, H1A2, H1A3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (1 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (2 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Bilinguis Marine Band (3 of 3)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Eometabilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Bilingue Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S481> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "5.48m at type section."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Superbilinguis Marine Band [Duplicate: use R2C1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Gracilis Marine Band [Duplicate: use R2A1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Metabilinguis Marine Band [Obsolete Code: Use R2B5]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Metabilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites Superbilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2000/01/rdf-schema#label> "Ditton Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://www.w3.org/2000/01/rdf-schema#label> "Burton Joyce Marine Band\r\nBurton Joyce Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Superbilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Burton Joyce Marine Band\r\nBurton Joyce Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Superbilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Metabilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Metabilinguis Marine Band [Obsolete Code: Use R2B5]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4678> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Metabilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Metabilingue Marine Band [Obsolete: use R2B5, MBMB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Gracilis Marine Band [Duplicate: use R2A1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Metabilinguis Marine Band [Obsolete Code: Use R2B5]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Superbilinguis Marine Band [Duplicate: use R2C1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Superbilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Superbilinguis Marine Band [Duplicate: use R2C1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Gracilis Marine Band [Duplicate: use R2A1]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Metabilinguis Marine Band [Obsolete Code: Use R2B5]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Gracilis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Metabilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites Superbilinguis Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ditton Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://www.w3.org/2004/02/skos/core#prefLabel> "Burton Joyce Marine Band\r\nBurton Joyce Marine Band"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
