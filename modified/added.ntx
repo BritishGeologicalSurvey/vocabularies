@@ -1,55 +1,54 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608079> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/fc70e27d-2eb6-3bc1-e053-0937940a2eac> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608079> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608079> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use R2B5]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use BJMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "5.48 m at type section."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites superbilinguis Marine Band [Duplicate: use R2C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites gracilis Marine Band [Duplicate: use R2A1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites metabilinguis Marine Band [Duplicate: use R2B5]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites metabilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2000/01/rdf-schema#label> "Bilinguites superbilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2000/01/rdf-schema#label> "Ditton Marine Band [Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://www.w3.org/2000/01/rdf-schema#label> "Burton Joyce Marine Band [Duplicate: use BJMB]\r\nBurton Joyce Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Burton Joyce Marine Band [Duplicate: use BJMB]\r\nBurton Joyce Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites superbilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Burton Joyce Marine Band [Duplicate: use BJMB]\r\nBurton Joyce Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites superbilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites metabilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4678> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites metabilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites gracilis Marine Band [Duplicate: use R2A1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites metabilinguis Marine Band [Duplicate: use R2B5]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites superbilinguis Marine Band [Duplicate: use R2C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Local Name: See BJMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://www.w3.org/2004/02/skos/core#altLabel> "Burton Joyce Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites superbilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites superbilinguis Marine Band [Duplicate: use R2C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites gracilis Marine Band [Duplicate: use R2A1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites metabilinguis Marine Band [Duplicate: use R2B5]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites gracilis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites metabilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilinguites superbilinguis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ditton Marine Band [Duplicate: use DNMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S638> <http://www.w3.org/2004/02/skos/core#prefLabel> "Burton Joyce Marine Band [Duplicate: use BJMB]\r\nBurton Joyce Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MBMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use E2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alternative name for the Cove Upper Marine Band (CUMB)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alternative name for the Cove Lower Marine Band (CLMB)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 4.5 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 0.45 to 1.8 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras brandoni Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras malhamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras gressinghamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides edalensis Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides nitidus Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides edalensis Marine Band [Duplicate: use E2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras gressinghamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras malhamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras brandoni Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides nitidus Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMB> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous sandstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras brandoni Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras malhamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras gressinghamense Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides edalensis Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides nitidus Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides edalensis Marine Band [Duplicate: use E2B1]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
