@@ -1,54 +1,70 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use E2B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alternative name for the Cove Upper Marine Band (CUMB)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Alternative name for the Cove Lower Marine Band (CLMB)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 4.5 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 0.45 to 1.8 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras brandoni Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras malhamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceras gressinghamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides edalensis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides nitidus Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides edalensis Marine Band [Duplicate: use E2B1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras gressinghamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras malhamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras brandoni Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Cravenoceratoides nitidus Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMB> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous sandstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S635> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S759> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras gressinghamense Marine Band [Duplicate: use E2A2A]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras malhamense Marine Band [Duplicate: use E1C1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras brandoni Marine Band [Duplicate: use E1B1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras brandoni Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras malhamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2A2A> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceras gressinghamense Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides edalensis Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides nitidus Marine Band"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides edalensis Marine Band [Duplicate: use E2B1]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cravenoceratoides nitidus Marine Band [Duplicate: use E2B2]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFEI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVMAI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFEI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVMAI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use MWM] Inadvertent mis-spelling of name."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use GRO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use RNGL] Limestone with subsidiary mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use EML, GL, GML, ORTL] Limestone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MVFEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MVMAI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use MCYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use LIG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "393.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> <http://www.w3.org/2000/01/rdf-schema#label> "Mwmfri Sandstone Member [Obsolete: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAB> <http://www.w3.org/2000/01/rdf-schema#label> "Manaccan Beds [Obsolete: use GRO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> <http://www.w3.org/2000/01/rdf-schema#label> "Middop Limestone [Obsolete: use RNGL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> <http://www.w3.org/2000/01/rdf-schema#label> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://www.w3.org/2000/01/rdf-schema#label> "Midland Valley Siluro-Devonian Felsic Intrusion Suite [Duplicate: use MVFEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <http://www.w3.org/2000/01/rdf-schema#label> "Midland Valley Siluro-Devonian Mafic Intrusion Suite [Duplicate: use MVMAI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <http://www.w3.org/2000/01/rdf-schema#label> "Mwmffri Sandstone Member [Duplicate: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYMB> <http://www.w3.org/2000/01/rdf-schema#label> "Mcgildowneys Marine Band [Obsolete: use MCYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYV> <http://www.w3.org/2000/01/rdf-schema#label> "Mynytho Volcanic Group [Obsolete: use LIG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EML> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GL> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GML> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRO> <http://www.w3.org/2004/02/skos/core#altLabel> "Manaccan Beds [Obsolete: use GRO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> <http://www.w3.org/2004/02/skos/core#altLabel> "Mwmffri Sandstone Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIG> <http://www.w3.org/2004/02/skos/core#altLabel> "Mynytho Volcanic Group [Obsolete: use LIG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LM1> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Mcgildowneys Marine Band [Obsolete: use MCYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFEI> <http://www.w3.org/2004/02/skos/core#altLabel> "Midland Valley Siluro-Devonian Felsic Intrusion Suite [Duplicate: use MVFEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVMAI> <http://www.w3.org/2004/02/skos/core#altLabel> "Midland Valley Siluro-Devonian Mafic Intrusion Suite [Duplicate: use MVMAI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> <http://www.w3.org/2004/02/skos/core#altLabel> "Mwmffri Sandstone Member [Duplicate: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWM> <http://www.w3.org/2004/02/skos/core#altLabel> "Mwmfri Sandstone Member [Obsolete: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNGL> <http://www.w3.org/2004/02/skos/core#altLabel> "Middop Limestone [Obsolete: use RNGL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Early Devonian Epoch - to - Mid Devonian Epoch (Devonian Period) (419.2-382.7 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arundian Substage (Carboniferous Period) (344.5-343 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://www.w3.org/2004/02/skos/core#definition> "Felsite and microdiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period - to - Early Devonian Epoch (Devonian Period) (443.8-393.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <http://www.w3.org/2004/02/skos/core#definition> "Diorite and dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period - to - Devonian Period (443.8-358.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Llandovery Epoch (Silurian Period) (443.8-433.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYV> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Longvillian Substage (Ordovician Period) (454-452.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1077> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mwmfri Sandstone Member [Obsolete: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manaccan Beds [Obsolete: use GRO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middop Limestone [Obsolete: use RNGL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> <http://www.w3.org/2004/02/skos/core#prefLabel> "Main Limestone [Obsolete: use EML, GL, GML, ORTL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Midland Valley Siluro-Devonian Felsic Intrusion Suite [Duplicate: use MVFEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Midland Valley Siluro-Devonian Mafic Intrusion Suite [Duplicate: use MVMAI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mwmffri Sandstone Member [Duplicate: use MWM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mcgildowneys Marine Band [Obsolete: use MCYS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mynytho Volcanic Group [Obsolete: use LIG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDPL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ML> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDFI> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSDMI> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWSA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYV> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
