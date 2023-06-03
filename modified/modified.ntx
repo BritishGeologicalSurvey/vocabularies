@@ -1,132 +1,52 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/T> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use R2B5, MBMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A5> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C3> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C4> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C2> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H881> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3631> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0.15m in type section."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WUMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "1.14m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3631> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H881> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C4> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A5> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C3> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B3> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C2> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Circumplicatile Marine Band [Duplicate: use R1A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> <http://www.w3.org/2000/01/rdf-schema#label> "Tumulites Pseudobilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1B> <http://www.w3.org/2000/01/rdf-schema#label> "Unnamed Marine Band Of Cancelloceras Cumbriense Zone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Superbilingue Marine Band [Obsolete: use R2C1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2C1> <http://www.w3.org/2000/01/rdf-schema#label> "Vallites Eostriolatus Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Metabilingue Marine Band [Obsolete: use R2B5, MBMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4678> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Gracile Marine Band [Obsolete: use R2A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HKMB> <http://www.w3.org/2000/01/rdf-schema#label> "Vallites Henkei Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A2> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Circumplicatile Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A3> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Subreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A4> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Todmordenense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A5> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Dubium Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B1> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Eoreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Nodosum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B3> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Stubblefieldi Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C1> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [1 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C2> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [2 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C3> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [3 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C4> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Coreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C2> <http://www.w3.org/2000/01/rdf-schema#label> "Verneulites Sigma Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Coreticulatum Marine Band [Obsolete Code: Use R1C4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Dubium Marine Band [Obsolete Code: Use R1A5]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [See Also: R1C1, R1C2, R1C3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Moorei Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Nodosum Marine Band [Obsolete Code: Use R1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <http://www.w3.org/2000/01/rdf-schema#label> "Reticuloceras Stubblefieldi Marine Band [Obsolete Code: Use R1B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://www.w3.org/2000/01/rdf-schema#label> "Tumulites Pseudobilinguis Marine Band [Obsolete Code: Use E1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://www.w3.org/2000/01/rdf-schema#label> "Verneulites Sigma Marine Band [Obsolete Code: Use R2C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Circumplicatile Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Tumulites Pseudobilinguis Marine Band [Obsolete Code: Use E1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2850> <http://www.w3.org/2004/02/skos/core#altLabel> "Vallites Henkei Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3631> <http://www.w3.org/2004/02/skos/core#altLabel> "Verneulites Sigma Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3631> <http://www.w3.org/2004/02/skos/core#altLabel> "Verneulites Sigma Marine Band [Obsolete Code: Use R2C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H881> <http://www.w3.org/2004/02/skos/core#altLabel> "Tumulites Pseudobilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H881> <http://www.w3.org/2004/02/skos/core#altLabel> "Tumulites Pseudobilinguis Marine Band [Obsolete Code: Use E1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Circumplicatile Marine Band [Duplicate: use R1A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A5> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Dubium Marine Band [Obsolete Code: Use R1A5]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Nodosum Marine Band [Obsolete Code: Use R1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B3> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Stubblefieldi Marine Band [Obsolete Code: Use R1B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C3> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C4> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Coreticulatum Marine Band [Obsolete Code: Use R1C4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Gracile Marine Band [Obsolete: use R2A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B5> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Metabilingue Marine Band [Obsolete: use R2B5, MBMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Superbilingue Marine Band [Obsolete: use R2C1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C2> <http://www.w3.org/2004/02/skos/core#altLabel> "Verneulites Sigma Marine Band [Obsolete Code: Use R2C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Coreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Dubium Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Reticulatum Marine Band [2 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Reticulatum Marine Band [3 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Nodosum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Reticuloceras Stubblefieldi Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Eumorphoceras pseudobilingue Marine Band [Obsolete: use E1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Tumulites Pseudobilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Gastrioceras sigma Marine Band [Obsolete: use R2C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Verneulites Sigma Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Shelly mudstone. Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Circumplicatile Marine Band [Duplicate: use R1A2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E1B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tumulites Pseudobilinguis Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/G1B> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unnamed Marine Band Of Cancelloceras Cumbriense Zone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2028> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Superbilingue Marine Band [Obsolete: use R2C1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vallites Eostriolatus Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3548> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Metabilingue Marine Band [Obsolete: use R2B5, MBMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4678> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Gracile Marine Band [Obsolete: use R2A1]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HKMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vallites Henkei Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Circumplicatile Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Subreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Todmordenense Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Dubium Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Eoreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Nodosum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1B3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Stubblefieldi Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [1 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [2 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [3 Of 3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1C4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Coreticulatum Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verneulites Sigma Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Coreticulatum Marine Band [Obsolete Code: Use R1C4]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Dubium Marine Band [Obsolete Code: Use R1A5]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [See Also: R1C1, R1C2, R1C3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Reticulatum Marine Band [Obsolete Code: Use R1C3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Moorei Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Nodosum Marine Band [Obsolete Code: Use R1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reticuloceras Stubblefieldi Marine Band [Obsolete Code: Use R1B3]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tumulites Pseudobilinguis Marine Band [Obsolete Code: Use E1B2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verneulites Sigma Marine Band [Obsolete Code: Use R2C2]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB2> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REMB3> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TPMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VSMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNY> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Thick flows of porphyritic andesite and dacite, some with garnet phenocrysts, separated by thin interbeds of volcaniclastic sediments."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MPA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dacitic lapilli-tuff and tuff. Mostly massive with some interbeds of parallel bedded tuff. Intruded by basalt, basaltic andesite and andesite and locally contains intercalated andesite lava."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Varied tuffs, lapilli tuffs and pyroclastic breccias with intercalated sedimentary rocks."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A chaotic, coarse volcanotectonic megabreccia comprising successions of tuff, lapilli-tuff, volcaniclastic sandstone, andesite and rhyolite.  Some megablocks may be assigned to established formations, but other blocks are not recognizably parts of formations.  The volcanic-complex passes laterally into more coherent stratigraphy"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pink to pale grey flow-banded or flow-folded rhyolite with lithophysae locally present. Contrasts with sedimentary formations above and below."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dacite lavas and possible sills with intercalated volcanogenic sandstone, dacitic tuff and basaltic andesite sills."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Andesitic tuff-breccia and lapilli tuff; locally with a eutaxitic texture markedly heterolithic."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Base faulted, passes into more coherant stratigraphy"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Faulted, passes into more coherant stratigraphy"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> <http://www.w3.org/2000/01/rdf-schema#label> "Yarlside Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4904> <http://www.w3.org/2000/01/rdf-schema#label> "Stoneside Hill Tuffs and Lavas (Part) [Obsolete: use STHI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> <http://www.w3.org/2000/01/rdf-schema#label> "Stockdale Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPN> <http://www.w3.org/2000/01/rdf-schema#label> "Napes Needle Member [Obsolete Name: Part Of LME]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://www.w3.org/2000/01/rdf-schema#label> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHI> <http://www.w3.org/2000/01/rdf-schema#label> "Stoneside Hill Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCF> <http://www.w3.org/2000/01/rdf-schema#label> "Worm Crag Formation [Obsolete Name: Rocks Now Included In WNY And AIB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AIB> <http://www.w3.org/2004/02/skos/core#altLabel> "Worm Crag Formation [Obsolete Name: Rocks Now Included In WNY And AIB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFA> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoneside Hill Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYT> <http://www.w3.org/2004/02/skos/core#altLabel> "Whorneyside Tuff Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1204> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoneside Hill Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4904> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoneside Hill Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H602> <http://www.w3.org/2004/02/skos/core#altLabel> "Worm Crag Formation [Obsolete Name: Rocks Now Included In WNY And AIB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LME> <http://www.w3.org/2004/02/skos/core#altLabel> "Napes Needle Member [Obsolete Name: Part Of LME]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://www.w3.org/2004/02/skos/core#altLabel> "Yarlside Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://www.w3.org/2004/02/skos/core#altLabel> "Yarlside Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHI> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoneside Hill Tuffs and Lavas (Part) [Obsolete: use STHI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNY> <http://www.w3.org/2004/02/skos/core#altLabel> "Crosby Thwaite Formation [Obsolete: use WNY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNY> <http://www.w3.org/2004/02/skos/core#altLabel> "Worm Crag Formation [Obsolete Name: Rocks Now Included In WNY And AIB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> <http://www.w3.org/2004/02/skos/core#altLabel> "Stockdale Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YRL> <http://www.w3.org/2004/02/skos/core#altLabel> "Yarlside Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3693> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yarlside Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stoneside Hill Tuffs and Lavas (Part) [Obsolete: use STHI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H542> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stockdale Rhyolite [Obsolete: use SRH, YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Napes Needle Member [Obsolete Name: Part Of LME]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stockdale Rhyolite Formation [Obsolete Name And Code: Replaced By YRL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stoneside Hill Formation [Obsolete Name: Part Of BFA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worm Crag Formation [Obsolete Name: Rocks Now Included In WNY And AIB]"@en .
