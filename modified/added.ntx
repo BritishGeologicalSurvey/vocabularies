@@ -1,4 +1,156 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608081> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/fd8b5277-4269-6dca-e053-0937940a4868> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608081> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608081> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRG> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Marsdenian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Duckmantian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAYMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in the North Staffordshire Coalfield. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Langsettian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Duckmantian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dark grey fissile mudstone with marine fossils."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Visean marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in Northumberland and Durham, possibly still to an extent in current use. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Burton Joyce Marine Band (BJMB) in parts of the Lancashire Coalfield area."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "An Asbian - Brigantian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Clowne Marine Band (CWMB) in the Denbighshire and Flintshire coalfields, possibly still to some extent in current use."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Clowne Marine Band (CWMB) in North Staffordshire, possibly still to some extent in current use."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Clowne Marine Band (CWMB) in the Durham and Northumberland coalfields, possibly still to some extent in current use. Shelly mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PWTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in part(s) of the Lancashire Coalfield, particularly the area around Prestwich. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in the Canonbie Coalfield. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Clowne Marine Band (CWMB) in Northumberland, possibly still to some extent in current use."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use RLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LNHMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use GNLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in Cumbria, possibly still to an extent in current use. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOPMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in Derbyshire, Nottinghamshire and Yorkshire coalfields. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in the South Wales Coalfield. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USYMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in part(s) of the Lancashire Coalfiled, particularly the St Helens area. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBNMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Cambriense Marine Band (CAMB) in the Bristol/Somerset Coalfield. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "329"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "328"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "315.2"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAYMB> <http://www.w3.org/2000/01/rdf-schema#label> "Bay Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHMB> <http://www.w3.org/2000/01/rdf-schema#label> "Down Hill Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2000/01/rdf-schema#label> "Ditton Marine Band [Local Name: see BJMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://www.w3.org/2000/01/rdf-schema#label> "Gardden Lodge Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://www.w3.org/2000/01/rdf-schema#label> "Longton Hall Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://www.w3.org/2000/01/rdf-schema#label> "Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PWTMB> <http://www.w3.org/2000/01/rdf-schema#label> "Prestwich Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Ribbings Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2000/01/rdf-schema#label> "Ryhope Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://www.w3.org/2000/01/rdf-schema#label> "Little Marine Band [Duplicate: use LTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://www.w3.org/2000/01/rdf-schema#label> "Ryhope Little Marine Band [Duplicate: use RLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://www.w3.org/2000/01/rdf-schema#label> "Longton Hall Marine Band [Duplicate: use LNHMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <http://www.w3.org/2000/01/rdf-schema#label> "Clown Marine Band [Obsolete: use CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://www.w3.org/2000/01/rdf-schema#label> "Gardden Lodge Marine Band [Duplicate: use GNLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHMB> <http://www.w3.org/2000/01/rdf-schema#label> "St Helen's Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOPMB> <http://www.w3.org/2000/01/rdf-schema#label> "Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCGMB> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Cwmgorse Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USYMB> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Sankey Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UTMB> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Tilmanstone Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBNMB> <http://www.w3.org/2000/01/rdf-schema#label> "Winterbourne Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BJMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Local Name: see BJMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bay Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Down Hill Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Prestwich Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ribbings Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "St Helen's Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Cwmgorse Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Sankey Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Tilmanstone Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Winterbourne Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Clown Marine Band [Obsolete: use CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Gardden Lodge Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Longton Hall Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ryhope Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Burton Joyce Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Gardden Lodge Marine Band [Duplicate: use GNLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Longton Hall Marine Band [Duplicate: use LNHMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Little Marine Band [Duplicate: use LTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Clowne Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ryhope Little Marine Band [Duplicate: use RLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://www.w3.org/2004/02/skos/core#altLabel> "Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://www.w3.org/2004/02/skos/core#altLabel> "Ryhope Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S374> <http://www.w3.org/2004/02/skos/core#altLabel> "Ditton Marine Band [Local Name: see BJMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://www.w3.org/2004/02/skos/core#altLabel> "Longton Hall Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://www.w3.org/2004/02/skos/core#altLabel> "Gardden Lodge Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (329-328 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and shelly mudstone. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B1> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B2> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B3> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Marsdenian Substage (Carboniferous Period) (321.5-320 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-315.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UTMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (315.2-309.5 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#notation> "RLMB"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAYMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bay Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Down Hill Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ditton Marine Band [Local Name: see BJMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gardden Lodge Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Longton Hall Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PWTMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prestwich Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ribbings Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ryhope Little Marine Band [Local Name: see CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S138> <http://www.w3.org/2004/02/skos/core#prefLabel> "Little Marine Band [Duplicate: use LTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S255> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ryhope Little Marine Band [Duplicate: use RLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S42> <http://www.w3.org/2004/02/skos/core#prefLabel> "Longton Hall Marine Band [Duplicate: use LNHMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clown Marine Band [Obsolete: use CWMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S874> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gardden Lodge Marine Band [Duplicate: use GNLMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "St Helen's Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOPMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Top Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCGMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Cwmgorse Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USYMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Sankey Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UTMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Tilmanstone Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBNMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winterbourne Marine Band [Local Name: see CAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DNMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNLMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNHMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S769> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UTMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
