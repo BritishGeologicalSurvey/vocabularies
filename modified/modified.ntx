@@ -1,15 +1,205 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone, siltstone and sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3826> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1802> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBCS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MO1T2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WY> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/ST> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "465.5"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "433.4"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHBA> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFIB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTLL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFSA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H788> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVTI> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COSA> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone with subsidiary mudstone and siltstone. Stratified bedrock. Occurs offshore. Deposited during the Hauterivian Age - to - Barremian Age (Cretaceous Period) (133.9-126.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A fossiliferous mudstone with subordinate beds of locally pebbly sandstone and thin argillaceous limestone and ironstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Siliciclastic argillaceous rock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDON> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLNG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNSP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TARF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NANN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPIT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TBW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SET> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIYC> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCOMD> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/SW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEN> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SET> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TBW> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLNG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDON> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPI> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPIT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAT> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NANN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TARF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNSP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIYC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHA> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy Haven Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRG> <http://www.w3.org/2000/01/rdf-schema#label> "South Britain Glacigenic Group [Obsolete: use ALBI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCKM> <http://www.w3.org/2000/01/rdf-schema#label> "Sand In Creekmoor Clay Member [Obsolete Name And Code Use: CKMS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <http://www.w3.org/2000/01/rdf-schema#label> "Sabden Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGTP> <http://www.w3.org/2000/01/rdf-schema#label> "Staddon Grit Of Trenance Point [Obsolete: use STG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> <http://www.w3.org/2000/01/rdf-schema#label> "Shearwater Salt Formation [Obsolete Code: Use SHWT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOC> <http://www.w3.org/2000/01/rdf-schema#label> "Shetland Ophiolite Complex [Obsolete Code: Use SHOP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHPC> <http://www.w3.org/2000/01/rdf-schema#label> "Shap Conglomerate Formation [Obsolete Name And Code: See SHWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIDK> <http://www.w3.org/2000/01/rdf-schema#label> "Siddick Seam [Obsolete Name And Code Use UNMJ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKE> <http://www.w3.org/2000/01/rdf-schema#label> "Skerry Band [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2000/01/rdf-schema#label> "Skiddaw Group (Metasomatically Altered) [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLBD> <http://www.w3.org/2000/01/rdf-schema#label> "Slaughterbridge Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2000/01/rdf-schema#label> "Slates and Sandstones In Skiddaw Slates [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMG> <http://www.w3.org/2000/01/rdf-schema#label> "St Maughans Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMGR> <http://www.w3.org/2000/01/rdf-schema#label> "Silsden Moor Grit [Obsolete Name And Code: See SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandringham Sands [Obsolete: use SAS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://www.w3.org/2000/01/rdf-schema#label> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPIT> <http://www.w3.org/2000/01/rdf-schema#label> "Spittal Flagstone Formation [Obsolete Spelling And Code: Use SPI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPM> <http://www.w3.org/2000/01/rdf-schema#label> "Supra-Pennant Measures [Obsolete Name And Code: see SP but use GDB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPWL> <http://www.w3.org/2000/01/rdf-schema#label> "Shipway Limestone [Obsolete Name And Code: See BHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRM> <http://www.w3.org/2000/01/rdf-schema#label> "Red Marls (Saliferous) [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandrock \"Series\" [Obsolete Name And Code: See SIOW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSL> <http://www.w3.org/2000/01/rdf-schema#label> "Stonesfield Slate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STNC> <http://www.w3.org/2000/01/rdf-schema#label> "Stanhope Coal [Obsolete Code: See SHPE And STAC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STND> <http://www.w3.org/2000/01/rdf-schema#label> "Staintondale Group [Obsolete Name And Code: See ZG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRB> <http://www.w3.org/2000/01/rdf-schema#label> "Stringocephalus Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRU> <http://www.w3.org/2000/01/rdf-schema#label> "Struie Group [Obsolete Name And Code: See STIE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYLS> <http://www.w3.org/2000/01/rdf-schema#label> "Stanley Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <http://www.w3.org/2000/01/rdf-schema#label> "Tremadoc Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TDF> <http://www.w3.org/2000/01/rdf-schema#label> "Torduff Hill Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <http://www.w3.org/2000/01/rdf-schema#label> "Thorny Force Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILY> <http://www.w3.org/2000/01/rdf-schema#label> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> <http://www.w3.org/2000/01/rdf-schema#label> "Whirl Howe Formation [Obsolete Code: Use WHH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALBI> <http://www.w3.org/2004/02/skos/core#altLabel> "South Britain Glacigenic Group [Obsolete: use ALBI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBKS> <http://www.w3.org/2004/02/skos/core#altLabel> "Shap Conglomerate Formation [Obsolete Name And Code: See SHWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Shipway Limestone [Obsolete Name And Code: See BHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CALI> <http://www.w3.org/2004/02/skos/core#altLabel> "South Britain Glacigenic Group [Obsolete: use ALBI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDON> <http://www.w3.org/2004/02/skos/core#altLabel> "St Mellion Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKF> <http://www.w3.org/2004/02/skos/core#altLabel> "St Mellion Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKMS> <http://www.w3.org/2004/02/skos/core#altLabel> "Sand In Creekmoor Clay Member [Obsolete Name And Code Use: CKMS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMPL> <http://www.w3.org/2004/02/skos/core#altLabel> "Stanley Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DEB> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandringham Sands [Obsolete: use SAS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYN> <http://www.w3.org/2004/02/skos/core#altLabel> "Tremadoc Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EYF> <http://www.w3.org/2004/02/skos/core#altLabel> "Stonesfield Slate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWW> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDB> <http://www.w3.org/2004/02/skos/core#altLabel> "Supra-Pennant Measures [Obsolete Name And Code: see SP but use GDB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLNG> <http://www.w3.org/2004/02/skos/core#altLabel> "Side Pike Volcanic-Complex"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GVNC> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GVNC> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1190> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1810> <http://www.w3.org/2004/02/skos/core#altLabel> "Sabden Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4327> <http://www.w3.org/2004/02/skos/core#altLabel> "Silsden Moor Grit [Obsolete Name And Code: See SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4335> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H538> <http://www.w3.org/2004/02/skos/core#altLabel> "Spittal Flagstone Formation [Obsolete Spelling And Code: Use SPI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H795> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHS> <http://www.w3.org/2004/02/skos/core#altLabel> "Stringocephalus Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLC> <http://www.w3.org/2004/02/skos/core#altLabel> "St Maughans Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Marls (Saliferous) [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skerry Band [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandy Haven Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NANN> <http://www.w3.org/2004/02/skos/core#altLabel> "Statfjord Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://www.w3.org/2004/02/skos/core#altLabel> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S103> <http://www.w3.org/2004/02/skos/core#altLabel> "Sabden Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S218> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S339> <http://www.w3.org/2004/02/skos/core#altLabel> "Supra-Pennant Measures [Obsolete Name And Code: see SP but use GDB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S344> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAML> <http://www.w3.org/2004/02/skos/core#altLabel> "Sabden Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAS> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandringham Sands [Obsolete: use SAS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SET> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilberthwaite Volcaniclastic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOP> <http://www.w3.org/2004/02/skos/core#altLabel> "Shetland Ophiolite Complex [Obsolete Code: Use SHOP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHPE> <http://www.w3.org/2004/02/skos/core#altLabel> "Stanhope Coal [Obsolete Code: See SHPE And STAC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWC> <http://www.w3.org/2004/02/skos/core#altLabel> "Shap Conglomerate Formation [Obsolete Name And Code: See SHWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWT> <http://www.w3.org/2004/02/skos/core#altLabel> "Shearwater Salt Formation [Obsolete Code: Use SHWT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> <http://www.w3.org/2004/02/skos/core#altLabel> "Silsden Moor Grit [Obsolete Name And Code: See SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIOW> <http://www.w3.org/2004/02/skos/core#altLabel> "Sandrock \"Series\" [Obsolete Name And Code: See SIOW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIPI> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Langdale Tuff Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Slates and Sandstones In Skiddaw Slates [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> <http://www.w3.org/2004/02/skos/core#altLabel> "Crackington Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SME> <http://www.w3.org/2004/02/skos/core#altLabel> "Crocadon Formation [Obsolete: use SME]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SP> <http://www.w3.org/2004/02/skos/core#altLabel> "Supra-Pennant Measures [Obsolete Name And Code: see SP but use GDB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPI> <http://www.w3.org/2004/02/skos/core#altLabel> "Spittal Flagstone Formation [Obsolete Spelling And Code: Use SPI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPI> <http://www.w3.org/2004/02/skos/core#altLabel> "Spittal Flagstone Formation [Obsolete Spelling And Code: Use SPI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPIT> <http://www.w3.org/2004/02/skos/core#altLabel> "Spital Flagstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAC> <http://www.w3.org/2004/02/skos/core#altLabel> "Stanhope Coal [Obsolete Code: See SHPE And STAC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Nansen Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STG> <http://www.w3.org/2004/02/skos/core#altLabel> "Staddon Grit Of Trenance Point [Obsolete: use STG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STIE> <http://www.w3.org/2004/02/skos/core#altLabel> "Struie Group [Obsolete Name And Code: See STIE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TBW> <http://www.w3.org/2004/02/skos/core#altLabel> "Seathwaite Fell Sandstone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Torduff Hill Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILY> <http://www.w3.org/2004/02/skos/core#altLabel> "Widdrington Yard Coal (Rothbury Area) [Obsolete: use TILY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> <http://www.w3.org/2004/02/skos/core#altLabel> "Twt Hill Granite Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWTH> <http://www.w3.org/2004/02/skos/core#altLabel> "Twt Hill Granite Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UDSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Slaughterbridge Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UNMJ> <http://www.w3.org/2004/02/skos/core#altLabel> "Siddick Seam [Obsolete Name And Code Use UNMJ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHH> <http://www.w3.org/2004/02/skos/core#altLabel> "Whirl Howe Formation [Obsolete Code: Use WHH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIYC> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIYC> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTRS> <http://www.w3.org/2004/02/skos/core#altLabel> "Thorny Force Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ZG> <http://www.w3.org/2004/02/skos/core#altLabel> "Staintondale Group [Obsolete Name And Code: See ZG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Bajocian Age (Jurassic Period) (170.3-168.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCOMN> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Metaclinopyroxene-norite. Bedrock. Occurs onshore. Formed during the Palaeoproterozoic Era (Precambrian) (2500-1600 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone with subsidiary ironstone, limestone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage - to - Kinderscoutian Substage (Carboniferous Period) (328-321.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGSH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Llandovery Epoch (Silurian Period) (443.8-433.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGTP> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Pragian Age - to - Emsian Age (Devonian Period) (410.8-393.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Bajocian Age (Jurassic Period) (170.3-168.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs offshore. Deposited during the Permian Period (298.9-252.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHLG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Aeronian Age (Silurian Period) (440.8-438.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Neoproterozoic Era (Precambrian) - to - Silurian Period (1000-419.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Ferruginous sandstone, sand and sandstone. Bedrock. Occurs onshore. Formed during the Ryazanian Stage - to - Valanginian Age (Cretaceous Period) (-133.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKE> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Triassic Period (252.2-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMGR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone and sandstone. Bedrock. Occurs onshore. Formed during the Arnsbergian Substage (Carboniferous Period) (328-324 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMO> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Holkerian Substage (Carboniferous Period) (343-337 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sand and sandstone. Bedrock. Occurs onshore. Formed during the Tithonian Age (Jurassic Period) - to - Barremian Age (Cretaceous Period) (152.1-126.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone. Bedrock. Occurs onshore. Formed during the Coniacian Age - to - Santonian Age (Cretaceous Period) (89.8-83.6 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Asturian Substage (Carboniferous Period) (309.5-308 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPWL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Courceyan Substage (Carboniferous Period) (358.9-346.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Triassic Period (252.2-201.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone. Bedrock. Occurs onshore. Formed during the Aptian Age - to - Albian Age (Cretaceous Period) (126.3-100.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSL> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Bathonian Age (Jurassic Period) (168.3-166.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Abereiddian Stage - to - Caradoc Series (Ordovician Period) (465.5-449 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Eifelian Age - to - Givetian Age (Devonian Period) (393.3-382.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Caradoc Series (Ordovician Period) (458.4-449 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYLS> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Early Devonian Epoch (Devonian Period) (419.2-393.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <http://www.w3.org/2004/02/skos/core#definition> "Siliciclastic argillaceous rock. Stratified bedrock. Occurs onshore. Deposited during the Tremadoc Series (Ordovician Period) (485.4-477.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TDF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series - to - Ashgill Series (Ordovician Period) (458.4-443.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAHA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy Haven Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRG> <http://www.w3.org/2004/02/skos/core#prefLabel> "South Britain Glacigenic Group [Obsolete: use ALBI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCKM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sand In Creekmoor Clay Member [Obsolete Name And Code Use: CKMS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sabden Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGTP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staddon Grit Of Trenance Point [Obsolete: use STG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shearwater Salt Formation [Obsolete Code: Use SHWT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shetland Ophiolite Complex [Obsolete Code: Use SHOP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHPC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shap Conglomerate Formation [Obsolete Name And Code: See SHWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SIDK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Siddick Seam [Obsolete Name And Code Use UNMJ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skerry Band [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKGM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skiddaw Group (Metasomatically Altered) [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLBD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slaughterbridge Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slates and Sandstones In Skiddaw Slates [Obsolete: use SKG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMG> <http://www.w3.org/2004/02/skos/core#prefLabel> "St Maughans Formation [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silsden Moor Grit [Obsolete Name And Code: See SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNDS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandringham Sands [Obsolete: use SAS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santon Oolite [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPIT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spittal Flagstone Formation [Obsolete Spelling And Code: Use SPI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Supra-Pennant Measures [Obsolete Name And Code: see SP but use GDB]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPWL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shipway Limestone [Obsolete Name And Code: See BHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Marls (Saliferous) [Obsolete Name And Code Use: MMG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandrock \"Series\" [Obsolete Name And Code: See SIOW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stonesfield Slate"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STNC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stanhope Coal [Obsolete Code: See SHPE And STAC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staintondale Group [Obsolete Name And Code: See ZG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stringocephalus Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Struie Group [Obsolete Name And Code: See STIE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stanley Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tremadoc Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TDF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Torduff Hill Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thorny Force Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TILY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tilley Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Whirl Howe Formation [Obsolete Code: Use WHH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDSH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHES> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYLS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TDF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TFS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHW> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
