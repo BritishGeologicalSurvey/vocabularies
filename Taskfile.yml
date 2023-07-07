@@ -1,0 +1,49 @@
+# https://taskfile.dev
+
+version: "3"
+
+env:
+  FUSEKI_URL: http://localhost:3030
+  FUSEKI_USERNAME: admin
+  FUSEKI_PASSWORD: admin
+
+tasks:
+  venv:create:
+    desc: Create Python virtual environment.
+    cmds:
+      - python -m venv .venv
+
+  venv:install:
+    desc: Install Python dependencies to virtual environment.
+    cmds:
+      - .venv/bin/pip install -r requirements.txt
+
+  stack:up:
+    desc: Start the Prez stack.
+    cmds:
+      - docker-compose --profile stack up -d
+
+  stack:down:
+    desc: Stop the Prez stack.
+    cmds:
+      - docker-compose --profile stack down
+
+  fuseki:dataset:list:
+    desc: List Fuseki datasets at $FUSEKI_URL.
+    cmds:
+      - .venv/bin/kurra fuseki dataset list $FUSEKI_URL -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD
+
+  fuseki:dataset:create:
+    desc: Create Fuseki dataset. Example usage, task fuseki:dataset:create -- bgs
+    cmds:
+      - .venv/bin/kurra fuseki dataset create $FUSEKI_URL {{.CLI_ARGS}} -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD
+
+  vocpub:download:
+    desc: Download VocPub SHACL shapes validator.
+    cmds:
+      - curl -fsSL -H "Accept text/turtle" https://w3id.org/profile/vocpub/validator --output vocpub.ttl
+
+  vocpub:
+    desc: Validate a file with the VocPub validator. Example usage, task vocpub -- vocab.ttl
+    cmds:
+      - .venv/bin/pyshacl -s vocpub.ttl {{.CLI_ARGS}}

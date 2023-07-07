@@ -1,0 +1,50 @@
+services:
+  fuseki:
+    image: ghcr.io/kurrawong/fuseki-geosparql:git-main-e642d849
+    environment:
+      - JAVA_OPTS=-Xms512m -Xmx2048m
+    ports:
+      - 3030:3030
+    volumes:
+      - fuseki-data:/fuseki
+    profiles:
+      - db
+      - stack
+
+  prez:
+    image: ghcr.io/rdflib/prez:3.3.0
+    ports:
+      - 8000:8000
+    environment:
+      - SPARQL_ENDPOINT=http://fuseki:3030/gsq
+    depends_on:
+      - fuseki
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://fuseki:3030"]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    profiles:
+      - web
+      - stack
+
+  prez-ui:
+    image: ghcr.io/rdflib/prez-ui:3.2.3
+    ports:
+      - 8001:80
+    env_file: .env
+    depends_on:
+      - prez
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://prez:8000"]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    profiles:
+      - ui
+      - stack
+
+volumes:
+  fuseki-data:
