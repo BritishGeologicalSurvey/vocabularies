@@ -4,6 +4,7 @@ version: "3"
 
 env:
   FUSEKI_URL: http://localhost:3030
+  FUSEKI_DATASET_URL: http://localhost:3030/bgs
   FUSEKI_USERNAME: admin
   FUSEKI_PASSWORD: admin
 
@@ -28,6 +29,36 @@ tasks:
     cmds:
       - docker-compose --profile stack down
 
+  stack:fuseki:up:
+    desc: Start the Fuseki service in the Prez stack.
+    cmds:
+      - docker-compose --profile db up -d
+
+  stack:fuseki:down:
+    desc: Stop the Fuseki service in the Prez stack.
+    cmds:
+      - docker-compose --profile db down
+
+  stack:prez:up:
+    desc: Start the Prez service in the Prez stack.
+    cmds:
+      - docker-compose --profile web up -d
+
+  stack:prez:down:
+    desc: Stop the Prez service in the Prez stack.
+    cmds:
+      - docker-compose --profile web down
+
+  stack:prez-ui:up:
+    desc: Start the Prez UI service in the Prez stack.
+    cmds:
+      - docker-compose --profile ui up -d
+
+  stack:prez-ui:down:
+    desc: Stop the Prez UI service in the Prez stack.
+    cmds:
+      - docker-compose --profile ui down
+
   fuseki:dataset:list:
     desc: List Fuseki datasets at $FUSEKI_URL.
     cmds:
@@ -46,4 +77,9 @@ tasks:
   vocpub:
     desc: Validate a file with the VocPub validator. Example usage, task vocpub -- vocab.ttl
     cmds:
-      - .venv/bin/pyshacl -s vocpub.ttl {{.CLI_ARGS}}
+      - .venv/bin/pyshacl -s vocpub.ttl {{.CLI_ARGS}} --allow-warning
+
+  fuseki:upload:
+    desc: Upload files to BGS Fuseki dataset.
+    cmds:
+      - .venv/bin/kurra fuseki upload vocabularies/thesaurus.ttl $FUSEKI_DATASET_URL -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD
