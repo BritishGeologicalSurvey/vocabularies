@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://data.bgs.ac.uk/ref/GeoscienceThesaurus>
+    a skos:ConceptScheme ;
+    dcterms:accessRights <http://data.bgs.ac.uk/ref/void> ;
+    dcterms:created "2002-01-01"^^xsd:date ;
+    dcterms:modified "2023-07-07"^^xsd:date ;
+    dcterms:creator <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> ;
+    skos:definition "The BGS Geoscience Thesaurus contains approximately 6000 descriptor terms for concepts in the geoscience and related subjects. Some entries have scope notes to further explain the term."@en ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/GeoscienceThesaurus"^^xsd:anyURI ;
+    dcterms:isFormatOf <http://data.bgs.ac.uk/id/dataHolding/13603129> ;
+    dcterms:publisher <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> ;
+    skos:prefLabel "BGS Geoscience Thesaurus"@en ;
+    skos:historyNote "The original source of the data was the Australian Mineral Foundation thesaurus of geoscience; some terms have been added or updated to suit BGS needs and the content will continue to be updated as required. The thesaurus includes synonyms to descriptor terms, hierarchical relationships, symmetric (see also) relationships and lapsed (deprecated) term replacements."
+.
