@@ -1,0 +1,6 @@
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX ref: <http://data.bgs.ac.uk/ref/>
+PREFIX geo-thes: <http://data.bgs.ac.uk/id/GeoscienceThesaurus/Concept/>
+
+geo-thes: vann:preferredNamespacePrefix "geo-thes" .
+ref: vann:preferredNamespacePrefix "ref" .

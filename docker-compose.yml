@@ -15,8 +15,10 @@ services:
     image: ghcr.io/rdflib/prez:3.3.0
     ports:
       - 8000:8000
+    volumes:
+      - ./bgs-prefixes.ttl:/app/prez/reference_data/prefixes/bgs-prefixes.ttl
     environment:
-      - SPARQL_ENDPOINT=http://fuseki:3030/gsq
+      - SPARQL_ENDPOINT=http://fuseki:3030/bgs
     depends_on:
       - fuseki
     healthcheck:
