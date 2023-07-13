@@ -28,15 +28,22 @@ Thus repository's content are licensed under the [Open Government Licence 3.0 (O
 
 
 
-**Rachel Heaven**  <https://www.bgs.ac.uk/people/heaven-rachel-2/> *Lead developer, Thesaurus data manager*: 
+[Rachel Heaven](https://www.bgs.ac.uk/people/heaven-rachel-2/) *Lead developer, Thesaurus data manager*: 
 
  
-**Tim McCormick**  <https://www.bgs.ac.uk/people/mccormick-timothy/> *Lexicon, Geochronology and Rock Classification Scheme data manager*: 
+[Tim McCormick](https://www.bgs.ac.uk/people/mccormick-timothy/) *Lexicon, Geochronology and Rock Classification Scheme data manager*: 
 
 
 
-## Other Sources of Geoscience Vocabularies
+## Other Sources of Geoscience/Environment Vocabularies
 
+### GEMET
+
+https://www.eionet.europa.eu/gemet
+
+### SWEET ontology
+
+https://bioportal.bioontology.org/ontologies/SWEET
 
 ### IUGS CGI Vocabularies
 
