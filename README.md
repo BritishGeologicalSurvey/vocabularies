@@ -1,9 +1,24 @@
 # BGS Vocabularies
 
+This repository hosts the datasets of BGS controlled vocabularies in Linked Open Data form, serialised as N-Triples, for the purposes of bulk download for loading into a graph database/triplestore, and for publicly exposing the version history of the vocabularies.
+Content is updated nightly.
+The content is stored in BGS's own triplestore and are made available through API at https://data.bgs.ac.uk, with user interface HTML pages also provided for some of the schemes.
+
 ## Repository Contents
 
-* [vocabularies/](vocabularies/) - all BGS's vocabularies, in RDF text files
+`625KGeologyMap_all.nt` BGS Geology 625k (DiGMapGB -625) contains the triples for the map features; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
 
+`vocabularies/dataholding.nt` - Dataset Catalogue - contains a minimal set of triples for the items in our dataset catalogue, this consists of identifiers and a link to the landing page and is used primarily to handle PID and redirects.
+
+`vocabularies/thesaurus.nt` - BGS Thesaurus of Geosciences - contains the complete set of triples for the BGS Thesaurus of Geosciences - describing the concept scheme and the concepts. ALl predicate and resource types are taken from common schemas (skos, dcterms).
+
+`vocabularies/lexicon-named-rock-unit.nt` - BGS Lexicon of Named Rock Units -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+
+`vocabularies/earth-material-class.nt` - Earth Material Class (BGS Rock Classification Scheme) -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+
+`vocabularies/geochronology.nt` - BGS Geochronology - contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+
+`metadata/linked-data-mappings.nt` contains the descriptions of some of the concept schemes above, description of all predicates and resource types used in the datasets (including capturing the labels of third party predicates), and alignments between BGS vocabulary terms and terms in third party vocabularies
 
 ## License
 
@@ -17,38 +32,14 @@ Thus repository's content are licensed under the [Open Government Licence 3.0 (O
 
 <https://www.bgs.ac.uk/staff/profiles/0639.html>
  
-## Vocablary vs Ontology
 
-The difference between a vocablary & ontology can be sujecive, and is generally around the level of complexity. 
+## Other Sources of Geoscience Vocabularies
 
-> "A Controlled vocabulary is a list of terms that describes a certain domain of knowledge. In the controlled vocabulary you only use one term to describe one particular phenomenon, excluding all other synonyms. The vocabulary should provide a definition for the term, and any synonyms. In a publicly managed controlled vocabulary, the terms should also have unique identifiers, so that they can be referenced.
->
->An ontology (in this context) is a controlled vocabulary, that apart from being a list of agreed terms, also captures relationships between these terms."
 
-### https://lov.linkeddata.es/
-
-a vocabulary is basically synonymous of ontology. However, we differentiate vocabulary from an ontology by characteristics enabling reuse and integration by other
-vocabularies:
- ─ Small size
- ─ Low formal constraints (basically RDFS and a fistful of OWL)
- ─ Few instances except for examples
- ─ Rich user documentation (Labels, comments, definition, description, etc.)
-
-By linking and reusing each other, vocabularies contribute to the growth of an awesome ecosystem: "The Linked Open Vocabularies". 
-
-## Other Geoscience Vocablaries
-
-Loads of terms to be found in:
- - https://vocabs.ardc.edu.au/ 
- - https://vocab.getty.edu/ 
- - https://confluence.csiro.au/public/VOCAB/vocabulary-content/compendium-of-vocabularies 
-
-### CGI
+### IUGS CGI Vocabularies
 
 Server: https://cgi.vocabs.ga.gov.au/
 Files: https://github.com/GeoscienceAustralia/cgi-vocabs (https://github.com/CGI-IUGS/cgi-vocabs)
-
-Replicated on https://vocabs.ardc.edu.au/ 
 
 ### EARTh
 
@@ -69,11 +60,11 @@ https://inspire.ec.europa.eu/glossary
 https://inspire.ec.europa.eu/featureconcept
 https://inspire.ec.europa.eu/codelist
 
-### NVS
+### NERC Vocabulary Server NVS
 
 http://vocab.nerc.ac.uk/
 
-### CEH
+### Centre for Ecology and Hydrology (CEH)
 
 https://vocabs.ceh.ac.uk/en/
 
