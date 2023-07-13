@@ -26,12 +26,14 @@ Thus repository's content are licensed under the [Open Government Licence 3.0 (O
 
 ## Contacts
 
-*Vocabularies owner*: 
 
-**Rachel Heaven**  
 
-<https://www.bgs.ac.uk/staff/profiles/0639.html>
+**Rachel Heaven**  <https://www.bgs.ac.uk/people/heaven-rachel-2/> *Lead developer, Thesaurus data manager*: 
+
  
+**Tim McCormick**  <https://www.bgs.ac.uk/people/mccormick-timothy/> *Lexicon, Geochronology and Rock Classification Scheme data manager*: 
+
+
 
 ## Other Sources of Geoscience Vocabularies
 
