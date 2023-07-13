@@ -10,13 +10,13 @@ The data is stored in BGS's own triplestore and is made available from there thr
 
 `vocabularies/dataholding.nt` - Dataset Catalogue - contains a minimal set of triples for the items in our dataset catalogue, this consists of identifiers and a link to the landing page and is used primarily to handle PID and redirects.
 
-`vocabularies/thesaurus.nt` - BGS Thesaurus of Geosciences - contains the complete set of triples for the BGS Thesaurus of Geosciences - describing the concept scheme and the concepts. ALl predicate and resource types are taken from common schemas (skos, dcterms).
-
-`vocabularies/lexicon-named-rock-unit.nt` - BGS Lexicon of Named Rock Units -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
-
 `vocabularies/earth-material-class.nt` - Earth Material Class (BGS Rock Classification Scheme) -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
 
 `vocabularies/geochronology.nt` - BGS Geochronology - contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+
+`vocabularies/lexicon-named-rock-unit.nt` - BGS Lexicon of Named Rock Units -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+
+`vocabularies/thesaurus.nt` - BGS Thesaurus of Geosciences - contains the complete set of triples for the BGS Thesaurus of Geosciences - describing the concept scheme and the concepts. ALl predicate and resource types are taken from common schemas (skos, dcterms).
 
 `metadata/linked-data-mappings.nt` contains the descriptions of some of the concept schemes above, description of all predicates and resource types used in the datasets (including capturing the labels of third party predicates), and alignments between BGS vocabulary terms and terms in third party vocabularies
 
