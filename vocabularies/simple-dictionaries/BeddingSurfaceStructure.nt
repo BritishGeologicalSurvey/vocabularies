@@ -1,4 +1,12 @@
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#definition> "A dictionary of bed surface structures, eg. ripples, dessication cracks."@en .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#historyNote> "Created for internal use in corporate BGS relational database"@en .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#prefLabel> "BeddingSurfaceStructure"@en .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/created> "2003-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/modified> "2003-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
@@ -20,7 +28,6 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -42,7 +49,6 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://www.w3.org/2000/01/rdf-schema#label> "Not Applicable"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2000/01/rdf-schema#label> "Shrinkage (Desiccation) Cracks"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2000/01/rdf-schema#label> "Synaeresis Cracks"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2000/01/rdf-schema#label> "Parting Lineation (Primary Current Lineation)"@en .
@@ -64,7 +70,6 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2000/01/rdf-schema#label> "          Meandering Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2000/01/rdf-schema#label> "          Radial Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2000/01/rdf-schema#label> "     Resting Traces"@en .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://www.w3.org/2004/02/skos/core#definition> "NOT APPLICABLE"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#definition> "SHRINKAGE (DESICCATION) CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#definition> "SYNAERESIS CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#definition> "PARTING LINEATION (PRIMARY CURRENT LINEATION)"@en .
@@ -86,7 +91,6 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#definition> "MEANDERING GRAZING TRACES"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#definition> "RADIAL GRAZING TRACES"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#definition> "RESTING TRACES"@en .
-<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> .
@@ -108,29 +112,27 @@
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#inScheme> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/*> <http://www.w3.org/2004/02/skos/core#prefLabel> "Not Applicable"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shrinkage (Desiccation) Cracks"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Synaeresis Cracks"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parting Lineation (Primary Current Lineation)"@en .
