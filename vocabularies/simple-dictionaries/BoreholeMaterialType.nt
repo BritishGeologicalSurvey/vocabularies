@@ -1,8 +1,10 @@
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#historyNote> "Created for internal use in corporate BGS relational database"@en .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/BoreholeMaterialType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#definition> "Dictionary table listing core material types and their short codes."@en .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#historyNote> "Created for internal use in corporate BGS relational database"@en .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#prefLabel> "BoreholeMaterialType"@en .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/created> "1994-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/modified> "2000-04-26"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -66,6 +68,26 @@
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/UWCT> <http://www.w3.org/2000/01/rdf-schema#label> "UNWASHED CUTTINGS"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WCSM> <http://www.w3.org/2000/01/rdf-schema#label> "WAXED CORE SAMPLE"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WSCT> <http://www.w3.org/2000/01/rdf-schema#label> "WASHED CUTTINGS"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/BULK> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRSM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CUTT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/DCCR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/DLCR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/MCPS> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLET> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLGT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLUG> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PWDR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RGSP> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RMDC> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RSDU> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/SWCR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TBSM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/THNS> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/UNKN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/UWCT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/WCSM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/WSCT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/BULK> <http://www.w3.org/2004/02/skos/core#definition> "BULK SAMPLE"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/CRSM> <http://www.w3.org/2004/02/skos/core#definition> "CORE SAMPLE"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/CUTT> <http://www.w3.org/2004/02/skos/core#definition> "CUTTINGS"@en .
@@ -146,23 +168,3 @@
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/UWCT> <http://www.w3.org/2004/02/skos/core#prefLabel> "UNWASHED CUTTINGS"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WCSM> <http://www.w3.org/2004/02/skos/core#prefLabel> "WAXED CORE SAMPLE"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WSCT> <http://www.w3.org/2004/02/skos/core#prefLabel> "WASHED CUTTINGS"@en .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/BULK> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRSM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CUTT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/DCCR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/DLCR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/MCPS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLET> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLGT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PLUG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PWDR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RGSP> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RMDC> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RSDU> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/SWCR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TBSM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/THNS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/UNKN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/UWCT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/WCSM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/WSCT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
