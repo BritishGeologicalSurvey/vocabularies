@@ -70,6 +70,27 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2000/01/rdf-schema#label> "Meandering Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2000/01/rdf-schema#label> "Radial Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2000/01/rdf-schema#label> "Resting Traces"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/valid> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#definition> "SHRINKAGE (DESICCATION) CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#definition> "SYNAERESIS CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#definition> "PARTING LINEATION (PRIMARY CURRENT LINEATION)"@en .
@@ -154,24 +175,3 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meandering Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radial Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resting Traces"@en .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
-<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <https://linked.data.gov.au/def/reg-statuses/valid> .
