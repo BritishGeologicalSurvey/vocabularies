@@ -1,2 +1,8 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGR> <http://www.w3.org/2000/01/rdf-schema#label> "Corallian Formation (Offshore Areas)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corallian Formation (Offshore Areas)"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13608090> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/00d7f66c-6296-23b0-e063-0937940aa575> .
++<http://data.bgs.ac.uk/id/dataHolding/13608091> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/00d941a0-f265-4273-e063-0937940a51f0> .
++<http://data.bgs.ac.uk/id/dataHolding/13608090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608090> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608091> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608090> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608091> .
