@@ -82,4 +82,4 @@ tasks:
   fuseki:upload:
     desc: Upload files to BGS Fuseki dataset.
     cmds:
-      - .venv/bin/kurra fuseki upload vocabularies/thesaurus.ttl $FUSEKI_DATASET_URL -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD
+      - .venv/bin/kurra fuseki upload vocabularies $FUSEKI_DATASET_URL -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD
