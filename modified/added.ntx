@@ -1,4 +1,99 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608088> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/00d5c3ae-1072-15c2-e063-0937940ad1db> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608088> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608088> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MUCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MUCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use COB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DTG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use FWW] \r\nRed mudstones, red-brown, purple and green sandstones and fish-bearing intraformational conglomerates; some mature soil carbonate horizons, in addition to numerous calcrete glaebule horizons. The lithologies are commonly arranged in fining-upwards cycles."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use LORS] Conglomerate and sandstone with subsidiary mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MUCK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use ORSU] Sandstone with subsidiary conglomerate."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use SNA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4379> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4379> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> <http://www.w3.org/2000/01/rdf-schema#label> "Brecon Subgroup [Obsolete: use COB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2000/01/rdf-schema#label> "Uriconian Group (Undifferentiated) [Duplicate 2: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOR> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Old Red Sandstone (Undifferentiated) [Obsolete: use LORS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LORS> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NESE> <http://www.w3.org/2000/01/rdf-schema#label> "Neseuretus Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMSM> <http://www.w3.org/2000/01/rdf-schema#label> "Raglan Mudstone Formation and St Maughans Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNA> <http://www.w3.org/2000/01/rdf-schema#label> "Sherburn Anhydrite Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://www.w3.org/2000/01/rdf-schema#label> "Temeside Mudstone Formation and Raglan Mudstone Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <http://www.w3.org/2000/01/rdf-schema#label> "Uriconian Group [Duplicate 1: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Chalk Formation and Middle Chalk Formation (Undifferentiated) [Duplicate: use MUCK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://www.w3.org/2000/01/rdf-schema#label> "Sherburn Anhydrite Formation [Duplicate: use SNA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUCR> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BELB> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAUG> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2437> <http://www.w3.org/2004/02/skos/core#altLabel> "Sherburn Anhydrite Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4379> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCHA> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LKSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNK> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MUCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Chalk Formation and Middle Chalk Formation (Undifferentiated) [Duplicate: use MUCK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://www.w3.org/2004/02/skos/core#altLabel> "Temeside Mudstone Formation and Raglan Mudstone Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RON> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNA> <http://www.w3.org/2004/02/skos/core#altLabel> "Sherburn Anhydrite Formation [Duplicate: use SNA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Temeside Mudstone Formation and Raglan Mudstone Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Mudstone Formation [Obsolete: use MOCL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://www.w3.org/2004/02/skos/core#altLabel> "Temeside Mudstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group (Undifferentiated) [Duplicate 2: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group (Undifferentiated) [Duplicate 2: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian Group [Duplicate 1: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Uriconian [Obsolete: use U]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://www.w3.org/2004/02/skos/core#altLabel> "Sherburn Anhydrite Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHIL> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MIH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MFC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QTZC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MIH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Conglomerate and sandstone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Early Devonian Epoch (Devonian Period) (419-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <http://www.w3.org/2004/02/skos/core#definition> "Chalk. Bedrock. Occurs both onshore and offshore. Formed during the Turonian Age - to - Campanian Age (Cretaceous Period) (93.9-72.2 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone with subsidiary conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Late Devonian Epoch (Devonian Period) (378.9-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Guadalupian Epoch - to - Lopingian Epoch (Permian Period) (274.4-251.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MFC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QTZC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRBE> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHWC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MIH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MIH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brecon Subgroup [Obsolete: use COB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uriconian Group (Undifferentiated) [Duplicate 2: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Old Red Sandstone (Undifferentiated) [Obsolete: use LORS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LORS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Old Red Sandstone Group [Obsolete: use DAUG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NESE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Neseuretus Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMSM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raglan Mudstone Formation and St Maughans Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sherburn Anhydrite Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSRG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Temeside Mudstone Formation and Raglan Mudstone Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uriconian Group [Duplicate 1: use UO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Chalk Formation and Middle Chalk Formation (Undifferentiated) [Duplicate: use MUCK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Old Red Sandstone [Obsolete: use ORSU]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sherburn Anhydrite Formation [Duplicate: use SNA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1894> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/U> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMCK> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UORS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
