@@ -1,4 +1,3 @@
-<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/description> "Classifies all types of earth material or other substance that may be recorded in a geological log or section. This is an abstract schema that consists of 3 sub-schemas."@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/accessRights> <http://data.bgs.ac.uk/ref/void> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/hasPart> <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
@@ -6,9 +5,11 @@
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/hasPart> <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/EarthMaterialClass"@en .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wwwdev.bgs.ac.uk/technologies/bgs-rock-classification-scheme/> .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#label> "Types of material including single rock types, non earth materials and composite lithologies. This is an abstract schema that consists of 3 sub-schemas"@en .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.bgs.ac.uk/technologies/bgs-rock-classification-scheme/> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/title> "BGS Earth Material Classes"@en .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/created> "2011-02-10" .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/title> "The BGS Rock Classification Scheme"@en .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/created> "2011-02-10"^^<http://www.w3.org/2001/XMLSchema#date>  .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://purl.org/dc/terms/source> "British Geological Survey. 2020. The BGS Rock Classification Scheme [online]. Keyworth, Nottingham. Available from https://www.bgs.ac.uk/technologies/bgs-rock-classification-scheme/"^^<http://www.w3.org/2001/XMLSchema#anyURI>  .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2004/02/skos/core#prefLabel> "The BGS Rock Classification Scheme"@en  .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass> <http://www.w3.org/2004/02/skos/core#definition> "The BGS Rock Classification Scheme classifies all types of earth material or other substance that may be recorded in a geological log or section. This is a composite scheme that consists of 3 sub-schemes."@en  .
 
