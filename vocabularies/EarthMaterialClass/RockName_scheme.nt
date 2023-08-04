@@ -1,6 +1,6 @@
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://www.w3.org/2000/01/rdf-schema#label> "Types of earth material that are single rock types only"@en .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
-<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/created> "2011-02-10" .
+<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/created> "2011-02-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/isPartOf> <http://data.bgs.ac.uk/ref/EarthMaterialClass> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
