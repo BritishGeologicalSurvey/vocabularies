@@ -84,6 +84,27 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://schema.org/color> "green"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://schema.org/color> "green"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#definition> "SHRINKAGE (DESICCATION) CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#definition> "SYNAERESIS CRACKS"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#definition> "PARTING LINEATION (PRIMARY CURRENT LINEATION)"@en .
@@ -168,3 +189,24 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#prefLabel> "          Meandering Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#prefLabel> "          Radial Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#prefLabel> "     Resting Traces"@en .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKDES> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/CRACKSYN> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/PART> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RAIN> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIP> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCUR> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURLIN> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSIN> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPCURSTR> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAV> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVINT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWAVMOD> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/RIPWIN> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TF> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCR> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFCRFOOT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZ> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZCOIL> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
+<http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> .
