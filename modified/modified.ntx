@@ -1,377 +1,95 @@
--<http://data.bgs.ac.uk/id/Geochronology/Division/BB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/BW> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS001> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS002> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS003> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS004> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005A> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005B> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005C> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005D> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005E> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS006> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS007> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS008> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS009> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS010> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS011> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS012> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS013> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS014> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS015> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS016> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS017> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS018> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS019> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS020> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS021> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS022> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS023> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS024> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS025> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS026> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS027> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS028> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS029> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS030> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS031> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS032> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS033> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS034> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS035> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS036> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS037> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS038> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS039> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS040> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS041> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS042> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS043> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS044> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS045> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS046> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS047> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS048> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS049> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS050> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS051> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS052> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS053> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS054> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS055> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS056> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS057> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS058> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS059> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS060> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS061> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS062> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS063> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS064> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS065> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS066> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS067> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS068> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS069> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS070> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS071> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS072> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS073> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS074> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS075> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS076> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS077> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS078> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS079> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS080> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS081> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS082> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS083> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS084> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS085> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS086> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS087> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS088> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS089> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS090> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS091> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS092> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS093> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS094> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS095> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS096> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS097> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS098> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS099> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS100> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS101> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS102> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QMIS103> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QX> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BB> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BC> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BD> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BE> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BH> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BI> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BL> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BM> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BP> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BR> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BS> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BT> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/BW> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QA> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QB> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QC> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QI> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QL> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS001> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS002> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS003> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS004> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005A> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005B> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005C> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005D> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS005E> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS006> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS007> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS008> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS009> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS010> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS011> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS012> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS013> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS014> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS015> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS016> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS017> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS018> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS019> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS020> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS021> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS022> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS023> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS024> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS025> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS026> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS027> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS028> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS029> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS030> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS031> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS032> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS033> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS034> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS035> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS036> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS037> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS038> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS039> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS040> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS041> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS042> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS043> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS044> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS045> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS046> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS047> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS048> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS049> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS050> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS051> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS052> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS053> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS054> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS055> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS056> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS057> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS058> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS059> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS060> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS061> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS062> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS063> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS064> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS065> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS066> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS067> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS068> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS069> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS070> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS071> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS072> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS073> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS074> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS075> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS076> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS077> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS078> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS079> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS080> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS081> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS082> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS083> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS084> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS085> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS086> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS087> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS088> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS089> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS090> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS091> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS092> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS093> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS094> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS095> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS096> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS097> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS098> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS099> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS100> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS101> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS102> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QMIS103> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QN> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QR> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QS> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QT> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QV> .
--<http://data.bgs.ac.uk/id/Geochronology/Division/QP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Geochronology/Division/QX> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S122> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S122> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOHIL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WVO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYSA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRGR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDST> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LKNB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLDL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOHIL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHI> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYSA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLDL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNR> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRGR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDST> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LKNB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRW> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROT> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WVO> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://www.w3.org/2000/01/rdf-schema#label> "West Walton Formation and Oxford Clay Formation (Undifferentiated) [Obsolete: use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> <http://www.w3.org/2000/01/rdf-schema#label> "White-Leaved Oak Shales [Obsolete: use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> <http://www.w3.org/2000/01/rdf-schema#label> "Oxford Clay Formation And West Walton Formation (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RABK> <http://www.w3.org/2000/01/rdf-schema#label> "Raise Beck Volcaniclastic Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S122> <http://www.w3.org/2000/01/rdf-schema#label> "Oxford Clay Formation And West Walton Formation [Undifferentiated]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <http://www.w3.org/2000/01/rdf-schema#label> "Whatton Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLB> <http://www.w3.org/2000/01/rdf-schema#label> "Woodland Beds [Obsolete Code: Use WDB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2000/01/rdf-schema#label> "White Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSH> <http://www.w3.org/2000/01/rdf-schema#label> "White-Leaved-Oak Shales [Obsolete Code: Use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNL> <http://www.w3.org/2000/01/rdf-schema#label> "Woodland Limestone [Obsolete Code: Use WLDL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> <http://www.w3.org/2000/01/rdf-schema#label> "West Walton Formation And Oxford Clay Formation (Undifferentiated) [Obsolete Code: Use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Whatton Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCS> <http://www.w3.org/2004/02/skos/core#altLabel> "Wig Bach Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWL> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Windrush Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1132> <http://www.w3.org/2004/02/skos/core#altLabel> "Raise Beck Volcaniclastic Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://www.w3.org/2004/02/skos/core#altLabel> "Oxford Clay Formation And West Walton Formation (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> <http://www.w3.org/2004/02/skos/core#altLabel> "White-Leaved Oak Shale Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDST> <http://www.w3.org/2004/02/skos/core#altLabel> "West Sole Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LKNB> <http://www.w3.org/2004/02/skos/core#altLabel> "West Sole Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> <http://www.w3.org/2004/02/skos/core#altLabel> "West Walton Formation And Oxford Clay Formation (Undifferentiated) [Obsolete Code: Use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S122> <http://www.w3.org/2004/02/skos/core#altLabel> "West Walton Formation And Oxford Clay Formation (Undifferentiated) [Obsolete Code: Use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRW> <http://www.w3.org/2004/02/skos/core#altLabel> "West Sole Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UWLF> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodland Beds [Obsolete Code: Use WDB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodlands Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodlands Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bryncroes Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ulster White Limestone Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHL> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLDL> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodland Limestone [Obsolete Code: Use WLDL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2004/02/skos/core#altLabel> "Blisworth Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ulster White Limestone Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2004/02/skos/core#altLabel> "White Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNR> <http://www.w3.org/2004/02/skos/core#altLabel> "Gryphite Grit Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOA> <http://www.w3.org/2004/02/skos/core#altLabel> "White-Leaved Oak Shales [Obsolete: use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOA> <http://www.w3.org/2004/02/skos/core#altLabel> "White-Leaved-Oak Shales [Obsolete Code: Use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> <http://www.w3.org/2004/02/skos/core#altLabel> "Wockley Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOY> <http://www.w3.org/2004/02/skos/core#altLabel> "Wockley Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROT> <http://www.w3.org/2004/02/skos/core#altLabel> "West Sole Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://www.w3.org/2004/02/skos/core#altLabel> "Hudleston Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://www.w3.org/2004/02/skos/core#altLabel> "Leckenby Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://www.w3.org/2004/02/skos/core#altLabel> "Strangways Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSTS> <http://www.w3.org/2004/02/skos/core#altLabel> "Wroot Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> <http://www.w3.org/2004/02/skos/core#altLabel> "Oxford Clay Formation And West Walton Formation (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> <http://www.w3.org/2004/02/skos/core#altLabel> "Oxford Clay Formation And West Walton Formation [Undifferentiated]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEHA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.58-0 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLDL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Bedrock. Occurs onshore. Formed during the Rhuddanian Age (Silurian Period) (443.1-440.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Bedrock. Occurs onshore. Formed during the Ashgill Series (Ordovician Period) (449.75-443.1 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Merioneth Series (Cambrian Period) (499-486.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Bedrock. Occurs onshore. Formed during the Llandovery Epoch (Silurian Period) (443.1-432.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNB> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEHA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H439> <http://www.w3.org/2004/02/skos/core#prefLabel> "West Walton Formation and Oxford Clay Formation (Undifferentiated) [Obsolete: use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H616> <http://www.w3.org/2004/02/skos/core#prefLabel> "White-Leaved Oak Shales [Obsolete: use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OXWW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oxford Clay Formation And West Walton Formation (Undifferentiated)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RABK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raise Beck Volcaniclastic Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S122> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oxford Clay Formation And West Walton Formation [Undifferentiated]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Whatton Sand And Gravel"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodland Beds [Obsolete Code: Use WDB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <http://www.w3.org/2004/02/skos/core#prefLabel> "White Limestone"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "White-Leaved-Oak Shales [Obsolete Code: Use WOA]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodland Limestone [Obsolete Code: Use WLDL]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWOX> <http://www.w3.org/2004/02/skos/core#prefLabel> "West Walton Formation And Oxford Clay Formation (Undifferentiated) [Obsolete Code: Use OXWW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHAT> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUGP> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BTN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUGP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WA> <http://www.w3.org/2000/01/rdf-schema#label> "Warmfield Rock [Obsolete Name: See Revision Section]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBG> <http://www.w3.org/2000/01/rdf-schema#label> "Woodhouselee And Braid Hills Group [Obsolete: use WDH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBK> <http://www.w3.org/2000/01/rdf-schema#label> "Woodbank Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCG> <http://www.w3.org/2000/01/rdf-schema#label> "Weybourne Crag [Obsolete: use WRCG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHF> <http://www.w3.org/2000/01/rdf-schema#label> "Westward Ho Formation [Obsolete Name And Code: See WDHO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGF> <http://www.w3.org/2000/01/rdf-schema#label> "Woodhouse Grit Flags [Obsolete Name And Code: See WOHF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGT> <http://www.w3.org/2000/01/rdf-schema#label> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHSI> <http://www.w3.org/2000/01/rdf-schema#label> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIB> <http://www.w3.org/2000/01/rdf-schema#label> "Lybster Subgroup (- Wick Beds) [Obsolete Name And Code: See LYBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WM> <http://www.w3.org/2000/01/rdf-schema#label> "Wealden Marls (Isle Of Wight) [Obsolete: use WSEX]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNC> <http://www.w3.org/2000/01/rdf-schema#label> "Winstow Chert [Obsolete Name And Code: See WCH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPEAR> <http://www.w3.org/2000/01/rdf-schema#label> "Wild Pear Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WQB> <http://www.w3.org/2000/01/rdf-schema#label> "Wern Quarry Beds [Obsolete Name And Code: See CEF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRSH> <http://www.w3.org/2000/01/rdf-schema#label> "Worston Shales [Obsolete: use WSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSG> <http://www.w3.org/2000/01/rdf-schema#label> "Worston Shale Group [Obsolete: use CRAV, CLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSH> <http://www.w3.org/2000/01/rdf-schema#label> "Wealden Shales (Isle Of Wight) [Obsolete: use VTIS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSL> <http://www.w3.org/2000/01/rdf-schema#label> "Woolgarden Slates [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WU> <http://www.w3.org/2000/01/rdf-schema#label> "Western Uriconian [Obsolete Name And Code: Part Of UO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WVR> <http://www.w3.org/2000/01/rdf-schema#label> "Weaver Beds [Obsolete Name And Code: Part Of MI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> <http://www.w3.org/2000/01/rdf-schema#label> "Burway Formation [Obsolete Code: Use BUGP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACR> <http://www.w3.org/2004/02/skos/core#altLabel> "Warmfield Rock [Obsolete Name: See Revision Section]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACR> <http://www.w3.org/2004/02/skos/core#altLabel> "Warmfield Rock [Obsolete Name: See Revision Section]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFF> <http://www.w3.org/2004/02/skos/core#altLabel> "Westward Ho Formation [Obsolete Name And Code: See WDHO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BUGP> <http://www.w3.org/2004/02/skos/core#altLabel> "Burway Formation [Obsolete Code: Use BUGP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEF> <http://www.w3.org/2004/02/skos/core#altLabel> "Wern Quarry Beds [Obsolete Name And Code: See CEF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEF> <http://www.w3.org/2004/02/skos/core#altLabel> "Wern Quarry Beds [Obsolete Name And Code: See CEF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGP> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRAV> <http://www.w3.org/2004/02/skos/core#altLabel> "Worston Shale Group [Obsolete: use CRAV, CLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DOBP> <http://www.w3.org/2004/02/skos/core#altLabel> "Weybourne Crag [Obsolete: use WRCG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWHIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWHIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3753> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodbank Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H73> <http://www.w3.org/2004/02/skos/core#altLabel> "Worston Shale Group [Obsolete: use CRAV, CLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOM> <http://www.w3.org/2004/02/skos/core#altLabel> "Worston Shales [Obsolete: use WSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWHIN> <http://www.w3.org/2004/02/skos/core#altLabel> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYBR> <http://www.w3.org/2004/02/skos/core#altLabel> "Lybster Subgroup (- Wick Beds) [Obsolete Name And Code: See LYBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGG> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MI> <http://www.w3.org/2004/02/skos/core#altLabel> "Weaver Beds [Obsolete Name And Code: Part Of MI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MI> <http://www.w3.org/2004/02/skos/core#altLabel> "Weaver Beds [Obsolete Name And Code: Part Of MI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S229> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVY> <http://www.w3.org/2004/02/skos/core#altLabel> "Woolgarden Slates [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UO> <http://www.w3.org/2004/02/skos/core#altLabel> "Western Uriconian [Obsolete Name And Code: Part Of UO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VTIS> <http://www.w3.org/2004/02/skos/core#altLabel> "Wealden Shales (Isle Of Wight) [Obsolete: use VTIS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCH> <http://www.w3.org/2004/02/skos/core#altLabel> "Winstow Chert [Obsolete Name And Code: See WCH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDH> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouselee And Braid Hills Group [Obsolete: use WDH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Westward Ho Formation [Obsolete Name And Code: See WDHO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHINS> <http://www.w3.org/2004/02/skos/core#altLabel> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit Flags [Obsolete Name And Code: See WOHF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit Flags [Obsolete Name And Code: See WOHF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WOHF> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Wild Pear Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRCG> <http://www.w3.org/2004/02/skos/core#altLabel> "Weybourne Crag [Obsolete: use WRCG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Worston Shale Group [Obsolete: use CRAV, CLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSEX> <http://www.w3.org/2004/02/skos/core#altLabel> "Wealden Marls (Isle Of Wight) [Obsolete: use WSEX]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSG> <http://www.w3.org/2004/02/skos/core#altLabel> "Worston Shales [Obsolete: use WSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHSS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Valanginian Age - to - Hauterivian Age (Cretaceous Period) (137.7-126.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Brigantian Substage (Carboniferous Period) (330.9-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Bedrock. Occurs onshore. Formed during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Barremian Age (Cretaceous Period) (126.5-121.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Famennian Age (Devonian Period) (371.1-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone. Bedrock. Occurs onshore. Formed during the Asbian Substage - to - Brigantian Substage (Carboniferous Period) (337-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WU> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Formed during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Warmfield Rock [Obsolete Name: See Revision Section]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodhouselee And Braid Hills Group [Obsolete: use WDH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodbank Group [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Weybourne Crag [Obsolete: use WRCG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Westward Ho Formation [Obsolete Name And Code: See WDHO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodhouse Grit Flags [Obsolete Name And Code: See WOHF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodhouse Grit [Obsolete Name And Code: See WOHF And MGG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHSI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Whin Sill [Obsolete: use WHINS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lybster Subgroup (- Wick Beds) [Obsolete Name And Code: See LYBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wealden Marls (Isle Of Wight) [Obsolete: use WSEX]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WNC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winstow Chert [Obsolete Name And Code: See WCH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WPEAR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wild Pear Beds [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WQB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wern Quarry Beds [Obsolete Name And Code: See CEF]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worston Shales [Obsolete: use WSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Worston Shale Group [Obsolete: use CRAV, CLL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wealden Shales (Isle Of Wight) [Obsolete: use VTIS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woolgarden Slates [Obsolete Name And Code: See TVY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Western Uriconian [Obsolete Name And Code: Part Of UO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WVR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Weaver Beds [Obsolete Name And Code: Part Of MI]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Burway Formation [Obsolete Code: Use BUGP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
