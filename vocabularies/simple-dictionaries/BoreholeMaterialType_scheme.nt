@@ -1,7 +1,9 @@
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#historyNote> "Created for internal use in corporate BGS relational database"@en .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/BoreholeMaterialType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#definition> "Dictionary table listing core material types and their short codes."@en .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#historyNote> "Created for internal use in corporate BGS relational database"@en .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#prefLabel> "BoreholeMaterialType"@en .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType>  <http://www.w3.org/2004/02/skos/core#editorialNote>  "Colour attribute on each Concept indicates the status (green=stable, yellow=experimental, red=deprecated)"@en  .
