@@ -52,6 +52,24 @@ def fix_bedding_surface_structure():
     graph.serialize(filepath, fileformat, encoding="utf-8")
 
 
+def fix_borehole_material_type():
+    filepath = "vocabularies/simple-dictionaries/BoreholeMaterialType_scheme.nt"
+    fileformat = "ntriples"
+    graph = Graph()
+    graph.parse(filepath, format=fileformat)
+    graph.remove((None, RDF.type, SKOS.Collection))
+    graph.serialize(filepath, fileformat, encoding="utf-8")
+
+
+def fix_rockunitrank():
+    filepath = "vocabularies/LexiconRockUnitName/RockUnitRank_scheme.nt"
+    fileformat = "ntriples"
+    graph = Graph()
+    graph.parse(filepath, format=fileformat)
+    graph.remove((None, RDF.type, SKOS.Collection))
+    graph.serialize(filepath, fileformat, encoding="utf-8")
+
+
 def main() -> None:
     starttime = time.time()
 
@@ -59,6 +77,8 @@ def main() -> None:
         fix_dataholdings()
         fix_geology_map()
         fix_bedding_surface_structure()
+        fix_borehole_material_type()
+        fix_rockunitrank()
 
     finally:
         endtime = time.time() - starttime
