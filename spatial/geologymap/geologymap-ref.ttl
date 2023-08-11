@@ -1,0 +1,8 @@
+PREFIX geologymap: <http://data.bgs.ac.uk/ref/625KGeologyMap/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+geologymap:hasEarthMaterialClass skos:prefLabel "has earth material class" .
+
+geologymap:hasLexicon skos:prefLabel "has lexicon" .
+
+geologymap:hasRank skos:prefLabel "has rank" .

@@ -5,12 +5,9 @@ from rdflib import (
     Graph,
     Namespace,
     RDF,
-    DCAT,
     SDO,
     Literal,
     BNode,
-    DCTERMS,
-    XSD,
     RDFS,
     URIRef,
 )
@@ -27,6 +24,7 @@ FEATURE_COLLECTION_IRI = URIRef("http://data.bgs.ac.uk/id/geology625k/bedrock")
 FEATURE_TYPE = "Bedrock"
 FEATURE_IRI = "http://data.bgs.ac.uk/id/geology625k/bedrock/{}"
 GEO = Namespace("http://www.opengis.net/ont/geosparql#")
+GEOLOGY_MAP_REF = Namespace("http://data.bgs.ac.uk/ref/625KGeologyMap/")
 
 
 def get_wkt(data):
@@ -91,6 +89,42 @@ def generate():
                         graph.add((property_bnode, RDF.type, SDO.PropertyValue))
                         graph.add((property_bnode, SDO.name, Literal(key)))
                         graph.add((property_bnode, SDO.value, Literal(value)))
+
+                    lex = properties["LEX"]
+                    if lex is not None and lex != "" and lex != "NOT APPLICABLE":
+                        graph.add(
+                            (
+                                iri,
+                                GEOLOGY_MAP_REF.hasLexicon,
+                                URIRef(
+                                    f"http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/{lex}"
+                                ),
+                            )
+                        )
+
+                    rcs = properties["RCS"]
+                    if rcs is not None and rcs != "" and rcs != "NOT APPLICABLE":
+                        graph.add(
+                            (
+                                iri,
+                                GEOLOGY_MAP_REF.hasEarthMaterialClass,
+                                URIRef(
+                                    f"https://data.bgs.ac.uk/id/EarthMaterialClass/RockName/{rcs}"
+                                ),
+                            )
+                        )
+
+                    rank = properties["RANK"]
+                    if rank is not None and rank != "" and rank != "NOT APPLICABLE":
+                        graph.add(
+                            (
+                                iri,
+                                GEOLOGY_MAP_REF.hasRank,
+                                URIRef(
+                                    f"https://data.bgs.ac.uk/id/625KGeologyMap/Rank/{rank}"
+                                ),
+                            )
+                        )
 
             page_num += 1
         else:

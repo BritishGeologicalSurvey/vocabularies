@@ -5,12 +5,9 @@ from rdflib import (
     Graph,
     Namespace,
     RDF,
-    DCAT,
     SDO,
     Literal,
     BNode,
-    DCTERMS,
-    XSD,
     RDFS,
     URIRef,
 )
@@ -25,6 +22,7 @@ FEATURE_COLLECTION_IRI = URIRef("http://data.bgs.ac.uk/id/geology625k/faults")
 FEATURE_TYPE = "Faults"
 FEATURE_IRI = "http://data.bgs.ac.uk/id/geology625k/faults/{}"
 GEO = Namespace("http://www.opengis.net/ont/geosparql#")
+GEOLOGY_MAP_REF = Namespace("http://data.bgs.ac.uk/ref/625KGeologyMap/")
 
 
 def get_wkt(data):
