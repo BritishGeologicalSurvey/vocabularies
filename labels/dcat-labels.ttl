@@ -1,0 +1,402 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://www.w3.org/ns/dcat>
+    rdfs:label
+        "أنطولوجية فهارس قوائم البيانات"@ar ,
+        "Slovník pro datové katalogy"@cs ,
+        "Datakatalogvokabular"@da ,
+        "Το λεξιλόγιο των καταλόγων δεδομένων"@el ,
+        "The data catalog vocabulary"@en ,
+        "El vocabulario de catálogo de datos"@es ,
+        "Le vocabulaire des jeux de données"@fr ,
+        "Il vocabolario del catalogo dei dati"@it ,
+        "データ・カタログ語彙（DCAT）"@ja ;
+.
+
+dcat:Catalog
+    rdfs:label
+        "فهرس قوائم البيانات"@ar ,
+        "Katalog"@cs ,
+        "Katalog"@da ,
+        "Κατάλογος"@el ,
+        "Catalog"@en ,
+        "Catálogo"@es ,
+        "Catalogue"@fr ,
+        "Catalogo"@it ,
+        "カタログ"@ja ;
+.
+
+dcat:CatalogRecord
+    rdfs:label
+        "سجل"@ar ,
+        "Katalogizační záznam"@cs ,
+        "Katalogpost"@da ,
+        "Καταγραφή καταλόγου"@el ,
+        "Catalog Record"@en ,
+        "Registro del catálogo"@es ,
+        "Registre du catalogue"@fr ,
+        "Record di catalogo"@it ,
+        "カタログ・レコード"@ja ;
+.
+
+dcat:DataService
+    rdfs:label
+        "Datatjeneste"@da ,
+        "Data service"@en ,
+        "Servicio de datos"@es ,
+        "Servizio di dati"@it ;
+.
+
+dcat:Dataset
+    rdfs:label
+        "قائمة بيانات"@ar ,
+        "Datová sada"@cs ,
+        "Datasæt"@da ,
+        "Σύνολο Δεδομένων"@el ,
+        "Dataset"@en ,
+        "Conjunto de datos"@es ,
+        "Jeu de données"@fr ,
+        "Dataset"@it ,
+        "データセット"@ja ;
+.
+
+dcat:Distribution
+    rdfs:label
+        "التوزيع"@ar ,
+        "Distribuce"@cs ,
+        "Distribution"@da ,
+        "Διανομή"@el ,
+        "Distribution"@en ,
+        "Distribución"@es ,
+        "Distribution"@fr ,
+        "Distribuzione"@it ,
+        "配信"@ja ;
+.
+
+dcat:Relationship
+    rdfs:label
+        "Vztah"@cs ,
+        "Relation"@da ,
+        "Relationship"@en ,
+        "Relación"@es ,
+        "Relazione"@it ;
+.
+
+dcat:Resource
+    rdfs:label
+        "Katalogizovaný zdroj"@cs ,
+        "Katalogiseret ressource"@da ,
+        "Catalogued resource"@en ,
+        "Recurso catalogado"@es ,
+        "Risorsa catalogata"@it ;
+.
+
+dcat:Role
+    rdfs:label
+        "Role"@cs ,
+        "Rolle"@da ,
+        "Role"@en ,
+        "Rol"@es ,
+        "Ruolo"@it ;
+.
+
+dcat:accessService
+    rdfs:label
+        "služba pro přístup k datům"@cs ,
+        "dataadgangstjeneste"@da ,
+        "data access service"@en ,
+        "servicio de acceso de datos"@es ,
+        "servizio di accesso ai dati"@it ;
+.
+
+dcat:accessURL
+    rdfs:label
+        "رابط وصول"@ar ,
+        "přístupová adresa"@cs ,
+        "adgangsadresse"@da ,
+        "URL πρόσβασης"@el ,
+        "access address"@en ,
+        "URL de acceso"@es ,
+        "URL d'accès"@fr ,
+        "indirizzo di accesso"@it ,
+        "アクセスURL"@ja ;
+.
+
+dcat:bbox
+    rdfs:label
+        "ohraničení oblasti"@cs ,
+        "bounding box"@da ,
+        "bounding box"@en ,
+        "cuadro delimitador"@es ,
+        "quadro di delimitazione"@it ;
+.
+
+dcat:byteSize
+    rdfs:label
+        "الحجم بالبايت"@ar ,
+        "velikost v bajtech"@cs ,
+        "bytestørrelse"@da ,
+        "μέγεθος σε bytes"@el ,
+        "byte size"@en ,
+        "tamaño en bytes"@es ,
+        "taille en octects"@fr ,
+        "dimensione in byte"@it ,
+        "バイト・サイズ"@ja ;
+.
+
+dcat:catalog
+    rdfs:label
+        "katalog"@cs ,
+        "katalog"@da ,
+        "catalog"@en ,
+        "catálogo"@es ,
+        "catalogo"@it ;
+.
+
+dcat:centroid
+    rdfs:label
+        "centroid"@cs ,
+        "geometrisk tyngdepunkt"@da ,
+        "centroid"@en ,
+        "centroide"@es ,
+        "centroide"@it ;
+.
+
+dcat:compressFormat
+    rdfs:label
+        "formát komprese"@cs ,
+        "kompressionsformat"@da ,
+        "compression format"@en ,
+        "formato de compresión"@es ,
+        "formato di compressione"@it ;
+.
+
+dcat:contactPoint
+    rdfs:label
+        "عنوان اتصال"@ar ,
+        "kontaktní bod"@cs ,
+        "kontaktpunkt"@da ,
+        "σημείο επικοινωνίας"@el ,
+        "contact point"@en ,
+        "Punto de contacto"@es ,
+        "point de contact"@fr ,
+        "punto di contatto"@it ,
+        "窓口"@ja ;
+.
+
+dcat:dataset
+    rdfs:label
+        "قائمة بيانات"@ar ,
+        "datová sada"@cs ,
+        "datasæt"@da ,
+        "σύνολο δεδομένων"@el ,
+        "dataset"@en ,
+        "conjunto de datos"@es ,
+        "jeu de données"@fr ,
+        "dataset"@it ,
+        "データセット"@ja ;
+.
+
+dcat:distribution
+    rdfs:label
+        "توزيع"@ar ,
+        "distribuce"@cs ,
+        "distribution"@da ,
+        "διανομή"@el ,
+        "distribution"@en ,
+        "distribución"@es ,
+        "distribution"@fr ,
+        "distribuzione"@it ,
+        "データセット配信"@ja ;
+.
+
+dcat:downloadURL
+    rdfs:label
+        "رابط تحميل"@ar ,
+        "URL souboru ke stažení"@cs ,
+        "downloadURL"@da ,
+        "URL μεταφόρτωσης"@el ,
+        "download URL"@en ,
+        "URL de descarga"@es ,
+        "URL de téléchargement"@fr ,
+        "URL di scarico"@it ,
+        "ダウンロードURL"@ja ;
+.
+
+dcat:endDate
+    rdfs:label
+        "datum konce"@cs ,
+        "slutdato"@da ,
+        "end date"@en ,
+        "fecha final"@es ,
+        "data di fine"@it ;
+.
+
+dcat:endpointDescription
+    rdfs:label
+        "popis přístupového bodu služby"@cs ,
+        "endpointbeskrivelse"@da ,
+        "description of service end-point"@en ,
+        "descripción del end-point del servicio"@es ,
+        "descrizione dell'endpoint del servizio"@it ;
+.
+
+dcat:endpointURL
+    rdfs:label
+        "přístupový bod služby"@cs ,
+        "tjenesteendpoint"@da ,
+        "service end-point"@en ,
+        "end-point del servicio"@es ,
+        "end-point del servizio"@it ;
+.
+
+dcat:hadRole
+    rdfs:label
+        "sehraná role"@cs ,
+        "havde rolle"@da ,
+        "hadRole"@en ,
+        "haRuolo"@it ,
+        "tiene rol"@it ;
+.
+
+dcat:keyword
+    rdfs:label
+        "كلمة  مفتاحية "@ar ,
+        "klíčové slovo"@cs ,
+        "nøgleord"@da ,
+        "λέξη-κλειδί"@el ,
+        "keyword"@en ,
+        "palabra clave"@es ,
+        "mot-clés "@fr ,
+        "parola chiave"@it ,
+        "キーワード/タグ"@ja ;
+.
+
+dcat:landingPage
+    rdfs:label
+        "صفحة وصول"@ar ,
+        "vstupní stránka"@cs ,
+        "destinationsside"@da ,
+        "ιστοσελίδα αρχικής πρόσβασης"@el ,
+        "landing page"@en ,
+        "página de destino"@es ,
+        "page d'atterrissage"@fr ,
+        "pagina di destinazione"@it ,
+        "ランディング・ページ"@ja ;
+.
+
+dcat:mediaType
+    rdfs:label
+        "نوع الميديا"@ar ,
+        "typ média"@cs ,
+        "medietype"@da ,
+        "τύπος μέσου"@el ,
+        "media type"@en ,
+        "tipo de media"@es ,
+        "type de média"@fr ,
+        "tipo di media"@it ,
+        "メディア・タイプ"@ja ;
+.
+
+dcat:packageFormat
+    rdfs:label
+        "formát balíčku"@cs ,
+        "pakkeformat"@da ,
+        "packaging format"@en ,
+        "formato de empaquetado"@es ,
+        "formato di impacchettamento"@it ;
+.
+
+dcat:qualifiedRelation
+    rdfs:label
+        "kvalifikovaný vztah"@cs ,
+        "Kvalificeret relation"@da ,
+        "qualified relation"@en ,
+        "relación calificada"@es ,
+        "relazione qualificata"@it ;
+.
+
+dcat:record
+    rdfs:label
+        "سجل"@ar ,
+        "záznam"@cs ,
+        "post"@da ,
+        "καταγραφή"@el ,
+        "record"@en ,
+        "registro"@es ,
+        "registre"@fr ,
+        "record"@it ,
+        "カタログ・レコード"@ja ;
+.
+
+dcat:servesDataset
+    rdfs:label
+        "poskytuje datovou sadu"@cs ,
+        "datatjeneste for datasæt"@da ,
+        "serves dataset"@en ,
+        "provee conjunto de datos"@es ,
+        "serve set di dati"@it ;
+.
+
+dcat:service
+    rdfs:label
+        "služba"@cs ,
+        "datatjeneste"@da ,
+        "service"@en ,
+        "servicio"@es ,
+        "servizio"@it ;
+.
+
+dcat:spatialResolutionInMeters
+    rdfs:label
+        "prostorové rozlišení (metry)"@cs ,
+        "geografisk opløsning (meter)"@da ,
+        "spatial resolution (metres)"@en-GB ,
+        "spatial resolution (meters)"@en-US ,
+        "resolución espacial (metros)"@es ,
+        "risoluzione spaziale (metros)"@it ;
+.
+
+dcat:startDate
+    rdfs:label
+        "datum začátku"@cs ,
+        "startdato"@da ,
+        "start date"@en ,
+        "data di inizio"@it ;
+.
+
+dcat:temporalResolution
+    rdfs:label
+        "časové rozlišení"@cs ,
+        "tidslig opløsning"@da ,
+        "temporal resolution"@en ,
+        "resolución temporal"@es ,
+        "risoluzione temporale"@it ;
+.
+
+dcat:theme
+    rdfs:label
+        "التصنيف"@ar ,
+        "téma"@cs ,
+        "emne"@da ,
+        "Θέμα"@el ,
+        "theme"@en ,
+        "tema"@es ,
+        "thème"@fr ,
+        "tema"@it ,
+        "テーマ/カテゴリー"@ja ;
+.
+
+dcat:themeTaxonomy
+    rdfs:label
+        "قائمة التصنيفات"@ar ,
+        "taxonomie témat"@cs ,
+        "emnetaksonomi"@da ,
+        "Ταξινομία θεματικών κατηγοριών."@el ,
+        "theme taxonomy"@en ,
+        "taxonomía de temas"@es ,
+        "taxonomie de thèmes"@fr ,
+        "tassonomia dei temi"@it ,
+        "テーマ"@ja ;
+.

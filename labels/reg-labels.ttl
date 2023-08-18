@@ -1,0 +1,273 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://dbpedia.org/ontology/Language>
+    rdfs:label "Language" ;
+.
+
+<http://dbpedia.org/ontology/languageCode>
+    rdfs:label "Language code" ;
+.
+
+<http://purl.org/linked-data/registry>
+    rdfs:label "Registry ontology"@en ;
+.
+
+<http://purl.org/linked-data/registry#Delegated>
+    rdfs:label "Delegated"@en ;
+.
+
+<http://purl.org/linked-data/registry#DelegatedRegister>
+    rdfs:label "Delegated Register"@en ;
+.
+
+<http://purl.org/linked-data/registry#EntityReference>
+    rdfs:label "Entity Reference"@en ;
+.
+
+<http://purl.org/linked-data/registry#FederatedRegister>
+    rdfs:label "Federated Register"@en ;
+.
+
+<http://purl.org/linked-data/registry#MonitorSpec>
+    rdfs:label "Monitor Spec"@en ;
+.
+
+<http://purl.org/linked-data/registry#NamespaceForward>
+    rdfs:label "Namespace Forward"@en ;
+.
+
+<http://purl.org/linked-data/registry#Register>
+    rdfs:label "Register"@en ;
+.
+
+<http://purl.org/linked-data/registry#RegisterItem>
+    rdfs:label "RegisterItem"@en ;
+.
+
+<http://purl.org/linked-data/registry#SPARQLAskQuery>
+    rdfs:label "SPARQL ASK query"@en ;
+.
+
+<http://purl.org/linked-data/registry#SPARQLConstructQuery>
+    rdfs:label "SPARQL CONSTRUCT query"@en ;
+.
+
+<http://purl.org/linked-data/registry#SPARQLQuery>
+    rdfs:label "SPARQL query"@en ;
+.
+
+<http://purl.org/linked-data/registry#SPARQLSelectQuery>
+    rdfs:label "SPARQL SELECT query"@en ;
+.
+
+<http://purl.org/linked-data/registry#Status>
+    rdfs:label "Status"@en ;
+.
+
+<http://purl.org/linked-data/registry#StatusScheme>
+    rdfs:label "Status Scheme"@en ;
+.
+
+<http://purl.org/linked-data/registry#Topic>
+    rdfs:label "Topic"@en ;
+.
+
+<http://purl.org/linked-data/registry#alias>
+    rdfs:label "alias"@en ;
+.
+
+<http://purl.org/linked-data/registry#annotation>
+    rdfs:label "annotation"@en ;
+.
+
+<http://purl.org/linked-data/registry#category>
+    rdfs:label "category"@en ;
+.
+
+<http://purl.org/linked-data/registry#containedItemClass>
+    rdfs:label "contained item class"@en ;
+.
+
+<http://purl.org/linked-data/registry#definition>
+    rdfs:label "definition"@en ;
+.
+
+<http://purl.org/linked-data/registry#delegationTarget>
+    rdfs:label "delegation target"@en ;
+.
+
+<http://purl.org/linked-data/registry#entity>
+    rdfs:label "entity"@en ;
+.
+
+<http://purl.org/linked-data/registry#entityVersion>
+    rdfs:label "entity version"@en ;
+.
+
+<http://purl.org/linked-data/registry#enumerationObject>
+    rdfs:label "enumeration object"@en ;
+.
+
+<http://purl.org/linked-data/registry#enumerationPredicate>
+    rdfs:label "enumeration predicate"@en ;
+.
+
+<http://purl.org/linked-data/registry#enumerationSubject>
+    rdfs:label "enumeration subject"@en ;
+.
+
+<http://purl.org/linked-data/registry#forwardingCode>
+    rdfs:label "forwarding code"@en ;
+.
+
+<http://purl.org/linked-data/registry#governancePolicy>
+    rdfs:label "governance policy"@en ;
+.
+
+<http://purl.org/linked-data/registry#ignores>
+    rdfs:label "ignores"@en ;
+.
+
+<http://purl.org/linked-data/registry#inverseMembershipPredicate>
+    rdfs:label "inverse membership predicate"@en ;
+.
+
+<http://purl.org/linked-data/registry#itemClass>
+    rdfs:label "item class"@en ;
+.
+
+<http://purl.org/linked-data/registry#manager>
+    rdfs:label "manager"@en ;
+.
+
+<http://purl.org/linked-data/registry#monitors>
+    rdfs:label "monitors"@en ;
+.
+
+<http://purl.org/linked-data/registry#nextState>
+    rdfs:label "next state"@en ;
+.
+
+<http://purl.org/linked-data/registry#notation>
+    rdfs:label "notation"@en ;
+.
+
+<http://purl.org/linked-data/registry#notifies>
+    rdfs:label "notifies"@en ;
+.
+
+<http://purl.org/linked-data/registry#operatingLanguage>
+    rdfs:label "operating language"@en ;
+.
+
+<http://purl.org/linked-data/registry#owner>
+    rdfs:label "owner"@en ;
+.
+
+<http://purl.org/linked-data/registry#predecessor>
+    rdfs:label "predecessor"@en ;
+.
+
+<http://purl.org/linked-data/registry#presentation>
+    rdfs:label "presentation"@en ;
+.
+
+<http://purl.org/linked-data/registry#priorState>
+    rdfs:label "next state"@en ;
+.
+
+<http://purl.org/linked-data/registry#query>
+    rdfs:label "query"@en ;
+.
+
+<http://purl.org/linked-data/registry#register>
+    rdfs:label "register"@en ;
+.
+
+<http://purl.org/linked-data/registry#release>
+    rdfs:label "release"@en ;
+.
+
+<http://purl.org/linked-data/registry#representationOf>
+    rdfs:label "representation of"@en ;
+.
+
+<http://purl.org/linked-data/registry#sourceDataset>
+    rdfs:label "source dataset"@en ;
+.
+
+<http://purl.org/linked-data/registry#sourceGraph>
+    rdfs:label "source graph"@en ;
+.
+
+<http://purl.org/linked-data/registry#status>
+    rdfs:label "status"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusAccepted>
+    rdfs:label "accepted"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusAny>
+    rdfs:label "any"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusDeprecated>
+    rdfs:label "deprecated"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusExperimental>
+    rdfs:label "experimental"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusInvalid>
+    rdfs:label "invalid"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusNotAccepted>
+    rdfs:label "notAccepted"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusReserved>
+    rdfs:label "reserved"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusRetired>
+    rdfs:label "retired"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusStable>
+    rdfs:label "stable"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusSubmitted>
+    rdfs:label "submitted"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusSuperseded>
+    rdfs:label "superseded"@en ;
+.
+
+<http://purl.org/linked-data/registry#statusValid>
+    rdfs:label "valid"@en ;
+.
+
+<http://purl.org/linked-data/registry#submitter>
+    rdfs:label "submitter"@en ;
+.
+
+<http://purl.org/linked-data/registry#subregister>
+    rdfs:label "subregister"@en ;
+.
+
+<http://purl.org/linked-data/registry#successor>
+    rdfs:label "successor"@en ;
+.
+
+<http://purl.org/linked-data/registry#tag>
+    rdfs:label "tag"@en ;
+.
+
+<http://purl.org/linked-data/registry#validationQuery>
+    rdfs:label "validation query"@en ;
+.

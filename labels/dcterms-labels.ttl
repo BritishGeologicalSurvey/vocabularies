@@ -1,0 +1,398 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+dcterms:
+    rdfs:label "DCMI Metadata Terms - other"@en ;
+.
+
+dcterms:Agent
+    rdfs:label "Agent"@en ;
+.
+
+dcterms:AgentClass
+    rdfs:label "Agent Class"@en ;
+.
+
+dcterms:BibliographicResource
+    rdfs:label "Bibliographic Resource"@en ;
+.
+
+dcterms:Box
+    rdfs:label "DCMI Box"@en ;
+.
+
+dcterms:DCMIType
+    rdfs:label "DCMI Type Vocabulary"@en ;
+.
+
+dcterms:DDC
+    rdfs:label "DDC"@en ;
+.
+
+dcterms:FileFormat
+    rdfs:label "File Format"@en ;
+.
+
+dcterms:Frequency
+    rdfs:label "Frequency"@en ;
+.
+
+dcterms:IMT
+    rdfs:label "IMT"@en ;
+.
+
+dcterms:ISO3166
+    rdfs:label "ISO 3166"@en ;
+.
+
+dcterms:ISO639-2
+    rdfs:label "ISO 639-2"@en ;
+.
+
+dcterms:ISO639-3
+    rdfs:label "ISO 639-3"@en ;
+.
+
+dcterms:Jurisdiction
+    rdfs:label "Jurisdiction"@en ;
+.
+
+dcterms:LCC
+    rdfs:label "LCC"@en ;
+.
+
+dcterms:LCSH
+    rdfs:label "LCSH"@en ;
+.
+
+dcterms:LicenseDocument
+    rdfs:label "License Document"@en ;
+.
+
+dcterms:LinguisticSystem
+    rdfs:label "Linguistic System"@en ;
+.
+
+dcterms:Location
+    rdfs:label "Location"@en ;
+.
+
+dcterms:LocationPeriodOrJurisdiction
+    rdfs:label "Location, Period, or Jurisdiction"@en ;
+.
+
+dcterms:MESH
+    rdfs:label "MeSH"@en ;
+.
+
+dcterms:MediaType
+    rdfs:label "Media Type"@en ;
+.
+
+dcterms:MediaTypeOrExtent
+    rdfs:label "Media Type or Extent"@en ;
+.
+
+dcterms:MethodOfAccrual
+    rdfs:label "Method of Accrual"@en ;
+.
+
+dcterms:MethodOfInstruction
+    rdfs:label "Method of Instruction"@en ;
+.
+
+dcterms:NLM
+    rdfs:label "NLM"@en ;
+.
+
+dcterms:Period
+    rdfs:label "DCMI Period"@en ;
+.
+
+dcterms:PeriodOfTime
+    rdfs:label "Period of Time"@en ;
+.
+
+dcterms:PhysicalMedium
+    rdfs:label "Physical Medium"@en ;
+.
+
+dcterms:PhysicalResource
+    rdfs:label "Physical Resource"@en ;
+.
+
+dcterms:Point
+    rdfs:label "DCMI Point"@en ;
+.
+
+dcterms:Policy
+    rdfs:label "Policy"@en ;
+.
+
+dcterms:ProvenanceStatement
+    rdfs:label "Provenance Statement"@en ;
+.
+
+dcterms:RFC1766
+    rdfs:label "RFC 1766"@en ;
+.
+
+dcterms:RFC3066
+    rdfs:label "RFC 3066"@en ;
+.
+
+dcterms:RFC4646
+    rdfs:label "RFC 4646"@en ;
+.
+
+dcterms:RFC5646
+    rdfs:label "RFC 5646"@en ;
+.
+
+dcterms:RightsStatement
+    rdfs:label "Rights Statement"@en ;
+.
+
+dcterms:SizeOrDuration
+    rdfs:label "Size or Duration"@en ;
+.
+
+dcterms:Standard
+    rdfs:label "Standard"@en ;
+.
+
+dcterms:TGN
+    rdfs:label "TGN"@en ;
+.
+
+dcterms:UDC
+    rdfs:label "UDC"@en ;
+.
+
+dcterms:URI
+    rdfs:label "URI"@en ;
+.
+
+dcterms:W3CDTF
+    rdfs:label "W3C-DTF"@en ;
+.
+
+dcterms:abstract
+    rdfs:label "Abstract"@en ;
+.
+
+dcterms:accessRights
+    rdfs:label "Access Rights"@en ;
+.
+
+dcterms:accrualMethod
+    rdfs:label "Accrual Method"@en ;
+.
+
+dcterms:accrualPeriodicity
+    rdfs:label "Accrual Periodicity"@en ;
+.
+
+dcterms:accrualPolicy
+    rdfs:label "Accrual Policy"@en ;
+.
+
+dcterms:alternative
+    rdfs:label "Alternative Title"@en ;
+.
+
+dcterms:audience
+    rdfs:label "Audience"@en ;
+.
+
+dcterms:available
+    rdfs:label "Date Available"@en ;
+.
+
+dcterms:bibliographicCitation
+    rdfs:label "Bibliographic Citation"@en ;
+.
+
+dcterms:conformsTo
+    rdfs:label "Conforms To"@en ;
+.
+
+dcterms:contributor
+    rdfs:label "Contributor"@en ;
+.
+
+dcterms:coverage
+    rdfs:label "Coverage"@en ;
+.
+
+dcterms:created
+    rdfs:label "Date Created"@en ;
+.
+
+dcterms:creator
+    rdfs:label "Creator"@en ;
+.
+
+dcterms:date
+    rdfs:label "Date"@en ;
+.
+
+dcterms:dateAccepted
+    rdfs:label "Date Accepted"@en ;
+.
+
+dcterms:dateCopyrighted
+    rdfs:label "Date Copyrighted"@en ;
+.
+
+dcterms:dateSubmitted
+    rdfs:label "Date Submitted"@en ;
+.
+
+dcterms:description
+    rdfs:label "Description"@en ;
+.
+
+dcterms:educationLevel
+    rdfs:label "Audience Education Level"@en ;
+.
+
+dcterms:extent
+    rdfs:label "Extent"@en ;
+.
+
+dcterms:format
+    rdfs:label "Format"@en ;
+.
+
+dcterms:hasFormat
+    rdfs:label "Has Format"@en ;
+.
+
+dcterms:hasPart
+    rdfs:label "Has Part"@en ;
+.
+
+dcterms:hasVersion
+    rdfs:label "Has Version"@en ;
+.
+
+dcterms:identifier
+    rdfs:label "Identifier"@en ;
+.
+
+dcterms:instructionalMethod
+    rdfs:label "Instructional Method"@en ;
+.
+
+dcterms:isFormatOf
+    rdfs:label "Is Format Of"@en ;
+.
+
+dcterms:isPartOf
+    rdfs:label "Is Part Of"@en ;
+.
+
+dcterms:isReferencedBy
+    rdfs:label "Is Referenced By"@en ;
+.
+
+dcterms:isReplacedBy
+    rdfs:label "Is Replaced By"@en ;
+.
+
+dcterms:isRequiredBy
+    rdfs:label "Is Required By"@en ;
+.
+
+dcterms:isVersionOf
+    rdfs:label "Is Version Of"@en ;
+.
+
+dcterms:issued
+    rdfs:label "Date Issued"@en ;
+.
+
+dcterms:language
+    rdfs:label "Language"@en ;
+.
+
+dcterms:license
+    rdfs:label "License"@en ;
+.
+
+dcterms:mediator
+    rdfs:label "Mediator"@en ;
+.
+
+dcterms:medium
+    rdfs:label "Medium"@en ;
+.
+
+dcterms:modified
+    rdfs:label "Date Modified"@en ;
+.
+
+dcterms:provenance
+    rdfs:label "Provenance"@en ;
+.
+
+dcterms:publisher
+    rdfs:label "Publisher"@en ;
+.
+
+dcterms:references
+    rdfs:label "References"@en ;
+.
+
+dcterms:relation
+    rdfs:label "Relation"@en ;
+.
+
+dcterms:replaces
+    rdfs:label "Replaces"@en ;
+.
+
+dcterms:requires
+    rdfs:label "Requires"@en ;
+.
+
+dcterms:rights
+    rdfs:label "Rights"@en ;
+.
+
+dcterms:rightsHolder
+    rdfs:label "Rights Holder"@en ;
+.
+
+dcterms:source
+    rdfs:label "Source"@en ;
+.
+
+dcterms:spatial
+    rdfs:label "Spatial Coverage"@en ;
+.
+
+dcterms:subject
+    rdfs:label "Subject"@en ;
+.
+
+dcterms:tableOfContents
+    rdfs:label "Table Of Contents"@en ;
+.
+
+dcterms:temporal
+    rdfs:label "Temporal Coverage"@en ;
+.
+
+dcterms:title
+    rdfs:label "Title"@en ;
+.
+
+dcterms:type
+    rdfs:label "Type"@en ;
+.
+
+dcterms:valid
+    rdfs:label "Date Valid"@en ;
+.

@@ -1,0 +1,134 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<http://www.w3.org/2004/02/skos/core>
+    rdfs:label "SKOS Vocabulary"@en ;
+.
+
+skos:Collection
+    rdfs:label "Collection"@en ;
+.
+
+skos:Concept
+    rdfs:label "Concept"@en ;
+.
+
+skos:ConceptScheme
+    rdfs:label "Concept Scheme"@en ;
+.
+
+skos:OrderedCollection
+    rdfs:label "Ordered Collection"@en ;
+.
+
+skos:altLabel
+    rdfs:label "alternative label"@en ;
+.
+
+skos:broadMatch
+    rdfs:label "has broader match"@en ;
+.
+
+skos:broader
+    rdfs:label "has broader"@en ;
+.
+
+skos:broaderTransitive
+    rdfs:label "has broader transitive"@en ;
+.
+
+skos:changeNote
+    rdfs:label "change note"@en ;
+.
+
+skos:closeMatch
+    rdfs:label "has close match"@en ;
+.
+
+skos:definition
+    rdfs:label "definition"@en ;
+.
+
+skos:editorialNote
+    rdfs:label "editorial note"@en ;
+.
+
+skos:exactMatch
+    rdfs:label "has exact match"@en ;
+.
+
+skos:example
+    rdfs:label "example"@en ;
+.
+
+skos:hasTopConcept
+    rdfs:label "has top concept"@en ;
+.
+
+skos:hiddenLabel
+    rdfs:label "hidden label"@en ;
+.
+
+skos:historyNote
+    rdfs:label "history note"@en ;
+.
+
+skos:inScheme
+    rdfs:label "is in scheme"@en ;
+.
+
+skos:mappingRelation
+    rdfs:label "is in mapping relation with"@en ;
+.
+
+skos:member
+    rdfs:label "has member"@en ;
+.
+
+skos:memberList
+    rdfs:label "has member list"@en ;
+.
+
+skos:narrowMatch
+    rdfs:label "has narrower match"@en ;
+.
+
+skos:narrower
+    rdfs:label "has narrower"@en ;
+.
+
+skos:narrowerTransitive
+    rdfs:label "has narrower transitive"@en ;
+.
+
+skos:notation
+    rdfs:label "notation"@en ;
+.
+
+skos:note
+    rdfs:label "note"@en ;
+.
+
+skos:prefLabel
+    rdfs:label "preferred label"@en ;
+.
+
+skos:related
+    rdfs:label "has related"@en ;
+.
+
+skos:relatedMatch
+    rdfs:label "has related match"@en ;
+.
+
+skos:scopeNote
+    rdfs:label "scope note"@en ;
+.
+
+skos:semanticRelation
+    rdfs:label "is in semantic relation with"@en ;
+.
+
+skos:topConceptOf
+    rdfs:label "is top concept in scheme"@en ;
+.
