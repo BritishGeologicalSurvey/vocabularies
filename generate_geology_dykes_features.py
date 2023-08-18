@@ -106,9 +106,7 @@ def generate():
                             (
                                 iri,
                                 GEOLOGY_MAP_REF.hasEarthMaterialClass,
-                                URIRef(
-                                    f"https://data.bgs.ac.uk/id/EarthMaterialClass/RockName/{rcs}"
-                                ),
+                                URIRef(f"https://data.bgs.ac.uk/id/RockClass/{rcs}"),
                             )
                         )
 

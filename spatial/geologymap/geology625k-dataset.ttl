@@ -8,4 +8,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://data.bgs.ac.uk/id/geology625k>
     a dcat:Dataset ;
     schema:name "BGS 625K Geology Map" ;
+    geo:hasBoundingBox [
+        a geo:Geometry ;
+        geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON((-9 49.5, 3 49.5, 3 61, -9 61, -9 49.5))"^^geo:wktLiteral
+    ] ;
 .
