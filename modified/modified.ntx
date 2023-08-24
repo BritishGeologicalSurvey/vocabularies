@@ -1,4 +1,37 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R1A2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone. Kinderscoutian."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2A1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone. Marsdenian."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2C3> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (327-323.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/E2C4> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (327-323.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CVO, ULL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CML> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.2m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.1m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.6 to 13m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.9.5m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to 5m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0-30m (south Lincolneshire) or more (see Ashton, 1980)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.20m (south Lincolnshire)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to c.8m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.2m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c.3m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c.15m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2000/01/rdf-schema#label> "Great Oolite Formation [Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://www.w3.org/2000/01/rdf-schema#label> "Cave Oolite Member [Obsolete: use CVO, ULL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2000/01/rdf-schema#label> "Cave Oolite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFDO> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Formation [Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cave Oolite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cave Oolite Member [Obsolete: use CVO, ULL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Formation [Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Formation [Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Lincolnshire Limestone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://www.w3.org/2004/02/skos/core#altLabel> "Cave Oolite Member [Obsolete: use CVO, ULL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Oolite Formation [Obsolete: use CFDO, GOG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cave Oolite Member [Obsolete: use CVO, ULL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cave Oolite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
