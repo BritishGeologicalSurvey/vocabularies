@@ -111,7 +111,7 @@ def generate():
                             (
                                 iri,
                                 GEOLOGY_MAP_REF.hasEarthMaterialClass,
-                                URIRef(f"https://data.bgs.ac.uk/id/RockClass/{rcs}"),
+                                URIRef(f"http://data.bgs.ac.uk/id/RockClass/{rcs}"),
                             )
                         )
 
@@ -122,7 +122,7 @@ def generate():
                                 iri,
                                 GEOLOGY_MAP_REF.hasRank,
                                 URIRef(
-                                    f"https://data.bgs.ac.uk/id/625KGeologyMap/Rank/{rank}"
+                                    f"http://data.bgs.ac.uk/id/625KGeologyMap/Rank/{rank}"
                                 ),
                             )
                         )
