@@ -1,29 +1,200 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CFDO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CML> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c. 2 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c. 1 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 6 to 13 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c. 9.5 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KCMK> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to 5 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0-30 m (south Lincolneshire) or more (see Ashton, 1980)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c. 20 m (south Lincolnshire)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RVB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to c. 8 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c. 2 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c. 3 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ULL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c. 15 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2000/01/rdf-schema#label> "Great Oolite Formation [Obsolete: use CFDO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://www.w3.org/2000/01/rdf-schema#label> "Cave Oolite Member [Obsolete: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2000/01/rdf-schema#label> "Cave Oolite [Duplicate: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFDO> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Oolite Formation [Obsolete: use CFDO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cave Oolite Member [Obsolete: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cave Oolite [Duplicate: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Oolite Formation [Obsolete: use CFDO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1467> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cave Oolite Member [Obsolete: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cave Oolite [Duplicate: use CVO]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S768> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in part(s) of the Lancashire Coalfield, possibly still in current use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in the Bristol and Somerset coalfields, possibly still in current use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in part(s) of the Dungannon area, Northern Ireland, possibly still in current use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Shafton Marine Band (SFMB) in the South Wales Coalfield, possibly still in use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Shafton Marine Band (SFMB) in the Lancashire Coalfield, possibly still in use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in parts of the Derbyshire, Nottinghamshire, and Yorkshire coalfields, possibly still in current use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Shafton Marine Band (SFMB) in the North Staffordshire Coalfield, possibly still in use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in parts of the Northumberland and Durham coalfields, possibly still in current use to some extent. Shelly mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2B4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/R2C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Bolsovian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Shafton Marine Band (SFMB), Canonbie Coalfield area, possibly still in use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use RTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CIMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use QBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LSYMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use 6INMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use SSTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use PRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use AVAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use PCMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LCGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Shelly mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Shafton Marine Band (SFMB) in the South Staffordshire Coalfield and Cannock areas, possibly still in use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "An Asbian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Visean marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Duckmantian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Langsettian marine band."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in the Stainmore Coalfield area, possibly still in current use to some extent. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "337"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "330.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://www.w3.org/2000/01/rdf-schema#label> "Six Inch Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Vale Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://www.w3.org/2000/01/rdf-schema#label> "Coalisland Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Cwmgorse Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Sankey Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://www.w3.org/2000/01/rdf-schema#label> "Pot Clay Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://www.w3.org/2000/01/rdf-schema#label> "Priorsfield Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterburn Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://www.w3.org/2000/01/rdf-schema#label> "Rowanburnfoot Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://www.w3.org/2000/01/rdf-schema#label> "Rowanburnfoot Marine Band [Duplicate: use RTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://www.w3.org/2000/01/rdf-schema#label> "Coalisland Marine Band [Duplicate: use CIMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterburn Marine Band [Duplicate: use QBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Sankey Marine Band [Duplicate: use LSYMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://www.w3.org/2000/01/rdf-schema#label> "Six Inch Marine Band [Duplicate: use 6INMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://www.w3.org/2000/01/rdf-schema#label> "Silvester's Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://www.w3.org/2000/01/rdf-schema#label> "Swinstone Top Marine Band [Duplicate: use SSTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://www.w3.org/2000/01/rdf-schema#label> "Priorsfield Marine Band [Duplicate: use PRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Vale Marine Band [Duplicate: use AVAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://www.w3.org/2000/01/rdf-schema#label> "Sylvesters Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://www.w3.org/2000/01/rdf-schema#label> "Pot Clay Marine Band [Duplicate: use PCMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Cwmgorse Marine Band [Duplicate: use LCGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://www.w3.org/2000/01/rdf-schema#label> "Silvester's Bridge Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://www.w3.org/2000/01/rdf-schema#label> "Swinstone Top Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Six Inch Marine Band [Duplicate: use 6INMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Vale Marine Band [Duplicate: use AVAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Coalisland Marine Band [Duplicate: use CIMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Cwmgorse Marine Band [Duplicate: use LCGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Sankey Marine Band [Duplicate: use LSYMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Pot Clay Marine Band [Duplicate: use PCMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Priorsfield Marine Band [Duplicate: use PRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Quarterburn Marine Band [Duplicate: use QBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Rowanburnfoot Marine Band [Duplicate: use RTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://www.w3.org/2004/02/skos/core#altLabel> "Rowanburnfoot Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://www.w3.org/2004/02/skos/core#altLabel> "Coalisland Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://www.w3.org/2004/02/skos/core#altLabel> "Quarterburn Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Sankey Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://www.w3.org/2004/02/skos/core#altLabel> "Six Inch Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://www.w3.org/2004/02/skos/core#altLabel> "Silvester's Bridge Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://www.w3.org/2004/02/skos/core#altLabel> "Swinstone Top Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://www.w3.org/2004/02/skos/core#altLabel> "Priorsfield Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Vale Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://www.w3.org/2004/02/skos/core#altLabel> "Silvester's Bridge Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://www.w3.org/2004/02/skos/core#altLabel> "Pot Clay Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Cwmgorse Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Vale Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Coalisland Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Pot Clay Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Quarterburn Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Six Inch Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Swinstone Top Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Silvester's Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Sylvesters Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Cwmgorse Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Sankey Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Priorsfield Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Rowanburnfoot Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Silvester's Bridge Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Swinstone Top Marine Band [Duplicate: use SSTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCMS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (314.75-310 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (314.75-310 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (314.75-310 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and shelly mudstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (314.75-310 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bolsovian Substage (Carboniferous Period) (314.75-310 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCMS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMB> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Six Inch Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Vale Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coalisland Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Cwmgorse Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Sankey Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pot Clay Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Priorsfield Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quarterburn Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rowanburnfoot Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S104> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rowanburnfoot Marine Band [Duplicate: use RTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S202> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coalisland Marine Band [Duplicate: use CIMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S203> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quarterburn Marine Band [Duplicate: use QBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S206> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Sankey Marine Band [Duplicate: use LSYMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S332> <http://www.w3.org/2004/02/skos/core#prefLabel> "Six Inch Marine Band [Duplicate: use 6INMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S333> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silvester's Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S444> <http://www.w3.org/2004/02/skos/core#prefLabel> "Swinstone Top Marine Band [Duplicate: use SSTMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S446> <http://www.w3.org/2004/02/skos/core#prefLabel> "Priorsfield Marine Band [Duplicate: use PRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S586> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Vale Marine Band [Duplicate: use AVAMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S587> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sylvesters Bridge Marine Band [Duplicate: use SBRMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pot Clay Marine Band [Duplicate: use PCMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S944> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Cwmgorse Marine Band [Duplicate: use LCGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silvester's Bridge Marine Band [Local Name: see SFMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Swinstone Top Marine Band [Local Name: see SBMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6INMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVAMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCGMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSYMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QBMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBRMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSTMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
