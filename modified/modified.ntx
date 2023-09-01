@@ -1,29 +1,42 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Duckmantian marine band."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Duckmantian marine band."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/7FBMB> <http://www.w3.org/2000/01/rdf-schema#label> "Seven Feet Banbury Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCMB> <http://www.w3.org/2000/01/rdf-schema#label> "Clay Cross Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S835> <http://www.w3.org/2000/01/rdf-schema#label> "Clay Cross Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S836> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton Manor Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S957> <http://www.w3.org/2000/01/rdf-schema#label> "Seven Feet Banbury Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUMB> <http://www.w3.org/2000/01/rdf-schema#label> "Sutton Manor Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay Cross Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay Cross Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Seven Feet Banbury Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Seven Feet Banbury Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Sutton Manor Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VDMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Sutton Manor Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/7FBMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-314.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-314.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCMB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-314.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-314.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAMB> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/7FBMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seven Feet Banbury Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clay Cross Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S835> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clay Cross Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S836> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sutton Manor Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S957> <http://www.w3.org/2004/02/skos/core#prefLabel> "Seven Feet Banbury Marine Band"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUMB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sutton Manor Marine Band [Local Name: Use VDMB]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/7FBMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLCMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Subcrenatum Marine Band (SBMB) in part(s) of the Dungannon area, Northern Ireland, possibly still in current use to some extent. Mudstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "An Asbian - Brigantian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ECMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Kinderscoutian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Visean marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Namurian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PTMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Brigantian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Langsettian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A Langsettian marine band."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AYB> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3186> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RS3A> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3649> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MLU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WRSL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "168.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PFFI> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "330.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEBH> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCHL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBDA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H642> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RS1B> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Probably up to about 7m, but only 4.3m at type section."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKMB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0.15m in type section"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "319"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKMB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage - to - Brigantian Substage (Carboniferous Period) (337-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ECMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Kinderscoutian Substage (Carboniferous Period) (322-321.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Visean Age (Carboniferous Period) (346.7-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Namurian Stage (Carboniferous Period) (330.3-319 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRMB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ECMB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LWPM> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMMB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SDMB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TMB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHMB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKMB> .
