@@ -1,45 +1,94 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCWC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CER> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRNA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CER> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCWC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRNA> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CER]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use BCWC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MCD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use FRNA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBNK> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBNK> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://www.w3.org/2000/01/rdf-schema#label> "Cerig Formation [Duplicate: use CER]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://www.w3.org/2000/01/rdf-schema#label> "Beechwood Conglomerate Bed [Duplicate: use BCWC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://www.w3.org/2000/01/rdf-schema#label> "Macduff Formation [Duplicate: use MCD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://www.w3.org/2000/01/rdf-schema#label> "Fernagh Formation [Duplicate: use FRNA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCWC> <http://www.w3.org/2004/02/skos/core#altLabel> "Beechwood Conglomerate Bed [Duplicate: use BCWC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CER> <http://www.w3.org/2004/02/skos/core#altLabel> "Cerig Formation [Duplicate: use CER]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Haw Bank Limestone [Obsolete: use CHL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCMS> <http://www.w3.org/2004/02/skos/core#altLabel> "Macduff Formation [Duplicate: use MCD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRNA> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernagh Formation [Duplicate: use FRNA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBNK> <http://www.w3.org/2004/02/skos/core#altLabel> "Chatburn Limestone Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCD> <http://www.w3.org/2004/02/skos/core#altLabel> "Macduff Formation [Duplicate: use MCD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cerig Formation [Duplicate: use CER]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beechwood Conglomerate Bed [Duplicate: use BCWC]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <http://www.w3.org/2004/02/skos/core#prefLabel> "Macduff Formation [Duplicate: use MCD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fernagh Formation [Duplicate: use FRNA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S13> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S15> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S259> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S515> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LQ> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGMB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Name reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Name reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MDT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use TWN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LQ]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use AGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "201.4"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "201.4"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "143.1"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "143.1"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALL> <http://www.w3.org/2000/01/rdf-schema#label> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5135> <http://www.w3.org/2000/01/rdf-schema#label> "Waterstones [Duplicate: use -4008]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://www.w3.org/2000/01/rdf-schema#label> "Bryne Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://www.w3.org/2000/01/rdf-schema#label> "Sliepner Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S293> <http://www.w3.org/2000/01/rdf-schema#label> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://www.w3.org/2000/01/rdf-schema#label> "Meadfoot Group [Duplicate: use MDT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://www.w3.org/2000/01/rdf-schema#label> "Townburn Sandstone Member [Duplicate: use TWN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://www.w3.org/2000/01/rdf-schema#label> "Lickey Quartzite Formation [Duplicate: use LQ]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://www.w3.org/2000/01/rdf-schema#label> "Aegiranum Marine Band [Duplicate: use AGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Aegiranum Marine Band [Duplicate: use AGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPE> <http://www.w3.org/2004/02/skos/core#altLabel> "Townburn Sandstone Member [Duplicate: use TWN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRI> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EKM> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETRK> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDE> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRA> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3797> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4008> <http://www.w3.org/2004/02/skos/core#altLabel> "Waterstones [Duplicate: use -4008]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWK> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KKHP> <http://www.w3.org/2004/02/skos/core#altLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lickey Quartzite Formation [Duplicate: use LQ]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LQ> <http://www.w3.org/2004/02/skos/core#altLabel> "Lickey Quartzite Formation [Duplicate: use LQ]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDT> <http://www.w3.org/2004/02/skos/core#altLabel> "Meadfoot Group [Duplicate: use MDT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDT> <http://www.w3.org/2004/02/skos/core#altLabel> "Meadfoot Group [Duplicate: use MDT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Bryne Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Sliepner Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://www.w3.org/2004/02/skos/core#altLabel> "Meadfoot Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S610> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://www.w3.org/2004/02/skos/core#altLabel> "Aegiranum Marine Band"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWN> <http://www.w3.org/2004/02/skos/core#altLabel> "Townburn Sandstone Member [Duplicate: use TWN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCLAS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCLAS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Jurassic Period (201.4-143.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Jurassic Period (201.4-143.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCLAS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCLAS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt Lŵyd Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5135> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waterstones [Duplicate: use -4008]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bryne Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sliepner Formation [Norwegian Classification: reserved for possible future use]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hawick Group Undivided [Obsolete: use EKM, ETRK, GDE, HWK]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meadfoot Group [Duplicate: use MDT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://www.w3.org/2004/02/skos/core#prefLabel> "Townburn Sandstone Member [Duplicate: use TWN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lickey Quartzite Formation [Duplicate: use LQ]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aegiranum Marine Band [Duplicate: use AGMB]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5228> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5234> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S558> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S92> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
