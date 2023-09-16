@@ -1,15 +1,59 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDCI> <http://www.w3.org/2000/01/rdf-schema#label> "Hen-dy-capel Ironstone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCE> <http://www.w3.org/2000/01/rdf-schema#label> "Pont-y-ceunant Ash"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGB> <http://www.w3.org/2000/01/rdf-schema#label> "Wig Bâch Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIG> <http://www.w3.org/2000/01/rdf-schema#label> "Wîg Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2969> <http://www.w3.org/2004/02/skos/core#altLabel> "Pont-y-ceunant Ash"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S724> <http://www.w3.org/2004/02/skos/core#altLabel> "Wig Bâch Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> .
-+<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1921> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OGW> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HDCI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hen-dy-capel Ironstone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pont-y-ceunant Ash"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WGB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wig Bâch Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wîg Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use MW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use MAS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSLH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLTE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H73> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/G> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RSSA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STPS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMRS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MW> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Unknown in detail, 500 to 1200 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLTE> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSLH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYG> <http://www.w3.org/2000/01/rdf-schema#label> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://www.w3.org/2000/01/rdf-schema#label> "Maentwrog Slates (A) [Obsolete: use MW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://www.w3.org/2000/01/rdf-schema#label> "Maentwrog Slates (B) [Duplicate: use MAS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYBT> <http://www.w3.org/2000/01/rdf-schema#label> "Pen y Bedw Tuff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S136> <http://www.w3.org/2000/01/rdf-schema#label> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S742> <http://www.w3.org/2000/01/rdf-schema#label> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGL> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2307> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4147> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://www.w3.org/2004/02/skos/core#altLabel> "Maentwrog Slates (B) [Duplicate: use MAS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Maentwrog Slates (A) [Obsolete: use MW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MW> <http://www.w3.org/2004/02/skos/core#altLabel> "Maentwrog Slates (A) [Obsolete: use MW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S425> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S554> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S555> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S136> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S742> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGRT> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSHWL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Chadian Substage - to - Arundian Substage (Carboniferous Period) (346.7-343 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFG> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone and trace coal. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (327-323.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBGL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Neoproterozoic Era (Precambrian) (1000-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arundian Substage (Carboniferous Period) (344.5-343 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNST> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Visean Age (Carboniferous Period) (346.7-330.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Merioneth Series (Cambrian Period) (499-486.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the St David's Series - to - Merioneth Series (Cambrian Period) (508-486.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PHBL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arundian Substage (Carboniferous Period) (344.5-343 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RIL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Givetian Age (Devonian Period) (385.3-378.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGT> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (327-323.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STPS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Frasnian Age (Devonian Period) (378.9-371.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Emsian Age (Devonian Period) (410.5-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMRS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Frasnian Age (Devonian Period) (378.9-371.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S136> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S742> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llyn y Gafr Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maentwrog Slates (A) [Obsolete: use MW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maentwrog Slates (B) [Duplicate: use MAS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYBT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen y Bedw Tuff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S136> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S742> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen y gadair Volcanic Formation"@en .
