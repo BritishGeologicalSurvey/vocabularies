@@ -1,12 +1,151 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPE> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBVO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S690> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S690> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBVO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CPE> <http://www.w3.org/2004/02/skos/core#altLabel> "Townburn Sandstone Member [Duplicate: use TWN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LIS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lickey Quartzite Formation [Duplicate: use LQ]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBVO> <http://www.w3.org/2004/02/skos/core#altLabel> "Serw Formation [Duplicate: use SER]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S690> <http://www.w3.org/2004/02/skos/core#altLabel> "Rhiw Bach Volcanic Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S871> <http://www.w3.org/2004/02/skos/core#altLabel> "Crichope Sandstone Member [Obsolete: use TWN]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S911> <http://www.w3.org/2004/02/skos/core#altLabel> "Lickey Sandstone [Obsolete: use LQ]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CRDY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CRYH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use BRNY, TRE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRDY> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRE> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWSC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWSC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRDY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BULMA> <http://www.w3.org/2000/01/rdf-schema#label> "Bulman Main Coal (Northumberland) [Also Known As Cancer Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWSC> <http://www.w3.org/2000/01/rdf-schema#label> "Foot Of Whisky Sike Coal (Northumberland)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLFU> <http://www.w3.org/2000/01/rdf-schema#label> "Glenfuir Coal [Central Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> <http://www.w3.org/2000/01/rdf-schema#label> "(Part of the) Lower Old Red Sandstone [Obsolete: use CRDY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2053> <http://www.w3.org/2000/01/rdf-schema#label> "\"Lower River Terrace Deposits\" [Obsolete: use CASSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2125> <http://www.w3.org/2000/01/rdf-schema#label> "\"Upper\" St Bees Sandstone [Obsolete: use CSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2195> <http://www.w3.org/2000/01/rdf-schema#label> "'Fereneze Lavas' [Obsolete: use FZLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2207> <http://www.w3.org/2000/01/rdf-schema#label> "'Gleniffer Lavas' [Obsolete: use GLLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2219> <http://www.w3.org/2000/01/rdf-schema#label> "\"Albany Mudstones with Limestone Nodules\" [Obsolete: use GSE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2515> <http://www.w3.org/2000/01/rdf-schema#label> "\"Red Series\" clays or glaciolacustrine deposits [Obsolete: use UGCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://www.w3.org/2000/01/rdf-schema#label> "(Sandstone in) Cwm Crychan Formation [Obsolete: use CRYH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2764> <http://www.w3.org/2000/01/rdf-schema#label> "\"Bedded Tuff\" [Obsolete: use DPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3543> <http://www.w3.org/2000/01/rdf-schema#label> "(Unnamed Limestone) [Obsolete: use LUSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3634> <http://www.w3.org/2000/01/rdf-schema#label> "\"Meneage Crush Zone\" [Obsolete: use RDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4168> <http://www.w3.org/2000/01/rdf-schema#label> "\"Knoll Reef Limestones\" [Obsolete: use LOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4316> <http://www.w3.org/2000/01/rdf-schema#label> "\"Lower\" St Bees Sandstone [Obsolete: use SBS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://www.w3.org/2000/01/rdf-schema#label> "(Localised Part Of) Cwm Crychan Formation [Obsolete: use BRNY, TRE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5095> <http://www.w3.org/2000/01/rdf-schema#label> "'Lower Unit' of the Middle Bagshot Beds [Obsolete: use SWCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5105> <http://www.w3.org/2000/01/rdf-schema#label> "'Varicoloured Unit' of the Dunrobin Bay Formation [Obsolete: use GOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H666> <http://www.w3.org/2000/01/rdf-schema#label> "\"Syenite on Ridge between Scaw'd Law and Roger Law\" [Obsolete: use BALW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H679> <http://www.w3.org/2000/01/rdf-schema#label> "(Unnamed) Andesites [Obsolete: use BDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HARDY> <http://www.w3.org/2000/01/rdf-schema#label> "Hardy Coal (Northumberland) [Also Known As Stony Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOCK> <http://www.w3.org/2000/01/rdf-schema#label> "'Norwich Chalk'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> <http://www.w3.org/2000/01/rdf-schema#label> "Black Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S268> <http://www.w3.org/2000/01/rdf-schema#label> "\"Ferruginous Limestone Series\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> <http://www.w3.org/2000/01/rdf-schema#label> "Victoria Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S465> <http://www.w3.org/2000/01/rdf-schema#label> "Woodston Member of the Nene Valley Formation (Bowen, 1999)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S541> <http://www.w3.org/2000/01/rdf-schema#label> "'F' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S542> <http://www.w3.org/2000/01/rdf-schema#label> "'H' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S568> <http://www.w3.org/2000/01/rdf-schema#label> "'Syenite' Or 'Diorite Intrusions'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S604> <http://www.w3.org/2000/01/rdf-schema#label> "White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S646> <http://www.w3.org/2000/01/rdf-schema#label> "Forse Till Member Of The Lybster Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S707> <http://www.w3.org/2000/01/rdf-schema#label> "'Greystone'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S741> <http://www.w3.org/2000/01/rdf-schema#label> "Bassey Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BALW> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Syenite on Ridge between Scaw'd Law and Roger Law\" [Obsolete: use BALW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bassey Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDBR> <http://www.w3.org/2004/02/skos/core#altLabel> "(Unnamed) Andesites [Obsolete: use BDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> <http://www.w3.org/2004/02/skos/core#altLabel> "Victoria Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNY> <http://www.w3.org/2004/02/skos/core#altLabel> "(Localised Part Of) Cwm Crychan Formation [Obsolete: use BRNY, TRE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASSG> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Lower River Terrace Deposits\" [Obsolete: use CASSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRDY> <http://www.w3.org/2004/02/skos/core#altLabel> "(Part of the) Lower Old Red Sandstone [Obsolete: use CRDY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRYH> <http://www.w3.org/2004/02/skos/core#altLabel> "(Sandstone in) Cwm Crychan Formation [Obsolete: use CRYH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSA> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Upper\" St Bees Sandstone [Obsolete: use CSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DPT> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Bedded Tuff\" [Obsolete: use DPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOTI> <http://www.w3.org/2004/02/skos/core#altLabel> "Forse Till Member Of The Lybster Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSTL> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Ferruginous Limestone Series\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FZLA> <http://www.w3.org/2004/02/skos/core#altLabel> "'Fereneze Lavas' [Obsolete: use FZLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLLA> <http://www.w3.org/2004/02/skos/core#altLabel> "'Gleniffer Lavas' [Obsolete: use GLLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOLS> <http://www.w3.org/2004/02/skos/core#altLabel> "'Varicoloured Unit' of the Dunrobin Bay Formation [Obsolete: use GOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GSE> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Albany Mudstones with Limestone Nodules\" [Obsolete: use GSE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> <http://www.w3.org/2004/02/skos/core#altLabel> "Crane Dyke Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://www.w3.org/2004/02/skos/core#altLabel> "Crychan Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://www.w3.org/2004/02/skos/core#altLabel> "Bronydd Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://www.w3.org/2004/02/skos/core#altLabel> "Trefawr Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KN6> <http://www.w3.org/2004/02/skos/core#altLabel> "'F' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KN7> <http://www.w3.org/2004/02/skos/core#altLabel> "'H' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOLS> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Knoll Reef Limestones\" [Obsolete: use LOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUSA> <http://www.w3.org/2004/02/skos/core#altLabel> "(Unnamed Limestone) [Obsolete: use LUSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMI> <http://www.w3.org/2004/02/skos/core#altLabel> "'Syenite' Or 'Diorite Intrusions'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDBR> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Meneage Crush Zone\" [Obsolete: use RDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S131> <http://www.w3.org/2004/02/skos/core#altLabel> "Bulman Main Coal (Northumberland) [Also Known As Cancer Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S154> <http://www.w3.org/2004/02/skos/core#altLabel> "Foot Of Whisky Sike Coal (Northumberland)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> <http://www.w3.org/2004/02/skos/core#altLabel> "Victoria Coal (South Wales)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Coal (South Wales)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S525> <http://www.w3.org/2004/02/skos/core#altLabel> "Glenfuir Coal [Central Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S532> <http://www.w3.org/2004/02/skos/core#altLabel> "Hardy Coal (Northumberland) [Also Known As Stony Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBS> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Lower\" St Bees Sandstone [Obsolete: use SBS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCL> <http://www.w3.org/2004/02/skos/core#altLabel> "'Lower Unit' of the Middle Bagshot Beds [Obsolete: use SWCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAL> <http://www.w3.org/2004/02/skos/core#altLabel> "'Greystone'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRE> <http://www.w3.org/2004/02/skos/core#altLabel> "(Localised Part Of) Cwm Crychan Formation [Obsolete: use BRNY, TRE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UGCL> <http://www.w3.org/2004/02/skos/core#altLabel> "\"Red Series\" clays or glaciolacustrine deposits [Obsolete: use UGCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WMC> <http://www.w3.org/2004/02/skos/core#altLabel> "White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WTB> <http://www.w3.org/2004/02/skos/core#altLabel> "Woodston Member of the Nene Valley Formation (Bowen, 1999)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLOP> <http://www.w3.org/2004/02/skos/core#definition> "Sapropelite. Bedrock. Occurs onshore. Formed during the Visean Age (Carboniferous Period) (346.7-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYSH> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and sapropelite with subsidiary ironstone. Bedrock. Occurs onshore. Formed during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERLI> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs offshore. Formed during the Paleocene Epoch - to - Eocene Epoch (Palaeogene Period) (66-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FAROP> <http://www.w3.org/2004/02/skos/core#definition> "Basalt. Bedrock. Occurs offshore. Formed during the Paleocene Epoch - to - Eocene Epoch (Palaeogene Period) (66-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWSC> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KVCO> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RI> <http://www.w3.org/2004/02/skos/core#definition> "Clay-ironstone, ironstone and mudstone. Bedrock. Occurs onshore. Formed during the Brigantian Substage (Carboniferous Period) (330.9-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S154> <http://www.w3.org/2004/02/skos/core#definition> "Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> <http://www.w3.org/2004/02/skos/core#definition> "Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S295> <http://www.w3.org/2004/02/skos/core#definition> "Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> <http://www.w3.org/2004/02/skos/core#definition> "Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S399> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S503> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S513> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs offshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S707> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S821> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S939> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VICO> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLAK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BULMA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bulman Main Coal (Northumberland) [Also Known As Cancer Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foot Of Whisky Sike Coal (Northumberland)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLFU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glenfuir Coal [Central Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1457> <http://www.w3.org/2004/02/skos/core#prefLabel> "(Part of the) Lower Old Red Sandstone [Obsolete: use CRDY]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2053> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Lower River Terrace Deposits\" [Obsolete: use CASSG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2125> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Upper\" St Bees Sandstone [Obsolete: use CSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2195> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Fereneze Lavas' [Obsolete: use FZLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2207> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Gleniffer Lavas' [Obsolete: use GLLA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2219> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Albany Mudstones with Limestone Nodules\" [Obsolete: use GSE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2515> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Red Series\" clays or glaciolacustrine deposits [Obsolete: use UGCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2727> <http://www.w3.org/2004/02/skos/core#prefLabel> "(Sandstone in) Cwm Crychan Formation [Obsolete: use CRYH]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2764> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Bedded Tuff\" [Obsolete: use DPT]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3543> <http://www.w3.org/2004/02/skos/core#prefLabel> "(Unnamed Limestone) [Obsolete: use LUSA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3634> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Meneage Crush Zone\" [Obsolete: use RDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4168> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Knoll Reef Limestones\" [Obsolete: use LOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4316> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Lower\" St Bees Sandstone [Obsolete: use SBS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4499> <http://www.w3.org/2004/02/skos/core#prefLabel> "(Localised Part Of) Cwm Crychan Formation [Obsolete: use BRNY, TRE]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5095> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Lower Unit' of the Middle Bagshot Beds [Obsolete: use SWCL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5105> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Varicoloured Unit' of the Dunrobin Bay Formation [Obsolete: use GOLS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H666> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Syenite on Ridge between Scaw'd Law and Roger Law\" [Obsolete: use BALW]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H679> <http://www.w3.org/2004/02/skos/core#prefLabel> "(Unnamed) Andesites [Obsolete: use BDBR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HARDY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hardy Coal (Northumberland) [Also Known As Stony Coal]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOCK> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Norwich Chalk'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S226> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S268> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Ferruginous Limestone Series\""@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S375> <http://www.w3.org/2004/02/skos/core#prefLabel> "Victoria Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S465> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodston Member of the Nene Valley Formation (Bowen, 1999)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S541> <http://www.w3.org/2004/02/skos/core#prefLabel> "'F' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S542> <http://www.w3.org/2004/02/skos/core#prefLabel> "'H' Seam"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S568> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Syenite' Or 'Diorite Intrusions'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S604> <http://www.w3.org/2004/02/skos/core#prefLabel> "White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S646> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forse Till Member Of The Lybster Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S707> <http://www.w3.org/2004/02/skos/core#prefLabel> "'Greystone'"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S741> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bassey Mine Coal"@en .
