@@ -1,136 +1,124 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S842> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARMC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASHC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERIS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERIS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S842> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGCO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARMC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASHC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHAM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSH> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1303> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3807> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABDY> <http://www.w3.org/2000/01/rdf-schema#label> "Abdy Coal (South Yorkshire And North Nottinghamshire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGC> <http://www.w3.org/2000/01/rdf-schema#label> "Ashgate Coal (South Yorkshire, Nottingham And Derby)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://www.w3.org/2000/01/rdf-schema#label> "Ardwick Marl [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1303> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Great Mine [Obsolete: use AGCO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H17> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Shale Member (of Crackington Formation) [Obsolete: use ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H247> <http://www.w3.org/2000/01/rdf-schema#label> "4th Terrace of River Lark (Clayton, 1983) [Obsolete: use FHAM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> <http://www.w3.org/2000/01/rdf-schema#label> "Ardwick Marl(s) [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3807> <http://www.w3.org/2000/01/rdf-schema#label> "Ashclough Mine [Obsolete: use ASHC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H654> <http://www.w3.org/2000/01/rdf-schema#label> "Arley Mine [Obsolete: use ARMC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H891> <http://www.w3.org/2000/01/rdf-schema#label> "5th Terrace of River Lark (Clayton 1983) [Obsolete: use ERIS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S208> <http://www.w3.org/2000/01/rdf-schema#label> "Acre Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <http://www.w3.org/2000/01/rdf-schema#label> "Ardwick Marls"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Shale Member [Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S271> <http://www.w3.org/2000/01/rdf-schema#label> "Adwalton Black Bed Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S314> <http://www.w3.org/2000/01/rdf-schema#label> "Ball Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S469> <http://www.w3.org/2000/01/rdf-schema#label> "Ashgate Coal (Nottingham)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <http://www.w3.org/2000/01/rdf-schema#label> "5th Terrace Of River Lark"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S525> <http://www.w3.org/2000/01/rdf-schema#label> "Armadale Main Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <http://www.w3.org/2000/01/rdf-schema#label> "Aberdaron Bay Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S739> <http://www.w3.org/2000/01/rdf-schema#label> "Ashington Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S842> <http://www.w3.org/2000/01/rdf-schema#label> "Ashton Great Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <http://www.w3.org/2000/01/rdf-schema#label> "Arley Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <http://www.w3.org/2000/01/rdf-schema#label> "Ashclough Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <http://www.w3.org/2000/01/rdf-schema#label> "4th Terrace Of River Lark (Bristow,1990)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S904> <http://www.w3.org/2000/01/rdf-schema#label> "Abdy Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABB> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Ffrancon Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Great Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Great Mine [Obsolete: use AGCO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGCU> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashgate Coal (Nottingham)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ardwick Marls"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://www.w3.org/2004/02/skos/core#altLabel> "Etruria Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Shale Member (of Crackington Formation) [Obsolete: use ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Shale Member [Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Arley Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Arley Mine [Obsolete: use ARMC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASHC> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashclough Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASHC> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashclough Mine [Obsolete: use ASHC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASHI> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashington Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Shale Member [Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Shale Member [Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERIS> <http://www.w3.org/2004/02/skos/core#altLabel> "5th Terrace Of River Lark"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ERIS> <http://www.w3.org/2004/02/skos/core#altLabel> "5th Terrace of River Lark (Clayton 1983) [Obsolete: use ERIS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ardwick Marl [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ETM> <http://www.w3.org/2004/02/skos/core#altLabel> "Ardwick Marl [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHAM> <http://www.w3.org/2004/02/skos/core#altLabel> "4th Terrace Of River Lark (Bristow,1990)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHAM> <http://www.w3.org/2004/02/skos/core#altLabel> "4th Terrace of River Lark (Clayton, 1983) [Obsolete: use FHAM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FTNC> <http://www.w3.org/2004/02/skos/core#altLabel> "Adwalton Black Bed Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLFU> <http://www.w3.org/2004/02/skos/core#altLabel> "Armadale Main Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> <http://www.w3.org/2004/02/skos/core#altLabel> "Etruria Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBTC> <http://www.w3.org/2004/02/skos/core#altLabel> "Abdy Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MILL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ball Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://www.w3.org/2004/02/skos/core#altLabel> "Aberdaron Bay Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NFR> <http://www.w3.org/2004/02/skos/core#altLabel> "Aberdaron Bay Group [Obsolete: use NFR]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S233> <http://www.w3.org/2004/02/skos/core#altLabel> "Abdy Coal (South Yorkshire And North Nottinghamshire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <http://www.w3.org/2004/02/skos/core#altLabel> "Ardwick Marl [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Mudstone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://www.w3.org/2004/02/skos/core#altLabel> "Dowhills Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://www.w3.org/2004/02/skos/core#altLabel> "Dowhills Mudstone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S357> <http://www.w3.org/2004/02/skos/core#altLabel> "Abdy Coal (South Yorkshire And North Nottinghamshire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <http://www.w3.org/2004/02/skos/core#altLabel> "Eriswell Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Ffrancon Subgroup"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S735> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashgate Coal (South Yorkshire, Nottingham And Derby)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S736> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashgate Coal (South Yorkshire, Nottingham And Derby)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S842> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashton Great Coal (South Lancashire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <http://www.w3.org/2004/02/skos/core#altLabel> "Arley Coal (South Lancashire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <http://www.w3.org/2004/02/skos/core#altLabel> "Ashclough Coal (South Lancashire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <http://www.w3.org/2004/02/skos/core#altLabel> "Fornham Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHIC> <http://www.w3.org/2004/02/skos/core#altLabel> "Acre Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WINC> <http://www.w3.org/2004/02/skos/core#altLabel> "Abdy Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABDY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abdy Coal (South Yorkshire And North Nottinghamshire)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashgate Coal (South Yorkshire, Nottingham And Derby)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ardwick Marl [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Great Mine [Obsolete: use AGCO]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Shale Member (of Crackington Formation) [Obsolete: use ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H247> <http://www.w3.org/2004/02/skos/core#prefLabel> "4th Terrace of River Lark (Clayton, 1983) [Obsolete: use FHAM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3391> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ardwick Marl(s) [Obsolete: use ETM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3807> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashclough Mine [Obsolete: use ASHC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H654> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arley Mine [Obsolete: use ARMC]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H891> <http://www.w3.org/2004/02/skos/core#prefLabel> "5th Terrace of River Lark (Clayton 1983) [Obsolete: use ERIS]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S208> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acre Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ardwick Marls"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S260> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Shale Member [Obsolete: use DHLS, ANSH]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S271> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adwalton Black Bed Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S314> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ball Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S469> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashgate Coal (Nottingham)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <http://www.w3.org/2004/02/skos/core#prefLabel> "5th Terrace Of River Lark"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S525> <http://www.w3.org/2004/02/skos/core#prefLabel> "Armadale Main Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aberdaron Bay Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S739> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashington Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S842> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashton Great Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arley Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ashclough Mine Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <http://www.w3.org/2004/02/skos/core#prefLabel> "4th Terrace Of River Lark (Bristow,1990)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abdy Coal"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S238> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S512> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S684> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S848> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S850> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S886> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLEN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMIC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S25> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOOR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S25> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BT> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLEN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNCO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMCO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMIC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOOR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLBC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Blocking [Bed] Coal (which corresponds to the Silkstone Coal of South Yorkshire) is a seam of fair quality for domestic purposes, but is usually divided by three dirt partings. It has been worked extensively throughout the district."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Third Brown Metal Coal  is thin, of inferior quality and not extensively worked."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1364> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2000> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2576> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3224> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3230> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARC> <http://www.w3.org/2000/01/rdf-schema#label> "Barnsley Coal (West And South Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> <http://www.w3.org/2000/01/rdf-schema#label> "Black And White Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBU> <http://www.w3.org/2000/01/rdf-schema#label> "Bottom Busty Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1364> <http://www.w3.org/2000/01/rdf-schema#label> "Bassy Mine [Obsolete: use BMCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2000> <http://www.w3.org/2000/01/rdf-schema#label> "Black Mine [Obsolete: use BMIC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2576> <http://www.w3.org/2000/01/rdf-schema#label> "Black and White Mines [Obsolete: use BAWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3224> <http://www.w3.org/2000/01/rdf-schema#label> "Blenfire Mine [Obsolete: use BLEN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3230> <http://www.w3.org/2000/01/rdf-schema#label> "Bin Mine [Obsolete: use BNCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S123> <http://www.w3.org/2000/01/rdf-schema#label> "Bassy Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S2> <http://www.w3.org/2000/01/rdf-schema#label> "Big Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S25> <http://www.w3.org/2000/01/rdf-schema#label> "Bargate Member Of The Sandgate Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S343> <http://www.w3.org/2000/01/rdf-schema#label> "Barnsley Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <http://www.w3.org/2000/01/rdf-schema#label> "Blenfire Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <http://www.w3.org/2000/01/rdf-schema#label> "Bin Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S40> <http://www.w3.org/2000/01/rdf-schema#label> "Bellingham Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <http://www.w3.org/2000/01/rdf-schema#label> "Bassy Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <http://www.w3.org/2000/01/rdf-schema#label> "Black Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S495> <http://www.w3.org/2000/01/rdf-schema#label> "Blairhall Main Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <http://www.w3.org/2000/01/rdf-schema#label> "Black And White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <http://www.w3.org/2000/01/rdf-schema#label> "Blackclose Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S75> <http://www.w3.org/2000/01/rdf-schema#label> "Big Coal [In Part]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S779> <http://www.w3.org/2000/01/rdf-schema#label> "Bnm3 Third Brown Metal Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S787> <http://www.w3.org/2000/01/rdf-schema#label> "Beaumont Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S918> <http://www.w3.org/2000/01/rdf-schema#label> "Bensham"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S959> <http://www.w3.org/2000/01/rdf-schema#label> "Bottom Busty"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S961> <http://www.w3.org/2000/01/rdf-schema#label> "Blbc Blocking Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/6FCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Big Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> <http://www.w3.org/2004/02/skos/core#altLabel> "Black And White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> <http://www.w3.org/2004/02/skos/core#altLabel> "Black and White Mines [Obsolete: use BAWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Blenfire Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLEN> <http://www.w3.org/2004/02/skos/core#altLabel> "Blenfire Mine [Obsolete: use BLEN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Bassy Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Bassy Mine [Obsolete: use BMCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMIC> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMIC> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Mine [Obsolete: use BMIC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Bin Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Bin Mine [Obsolete: use BNCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSSP> <http://www.w3.org/2004/02/skos/core#altLabel> "Blairhall Main Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BT> <http://www.w3.org/2004/02/skos/core#altLabel> "Bargate Member Of The Sandgate Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bellingham Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FPIC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bnm3 Third Brown Metal Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2576> <http://www.w3.org/2004/02/skos/core#altLabel> "Black And White Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HARV> <http://www.w3.org/2004/02/skos/core#altLabel> "Beaumont Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LTLE> <http://www.w3.org/2004/02/skos/core#altLabel> "Big Coal [In Part]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MAUD> <http://www.w3.org/2004/02/skos/core#altLabel> "Bensham"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOOR> <http://www.w3.org/2004/02/skos/core#altLabel> "Blackclose Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLAC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bellingham Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCKC> <http://www.w3.org/2004/02/skos/core#altLabel> "Big Coal [In Part]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S25> <http://www.w3.org/2004/02/skos/core#altLabel> "Bargate Sandstone Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S370> <http://www.w3.org/2004/02/skos/core#altLabel> "Barnsley Coal (West And South Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <http://www.w3.org/2004/02/skos/core#altLabel> "Blenfire Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <http://www.w3.org/2004/02/skos/core#altLabel> "Bin Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <http://www.w3.org/2004/02/skos/core#altLabel> "Bassy Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <http://www.w3.org/2004/02/skos/core#altLabel> "Black Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <http://www.w3.org/2004/02/skos/core#altLabel> "Black And White Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <http://www.w3.org/2004/02/skos/core#altLabel> "Moorland Coal (Northumberland)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THC> <http://www.w3.org/2004/02/skos/core#altLabel> "Barnsley Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHOC> <http://www.w3.org/2004/02/skos/core#altLabel> "Barnsley Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bottom Busty"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WIMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bottom Busty Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YDC> <http://www.w3.org/2004/02/skos/core#altLabel> "Blbc Blocking Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YDGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Bassy Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S918> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S959> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNCO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barnsley Coal (West And South Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAWC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black And White Coal (South Lancashire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bottom Busty Coal (Northumberland And Durham)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1364> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bassy Mine [Obsolete: use BMCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black Mine [Obsolete: use BMIC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2576> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black and White Mines [Obsolete: use BAWC]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3224> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blenfire Mine [Obsolete: use BLEN]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3230> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bin Mine [Obsolete: use BNCO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S123> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bassy Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Big Coal [South Wales Coalfield]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S25> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bargate Member Of The Sandgate Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S343> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barnsley Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blenfire Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bin Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S40> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bellingham Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bassy Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S495> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blairhall Main Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <http://www.w3.org/2004/02/skos/core#prefLabel> "Black And White Mine Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blackclose Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S75> <http://www.w3.org/2004/02/skos/core#prefLabel> "Big Coal [In Part]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S779> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bnm3 Third Brown Metal Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S787> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beaumont Coal"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S918> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bensham"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bottom Busty"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S961> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blbc Blocking Coal (West Yorkshire)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S376> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S378> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S484> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S485> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S615> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S681> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
