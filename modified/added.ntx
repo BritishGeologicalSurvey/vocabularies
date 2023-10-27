@@ -1,17 +1,207 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S258> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CWFL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWF> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWFL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWFL> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWF> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4490> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRCS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3926> <http://www.w3.org/2000/01/rdf-schema#label> "Clay with flints [Obsolete: use CWF, CHGR]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S258> <http://www.w3.org/2000/01/rdf-schema#label> "Clay-with-flints [Duplicate: use CWFL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay with flints [Obsolete: use CWF, CHGR]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWF> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay with flints [Obsolete: use CWF, CHGR]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWF> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay-with-flints"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWFL> <http://www.w3.org/2004/02/skos/core#altLabel> "Clay-with-flints Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ECHB> <http://www.w3.org/2004/02/skos/core#altLabel> "Bogne Hollow Chert Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4498> <http://www.w3.org/2004/02/skos/core#altLabel> "Den Siltstone Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Rosemarket Beds [Obsolete: use RMB]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S258> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not entered."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3926> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clay with flints [Obsolete: use CWF, CHGR]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S258> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clay-with-flints [Duplicate: use CWFL]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S258> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/4FCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADBB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FTNC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSMC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEGT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNED> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYCO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM1> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM2> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRYN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRWC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBRD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBRD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFHC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GARC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLNC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRCL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUTN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CROU> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRCL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CXF> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBEQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2742> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/4FCO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S124> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRWC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRYN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DVA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNED> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGTC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSMC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSTL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4887> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FTNC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADBB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GARC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFHC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGRIT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWAT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CROU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2742> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBEQ> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4887> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSTL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H812> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEGT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGTC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DVA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLNC> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S124> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H812> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CXF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGRIT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3923> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coal."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coal."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coal."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coal."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S776> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use LLGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S857> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUSA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHAM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2786> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "330.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "330.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "319"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3923> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S776> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "327"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "327"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "314.75"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHAM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2786> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUSA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDI> <http://www.w3.org/2000/01/rdf-schema#label> "Dungiven Formation [Duplicate 1: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDU> <http://www.w3.org/2000/01/rdf-schema#label> "Dungiven Formation [Duplicate 2: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://www.w3.org/2000/01/rdf-schema#label> "Fenton Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H221> <http://www.w3.org/2000/01/rdf-schema#label> "Dungiven Formation [Duplicate 3: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://www.w3.org/2000/01/rdf-schema#label> "Coleby Mudstone Formation [Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3923> <http://www.w3.org/2000/01/rdf-schema#label> "Coleby Mudstone Formation (part) [Duplicate: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGTC> <http://www.w3.org/2000/01/rdf-schema#label> "Lidget Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://www.w3.org/2000/01/rdf-schema#label> "Diamond Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://www.w3.org/2000/01/rdf-schema#label> "Ell Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://www.w3.org/2000/01/rdf-schema#label> "Eighteen Inch Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://www.w3.org/2000/01/rdf-schema#label> "Five Foot Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S776> <http://www.w3.org/2000/01/rdf-schema#label> "Equivalent To Part Of The Lower Limestone Formation Of The Midland Valley [Duplicate: use LLGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S857> <http://www.w3.org/2000/01/rdf-schema#label> "Coleby Mudstones Formation [Duplicate 2: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/4FCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Dougaled Rider Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADBB> <http://www.w3.org/2004/02/skos/core#altLabel> "Flockton Thin Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTN> <http://www.w3.org/2004/02/skos/core#altLabel> "First Smalley Coal (Leicester and Derby)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Creag Mhor Conglomerates [Obsolete: use CMC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Kingswood Great Coal (Bristol Area)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BMN> <http://www.w3.org/2004/02/skos/core#altLabel> "Coleby Mudstone Formation [Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNED> <http://www.w3.org/2004/02/skos/core#altLabel> "Dandy Coal (Lancashire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM1> <http://www.w3.org/2004/02/skos/core#altLabel> "Fenton Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNM2> <http://www.w3.org/2004/02/skos/core#altLabel> "Fenton Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRYN> <http://www.w3.org/2004/02/skos/core#altLabel> "Drews Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSF> <http://www.w3.org/2004/02/skos/core#altLabel> "Coalbrookdale Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CBRD> <http://www.w3.org/2004/02/skos/core#altLabel> "Bromleysmill Shale Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDL> <http://www.w3.org/2004/02/skos/core#altLabel> "Drybrook Limestone Formation [Obsolete: use HBO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFF> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig Cau Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFHC> <http://www.w3.org/2004/02/skos/core#altLabel> "Garw Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig-y-Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://www.w3.org/2004/02/skos/core#altLabel> "Llyn Conwy Formation [Obsolete: use AFM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHAM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coleby Mudstone Formation [Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHSC> <http://www.w3.org/2004/02/skos/core#altLabel> "Five Foot Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Cumberworth Thin Coal (South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CROU> <http://www.w3.org/2004/02/skos/core#altLabel> "Giffnock Main Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUTN> <http://www.w3.org/2004/02/skos/core#altLabel> "Crow Coal (West Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CXF> <http://www.w3.org/2004/02/skos/core#altLabel> "Sannox Siltstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBEQ> <http://www.w3.org/2004/02/skos/core#altLabel> "Crinan Grits [Obsolete: use DBCR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DG> <http://www.w3.org/2004/02/skos/core#altLabel> "Penstrowed Grits Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DL> <http://www.w3.org/2004/02/skos/core#altLabel> "Clifton Down Limestone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> <http://www.w3.org/2004/02/skos/core#altLabel> "Four Feet Vein Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORC> <http://www.w3.org/2004/02/skos/core#altLabel> "Four-Feet Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRWC> <http://www.w3.org/2004/02/skos/core#altLabel> "Bryncoch Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Dungiven Formation [Duplicate 1: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Dungiven Formation [Duplicate 2: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNN> <http://www.w3.org/2004/02/skos/core#altLabel> "Dungiven Formation [Duplicate 3: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DVA> <http://www.w3.org/2004/02/skos/core#altLabel> "Lynch Hill Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYCO> <http://www.w3.org/2004/02/skos/core#altLabel> "Bottom Neddy Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENT> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Limestone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEC> <http://www.w3.org/2004/02/skos/core#altLabel> "Lidget Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://www.w3.org/2004/02/skos/core#altLabel> "First Brown Metal Coal (West Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://www.w3.org/2004/02/skos/core#altLabel> "Second Brown Metal Coal (West Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Alton Coal (Leicester, Nottingham, Derby)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FSTL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ferruginous Limestone Series [Obsolete: use SMD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FTNC> <http://www.w3.org/2004/02/skos/core#altLabel> "Adwalton Black Bed Coal (West Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GARC> <http://www.w3.org/2004/02/skos/core#altLabel> "Cribbwr Fach Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGRIT> <http://www.w3.org/2004/02/skos/core#altLabel> "Wern Watkin Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMC> <http://www.w3.org/2004/02/skos/core#altLabel> "Cowglen Rough Coal (Glasgow)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://www.w3.org/2004/02/skos/core#altLabel> "Brant Mudstone Formation [Obsolete: use CHAM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://www.w3.org/2004/02/skos/core#altLabel> "Charmouth Mudstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2742> <http://www.w3.org/2004/02/skos/core#altLabel> "Erins Quartzite Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2786> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Limestone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4887> <http://www.w3.org/2004/02/skos/core#altLabel> "Foston Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> <http://www.w3.org/2004/02/skos/core#altLabel> "Auchencar Sandstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H793> <http://www.w3.org/2004/02/skos/core#altLabel> "New Orleans Conglomerate Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H812> <http://www.w3.org/2004/02/skos/core#altLabel> "Stonehead Sandstone [Obsolete: use COSS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Bedminster Great Coal (Bristol Area)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGTC> <http://www.w3.org/2004/02/skos/core#altLabel> "First Ell Coal (Nottingham and Derby)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Denham Valley Terrace Deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> <http://www.w3.org/2004/02/skos/core#altLabel> "Enterkin Mudstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLGS> <http://www.w3.org/2004/02/skos/core#altLabel> "Lower Limestone Group (Undivided) [Obsolete: use ENT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLNC> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig Cau Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYSP> <http://www.w3.org/2004/02/skos/core#altLabel> "Ell Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWO> <http://www.w3.org/2004/02/skos/core#altLabel> "Creag Mhor Conglomerates [Obsolete: use CMC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEG> <http://www.w3.org/2004/02/skos/core#altLabel> "Denbigh Grits Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PG> <http://www.w3.org/2004/02/skos/core#altLabel> "Skipton Moor Grit"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAGT> <http://www.w3.org/2004/02/skos/core#altLabel> "Eighteen Inch Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S124> <http://www.w3.org/2004/02/skos/core#altLabel> "Dougaled Rider Coal (South Wales)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S50> <http://www.w3.org/2004/02/skos/core#altLabel> "Lidget Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SM> <http://www.w3.org/2004/02/skos/core#altLabel> "Pendle Grit Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STO> <http://www.w3.org/2004/02/skos/core#altLabel> "Cocklett Scar Sandstone Member [Obsolete: use COSS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SXS> <http://www.w3.org/2004/02/skos/core#altLabel> "Cromlix Mudstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URJ> <http://www.w3.org/2004/02/skos/core#altLabel> "Diamond Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coleby Mudstone Formation [Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWAT> <http://www.w3.org/2004/02/skos/core#altLabel> "Grey Grits [Obsolete: use GRG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://www.w3.org/2004/02/skos/core#definition> "Coal. Stratified bedrock. Occurs onshore. Deposited during the Duckmantian Substage (Carboniferous Period) (318-314.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S857> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSC> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSC> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLCM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PMCM> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dungiven Formation [Duplicate 1: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dungiven Formation [Duplicate 2: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FENC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fenton Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H221> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dungiven Formation [Duplicate 3: use DUNN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2531> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coleby Mudstone Formation [Obsolete: use CHAM, WHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3923> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coleby Mudstone Formation (part) [Duplicate: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGTC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lidget Coal (West and South Yorkshire)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S118> <http://www.w3.org/2004/02/skos/core#prefLabel> "Diamond Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S302> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ell Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S578> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eighteen Inch Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Five Foot Coal"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Equivalent To Part Of The Lower Limestone Formation Of The Midland Valley [Duplicate: use LLGS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S857> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coleby Mudstones Formation [Duplicate 2: use -2531]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S857> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
