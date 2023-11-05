@@ -1,0 +1,129 @@
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/Boundary"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://purl.org/dc/terms/title> "A boundary between geological divisons of time "@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Boundary> <http://www.w3.org/2000/01/rdf-schema#label> "Geochronological Boundary"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/accessRights> <http://data.bgs.ac.uk/ref/void> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/created> "2011-02-10" .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/description> "Geological time is divided into useful segments that are then further sub-divided. A well known example is the Jurassic, which is a Period, part of the (much longer) Mezosoic Era. The Jurassic Period is sub-divided into the Early, Mid and Late Jurassic Epochs. Some Eras are divided into sub-eras, similarly, Periods, Epochs and Ages can have sub-divisions."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/Division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/modified> "2010-02-12" .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/title> "BGS Geological Time Divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2000/01/rdf-schema#label> "This schema defines named divisions of geological time."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Geochronology/Division/XX> .
+<http://data.bgs.ac.uk/ref/Geochronology/DivisionList> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/DivisionList> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/DivisionList"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/DivisionList> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/DivisionList> <http://purl.org/dc/terms/title> "An Ordered List of divisions of time"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/DivisionList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#OrderedCollection> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/created> "2011-02-10" .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/description> "Geologists label divisions of geological time with named ranks which indicate which level of the hierarchy of terms they belong to. The preferred labels in this scheme are the chronological rank names; the equivalent stratigraphical rank name is provided as an alternative label."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/Rank"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/title> "BGS Geological Time Division Ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://www.w3.org/2000/01/rdf-schema#label> "The rank of a geochronological division specifies how large it is and what sort of sub-divisions it contains."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://data.bgs.ac.uk/ref/Geochronology/hasRanks> "http://data.bgs.ac.uk/id/Geochronology/Rank/AGE http://data.bgs.ac.uk/id/Geochronology/Rank/EON http://data.bgs.ac.uk/id/Geochronology/Rank/EPOCH http://data.bgs.ac.uk/id/Geochronology/Rank/ERA http://data.bgs.ac.uk/id/Geochronology/Rank/MIS http://data.bgs.ac.uk/id/Geochronology/Rank/PERIOD http://data.bgs.ac.uk/id/Geochronology/Rank/SUB-AGE http://data.bgs.ac.uk/id/Geochronology/Rank/SUB-EPOCH http://data.bgs.ac.uk/id/Geochronology/Rank/SUB-ERA http://data.bgs.ac.uk/id/Geochronology/Rank/SUB-PERIOD"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/RankList"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://purl.org/dc/terms/title> "An Ordered List of BGS Geochronostratigraphy ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/RankList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#OrderedCollection> .
+<http://data.bgs.ac.uk/ref/Geochronology/Scheme> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Scheme> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Scheme> <http://purl.org/dc/terms/title> "A system by which geochronological divisions are defined"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Scheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Scheme> <http://www.w3.org/2000/01/rdf-schema#label> "Geochronological scheme"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that describes the method by which the age has been determined"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that describes the method by which the age has been determined."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/2000/01/rdf-schema#label> "age determination type"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides an age value in millions of years before present"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides an age value in millions of years before present."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/2000/01/rdf-schema#label> "millions of years before present"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides the uncertainty on an age value in millions of years"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides the uncertainty on an age value in millions of years."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/2000/01/rdf-schema#label> "uncertainty (millions of years)"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered list of divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <https://www.w3.org/ns/shacl#order> "1000" .
+<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking to the latest date (ie minimum age) of a geological time division."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/2000/01/rdf-schema#label> "minimum age"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Boundary> .
+<http://data.bgs.ac.uk/ref/Geochronology/end> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to ordered list of divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/2000/01/rdf-schema#label> "has divisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the rank of the geological time division that it describes"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the rank of the geological time division that it describes."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/2000/01/rdf-schema#label> "rank"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Rank> .
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to ordered list of ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/2000/01/rdf-schema#label> "has ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides a maximum age value in millions of years before present."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <http://www.w3.org/2000/01/rdf-schema#label> "maximum age in millions of years before present"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides a minimum age value in millions of years before present."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <http://www.w3.org/2000/01/rdf-schema#label> "minimum age in millions of years before present"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a geological division of time to the older division of the same rank so that it it is possible to put each time division in the correct order"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a geological division of time to the older division of the same rank so that it it is possible to put each time division in the correct order."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#label> "previous division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Division> .
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the name of a rank - a level of geological time division - to the ordered list of ranks that it is contained in. Ranks are ordered from the largest division level to the smallest."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/2000/01/rdf-schema#label> "in ordered list"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#OrderedCollection> .
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered list of ranks"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/rankList> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking to the earliest date (ie maximum age) of a geological time division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking to the earliest date (ie maximum age) of a geological time division."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#label> "maximum age"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Boundary> .
+<http://data.bgs.ac.uk/ref/Geochronology/start> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/2000/01/rdf-schema#comment> "Geological time is divided into multiple levels of sub-division. This property links a given division to an ordered lists of its immediate child divisions."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/2000/01/rdf-schema#label> "subdivisions"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#OrderedCollection> .
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a geological division of time to the younger one of the same rank so that it it is possible to put each time division in the correct order"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a geological division of time to the younger one of the same rank so that it it is possible to put each time division in the correct order."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#label> "next division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.bgs.ac.uk/ref/Geochronology/Division> .
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/accessRights> <http://data.bgs.ac.uk/ref/void> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/created> "2011-02-10" .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology"@en .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://purl.org/dc/terms/title> "BGS Geochronology"@en .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Geologic_time_scale> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/discoveringGeology/time/Timechart/home.html> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/discoveringGeology/time/home.html> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/discoveringGeology/time/timeline/home.html> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/downloads/browse.cfm?sec=1&cat=24> .
+<http://data.bgs.ac.uk/ref/Geochronology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.bgs.ac.uk/downloads/browse.cfm?sec=1&cat=2> .
