@@ -1,0 +1,8 @@
+PREFIX geologymap: <http://data.bgs.ac.uk/ref/625KGeologyMap/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+geologymap:hasEarthMaterialClass rdfs:label "has earth material class" .
+
+geologymap:hasLexicon rdfs:label "has lexicon" .
+
+geologymap:hasRank rdfs:label "has rank" .

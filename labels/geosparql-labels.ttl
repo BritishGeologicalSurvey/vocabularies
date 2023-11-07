@@ -1,0 +1,293 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://www.opengis.net/ont/geosparql>
+    rdfs:label "GeoSPARQL Ontology" ;
+.
+
+geo:Feature
+    rdfs:label "Feature"@en ;
+.
+
+geo:FeatureCollection
+    rdfs:label "Feature Collection"@en ;
+.
+
+geo:Geometry
+    rdfs:label "Geometry"@en ;
+.
+
+geo:GeometryCollection
+    rdfs:label "Geometry Collection"@en ;
+.
+
+geo:SpatialObject
+    rdfs:label "Spatial Object"@en ;
+.
+
+geo:SpatialObjectCollection
+    rdfs:label "Spatial Object Collection"@en ;
+.
+
+geo:asDGGS
+    rdfs:label "as DGGS"@en ;
+.
+
+geo:asGML
+    rdfs:label "as GML"@en ;
+.
+
+geo:asGeoJSON
+    rdfs:label "as GeoJSON"@en ;
+.
+
+geo:asKML
+    rdfs:label "as KML"@en ;
+.
+
+geo:asWKT
+    rdfs:label "as WKT"@en ;
+.
+
+geo:coordinateDimension
+    rdfs:label "coordinate dimension"@en ;
+.
+
+geo:defaultGeometry
+    rdfs:label "default geometry"@en ;
+.
+
+geo:dggsLiteral
+    rdfs:label "DGGS Literal"@en ;
+.
+
+geo:dimension
+    rdfs:label "dimension"@en ;
+.
+
+geo:ehContains
+    rdfs:label "contains"@en ;
+.
+
+geo:ehCoveredBy
+    rdfs:label "covered by"@en ;
+.
+
+geo:ehCovers
+    rdfs:label "covers"@en ;
+.
+
+geo:ehDisjoint
+    rdfs:label "disjoint"@en ;
+.
+
+geo:ehEquals
+    rdfs:label "equals"@en ;
+.
+
+geo:ehInside
+    rdfs:label "inside"@en ;
+.
+
+geo:ehMeet
+    rdfs:label "meet"@en ;
+.
+
+geo:ehOverlap
+    rdfs:label "overlap"@en ;
+.
+
+geo:geoJSONLiteral
+    rdfs:label "GeoJSON Literal"@en ;
+.
+
+geo:gmlLiteral
+    rdfs:label "GML Literal"@en ;
+.
+
+geo:hasArea
+    rdfs:label "has area"@en ;
+.
+
+geo:hasBoundingBox
+    rdfs:label "has bounding box"@en ;
+.
+
+geo:hasCentroid
+    rdfs:label "has centroid"@en ;
+.
+
+geo:hasDefaultGeometry
+    rdfs:label "has default geometry"@en ;
+.
+
+geo:hasGeometry
+    rdfs:label "has geometry"@en ;
+.
+
+geo:hasLength
+    rdfs:label "has length"@en ;
+.
+
+geo:hasMetricArea
+    rdfs:label "has area in square meters"@en ;
+.
+
+geo:hasMetricLength
+    rdfs:label "has length in meters"@en ;
+.
+
+geo:hasMetricPerimeterLength
+    rdfs:label "has perimeter length in meters"@en ;
+.
+
+geo:hasMetricSize
+    rdfs:label "has metric size"@en ;
+.
+
+geo:hasMetricSpatialAccuracy
+    rdfs:label "has spatial accuracy in meters"@en ;
+.
+
+geo:hasMetricSpatialResolution
+    rdfs:label "has spatial resolution in meters"@en ;
+.
+
+geo:hasMetricVolume
+    rdfs:label "has volume in cubic meters"@en ;
+.
+
+geo:hasPerimeterLength
+    rdfs:label "has perimeter length"@en ;
+.
+
+geo:hasSerialization
+    rdfs:label "has serialization"@en ;
+.
+
+geo:hasSize
+    rdfs:label "has size"@en ;
+.
+
+geo:hasSpatialAccuracy
+    rdfs:label "has spatial accuracy"@en ;
+.
+
+geo:hasSpatialResolution
+    rdfs:label "has spatial resolution"@en ;
+.
+
+geo:hasVolume
+    rdfs:label "has volume"@en ;
+.
+
+geo:isEmpty
+    rdfs:label "is empty"@en ;
+.
+
+geo:isSimple
+    rdfs:label "is simple"@en ;
+.
+
+geo:kmlLiteral
+    rdfs:label "KML Literal"@en ;
+.
+
+geo:rcc8dc
+    rdfs:label "disconnected"@en ;
+.
+
+geo:rcc8ec
+    rdfs:label "externally connected"@en ;
+.
+
+geo:rcc8eq
+    rdfs:label "equals"@en ;
+.
+
+geo:rcc8ntpp
+    rdfs:label "non-tangential proper part"@en ;
+.
+
+geo:rcc8ntppi
+    rdfs:label "non-tangential proper part inverse"@en ;
+.
+
+geo:rcc8po
+    rdfs:label "partially overlapping"@en ;
+.
+
+geo:rcc8tpp
+    rdfs:label "tangential proper part"@en ;
+.
+
+geo:rcc8tppi
+    rdfs:label "tangential proper part inverse"@en ;
+.
+
+geo:sfContains
+    rdfs:label "contains"@en ;
+.
+
+geo:sfCrosses
+    rdfs:label "crosses"@en ;
+.
+
+geo:sfDisjoint
+    rdfs:label "disjoint"@en ;
+.
+
+geo:sfEquals
+    rdfs:label "equals"@en ;
+.
+
+geo:sfIntersects
+    rdfs:label "intersects"@en ;
+.
+
+geo:sfOverlaps
+    rdfs:label "overlaps"@en ;
+.
+
+geo:sfTouches
+    rdfs:label "touches"@en ;
+.
+
+geo:sfWithin
+    rdfs:label "within"@en ;
+.
+
+geo:spatialDimension
+    rdfs:label "spatial dimension"@en ;
+.
+
+geo:wktLiteral
+    rdfs:label "Well-known Text Literal"@en ;
+.
+
+[]    rdfs:label "Open Geospatial Consortium" ;
+.
+
+[]    rdfs:label "Matthew Perry" ;
+.
+
+[]    rdfs:label "John Herring" ;
+.
+
+[]    rdfs:label "Nicholas J. Car" ;
+.
+
+[]    rdfs:label "Joseph Abhayaratna" ;
+.
+
+[]    rdfs:label "Timo Homburg" ;
+.
+
+[]    rdfs:label "Simon J D Cox" ;
+.
+
+[]    rdfs:label "Frans Knibbe" ;
+.
+
+[]    rdfs:label "Mathias Bonduel" ;
+.

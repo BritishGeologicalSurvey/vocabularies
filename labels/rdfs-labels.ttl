@@ -1,0 +1,61 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+rdfs:Class
+    rdfs:label "Class" ;
+.
+
+rdfs:Container
+    rdfs:label "Container" ;
+.
+
+rdfs:ContainerMembershipProperty
+    rdfs:label "ContainerMembershipProperty" ;
+.
+
+rdfs:Datatype
+    rdfs:label "Datatype" ;
+.
+
+rdfs:Literal
+    rdfs:label "Literal" ;
+.
+
+rdfs:Resource
+    rdfs:label "Resource" ;
+.
+
+rdfs:comment
+    rdfs:label "comment" ;
+.
+
+rdfs:domain
+    rdfs:label "domain" ;
+.
+
+rdfs:isDefinedBy
+    rdfs:label "isDefinedBy" ;
+.
+
+rdfs:label
+    rdfs:label "label" ;
+.
+
+rdfs:member
+    rdfs:label "member" ;
+.
+
+rdfs:range
+    rdfs:label "range" ;
+.
+
+rdfs:seeAlso
+    rdfs:label "seeAlso" ;
+.
+
+rdfs:subClassOf
+    rdfs:label "subClassOf" ;
+.
+
+rdfs:subPropertyOf
+    rdfs:label "subPropertyOf" ;
+.

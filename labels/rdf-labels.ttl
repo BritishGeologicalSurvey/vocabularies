@@ -1,0 +1,90 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+rdf:Alt
+    rdfs:label "Alt" ;
+.
+
+rdf:Bag
+    rdfs:label "Bag" ;
+.
+
+rdf:CompoundLiteral
+    rdfs:label "CompoundLiteral" ;
+.
+
+rdf:HTML
+    rdfs:label "HTML" ;
+.
+
+rdf:JSON
+    rdfs:label "JSON" ;
+.
+
+rdf:List
+    rdfs:label "List" ;
+.
+
+rdf:PlainLiteral
+    rdfs:label "PlainLiteral" ;
+.
+
+rdf:Property
+    rdfs:label "Property" ;
+.
+
+rdf:Seq
+    rdfs:label "Seq" ;
+.
+
+rdf:Statement
+    rdfs:label "Statement" ;
+.
+
+rdf:XMLLiteral
+    rdfs:label "XMLLiteral" ;
+.
+
+rdf:direction
+    rdfs:label "direction" ;
+.
+
+rdf:first
+    rdfs:label "first" ;
+.
+
+rdf:langString
+    rdfs:label "langString" ;
+.
+
+rdf:language
+    rdfs:label "language" ;
+.
+
+()
+    rdfs:label "nil" ;
+.
+
+rdf:object
+    rdfs:label "object" ;
+.
+
+rdf:predicate
+    rdfs:label "predicate" ;
+.
+
+rdf:rest
+    rdfs:label "rest" ;
+.
+
+rdf:subject
+    rdfs:label "subject" ;
+.
+
+rdf:type
+    rdfs:label "type" ;
+.
+
+rdf:value
+    rdfs:label "value" ;
+.
