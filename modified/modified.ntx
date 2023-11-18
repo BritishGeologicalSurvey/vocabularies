@@ -1,3 +1,61 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AWSA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Late Paleocene (Palaeogene Period) (59.2-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Late Paleocene (Palaeogene Period) (59.2-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BATU> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Late Paleocene (Palaeogene Period) (59.2-56 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Predominantly cold-phase sands and gravels that underlie the Southrey Terrace. At surface, dominated by rounded pebbles of \"Bunter\" quartz/quartzite (c.60%) with subordinate subangular flint, etc. (c.40%). Terrace surface highly dissected but rises to c.6 to 7m above the Witham floodplain in the Type Area. Associated silts yielding a temperate flora and fauna occur at at least two sites; these might occur at the base of the unit but relationships are uncertain. Correlated with the Balderton Sand and Gravel Member (Trent Valley Formation, west of the Lincoln Gap) and the Egginton Sand and Gravel Member (Trent Valley Formation)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformable, commonly channelled base, resting on pre-Quaternary bedrock (at Type locality)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVON> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOARV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVON> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOARV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOARV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.6m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPHT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 7m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.4m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c 6m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.8m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.10m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c.3m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0 to c,3m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AVON> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay, peat and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch - to - Holocene Epoch (Quaternary Period) (2.58-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOARV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch - to - Holocene Epoch (Quaternary Period) (2.58-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOYSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary peat and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay, peat and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SURA> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary mud and peat. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRVA> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch - to - Holocene Epoch (Quaternary Period) (2.58-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand with subsidiary clay, peat and silt. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WFSG> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
