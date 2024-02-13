@@ -1,4 +1,46 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608184> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/10b7e887-1923-305a-e063-0937940af15d> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608184> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608184> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARFS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Green to grey, fine- to medium-grained, laminated or cross laminated sandstone in beds up to 1.7 m thick, with pebble-rich lenses and shelly lags with Lingula fragments and seams up to several centimetres thick, consisting of green mudstone and siltstone with Lingula. All lithologies are seen as rip-up clasts in the basal parts of the sandstone beds. The upper part of the formation comprises coarse-grained, calcareous sandstone, with pedogenic fabrics, and conglomerate."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNWL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWYP> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Overlies conformably the Reidh Psammite Fm (REP); where predominantly siliceous psammitic lithologies pass into predominantly pelitic lithologies."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCGR> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCGA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H581> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARFS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EWKS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARW> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARFS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "359.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBYC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "319"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5097> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RTFD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STDU> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARFS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Measured as 9 m thick in the Ticknall Borehole."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0-135m"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RLF> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "In the Callender-Crieff area, the top is taken at the base of the Cromlix Mudstone Formation, which is strongly diachronous, whereas in the Aberfoyle area, the Ruchill Flagstone Formation is locally overlain by the Shannochil Sandstone Member of the Cromlix Mudstone Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DPG> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NIFC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AMPH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "486.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNBI> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RCKY> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "307.5"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1679> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S642> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDMB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PWB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARW> <http://www.w3.org/2000/01/rdf-schema#label> "Barrow Terrace Deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1071> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Lias, Marginal Facies [Obsolete: use MRGF]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRO> <http://www.w3.org/2000/01/rdf-schema#label> "Harrogate Roadstone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S750> <http://www.w3.org/2000/01/rdf-schema#label> "Aldeburgh Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCG> <http://www.w3.org/2004/02/skos/core#altLabel> "Aldeburgh Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3040> <http://www.w3.org/2004/02/skos/core#altLabel> "Strathlethan Sandstone Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MIGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Millstone Grit Group [See Also MIGR]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANGI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NGPA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARFS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone with subsidiary conglomerate and mudstone. Stratified bedrock. Occurs onshore. Deposited during the Tournaisian Age - to - Visean Age (Carboniferous Period) (359.3-330.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNWL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Visean Age (Carboniferous Period) (346.7-330.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHLM> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2938> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYRD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TSH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSL> .
