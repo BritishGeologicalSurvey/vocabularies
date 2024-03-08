@@ -1,37 +1,98 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use -2703]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use FRLI] Limestone, sandstone, mudstone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRLI> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRLI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://www.w3.org/2000/01/rdf-schema#label> "Carboniferous Limestone (Series) [Duplicate: use -2703]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://www.w3.org/2000/01/rdf-schema#label> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> <http://www.w3.org/2000/01/rdf-schema#label> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://www.w3.org/2000/01/rdf-schema#label> "Orton Group [Obsolete: use FRLI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFS> <http://www.w3.org/2004/02/skos/core#altLabel> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CKN> <http://www.w3.org/2004/02/skos/core#altLabel> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWYD> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FRLI> <http://www.w3.org/2004/02/skos/core#altLabel> "Orton Group [Obsolete: use FRLI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone (Series) [Duplicate: use -2703]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://www.w3.org/2004/02/skos/core#altLabel> "Clackmannan Group"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> <http://www.w3.org/2004/02/skos/core#altLabel> "Clackmannan Group"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MARR> <http://www.w3.org/2004/02/skos/core#altLabel> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MORRI> <http://www.w3.org/2004/02/skos/core#altLabel> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://www.w3.org/2004/02/skos/core#altLabel> "Frizington Limestone Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKLM> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Limestone, mudstone and sandstone with subsidiary siltstone and trace coal. Stratified bedrock. Occurs onshore. Deposited during the Chadian Substage - to - Holkerian Substage (Carboniferous Period) (346.7-337 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1232> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carboniferous Limestone (Series) [Duplicate: use -2703]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2703> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carboniferous Limestone Series [Obsolete: use CKN, CLWYD, PKLM]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3919> <http://www.w3.org/2004/02/skos/core#prefLabel> "Millstone Grit Series [Obsolete: use CFS, CKN, MARR, MORRI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orton Group [Obsolete: use FRLI]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCLB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PENDL] A medium- to thickly-bedded, brownish grey, medium- to coarse-grained sandstone and pebbly sandstone, which is massive to coarse bedded; beds of siltstone can occur throughout and locally coals are developed. The unit is interpreted as a delta top sandstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CRNS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use URO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SCPT] Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PKL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use MASA] Conglomerate, sandstones, siltstones and mudstones with subordinate evaporites, presumed of terrigenous origin in lower part (Duddon Conglomerates). Upper part of limestones and siltstones, mostly red with interbedded conglomerates; all presumed of marine origin."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use LM6] Mudstone and siltstone with subsidiary sandstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LM6> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENDL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCPT> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "From 75 to 100 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 165 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENDL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LM6> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCPT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://www.w3.org/2000/01/rdf-schema#label> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2000/01/rdf-schema#label> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2000/01/rdf-schema#label> "Cornstone Beds [Duplicate: use CRNS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2000/01/rdf-schema#label> "Oil Shale Group, Upper [Duplicate: use URO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2000/01/rdf-schema#label> "Kettlewell Crag Member [Obsolete: use PKL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2000/01/rdf-schema#label> "Low Furness Basal Formation [Obsolete: use MASA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2000/01/rdf-schema#label> "Sixth Shale Member [Obsolete: use LM6]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2000/01/rdf-schema#label> "Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGRT> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMSC> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRNS> <http://www.w3.org/2004/02/skos/core#altLabel> "Cornstone Beds [Duplicate: use CRNS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#altLabel> "Pendleton Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1558> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2004/02/skos/core#altLabel> "Cornstone Beds (of Stirling Area) [Obsolete: use KNW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Oil Shale Group [Obsolete: use SYG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarlett Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://www.w3.org/2004/02/skos/core#altLabel> "Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3812> <http://www.w3.org/2004/02/skos/core#altLabel> "Low Furness Basal Formation [Obsolete: use MASA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Oil Shale Group [Obsolete: use SYG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#altLabel> "Park Limestone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2004/02/skos/core#altLabel> "Marsett Sandstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LM6> <http://www.w3.org/2004/02/skos/core#altLabel> "Sixth Shale Member [Obsolete: use LM6]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Low Furness Basal Formation [Obsolete: use MASA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENDL> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKL> <http://www.w3.org/2004/02/skos/core#altLabel> "Kettlewell Crag Member [Obsolete: use PKL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCLB> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarlett and Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCPT> <http://www.w3.org/2004/02/skos/core#altLabel> "Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2004/02/skos/core#altLabel> "Sixth Limestone (Cumbria)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarlett Point Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#altLabel> "Scarlett and Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> <http://www.w3.org/2004/02/skos/core#altLabel> "Hopetoun Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/URO> <http://www.w3.org/2004/02/skos/core#altLabel> "Oil Shale Group, Upper [Duplicate: use URO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandstone with subsidiary pebbly (gravelly) sandstone and siltstone and trace coal. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Holkerian Substage (Carboniferous Period) (343-337 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Conglomerate, sandstone and siltstone with subsidiary non-carbonate salt-rock. Stratified bedrock. Occurs onshore. Deposited during the Courceyan Substage - to - Chadian Substage (Carboniferous Period) (359.3-344.5 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Mudstone and siltstone with subsidiary sandstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> .
++<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coal Measures Group [N Ireland only]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grassington Grit [Obsolete: use PENDL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornstone Beds [Duplicate: use CRNS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oil Shale Group, Upper [Duplicate: use URO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kettlewell Crag Member [Obsolete: use PKL]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Low Furness Basal Formation [Obsolete: use MASA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sixth Shale Member [Obsolete: use LM6]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strandhall Beds [Obsolete: use SCPT]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
