@@ -1,64 +1,104 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A medium- to thickly-bedded, brownish grey, medium- to coarse-grained sandstone and pebbly sandstone, which is massive to coarse bedded; beds of siltstone can occur throughout and locally coals are developed. The unit is interpreted as a delta top sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use KNW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use HON]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SCPT]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Conglomerate, sandstones, siltstones and mudstones with subordinate evaporites, presumed of terrigenous origin in lower part (Duddon Conglomerates). Upper part of limestones and siltstones, mostly red with interbedded conglomerates; all presumed of marine origin."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mudstone and siltstone with subsidiary sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "From 75 to 100m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 165m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNW> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://www.w3.org/2000/01/rdf-schema#label> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2000/01/rdf-schema#label> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2000/01/rdf-schema#label> "Cornstone Beds [Obsolete: use KNW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2000/01/rdf-schema#label> "Oil Shale Group, Upper [Obsolete: use HON]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2000/01/rdf-schema#label> "Kettlewell Crag Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2000/01/rdf-schema#label> "Low Furness Basal Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2000/01/rdf-schema#label> "Sixth Shale Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2000/01/rdf-schema#label> "Strandhall Beds"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGRT> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRNG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMSC> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1558> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2004/02/skos/core#altLabel> "Kinnesswood Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2004/02/skos/core#altLabel> "Hopetoun Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3812> <http://www.w3.org/2004/02/skos/core#altLabel> "Low Furness Basal Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4355> <http://www.w3.org/2004/02/skos/core#altLabel> "South Wales Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HON> <http://www.w3.org/2004/02/skos/core#altLabel> "Oil Shale Group, Upper [Obsolete: use HON]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KNW> <http://www.w3.org/2004/02/skos/core#altLabel> "Cornstone Beds [Obsolete: use KNW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LMCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Coal Measures [Obsolete: use COME]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWG> <http://www.w3.org/2004/02/skos/core#altLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENDL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTNL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone with subsidiary pebbly (gravelly) sandstone and siltstone and trace coal. Stratified bedrock. Occurs onshore. Deposited during the Pendleian Substage (Carboniferous Period) (330.3-327 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3021> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Holkerian Substage (Carboniferous Period) (343-337 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate, sandstone and siltstone with subsidiary non-carbonate salt-rock. Stratified bedrock. Occurs onshore. Deposited during the Courceyan Substage - to - Chadian Substage (Carboniferous Period) (359.3-344.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and siltstone with subsidiary sandstone. Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTNL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PENDL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PKL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coal Measures Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grassington Grit"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornstone Beds [Obsolete: use KNW]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2246> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oil Shale Group, Upper [Obsolete: use HON]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kettlewell Crag Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Low Furness Basal Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sixth Shale Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strandhall Beds"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KECR> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFSB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SH6> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S419> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S73> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNML> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S419> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNML> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S73> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1896> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4247> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PDO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CL] Obsolete term. Rocks formerly assigned to 'Carboniferous Limestone' are now assigned to Carboniferous Limestone Supergroup or to one of its component groups. Waters et al., 2009."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use OHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone, pale orange-brown, coarse- to very coarse-grained, very thick-bedded; typically low-angle tabular planar-bedded; feeble parallel laminations; sporadic trough cross-stratification. NOTE: Nottage Crag Grit is a very prominent feature-forming delta top sandstone within a siltstone/fine-grained sandstone interbedded, slumped delta slope formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fine- to very coarse-grained sandstone with thin coals and seatearths.Trough cross-bedding in sets up to 0.5m thick. Planar cross-bedding, small-scale cut-and-fill structures, syndepositional faults and slump structures have been recorded."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPEM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OHL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFOS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 55m (in Bentham Station Borehole SD66NE/1); generally less than 10m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OHL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELF> <http://www.w3.org/2000/01/rdf-schema#label> "Eglwyseg Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1896> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Pennant Sandstones [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4247> <http://www.w3.org/2000/01/rdf-schema#label> "Llandyfan Limestone [Obsolete: use PDO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> <http://www.w3.org/2000/01/rdf-schema#label> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> <http://www.w3.org/2000/01/rdf-schema#label> "Mynydd-Y-Garreg Limestone [Obsolete: use OHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> <http://www.w3.org/2000/01/rdf-schema#label> "Silver Hills Sandstone Formation [Obsolete: use SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYGL> <http://www.w3.org/2000/01/rdf-schema#label> "Mynydd-Y-Gareg Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYFL> <http://www.w3.org/2000/01/rdf-schema#label> "Ochr-Y-Foel Limestone Formation [Obsolete: use LNML]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <http://www.w3.org/2000/01/rdf-schema#label> "Traeth Bychan Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <http://www.w3.org/2000/01/rdf-schema#label> "Trefor Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> <http://www.w3.org/2000/01/rdf-schema#label> "Llysfaen Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> <http://www.w3.org/2000/01/rdf-schema#label> "Great Orme Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <http://www.w3.org/2000/01/rdf-schema#label> "Silver Hills Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNL> <http://www.w3.org/2000/01/rdf-schema#label> "Ty-Nant Limestone Formation [Obsolete: use LEEL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPEM> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Pennant Measures [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> <http://www.w3.org/2004/02/skos/core#altLabel> "Traeth Bychan Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFML> <http://www.w3.org/2004/02/skos/core#altLabel> "Trefor Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CL> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLHD> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLWD> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1188> <http://www.w3.org/2004/02/skos/core#altLabel> "Silver Hills Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3038> <http://www.w3.org/2004/02/skos/core#altLabel> "Silver Hills Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> <http://www.w3.org/2004/02/skos/core#altLabel> "Oxwich Head Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> <http://www.w3.org/2004/02/skos/core#altLabel> "Silsden Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHO> <http://www.w3.org/2004/02/skos/core#altLabel> "Silver Hills Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOHI> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYBH> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JPLS> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEEL> <http://www.w3.org/2004/02/skos/core#altLabel> "Ty-Nant Limestone Formation [Obsolete: use LEEL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Eglwyseg Limestone [Obsolete: use LGHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Great Orme Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LGHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Llandulas Limestone [Obsolete: use LGHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNML> <http://www.w3.org/2004/02/skos/core#altLabel> "Llysfaen Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LNML> <http://www.w3.org/2004/02/skos/core#altLabel> "Ochr-Y-Foel Limestone Formation [Obsolete: use LNML]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OHL> <http://www.w3.org/2004/02/skos/core#altLabel> "Mynydd-Y-Garreg Limestone [Obsolete: use OHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PDO> <http://www.w3.org/2004/02/skos/core#altLabel> "Llandyfan Limestone [Obsolete: use PDO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEMB> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PES> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Pennant Measures [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PES> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Pennant Sandstones [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <http://www.w3.org/2004/02/skos/core#altLabel> "Cefn Mawr Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <http://www.w3.org/2004/02/skos/core#altLabel> "Cefn Mawr Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S419> <http://www.w3.org/2004/02/skos/core#altLabel> "Loggerheads Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S73> <http://www.w3.org/2004/02/skos/core#altLabel> "Loggerheads Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S907> <http://www.w3.org/2004/02/skos/core#altLabel> "Ty-Nant Limestone Formation [Obsolete: use LEEL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> <http://www.w3.org/2004/02/skos/core#altLabel> "Silver Hills Sandstone Formation [Obsolete: use SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SYLV> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRLI> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VIFM> <http://www.w3.org/2004/02/skos/core#altLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Asbian Substage (Carboniferous Period) (337-330.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYGL> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Brigantian Substage (Carboniferous Period) (330.9-330.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone with subsidiary seat-earth sandstone and trace coal and mudstone. Stratified bedrock. Occurs onshore. Deposited during the Arnsbergian Substage (Carboniferous Period) (327-323.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SILS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eglwyseg Limestone Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1896> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Pennant Sandstones [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4247> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llandyfan Limestone [Obsolete: use PDO]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4550> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carboniferous Limestone [Obsolete: use CL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4825> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mynydd-Y-Garreg Limestone [Obsolete: use OHL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silver Hills Sandstone Formation [Obsolete: use SILS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYGL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mynydd-Y-Gareg Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OYFL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ochr-Y-Foel Limestone Formation [Obsolete: use LNML]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <http://www.w3.org/2004/02/skos/core#prefLabel> "Traeth Bychan Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trefor Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> <http://www.w3.org/2004/02/skos/core#prefLabel> "Llysfaen Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> <http://www.w3.org/2004/02/skos/core#prefLabel> "Great Orme Limestone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silver Hills Sandstone"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ty-Nant Limestone Formation [Obsolete: use LEEL]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UPEM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Pennant Measures [Obsolete: use PES]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELF> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MYGL> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S34> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S35> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S550> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S670> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLVS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
