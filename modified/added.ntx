@@ -1,30 +1,31 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PUCM, SWUCM, UCMS] Grey mudstone, siltstone and pale grey sandstone interbedded; coal seams common; no mudstones with marine fossils (marine bands) present."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWUCM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S907> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OUB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "1.8"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2828> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "100.5"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RPE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "430.6"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDCO> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMHL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDTN> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1494> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KING> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPRD> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEYS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Over 500 m in parts of the Outer Moray Firth area (e.g. 15/18-2, 15/19-4)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POPP> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The present land surface."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DGSM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWOF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACHT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFTMP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".126"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVLC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1487> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCAS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCOT> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TVS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWUCM> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Coal Measures Formation [Obsolete: use PUCM, SWUCM, UCMS]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PUCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Coal Measures Formation [Obsolete: use PUCM, SWUCM, UCMS]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SWUCM> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Coal Measures Formation [Obsolete: use PUCM, SWUCM, UCMS]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> <http://www.w3.org/2004/02/skos/core#altLabel> "South Wales Upper Coal Measures Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCMS> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Coal Measures Formation [Obsolete: use PUCM, SWUCM, UCMS]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Coal Measures Formation [Obsolete: use PUCM, SWUCM, UCMS]"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d788-37a8-e044-0003ba9b0d98> .
++<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d6a5-37a8-e044-0003ba9b0d98> .
++<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1282d7b7-c0cb-6ffd-e063-0937940aac66> .
++<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/12848bbf-4dce-15e2-e063-0937940a7db2> .
++<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/12867326-9a37-3866-e063-0937940aac05> .
++<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/13118904-28a2-1a66-e063-0937940a229c> .
++<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/13230bb5-01ff-25ce-e063-0937940a9100> .
++<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480426> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13603180> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608205> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608207> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608208> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608209> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608210> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "700 m intra caldera facies, 0-100 m outflow facies."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2000/01/rdf-schema#label> "Tal y Fan Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tal y Fan Volcanic Formation"@en .
