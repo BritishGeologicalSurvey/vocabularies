@@ -1,3 +1,37 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "700m intra caldera facies, 0-100m outflow facies"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2000/01/rdf-schema#label> "Tal Y Fan Volcanic Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tal Y Fan Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 340m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEVA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not specified."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POOL> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally at the erosional contact between the clays and silts of the Parkstone Clay Member and the overlying sands of the Branksome Sand Formation. in places the Branksome Sand Formation cuts down through the Parkstone Clay to rest on the sands of the Parkstone Sand Member."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWNO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACHSD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "149.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFTDD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1486> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBUE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PBLV> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNB> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASAG> <http://www.w3.org/2000/01/rdf-schema#label> "Aldeby Sand and Gravel Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2000/01/rdf-schema#label> "Braich Tu Du Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRSH> <http://www.w3.org/2000/01/rdf-schema#label> "Graptolite Shales"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHBS> <http://www.w3.org/2000/01/rdf-schema#label> "High Hazles And Brinsley Coal (Vale Of Belvoir)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2000/01/rdf-schema#label> "Pen-Ychain Rhyolitic Complex"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://www.w3.org/2000/01/rdf-schema#label> "Hooken Nodular Limestone Member [Obsolete: use BRHD]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWYP> <http://www.w3.org/2004/02/skos/core#altLabel> "Ben Wyvis Pelite [Obsolete: use BWYP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2812> <http://www.w3.org/2004/02/skos/core#altLabel> "Garn-gofen Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Basement Beds (North West) [Obsolete: use MASA]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands [Obsolete: use YWS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMT> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLV> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCOE> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2674> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THRI> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Braich Tu Du Volcanic Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-Ychain Rhyolitic Complex"@en .

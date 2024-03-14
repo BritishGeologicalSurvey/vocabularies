@@ -1,31 +1,42 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d788-37a8-e044-0003ba9b0d98> .
-+<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d6a5-37a8-e044-0003ba9b0d98> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1282d7b7-c0cb-6ffd-e063-0937940aac66> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/12848bbf-4dce-15e2-e063-0937940a7db2> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/12867326-9a37-3866-e063-0937940aac05> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/13118904-28a2-1a66-e063-0937940a229c> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/13230bb5-01ff-25ce-e063-0937940a9100> .
-+<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13480426> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13603180> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608205> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608207> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608208> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608209> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608210> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480426> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13603180> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608205> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608207> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608208> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608209> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608210> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "700 m intra caldera facies, 0-100 m outflow facies."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2000/01/rdf-schema#label> "Tal y Fan Volcanic Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYFV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tal y Fan Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 340 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEVA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not specified."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POOL> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally at the erosional contact between the clays and silts of the Parkstone Clay Member and the overlying sands of the Branksome Sand Formation. in places the Branksome Sand Formation cuts down through the Parkstone Clay to rest on the sands of the Parkstone Sand Member."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWNO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACHSD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "149.2"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFTDD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1486> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBUE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PBLV> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNB> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASAG> <http://www.w3.org/2000/01/rdf-schema#label> "Aldeby Sand and Gravel Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2000/01/rdf-schema#label> "Braich tu du Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRSH> <http://www.w3.org/2000/01/rdf-schema#label> "Graptolite Shales"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHBS> <http://www.w3.org/2000/01/rdf-schema#label> "High Hazles And Brinsley Coal (Vale Of Belvoir)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2000/01/rdf-schema#label> "Pen ychain Rhyolitic Complex"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://www.w3.org/2000/01/rdf-schema#label> "Hooken Nodular Limestone Member [Obsolete: use BRHD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWYP> <http://www.w3.org/2004/02/skos/core#altLabel> "Ben Wyvis Pelite [Obsolete: use BWYP]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2812> <http://www.w3.org/2004/02/skos/core#altLabel> "Garn-gofen Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Basement Beds (North West) [Obsolete: use MASA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands [Obsolete: use YWS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCOE> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2674> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THRI> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Braich tu du Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen ychain Rhyolitic Complex"@en .
