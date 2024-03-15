@@ -1,42 +1,103 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 340 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MEVA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not specified."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POOL> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally at the erosional contact between the clays and silts of the Parkstone Clay Member and the overlying sands of the Branksome Sand Formation. in places the Branksome Sand Formation cuts down through the Parkstone Clay to rest on the sands of the Parkstone Sand Member."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DGSL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/TC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MWNO> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACHSD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "149.2"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GFTDD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1486> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBUE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PBLV> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASAG> <http://www.w3.org/2000/01/rdf-schema#label> "Aldeby Sand and Gravel Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2000/01/rdf-schema#label> "Braich tu du Volcanic Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRSH> <http://www.w3.org/2000/01/rdf-schema#label> "Graptolite Shales"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHBS> <http://www.w3.org/2000/01/rdf-schema#label> "High Hazles And Brinsley Coal (Vale Of Belvoir)"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2000/01/rdf-schema#label> "Pen ychain Rhyolitic Complex"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S381> <http://www.w3.org/2000/01/rdf-schema#label> "Hooken Nodular Limestone Member [Obsolete: use BRHD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BWYP> <http://www.w3.org/2004/02/skos/core#altLabel> "Ben Wyvis Pelite [Obsolete: use BWYP]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2812> <http://www.w3.org/2004/02/skos/core#altLabel> "Garn-gofen Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MASA> <http://www.w3.org/2004/02/skos/core#altLabel> "Basement Beds (North West) [Obsolete: use MASA]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YWS> <http://www.w3.org/2004/02/skos/core#altLabel> "Yellow Sands [Obsolete: use YWS]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCOE> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2674> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LRA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THRI> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMT> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RAT> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWYN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SV> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Braich tu du Volcanic Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PCR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen ychain Rhyolitic Complex"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYP> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NHM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYP> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NHM> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use NHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use CYP]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use PGA] Spilitic pillow lavas with subordinate pyroclastic bands to the east and central parts of the Cader Idris Range and dominantly pyroclastic rocks to the west. (Correlative of Pen-Y-Gader Group = Upper Basic Volcanic Group)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SER]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SER> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SER> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNHL> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNHP> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ELTU> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OTSB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BARC> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SER> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SER> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFF> <http://www.w3.org/2000/01/rdf-schema#label> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYP> <http://www.w3.org/2000/01/rdf-schema#label> "Carn y Parc Formation [Obsolete: use CEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYN> <http://www.w3.org/2000/01/rdf-schema#label> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://www.w3.org/2000/01/rdf-schema#label> "Nant Hir Mudstones [Duplicate: use NHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://www.w3.org/2000/01/rdf-schema#label> "Carn-y-Parc Formation [Duplicate: use CYP]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3739> <http://www.w3.org/2000/01/rdf-schema#label> "Tyn-y-glyn Mudstone Member [Obsolete: use TYG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4016> <http://www.w3.org/2000/01/rdf-schema#label> "Dol-cyn-afon Member [Obsolete: use DYN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> <http://www.w3.org/2000/01/rdf-schema#label> "Nant Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4255> <http://www.w3.org/2000/01/rdf-schema#label> "Pen y Gader Volcanic Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://www.w3.org/2000/01/rdf-schema#label> "Nant Hir Formation [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> <http://www.w3.org/2000/01/rdf-schema#label> "Nant-Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> <http://www.w3.org/2000/01/rdf-schema#label> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://www.w3.org/2000/01/rdf-schema#label> "Pen y Gader Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://www.w3.org/2000/01/rdf-schema#label> "Serw Volcanic Formation [Obsolete: use SER]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWY> <http://www.w3.org/2000/01/rdf-schema#label> "Trwyn yr Wylfa Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYG> <http://www.w3.org/2000/01/rdf-schema#label> "Tyn-y-glyn Mudstone Formation [Obsolete: use NOG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AFO> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AFO> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGL> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CEI> <http://www.w3.org/2004/02/skos/core#altLabel> "Carn y Parc Formation [Obsolete: use CEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGU> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHN> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Hir Formation [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSW> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant-Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYP> <http://www.w3.org/2004/02/skos/core#altLabel> "Carn-y-Parc Formation [Duplicate: use CYP]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYN> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Member [Obsolete: use DYN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Hir Mudstone [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2162> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H222> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://www.w3.org/2004/02/skos/core#altLabel> "Carn y Parc Formation [Obsolete: use CEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2976> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3739> <http://www.w3.org/2004/02/skos/core#altLabel> "Tyn-y-glyn Mudstone Formation [Obsolete: use NOG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4016> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> <http://www.w3.org/2004/02/skos/core#altLabel> "Ceiswyn Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4255> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4629> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4630> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://www.w3.org/2004/02/skos/core#altLabel> "Ceiswyn Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NHM> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant Hir Mudstones [Duplicate: use NHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NOG> <http://www.w3.org/2004/02/skos/core#altLabel> "Tyn-y-glyn Mudstone Formation [Obsolete: use NOG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> <http://www.w3.org/2004/02/skos/core#altLabel> "Ceiswyn Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y Gader Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y Gader Volcanic Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://www.w3.org/2004/02/skos/core#altLabel> "Serw Formation [Obsolete: use BGL, RBVO]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SER> <http://www.w3.org/2004/02/skos/core#altLabel> "Serw Volcanic Formation [Obsolete: use SER]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCB> <http://www.w3.org/2004/02/skos/core#altLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYG> <http://www.w3.org/2004/02/skos/core#altLabel> "Tyn-y-glyn Mudstone Member [Obsolete: use TYG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UBV> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen y Gader Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Costonian Substage - to - Soudleyan Substage (Ordovician Period) (457.35-453.833 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Lava and pyroclastic-rock. Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage - to - Caradoc Series (Ordovician Period) (468-449.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig y Ffynnon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carn y Parc Formation [Obsolete: use CEI]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DYN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dol-cyn-afon Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2128> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant Hir Mudstones [Duplicate: use NHM]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carn-y-Parc Formation [Duplicate: use CYP]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3739> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tyn-y-glyn Mudstone Member [Obsolete: use TYG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dol-cyn-afon Member [Obsolete: use DYN]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4214> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4255> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen y Gader Volcanic Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant Hir Formation [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant-Hir Shales [Obsolete: use CSW]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen y gadair Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen y Gader Group [Obsolete: use PGA]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Serw Volcanic Formation [Obsolete: use SER]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TWY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trwyn yr Wylfa Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tyn-y-glyn Mudstone Formation [Obsolete: use NOG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAH> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYGA> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S17> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
