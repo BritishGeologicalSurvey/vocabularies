@@ -1,53 +1,9 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLLE> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RD> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S938> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S938> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RD> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Rubbly, massive to nodular limestone-calcrete palaeosol horizons."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use MMG, RDM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete] Red siltstones and mudstones with subordinate sandstones. Correlative of Red Marl Group is the Milford Haven Group."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red or green siltstones (marls). Red, sometimes nodular mudstones, very fine- to fine-grained, bright green or purple sandstones and intra-formational conglomerates. (Sandstone and Marl Group = division of Red Marls)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red, locally nodular, mudstones, fine- to very fine-grained sandstones and intraformational conglomerates: lithology represents fining up sequences (cyclothems)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLLE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "412.4"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLLE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "422.7"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLLE> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DP> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "410.5"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <http://www.w3.org/2000/01/rdf-schema#label> "Bishop's Frome Limestone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLF> <http://www.w3.org/2000/01/rdf-schema#label> "Clun Forest Formation [Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://www.w3.org/2000/01/rdf-schema#label> "Red Marl [Obsolete: use MMG, RDM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://www.w3.org/2000/01/rdf-schema#label> "Red Marl Group [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAM> <http://www.w3.org/2000/01/rdf-schema#label> "Sandstone And Marl Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMG> <http://www.w3.org/2000/01/rdf-schema#label> "Upper Marl Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCS> <http://www.w3.org/2004/02/skos/core#altLabel> "Clun Forest Formation [Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Marl Group [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMG> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Marl [Obsolete: use MMG, RDM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PAB> <http://www.w3.org/2004/02/skos/core#altLabel> "Clun Forest Formation [Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PSL> <http://www.w3.org/2004/02/skos/core#altLabel> "Bishop's Frome Limestone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RD> <http://www.w3.org/2004/02/skos/core#altLabel> "Raglan Marl Formation [Obsolete: use RG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Marl [Obsolete: use MMG, RDM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://www.w3.org/2004/02/skos/core#altLabel> "Clun Forest Formation [Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S938> <http://www.w3.org/2004/02/skos/core#altLabel> "Red Downtonian [Obsolete: use RG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <http://www.w3.org/2004/02/skos/core#definition> "Calcrete and limestone. Stratified bedrock. Occurs onshore. Deposited during the Silurian Period - to - Devonian Period (443.1-359.3 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYNL> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Pragian Age (Devonian Period) (412.4-410.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOCL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pridoli Epoch (Silurian Period) - to - Lochkovian Age (Devonian Period) (422.7-412.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PLLE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pridoli Epoch (Silurian Period) (422.7-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAM> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous mudstone, conglomerate, mudstone, sandstone and siltstone. Stratified bedrock. Occurs onshore. Deposited during the Lochkovian Age - to - Pragian Age (Devonian Period) (419-410.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMG> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate, mudstone and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Pragian Age (Devonian Period) (412.4-410.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bishop's Frome Limestone Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clun Forest Formation [Obsolete: use DCS, RG, RTY]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4292> <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Marl [Obsolete: use MMG, RDM]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Red Marl Group [Obsolete]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandstone And Marl Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Marl Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BFLS> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAM> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UMG> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OLG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gabbro."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.200m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "422.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALBS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ludlow Epoch - to - Pridoli Epoch (Silurian Period) (426.7-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pridoli Epoch (Silurian Period) (422.7-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ludlow Epoch (Silurian Period) (426.7-422.7 Ma BP)."@en .
