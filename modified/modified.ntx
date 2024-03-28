@@ -1,9 +1,4 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OLG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gabbro."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.200m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SU> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "422.7"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALBS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ludlow Epoch - to - Pridoli Epoch (Silurian Period) (426.7-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FWE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Pridoli Epoch (Silurian Period) (422.7-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRB> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ludlow Epoch (Silurian Period) (426.7-422.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/dataHolding/13480406> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d77d-37a8-e044-0003ba9b0d98> .
+-<http://data.bgs.ac.uk/id/dataHolding/13480406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/dataHolding/13480406> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
+-<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480406> .
