@@ -5,8 +5,8 @@ stages:
 generate_version:
   stage: prepare
   script:
-    - chmod +x generate_version.sh
-    - generate_version.sh  # Call the script
+    - chmod +x ./generate_version.sh 
+    - ./generate_version.sh  # Call the script
   only:
     - main  # Or your release branch  
 
