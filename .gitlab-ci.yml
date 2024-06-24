@@ -4,8 +4,8 @@ stages:
 
 generate_version:
   stage: prepare
-  only:
-    - main
+  rules:
+    - if: '$SCHEDULE_TYPE == "release"'
   script:
     - chmod +x generate_version.sh  # Set executable permissions
     - source ./generate_version.sh      # Call the script
@@ -17,16 +17,12 @@ generate_version:
   
 
 release:
-  # Caution, as of 2021-02-02 these assets links require a login, see:
-  # https://gitlab.com/gitlab-org/gitlab/-/issues/299384
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
-  # rules:
-  #   - if: '$SCHEDULE_TYPE == "release"'
-  variables:
-    VERSION: $(cat version.txt)
+  rules:
+    - if: '$SCHEDULE_TYPE == "release"'
+  needs: ["generate_version"]  
   script:
-    # - VERSION=$(cat version.txt)
     - echo "$VERSION"  # Output is: 'value_from_generate_version'
     - echo "running release_job for BGS Vocablaries ${VERSION}"  
   release:  
