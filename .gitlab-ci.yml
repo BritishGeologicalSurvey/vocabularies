@@ -10,10 +10,10 @@ generate_version:
     - chmod +x generate_version.sh  # Set executable permissions
     - source ./generate_version.sh      # Call the script
     - echo "Release will be version - ${VERSION}"
-    - echo ${VERSION} > version.txt
-  artifacts: 
-   paths: 
-      - version.txt  
+    - echo "VERSION=${VERSION}" >> build.env
+  artifacts:
+    reports:
+      dotenv: build.env 
   
 
 release:
@@ -27,6 +27,7 @@ release:
     VERSION: $(cat version.txt)
   script:
     # - VERSION=$(cat version.txt)
+    - echo "$VERSION"  # Output is: 'value_from_generate_version'
     - echo "running release_job for BGS Vocablaries ${VERSION}"  
   release:  
     tag_name: ${VERSION}
