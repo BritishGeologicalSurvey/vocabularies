@@ -4,6 +4,15 @@ This repository hosts the datasets of BGS controlled vocabularies in Linked Open
 Content is updated nightly.
 The data is stored in BGS's own triplestore and is made available from there through an API at https://data.bgs.ac.uk, with user interface HTML pages also provided for some of the schemes.
 
+## Versioning / Releases
+
+Prior to the creation of this repository releases of vocablaries was a manual process. There are 2 previous released versions of the BGS Lexicon: 
+
+- September 2017 - http://data.bgs.ac.uk/id/dataHolding/13607204 
+- April 2019 - http://data.bgs.ac.uk/id/dataHolding/13607461 
+
+Starting July 2024 versioned releases are made every 3 months on the 15th on the month using calender versioning eg 2024.07. 
+
 ## Repository Contents
 
 `625KGeologyMap_all.nt` BGS Geology 625k (DiGMapGB -625) contains the triples for the map features; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
