@@ -23,10 +23,12 @@ release:
   image: registry.gitlab.com/gitlab-org/release-cli:latest
   # rules:
   #   - if: '$SCHEDULE_TYPE == "release"'
+  variables:
+    VERSION: $(cat version.txt)
   script:
-    - VERSION=$(cat version.txt)
+    # - VERSION=$(cat version.txt)
     - echo "running release_job for BGS Vocablaries ${VERSION}"  
-  release:
+  release:  
     tag_name: ${VERSION}
     name: 'BGS Vocablaries ${VERSION}'
     description: 'Snapshot of BGS Vocablaries on ${VERSION}.15.'
