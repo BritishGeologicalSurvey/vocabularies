@@ -7,7 +7,7 @@ set -e
 set -x 
 
 CURRENT_DATE=$(date +%Y.%m)
-VERSION="BGS Vocablaries $CURRENT_DATE"
+VERSION="$CURRENT_DATE"
 
 echo "Generated release version: $VERSION"
 echo $VERSION  # Output the version for use in other commands
