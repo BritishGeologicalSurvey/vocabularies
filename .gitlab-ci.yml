@@ -1,9 +1,11 @@
 stages:
+  - prepare
   - release
 
 generate_version:
-  stage: release
+  stage: prepare
   script:
+    - chmod +x ./generate_version.sh
     - ./generate_version.sh  # Call the script
   only:
     - main  # Or your release branch  
@@ -16,5 +18,8 @@ release:
   rules:
     - if: '$SCHEDULE_TYPE == "release"'
   script:
-    - |
-      release-cli create --name "BGS Vocablaries $VERSION" --tag-name $VERSION \
+    - echo "running release_job for $TAG"  
+  release:
+    tag_name: $VERSION
+    name: 'BGS Vocablarie $VERSION'
+    description: 'Release created using the release-cli.'
