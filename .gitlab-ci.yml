@@ -27,6 +27,6 @@ release:
     - VERSION=$(cat version.txt)
     - echo "running release_job for BGS Vocablaries ${VERSION}"  
   release:
-    tag_name: $VERSION
-    name: 'BGS Vocablaries $VERSION'
+    tag_name: ${VERSION}
+    name: 'BGS Vocablaries ${VERSION}'
     description: 'Snapshot of BGS Vocablaries on ${VERSION}.15.'
