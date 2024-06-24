@@ -1,7 +1,9 @@
 # BGS Vocabularies
 
 This repository hosts the datasets of BGS controlled vocabularies in Linked Open Data form, serialised as N-Triples, for the purposes of bulk download for loading into a graph database/triplestore, and for publicly exposing the version history of the vocabularies.
+
 Content is updated nightly.
+
 The data is stored in BGS's own triplestore and is made available from there through an API at https://data.bgs.ac.uk, with user interface HTML pages also provided for some of the schemes.
 
 ## Versioning / Releases
