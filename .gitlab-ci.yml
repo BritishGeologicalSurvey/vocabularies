@@ -18,5 +18,3 @@ release:
   script:
     - |
       release-cli create --name "BGS Vocablaries $VERSION" --tag-name $VERSION \
-  depends_on:
-    - generate_version
