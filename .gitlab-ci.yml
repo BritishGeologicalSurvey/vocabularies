@@ -4,12 +4,17 @@ stages:
 
 generate_version:
   stage: prepare
+  only:
+    - main
   script:
     - chmod +x generate_version.sh  # Set executable permissions
     - source ./generate_version.sh      # Call the script
     - echo "Release will be version - ${VERSION}"
-  only:
-    - main
+    - echo ${VERSION} > version.txt
+  artifacts: 
+   paths: 
+      - version.txt  
+  
 
 release:
   # Caution, as of 2021-02-02 these assets links require a login, see:
@@ -19,9 +24,7 @@ release:
   # rules:
   #   - if: '$SCHEDULE_TYPE == "release"'
   script:
-    - chmod +x generate_version.sh  # Set executable permissions
-    - source ./generate_version.sh      # Call the script
-    - echo "Release will be version - BGS Vocablaries ${VERSION}"
+    - VERSION=$(cat version.txt)
     - echo "running release_job for BGS Vocablaries ${VERSION}"  
   release:
     tag_name: $VERSION
