@@ -1,0 +1,22 @@
+stages:
+  - release
+
+generate_version:
+  stage: release
+  script:
+    - ./generate_version.sh  # Call the script
+  only:
+    - main  # Or your release branch  
+
+release:
+  # Caution, as of 2021-02-02 these assets links require a login, see:
+  # https://gitlab.com/gitlab-org/gitlab/-/issues/299384
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: '$SCHEDULE_TYPE == "release"'
+  script:
+    - |
+      release-cli create --name "BGS Vocablaries $VERSION" --tag-name $VERSION \
+  depends_on:
+    - generate_version
