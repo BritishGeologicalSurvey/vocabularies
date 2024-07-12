@@ -1,16 +1,148 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608251> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1bc67d21-8ee3-7445-e063-0937940aeb0a> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608252> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1be131b6-431d-5f2e-e063-0937940a2241> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608254> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1cd1d955-9bf7-74ed-e063-0937940a651f> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608256> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/1ce5803f-d187-4c23-e063-0937940af4c2> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608251> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608252> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608254> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608256> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608251> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608252> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608254> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608256> .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CAMU> <http://www.w3.org/2000/01/rdf-schema#label> "Calcareous mud [Obsolete code: use MA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2000/01/rdf-schema#label> "Clay [Obsolete code: use C]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLGV> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey gravel [Obsolete code: use VC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSA> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey sand [Obsolete code: use SC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSGV> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy clayey gravel [Obsolete code: use VCS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shell clay [Obsolete code: use CH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLYGV> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly clay [Obsolete code: use CV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/COBLE> <http://www.w3.org/2000/01/rdf-schema#label> "Cobble [Obsolete code: use L]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/FLGRAV> <http://www.w3.org/2000/01/rdf-schema#label> "Flinty gravel [Obsolete code: use VFLY]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2000/01/rdf-schema#label> "Gravel [Obsolete code: use V]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVMSDU> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly muddy sand [Obsolete code: use SVM or SMV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVMUDU> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly mud [Obsolete code: use MV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSLTY> <http://www.w3.org/2000/01/rdf-schema#label> "Silty gravel [Obsolete code: use VZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSMDU> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly sandy mud [Obsolete code: use MVS or MSV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSNDU> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly sand [Obsolete code: use SV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MDGV> <http://www.w3.org/2000/01/rdf-schema#label> "Muddy gravel [Obsolete code: use VM]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MDSHL> <http://www.w3.org/2000/01/rdf-schema#label> "Shell mud [Obsolete code: use MH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> <http://www.w3.org/2000/01/rdf-schema#label> "Mud [Obsolete code: use M]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SACL> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy clay [Obsolete code: use CS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2000/01/rdf-schema#label> "Sand [Obsolete code: use S]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SDYGV> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy gravel [Obsolete code: use VS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SICL> <http://www.w3.org/2000/01/rdf-schema#label> "Silty clay [Obsolete code: use CZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2000/01/rdf-schema#label> "Silt [Obsolete code: use Z]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SISH> <http://www.w3.org/2000/01/rdf-schema#label> "Shell silt [Obsolete code: use ZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SISND> <http://www.w3.org/2000/01/rdf-schema#label> "Silty sand [Obsolete code: use SZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTCLY> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey silt [Obsolete code: use ZC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTGV> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly silt [Obsolete code: use ZV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTSDY> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy silt [Obsolete code: use ZS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SNDGVI> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy gravel (unknown/industrial) [Obsolete code: use VS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SNSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shell sand [Obsolete code: use SH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XBGR> <http://www.w3.org/2000/01/rdf-schema#label> "Granite boulders [UDCS-X] [Obsolete code: use BGR]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCA> <http://www.w3.org/2000/01/rdf-schema#label> "Calcareous clay [UDCS-X] [Obsolete code: use CA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCAS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy calcareous clay [UDCS-X] [Obsolete code: use CAS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly clay [UDCS-X] [Obsolete code: use CH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCHS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy shelly clay [UDCS-X] [Obsolete code: use CHS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCOS> <http://www.w3.org/2000/01/rdf-schema#label> "Coarse-sand [UDCS-X] [Obsolete code: use COS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSA> <http://www.w3.org/2000/01/rdf-schema#label> "Calcareous sandy clay [UDCS-X] [Obsolete code: use CSA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly sandy clay [UDCS-X] [Obsolete code: use CSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravelly sandy clay [UDCS-X] [Obsolete code: use CSVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravelly clay [UDCS-X] [Obsolete code: use CVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCVSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly sandy gravelly clay [UDCS-X] [Obsolete code: use CVSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XFIS> <http://www.w3.org/2000/01/rdf-schema#label> "Fine-sand [UDCS-X] [Obsolete code: use FIS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XH> <http://www.w3.org/2000/01/rdf-schema#label> "Shells [UDCS-X] [Obsolete code: use H]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHC> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey shells [UDCS-X] [Obsolete code: use HC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHSC> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey sandy shells [UDCS-X] [Obsolete code: use HSC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHSZ> <http://www.w3.org/2000/01/rdf-schema#label> "Silty sandy shells [UDCS-X] [Obsolete code: use HSZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHZ> <http://www.w3.org/2000/01/rdf-schema#label> "Silty shells [UDCS-X] [Obsolete code: use HZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XM> <http://www.w3.org/2000/01/rdf-schema#label> "Mud [UDCS-X] [Obsolete code: use M]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XMES> <http://www.w3.org/2000/01/rdf-schema#label> "Medium-sand [UDCS-X] [Obsolete code: use MES]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XMS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy mud [UDCS-X] [Obsolete code: use MS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSCVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravelly clayey sand [UDCS-X] [Obsolete code: use SCVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly sand [UDCS-X] [Obsolete code: use SH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSHC> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey shelly sand [UDCS-X] [Obsolete code: use SHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSHZ> <http://www.w3.org/2000/01/rdf-schema#label> "Silty shelly sand [UDCS-X] [Obsolete code: use SHZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravelly sand [UDCS-X] [Obsolete code: use SVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVHC> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey shelly gravelly sand [UDCS-X] [Obsolete code: use SVHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVZH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly silty gravelly sand [UDCS-X] [Obsolete code: use SVZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZA> <http://www.w3.org/2000/01/rdf-schema#label> "Calcareous silty sand [UDCS-X] [Obsolete code: use SZA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly silty sand [UDCS-X] [Obsolete code: use SZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravelly silty sand [UDCS-X] [Obsolete code: use SZVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVCH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly clayey gravel [UDCS-X] [Obsolete code: use VCH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVFLY> <http://www.w3.org/2000/01/rdf-schema#label> "Flinty gravel [UDCS-X] [Obsolete code: use VFLY]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly gravel [UDCS-X] [Obsolete code: use VH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVHC> <http://www.w3.org/2000/01/rdf-schema#label> "Clayey shelly gravel [UDCS-X] [Obsolete code: use VHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVLSR> <http://www.w3.org/2000/01/rdf-schema#label> "Limestone-rich gravel [UDCS-X] [Obsolete code: use VLSR]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly sandy gravel [UDCS-X] [Obsolete code: use VSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVZH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly silty gravel [UDCS-X] [Obsolete code: use VZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZAS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy calcareous silt [UDCS-X] [Obsolete code: use ZAS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZCH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly clayey silt [UDCS-X] [Obsolete code: use ZCH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly silt [UDCS-X] [Obsolete code: use ZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZHS> <http://www.w3.org/2000/01/rdf-schema#label> "Sandy shelly silt [UDCS-X] [Obsolete code: use ZHS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZHV> <http://www.w3.org/2000/01/rdf-schema#label> "Gravelly shelly silt [UDCS-X] [Obsolete code: use ZHV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZSA> <http://www.w3.org/2000/01/rdf-schema#label> "Calcareous sandy silt [UDCS-X] [Obsolete code: use ZSA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZSH> <http://www.w3.org/2000/01/rdf-schema#label> "Shelly sandy silt [UDCS-X] [Obsolete code: use ZSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CAMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous mud [Obsolete code: use MA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clay [Obsolete code: use C]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey gravel [Obsolete code: use VC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey sand [Obsolete code: use SC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy clayey gravel [Obsolete code: use VCS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shell clay [Obsolete code: use CH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLYGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly clay [Obsolete code: use CV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/COBLE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cobble [Obsolete code: use L]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/FLGRAV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flinty gravel [Obsolete code: use VFLY]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravel [Obsolete code: use V]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVMSDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly muddy sand [Obsolete code: use SVM or SMV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVMUDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly mud [Obsolete code: use MV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSLTY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty gravel [Obsolete code: use VZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSMDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly sandy mud [Obsolete code: use MVS or MSV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GVSNDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly sand [Obsolete code: use SV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MDGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Muddy gravel [Obsolete code: use VM]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MDSHL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shell mud [Obsolete code: use MH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mud [Obsolete code: use M]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SACL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy clay [Obsolete code: use CS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sand [Obsolete code: use S]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SDYGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy gravel [Obsolete code: use VS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SICL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty clay [Obsolete code: use CZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silt [Obsolete code: use Z]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SISH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shell silt [Obsolete code: use ZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SISND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty sand [Obsolete code: use SZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTCLY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey silt [Obsolete code: use ZC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTGV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly silt [Obsolete code: use ZV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SLTSDY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy silt [Obsolete code: use ZS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SNDGVI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy gravel (unknown/industrial) [Obsolete code: use VS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SNSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shell sand [Obsolete code: use SH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XBGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Granite boulders [UDCS-X] [Obsolete code: use BGR]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous clay [UDCS-X] [Obsolete code: use CA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy calcareous clay [UDCS-X] [Obsolete code: use CAS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly clay [UDCS-X] [Obsolete code: use CH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCHS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy shelly clay [UDCS-X] [Obsolete code: use CHS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCOS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coarse-sand [UDCS-X] [Obsolete code: use COS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous sandy clay [UDCS-X] [Obsolete code: use CSA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly sandy clay [UDCS-X] [Obsolete code: use CSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCSVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravelly sandy clay [UDCS-X] [Obsolete code: use CSVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravelly clay [UDCS-X] [Obsolete code: use CVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XCVSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly sandy gravelly clay [UDCS-X] [Obsolete code: use CVSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XFIS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fine-sand [UDCS-X] [Obsolete code: use FIS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shells [UDCS-X] [Obsolete code: use H]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey shells [UDCS-X] [Obsolete code: use HC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHSC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey sandy shells [UDCS-X] [Obsolete code: use HSC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHSZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty sandy shells [UDCS-X] [Obsolete code: use HSZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XHZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty shells [UDCS-X] [Obsolete code: use HZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mud [UDCS-X] [Obsolete code: use M]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XMES> <http://www.w3.org/2004/02/skos/core#prefLabel> "Medium-sand [UDCS-X] [Obsolete code: use MES]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy mud [UDCS-X] [Obsolete code: use MS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSCVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravelly clayey sand [UDCS-X] [Obsolete code: use SCVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly sand [UDCS-X] [Obsolete code: use SH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey shelly sand [UDCS-X] [Obsolete code: use SHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSHZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silty shelly sand [UDCS-X] [Obsolete code: use SHZ]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravelly sand [UDCS-X] [Obsolete code: use SVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey shelly gravelly sand [UDCS-X] [Obsolete code: use SVHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSVZH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly silty gravelly sand [UDCS-X] [Obsolete code: use SVZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous silty sand [UDCS-X] [Obsolete code: use SZA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly silty sand [UDCS-X] [Obsolete code: use SZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XSZVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravelly silty sand [UDCS-X] [Obsolete code: use SZVH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly clayey gravel [UDCS-X] [Obsolete code: use VCH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVFLY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flinty gravel [UDCS-X] [Obsolete code: use VFLY]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly gravel [UDCS-X] [Obsolete code: use VH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVHC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clayey shelly gravel [UDCS-X] [Obsolete code: use VHC]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVLSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Limestone-rich gravel [UDCS-X] [Obsolete code: use VLSR]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly sandy gravel [UDCS-X] [Obsolete code: use VSH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XVZH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly silty gravel [UDCS-X] [Obsolete code: use VZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZAS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy calcareous silt [UDCS-X] [Obsolete code: use ZAS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly clayey silt [UDCS-X] [Obsolete code: use ZCH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly silt [UDCS-X] [Obsolete code: use ZH]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZHS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandy shelly silt [UDCS-X] [Obsolete code: use ZHS]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZHV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gravelly shelly silt [UDCS-X] [Obsolete code: use ZHV]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous sandy silt [UDCS-X] [Obsolete code: use ZSA]"@en .
++<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/XZSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shelly sandy silt [UDCS-X] [Obsolete code: use ZSH]"@en .
