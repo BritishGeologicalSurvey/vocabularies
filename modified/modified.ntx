@@ -1,4 +1,32 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BO> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Taken at gradational junction of sparsely crinoidal dolomite of underlying Black Rock Limestone Subgroup and the ooidal limestone [locally dolomitised] of the Burrington Oolite Subgroup.  In the eastern Mendip Hills, taken at the incoming of the ooidal limestones above the coarse crinoidal limestones of the Vallis Limestone Formation. Both contacts need further investigation."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BO> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "210m at Burrington Combe to 230m at Wells, thinning to a feather edge in the eastern Mendip Hills."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWYM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "26 - ?200m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not known due to structure, but unlikely to exceed 100m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "31m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYBC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 40 m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PTYC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.140m+"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WASH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c.325m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 14m"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFCP> <http://www.w3.org/2000/01/rdf-schema#label> "Clyde Plateau Subsuite (Of MCLFS)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFTW> <http://www.w3.org/2000/01/rdf-schema#label> "Tweed Subsuite (Of MCLFS)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDLO> <http://www.w3.org/2000/01/rdf-schema#label> "Lothian Subsuite [Of SSDPV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDPC> <http://www.w3.org/2000/01/rdf-schema#label> "Clyde Plateau Subsuite [Of SSDPV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADSH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GHC> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Cisuralian Epoch (Permian Period) (298.9-274.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H925> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RRR> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage - to - Caradoc Series (Ordovician Period) (468-449.75 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DONA> .
+-<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOHI> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/-4602> <http://www.w3.org/2004/02/skos/core#notation> "-4602"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DLUL> <http://www.w3.org/2004/02/skos/core#notation> "DLUL"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEWC> <http://www.w3.org/2004/02/skos/core#notation> "NEWC"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLL> <http://www.w3.org/2004/02/skos/core#notation> "WLL"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fen gravel [Obsolete: use ABSG, MRCG]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Undifferentiated Upper Pleistocene Sequence [Obsolete: use UUP]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFCP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clyde Plateau Subsuite (Of MCLFS)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFTW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tweed Subsuite (Of MCLFS)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treginnis Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDLO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lothian Subsuite [Of SSDPV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDPC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clyde Plateau Subsuite [Of SSDPV]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H110> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSTMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S783> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
