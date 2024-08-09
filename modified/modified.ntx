@@ -1,32 +1,130 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "31m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HYBC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 40 m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PTYC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.140m+"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WASH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c.325m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WWM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 14m"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFCP> <http://www.w3.org/2000/01/rdf-schema#label> "Clyde Plateau Subsuite (Of MCLFS)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFTW> <http://www.w3.org/2000/01/rdf-schema#label> "Tweed Subsuite (Of MCLFS)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDLO> <http://www.w3.org/2000/01/rdf-schema#label> "Lothian Subsuite [Of SSDPV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDPC> <http://www.w3.org/2000/01/rdf-schema#label> "Clyde Plateau Subsuite [Of SSDPV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KBS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADSH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GHC> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Cisuralian Epoch (Permian Period) (298.9-274.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H925> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Superficial deposits. Occurs onshore. Age not entered."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RRR> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Abereiddian Stage - to - Caradoc Series (Ordovician Period) (468-449.75 Ma BP)."@en .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DONA> .
--<http://data.bgs.ac.uk/ref/Lexicon/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FCM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOHI> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/-4602> <http://www.w3.org/2004/02/skos/core#notation> "-4602"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DLUL> <http://www.w3.org/2004/02/skos/core#notation> "DLUL"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEWC> <http://www.w3.org/2004/02/skos/core#notation> "NEWC"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLL> <http://www.w3.org/2004/02/skos/core#notation> "WLL"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FEG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fen gravel [Obsolete: use ABSG, MRCG]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H5055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Undifferentiated Upper Pleistocene Sequence [Obsolete: use UUP]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFCP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clyde Plateau Subsuite (Of MCLFS)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVFTW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tweed Subsuite (Of MCLFS)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treginnis Group"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDLO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lothian Subsuite [Of SSDPV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSDPC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clyde Plateau Subsuite [Of SSDPV]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBD> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H110> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HSTMB> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S783> <https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "archaic"@en .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLAYCH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLLI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMSG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LTVS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSVR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVIVS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVLSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVRSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SAGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SAGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANSI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANSI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCSD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SICL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMSMI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/METR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STCL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TMPBVR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TVSB> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VIVS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VLSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VLSS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCISD> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XPMOMC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CAMU> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XVSM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CAMU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XPMOMC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLAYCH> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLLI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/CLAY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/GRAV> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SAGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/METR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMSMI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MUD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XVSM> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMV> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSVR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVIVS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/MVCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVLSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SAGR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANSI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSA> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SANDU> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SICL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCSD> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANSI> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/SILT> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STCL> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LTVS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVRSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TMPBVR> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TVSB> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VIVS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCIR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VLSS> .
+-<http://data.bgs.ac.uk/id/EarthMaterialClass/RockName/VCISD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VLSS> .
