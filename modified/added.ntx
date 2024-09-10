@@ -1,8 +1,14 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608270> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2139544b-f895-3723-e063-0937940aba2c> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608271> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2139544b-f896-3723-e063-0937940aba2c> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608270> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608271> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608270> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608271> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACEE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Moundy and flat-terraced sand and gravel."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A dark grey to grey-brown compact diamicton containing shell fragments and Mesozoic erratics from the bed of the Moray Firth to the north-west (Peacock et al., 1968, Aitken et al., 1979)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Grey silt and clay with shells."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pink to grey laminated clayey silt."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Silt."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNKP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dark brown to black peat."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACEE> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTO> <http://www.w3.org/2004/02/skos/core#definition> "Diamicton. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://www.w3.org/2004/02/skos/core#definition> "Silt. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
