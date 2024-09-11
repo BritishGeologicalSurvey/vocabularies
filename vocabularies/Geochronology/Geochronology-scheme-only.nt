@@ -1,0 +1,15 @@
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/Geochronology/Division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/source> <https://doi.org/10.1016/C2011-1-08249-8> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Geologic_time_scale> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/geological-timechart/> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2004/02/skos/core#definition> "Divisions of geological time from source table DIC_GEOCHRON. The BGS Geochronology Dataset is based on The Geologic Time Scale 2012 by F M Gradstein, J G Ogg, M Schmitz and G Ogg (2012), with additions. The result is a composite geological time scale that will be updated as improved timescales become available."@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2004/02/skos/core#note> "Originally created for internal use in corporate BGS relational database. Alignments to CGI timescale and INSPIRE timescale created by Tim McCormick, August 2023. Colour attribute on each Concept shows the ICS standard colour where concepts are an exact match"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geochronology Division"@en .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/created> "2009-09-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/modified> "2023-08-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://www.w3.org/2004/02/skos/core#hasTopConcept> "http://data.bgs.ac.uk/id/Geochronology/Division/XX"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+

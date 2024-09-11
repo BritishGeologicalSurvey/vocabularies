@@ -1,14 +1,12 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACEE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Moundy and flat-terraced sand and gravel."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A dark grey to grey-brown compact diamicton containing shell fragments and Mesozoic erratics from the bed of the Moray Firth to the north-west (Peacock et al., 1968, Aitken et al., 1979)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Grey silt and clay with shells."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BYDS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pink to grey laminated clayey silt."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Silt."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNKP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dark brown to black peat."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".116"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACEE> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALTO> <http://www.w3.org/2004/02/skos/core#definition> "Diamicton. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLBS> <http://www.w3.org/2004/02/skos/core#definition> "Silt. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://www.w3.org/2004/02/skos/core#definition> "BGS discovery metadata describes the datasets BGS hold. These pages are derived from our discovery metadata database, which complies with ISO standard 19115:2003 for geographic information metadata. "@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/bibliographicCitation> "British Geological Survey. [year]. The BGS Lexicon of Named Rock Units [Linked Open Data]. Keyworth, Nottingham. Available from https://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/title> "BGS Lexicon of Named Rock Units"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#definition> "The BGS Lexicon of Named Rock Units provides our definitions of the lithostratigraphic, lithodemic and lithomorphogenetic geological units of the UK and its continental shelf"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "BGS Lexicon of Named Rock Units"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <https://www.w3.org/ns/dcat#landingPage> <https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTypeLocality> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoType> <http://www.w3.org/2000/01/rdf-schema#label> "has reference source info type"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityType> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
