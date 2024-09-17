@@ -241,6 +241,8 @@
 <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Property describes the youngest age of the rock unit in millions of years before the present (Ma)"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has youngest age value"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
+<http://data.bgs.ac.uk/ref/Lexicon/isContainedByMapSheet> <http://www.w3.org/2000/01/rdf-schema#comment> "The 50k map sheet code which a Named Rock Unit has been mapped on"@en .
+<http://data.bgs.ac.uk/ref/Lexicon/isContainedByMapSheet> <http://www.w3.org/2000/01/rdf-schema#label> "is contained by map sheet extent"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <http://www.w3.org/2000/01/rdf-schema#comment> "Property links to a relationship where this lexicon entry is the geographically laterally equivalent one to another lexicon entry"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <http://www.w3.org/2000/01/rdf-schema#label> "is laterally equivalent in"@en .
 <http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <https://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
