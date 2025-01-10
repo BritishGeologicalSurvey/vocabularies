@@ -1,396 +1,83 @@
-+<http://purl.org/linked-data/registry#Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-+<http://purl.org/linked-data/registry#Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<http://purl.org/linked-data/registry#Status> <http://www.w3.org/2004/02/skos/core#definition> "Open set of status code for entries in a register"@en .
-+<http://purl.org/linked-data/registry#Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "Status"@en .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been accepted for use and is visible in the default register listing. Includes entries that have seen been retired or superseded."@en .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2004/02/skos/core#prefLabel> "accepted"@en .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/accepted> <https://schema.org/color> "#1bc13f" .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/stable> .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#definition> "The item's status is stable and was supplied to the registry after initial creation"@en .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#prefLabel> "addition"@en .
-+<https://linked.data.gov.au/def/reg-statuses/addition> <https://schema.org/color> "#4ac11b" .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusDeprecated> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/accepted> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been Retired or Superseded or has become Unstable and is no longer to be used."@en .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2004/02/skos/core#prefLabel> "deprecated"@en .
-+<https://linked.data.gov.au/def/reg-statuses/deprecated> <https://schema.org/color> "#a86a0d" .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusExperimental> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#altLabel> "provisional"@en .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/valid> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been accepted into the register temporarily and may be subject to change or withdrawal."@en .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#prefLabel> "experimental"@en .
-+<https://linked.data.gov.au/def/reg-statuses/experimental> <https://schema.org/color> "#eae72c" .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusInvalid> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/notAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2004/02/skos/core#definition> "An entry which has been invalidated due to serious flaws, distinct from retrirement."@en .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2004/02/skos/core#prefLabel> "invalid"@en .
-+<https://linked.data.gov.au/def/reg-statuses/invalid> <https://schema.org/color> "#ea3c2c" .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusNotAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2004/02/skos/core#definition> "An entry that should not be visible in the default register listing."@en .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2004/02/skos/core#prefLabel> "notAccepted"@en .
-+<https://linked.data.gov.au/def/reg-statuses/notAccepted> <https://schema.org/color> "#ea9e2c" .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2004/02/skos/core#definition> "The item's status is stable and was supplied to the registry after initial creation."@en .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2004/02/skos/core#prefLabel> "original"@en .
-+<https://linked.data.gov.au/def/reg-statuses/original> <https://schema.org/color> "#38a30e" .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusReserved> .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/notAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2004/02/skos/core#prefLabel> "reserved"@en .
-+<https://linked.data.gov.au/def/reg-statuses/reserved> <https://schema.org/color> "#9b8d79" .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusRetired> .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2004/02/skos/core#altLabel> "withdrawn"@en .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been withdrawn from use."@en .
-+<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusStable> .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2004/02/skos/core#definition> "An entry that is seen as having a reasonable measure of stability, may be used to mark the full adoption of a previously 'experimental' entry."@en .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2004/02/skos/core#prefLabel> "stable"@en .
-+<https://linked.data.gov.au/def/reg-statuses/stable> <https://schema.org/color> "#2e8c09" .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusSubmitted> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/notAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2004/02/skos/core#prefLabel> "submitted"@en .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusSuperseded> .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2004/02/skos/core#altLabel> "replaced"@en .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been replaced by a new alternative which should be used instead."@en .
-+<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/registry#Status> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusStable> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/valid> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2004/02/skos/core#definition> "An entry that is not seen as having a reasonable measure of stability. This status is expected to be allocated to entries that were once Stable but have become Unstable, due to a management or technical mishap, rather than being allocated to resources before they become Stable. Those resources should be allocated Experimental."@en .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2004/02/skos/core#prefLabel> "unstable"@en .
-+<https://linked.data.gov.au/def/reg-statuses/unstable> <https://schema.org/color> "#678c09" .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/linked-data/registry#statusValid> .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2004/02/skos/core#broader> <https://linked.data.gov.au/def/reg-statuses/accepted> .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2004/02/skos/core#definition> "An entry that has been accepted into the register and is deemed fit for use."@en .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://linked.data.gov.au/def/reg-statuses> .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2004/02/skos/core#prefLabel> "valid"@en .
-+<https://linked.data.gov.au/def/reg-statuses/valid> <https://schema.org/color> "#36a80d" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/creator> <https://www.epimorphics.com> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/modified> "2024-07-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/publisher> <https://linked.data.gov.au/org/agldwg> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/source> <http://purl.org/linked-data/registry> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/vocab/vann/preferredNamespacePrefix> "reg-status"@en .
-+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://linked.data.gov.au/def/reg-statuses/"^^<http://www.w3.org/2001/XMLSchema#string> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/AGLDWG/reg-status> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionIRI> <https://linked.data.gov.au/def/reg-status/2.2> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.0 - 2018-06 - as per Registry Ontology original" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 - 2020-06 - altered structure & metadata, not content, to conform to Vocab Publication Profile" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.2 - 2021-11 - changes IRI to reg-statuses; added unstable" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.0 - 2023-01 - addition of Concepts addition & original, as per updated Registry Item status codes" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.1 - 2023-05 - added colours" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.2 - 2024-07 - fixed incorrect prefLabels for unstable & original in the RDF that used 'stable'. Also fixed preferred namespace URI. Updated Nicholas' affiliation to ANU" .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#definition> "This vocabulary is a re-published and only marginally changed version of the Registry Ontology's (http://epimorphics.com/public/vocabulary/Registry.html) *Status* vocabulary (online in RDF: http://purl.org/linked-data/registry). The only real change to content has been the addition of the term `unstable`. This re-publication has been performed to allow the IRIs of each vocab term (skos:Concept) to resolve to both human-readable and machine-readable forms of content (HTML and RDF), using HTTP content negotiation.\n\nNote that just like the original form of this vocabulary, while it is a SKOS vocabulary implemented as a single skos:ConceptScheme, it is also an OWL Ontology and that each *Status* is both a skos:Concept and a reg:Status individual."@en .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://linked.data.gov.au/def/reg-statuses/accepted> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://linked.data.gov.au/def/reg-statuses/notAccepted> .
-+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Registry Status Vocabulary"@en .
-+<https://linked.data.gov.au/org/agldwg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
-+<https://linked.data.gov.au/org/agldwg> <https://schema.org/name> "Australian Government Linked Data Working Group" .
-+<https://linked.data.gov.au/org/agldwg> <https://schema.org/url> "http://www.linked.data.gov.au"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<https://linked.data.gov.au/org/anu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
-+<https://linked.data.gov.au/org/anu> <https://schema.org/url> "https://www.anu.edu.au"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<https://orcid.org/0000-0002-8742-7730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
-+<https://orcid.org/0000-0002-8742-7730> <https://schema.org/affiliation> <https://linked.data.gov.au/org/anu> .
-+<https://orcid.org/0000-0002-8742-7730> <https://schema.org/email> "nicholas.car@anu.edu.au"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<https://orcid.org/0000-0002-8742-7730> <https://schema.org/name> "Nicholas J. Car" .
-+<https://www.epimorphics.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
-+<https://www.epimorphics.com> <https://schema.org/url> "https://www.epimorphics.com"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608223> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/173df284-debd-1fba-e063-0937940a60d7> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608320> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2acd482d-c6a0-50cf-e063-0937940a7b41> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608223> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608320> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608223> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608320> .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/A1> <https://schema.org/color> "#AE027E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/A> <https://schema.org/color> "#F74370" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AB> <https://schema.org/color> "#FDCC8A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AC> <https://schema.org/color> "#FECC5C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AD> <https://schema.org/color> "#FED96A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AE> <https://schema.org/color> "#DA037F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AH> <https://schema.org/color> "#F75B89" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AI> <https://schema.org/color> "#FED99A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AL> <https://schema.org/color> "#F74370" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AN> <https://schema.org/color> "#F99BC1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AP> <https://schema.org/color> "#F73563" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AQ> <https://schema.org/color> "#F875A7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AR> <https://schema.org/color> "#F0047F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AS> <https://schema.org/color> "#F74F7C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AT> <https://schema.org/color> "#FEBF4E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AX> <https://schema.org/color> "#FDB462" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AY> <https://schema.org/color> "#FDC07A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/AZ> <https://schema.org/color> "#FEB342" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/C> <https://schema.org/color> "#67A599" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CBS> <https://schema.org/color> "#99C2B5" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CF> <https://schema.org/color> "#80AB6C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CGZ> <https://schema.org/color> "#CCD4C7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CKS> <https://schema.org/color> "#BFD0C5" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CMI> <https://schema.org/color> "#678F66" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CMIE> <https://schema.org/color> "#80AB6C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CMIL> <https://schema.org/color> "#B3BE6C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CMIM> <https://schema.org/color> "#99B46C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CMO> <https://schema.org/color> "#B3CBB9" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CPE> <https://schema.org/color> "#7EBCC6" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CPEE> <https://schema.org/color> "#8CBEB4" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/CPEM> <https://schema.org/color> "#A6C7B7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/D> <https://schema.org/color> "#CB8C37" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DA> <https://schema.org/color> "#F2EDB3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DE> <https://schema.org/color> "#E5D075" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DI> <https://schema.org/color> "#F1D576" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DL> <https://schema.org/color> "#E5AC4D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DO> <https://schema.org/color> "#E5B75A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DP> <https://schema.org/color> "#E5C468" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DR> <https://schema.org/color> "#F2EDAD" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DU> <https://schema.org/color> "#F1E19D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/DV> <https://schema.org/color> "#F1E185" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E02> <https://schema.org/color> "#A6BA80" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E03> <https://schema.org/color> "#A6C583" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E04> <https://schema.org/color> "#B3CA8E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E05> <https://schema.org/color> "#B3D492" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E09> <https://schema.org/color> "#D9F0BB" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E10> <https://schema.org/color> "#E6F5C9" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E2> <https://schema.org/color> "#99C078" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E3> <https://schema.org/color> "#A6CF86" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/E> <https://schema.org/color> "#7FA056" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/EDM> <https://schema.org/color> "#BFD99D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/EF> <https://schema.org/color> "#B3E095" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/EFT> <https://schema.org/color> "#99B575" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/EGZ> <https://schema.org/color> "#CCDFAA" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/EN> <https://schema.org/color> "#8CB06C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/FH> <https://schema.org/color> "#9AD9DD" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/G> <https://schema.org/color> "#FD9A52" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GB> <https://schema.org/color> "#FDC091" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GC> <https://schema.org/color> "#FEE6AA" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GE> <https://schema.org/color> "#FDB46C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GEE> <https://schema.org/color> "#FCA773" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GEL> <https://schema.org/color> "#FDCDA1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GI> <https://schema.org/color> "#FDCDA1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GL> <https://schema.org/color> "#FDB482" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GO> <https://schema.org/color> "#FEC07A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GOE> <https://schema.org/color> "#FED99A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GP> <https://schema.org/color> "#FDA75F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GPE> <https://schema.org/color> "#FDB462" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GPL> <https://schema.org/color> "#FDBF6F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GPM> <https://schema.org/color> "#FEBF65" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GR> <https://schema.org/color> "#FED99A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GS> <https://schema.org/color> "#FEBF65" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/GT> <https://schema.org/color> "#FDBF6F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/IZ> <https://schema.org/color> "#F2F91D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/J> <https://schema.org/color> "#34B2C9" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JA> <https://schema.org/color> "#9AD9DD" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JB> <https://schema.org/color> "#A6DDE0" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JC> <https://schema.org/color> "#BFE7E5" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JD> <https://schema.org/color> "#CCECF4" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JE> <https://schema.org/color> "#80C5DD" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JH> <https://schema.org/color> "#4EB3D3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JI> <https://schema.org/color> "#D9F1F7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JL> <https://schema.org/color> "#42AED0" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JM> <https://schema.org/color> "#80CFD8" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JN> <https://schema.org/color> "#B3E2E3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JT> <https://schema.org/color> "#99CEE3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/JU> <https://schema.org/color> "#B3E3EE" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/K> <https://schema.org/color> "#7FC64E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KA> <https://schema.org/color> "#CCEA97" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KB> <https://schema.org/color> "#B3DF7F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KC> <https://schema.org/color> "#E6F47F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KE> <https://schema.org/color> "#B3DE53" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KH> <https://schema.org/color> "#A6D975" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KL> <https://schema.org/color> "#8CCD57" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KM> <https://schema.org/color> "#F2FA8C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KP> <https://schema.org/color> "#BFE48A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KR> <https://schema.org/color> "#8CCD60" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KS> <https://schema.org/color> "#D9EF74" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KU> <https://schema.org/color> "#A6D84A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/KV> <https://schema.org/color> "#99D36A" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/MZ> <https://schema.org/color> "#67C5CA" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/N> <https://schema.org/color> "#FFE619" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NA> <https://schema.org/color> "#FFFF33" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NB> <https://schema.org/color> "#FFFF41" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NC> <https://schema.org/color> "#FFFFBF" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NE> <https://schema.org/color> "#FFFF73" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NL> <https://schema.org/color> "#FFFF4D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NM> <https://schema.org/color> "#FFFF00" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NOE> <https://schema.org/color> "#FFFFB3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NOL> <https://schema.org/color> "#FFFFBF" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NP> <https://schema.org/color> "#FFFF99" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NS> <https://schema.org/color> "#FFFF59" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NT> <https://schema.org/color> "#FFFF66" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/NZ> <https://schema.org/color> "#FFFFB3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/O1> <https://schema.org/color> "#33A97E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/O> <https://schema.org/color> "#009270" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/ODP> <https://schema.org/color> "#66C092" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/ODW> <https://schema.org/color> "#74C69C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OEA> <https://schema.org/color> "#1A9D6F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OFL> <https://schema.org/color> "#41B087" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OH> <https://schema.org/color> "#A6DBAB" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OLA> <https://schema.org/color> "#7FCA93" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OMD> <https://schema.org/color> "#4DB47E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OSA> <https://schema.org/color> "#8CD094" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/OTR> <https://schema.org/color> "#33A97E" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PA> <https://schema.org/color> "#E36350" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PI> <https://schema.org/color> "#E37B68" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PK> <https://schema.org/color> "#E38776" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PLC> <https://schema.org/color> "#EF5845" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PS> <https://schema.org/color> "#E36F5C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUC> <https://schema.org/color> "#FB9A85" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUD> <https://schema.org/color> "#FB8D76" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUG> <https://schema.org/color> "#FB745C" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUH> <https://schema.org/color> "#FCC0B2" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUL> <https://schema.org/color> "#FBA794" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUR> <https://schema.org/color> "#FB8069" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/PUW> <https://schema.org/color> "#FCB4A2" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/Q2C> <https://schema.org/color> "#FFF2BA" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/Q2G> <https://schema.org/color> "#FFEDB3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/Q2I> <https://schema.org/color> "#FFF2C7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/Q2T> <https://schema.org/color> "#FFF2D3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/Q> <https://schema.org/color> "#F9F97F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/QPL> <https://schema.org/color> "#FFF2D3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/QPM> <https://schema.org/color> "#FFF2C7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/RZ> <https://schema.org/color> "#99C08D" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/S> <https://schema.org/color> "#B3E1B6" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SG> <https://schema.org/color> "#CCECDD" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SH> <https://schema.org/color> "#CCEBD1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SL> <https://schema.org/color> "#99D7B3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SO> <https://schema.org/color> "#E6F5E1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SR> <https://schema.org/color> "#A6DCB5" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SS> <https://schema.org/color> "#BFE6C3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/ST> <https://schema.org/color> "#BFE6CF" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/SU> <https://schema.org/color> "#BFE6CF" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/T> <https://schema.org/color> "#812B92" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TA> <https://schema.org/color> "#BC75B7" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TC> <https://schema.org/color> "#C99BCB" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TD> <https://schema.org/color> "#C983BF" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TE> <https://schema.org/color> "#983999" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TI> <https://schema.org/color> "#A4469F" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TM> <https://schema.org/color> "#B168B1" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TN> <https://schema.org/color> "#D6AAD3" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TO> <https://schema.org/color> "#B051A5" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TR> <https://schema.org/color> "#E3B9DB" .
-+<http://data.bgs.ac.uk/id/Geochronology/Division/TU> <https://schema.org/color> "#BD8CC3" .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/K> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/V"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CAMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/S"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SV"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/S"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMMC"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NVFB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/P"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S329> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/S"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S329> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/V"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Channel-filling lag gravels and fossiliferous sands that yield the bivalve Corbicula, and are thus assigned to MIS 7."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Terrace gravels."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sands and pebbly sands."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The lower 80-100 cm comprises parallel thin beds of brown polleniferous sand. This pollen was partly derived from reworking of soils around the site and partly from contemporaneous sparse grassland. The upper 50-70 cm of the sand is non-polleniferous."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Oyster rich, very shelly micrite."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint-bearing sands and gravels forming a terrace in the upper reaches of the Evenlode."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Terrace deposits."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMSG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Northerly-derived fluvial sand and gravel with clasts of pre-Cambrian, Lower Palaeozoic, Devonian, Carboniferous and Triassic rocks that form terrace remnants in the Lugg valley."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NVFB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Peat."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S329> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sand and gravel at the base of the Holt Heath Sand and Gravel Member (HHSG)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHE> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone-rich gravels beneath the poorly-formed second terrace of the River Windrush in the Vale of Bourton (near Bourton-on-the-Water). It consists of more or less reworked head gravels and has yielded woolly mammoth and woolly rhinoceros (Coelodonta antiquitatis) (Richardson and Sandford, 1960; O'Neil and Shotton, 1974)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SPBY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone-dominant gravels forming terraces along the upper Evenlode valley, between Lyneham [SP 263 212] and Spelsbury."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Blue-grey shelly clay."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UML> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CNCL, ROD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBDS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Rounded flint gravels."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Underlain by the Hemingbrough Glaciolacustrine Formation (HEM)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Overlies the organic sands of the Teindland Palaeosol Formation (TELND)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The very shelly micrite of the Cinder Bed conformably overlies the thick-bedded, chert-rich micrites of the Worbarrow Tout Member (WOT) of the Lulworth Formation (LULW)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAY> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Around Bledington (e.g. at Bledington Pit [SP 248 233]) the more or less limestone-poor gravels overlie limestone-rich gravels. The latter are probably merely the lower, less decalcified parts of the deposit but may be the older Spelsbury Gravel Member (SPBY) (Arkell, 1947a, b; Horton et al., 1987), implying a crossing of the terrace profiles."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NVFB> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Oversteps onto a variety of older rocks with marked unconformity."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Rests on unfossiliferous sand and gravel (Barr Member of Sutherland, p. 109 in Bowen, 1999)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIGP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QDW> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".362"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIGP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> ".0147"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "143.1"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNAN> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 1.5 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Almost 2 metres thick."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 20 m through Lincolnshire and the Midlands (East Midlands Shelf), thickening south through the Cotswolds (60 to 90 m) to 100 to 200 m in Somerset and Dorset, and in the Weald subcrop (Green, 1992; Sumbler, 1996). Offshore English Channel up to 224 m (Hamblin et al., 1992)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMSG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "2-8 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to 8 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Underlies the Cropthorne Sand and Gravel Member (CRTD)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIEP> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Forms the basal peat bed of the Skipwith Sand Member (SKIS)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMSG> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Locally overlain or reworked by glacial deposits of the Risbury Glacigenic Formation (RISB)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NVFB> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain by the clays of the Nar Clay Formation (NACL)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TGSC> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain by up to 22.5 m of reddish brown diamicton (Corputechan Member) interpreted as a till."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIGP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QH> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/QP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIGP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "137.7"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> ".0118"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNCL> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Magnesian Limestone (Durham) [Obsolete: use CNCL, ROD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROD> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Magnesian Limestone (Durham) [Obsolete: use CNCL, ROD]"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHO> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AILT> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Wolstonian Stage (Quaternary Period) (.362-.126 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AXEV> <http://www.w3.org/2004/02/skos/core#definition> "Gravel. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEC> <http://www.w3.org/2004/02/skos/core#definition> "Gravelly sand and sand. Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BIGP> <http://www.w3.org/2004/02/skos/core#definition> "Peat. Stratified superficial deposits. Occurs onshore. Formed during the Windermere Interstadial - to - Holocene Epoch (Quaternary Period) (.0147-0 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNAN> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> <http://www.w3.org/2004/02/skos/core#definition> "Micritic limestone. Stratified bedrock. Occurs onshore. Deposited during the Berriasian Age (Cretaceous Period) (143.1-137.7 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXEV> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Pleistocene Epoch (Quaternary Period) (2.58-.0118 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NVFB> <http://www.w3.org/2004/02/skos/core#definition> "Peat. Stratified superficial deposits. Occurs onshore. Formed during the Hoxnian Stage (Quaternary Period) (.423-.362 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S329> <http://www.w3.org/2004/02/skos/core#definition> "Gravel and sand. Stratified superficial deposits. Occurs onshore. Formed during the Ipswichian Stage (Quaternary Period) (.126-.116 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHO> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UML> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Magnesian Limestone (Durham) [Obsolete: use CNCL, ROD]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. The highest marl seam of the Plenus Marls Member (PLMA)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Greenish grey mudstone with thin black calcareous beds and beds of poorly sorted, matrix-supported conglomerate up to 1.6 m thick."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2983> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use POWSG]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNXMB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Local name for the Vanderbeckei Marine Band (VDMB) in part(s) of the South Derbyshire Coalfield, possibly still to an extent in current use. Mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNUM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SAH] Dull grey and black slate."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RRAM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Purple, green and greyish green mudstones. Scattered siliceous and calcareous nodules developed at some levels. A prominent 10 m-thick unit of buff-weathering calcareous laminated siltstone capped by 2 m of interbedded grey silty mudstones and siliceous black mudstones is present at the top of the Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RWN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Coarse-grained, pebbly sandstone with angular exotic clasts; the uppermost 22 m are mainly fine-grained and lacking in exotic materials."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHCM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mainly upward-coarsening sandstones above a scoured base. Naticopsis, Myalina and, very rarely, fragments of Thamnopora are found in thin shelly mounds above the scoured surfaces. These sequences give way to grey lenticular-bedded mudstones with sporadic Chondrites and, in the highest beds, Diplocraterion. Cross-bedded sandstones follow to complete the uplands-coarsening sequence."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone beds to 6 m (grainflows) with interbeds of grey slaty mudstone and yellow-green laminated siltstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Medium and dark grey fossiliferous mudstone and siltstone, laminated and bituminous in part, with thin siltstone or silty mudstone beds and rare fine-grained calcareous sandstone beds; dense, smooth argillaceous limestone nodules very common at some horizons; phosphatic nodules at some levels. Nodular and fossiliferous limestones occur at the base in some areas. Formation fully divided into five members in North Yorkshire: in ascending order the Grey Shale, Mulgrave Shale, Alum Shale, Peak Mudstone and Fox Cliff Siltstone members."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Tabular cementstone bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at base of yellow and red sandstones of the Balnagown Group where it rests unconformably on sandstone of the Strath Rory Group (SRG)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOCL> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Base of massive metalimestone bed above the semipelites of the Old Hythe Limestone Member."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at the base of the Findon Group where conglomerate rests conformably upon marl of the Crovie Group (CRO)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Basal unit of 1 m-thick bed with Myalina rests on rocks of the Sherrycombe Member (q.v.)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLKL> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Thrust fault."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEE> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Abrupt lithological change from sandstone of the Scalpay Sandstone Formation (SCS) to anoxic mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Diachronous coarsening upwards from fissile mudstone of the Pabay Shale Formation (PABS) to sandstone of the Scalpay Sandstone Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAG> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at the base of the Dronga Conglomerate and Pebbly Sandstone. Base not seen, or faulted contact."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHM> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "In Cleveland Basin, base of mudstone resting upon ooidal limestone or sideritic mudstone nodules of the Cleveland Ironstone (see Cox et al., 1999, for more details). Elsewhere, at base of mudstone overlying ironstone of the Marlstone Rock Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLST> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Sharp contact with mudstone of the Kimmeridge Clay Formation (KC)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCC> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "90 m (Gauss and House, 1972)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "70 m (Tunbridge, 1978)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOY> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 1000 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/JOG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 609 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 100 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 250 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCLB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "80 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OBG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 950 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PWER> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "430 m in Type Section."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QAS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "150 metres on Qui Ayre coastline, Mainland Orkney [NY 220 153]."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RDBR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 1.5 km."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RRAM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Uncertain, but probably not more than 200 m exposed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RWN> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "148 m (Tunbridge, 1978)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHCM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "90 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To c. 30 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TGR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 1250 m (Tunbridge, 1978)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRSA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "To 40 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TY> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "0-11 m, locally possibly up to 15 m, type area 6 to 8 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UCF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 1500 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/USF> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 560 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/VAG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 600 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WAG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 1600 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHM> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Up to about 120 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLST> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Approx. 0.4 m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAGR> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at unconformable upward change from yellow and red sandstone of the Balnagown Group to probable Jurassic strata."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLKL> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Thrust fault."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEE> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Passes up gradationally from organic-rich shales of the Portree Shale Formation to ironstone of the Raasay Ironstone Formation (RASI)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNUM> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Conformable below the Mileport Slate Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RRAM> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "The upper boundary is taken at the sharp incoming of the black mudstones of the \"Ararat Slate\" (Teign Chert Formation) above the buff-weathering calcareous laminated siltstones capped by 2 m of interbedded grey silty mudstones and siliceous black mudstones at the top of the underlying Rora Mudstone Formation."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Abrupt lithological change from thin beds of sandstone and ironstone of the Scalpay Sandstone Formation to fissile mudstone of the Portree Shale Formation (PEE)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHM> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "In most areas, sharp, eroded boundary with limestones or sandstones of the Inferior Oolite Group (East Midlands Shelf) or the Ravenscar Group or Dogger Formation (Cleveland Basin). In Ravenscar area, and in much of Worcester Basin arbitrary boundary in transition to sandy sediments of the Blea Wyke Formation or Bridport Sand Formation respectively."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLST> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Sharp contact with mudstone of the Kimmeridge Clay Formation (KC)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNUM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDVS> <http://www.w3.org/2004/02/skos/core#altLabel> "Rosenum Formation [Obsolete: use SAH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRNC> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PY> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BREC> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Pragian Age - to - Emsian Age (Devonian Period) (412.4-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNUM> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Slate. Stratified bedrock. Occurs onshore. Deposited during the Eifelian Age - to - Givetian Age (Devonian Period) (394.3-378.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BETD> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRNC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TRF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COCI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairnsmore of Carsphairn Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhindaston and Gignog Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRNC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant-y-Coy Beds"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pont-yr-hafod Group"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RNUM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rosenum Formation [Obsolete: use SAH]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WLST> <http://www.w3.org/2004/02/skos/core#prefLabel> "Washing Ledge Stone Band"@en .
