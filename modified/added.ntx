@@ -1,20 +1,67 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSF> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at conformable upward passage to the Sandwick Fish Bed, upward passage being from sandstone and shale into limestone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ATGK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMVC> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSSL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REST> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ATGK> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSSL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REST> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEG> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BRPOCM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CHLK"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FLNT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHSP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BRMA3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed with numerous sponge fossils."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HGMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LPMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAHG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Three seams of nodular chalk (Mortimore, 1986)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOFL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Flint. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOMA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUMA1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SUMA2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Marl. A marker bed."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAHG> <http://www.w3.org/2004/02/skos/core#definition> "Chalk. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOFL> <http://www.w3.org/2004/02/skos/core#definition> "Flint. Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .

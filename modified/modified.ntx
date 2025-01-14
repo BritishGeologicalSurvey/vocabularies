@@ -1,20 +1,14 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LSF> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at confromable upward passage to the Sandwick Fish Bed, upward passage being from sandstone and shale into limestone."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMVC> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ATGK> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSSL> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REST> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEG> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHG> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ATGK> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CSSL> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DRCR> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FIN> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REST> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SAG> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEG> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHG> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BRPOCM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAHG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
