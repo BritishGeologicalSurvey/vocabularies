@@ -1,14 +1,135 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BRPOCM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BEFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KIFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NAHG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SFFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "359.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBE> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBH> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECA> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECF> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEGL> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEHO> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEKI> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LELP> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENA> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LERI> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESO> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NME> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NON> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPE> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSP> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBEL> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCU> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAV> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TABS> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUSP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEGL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEHO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEKI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LELP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LERI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NME> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NON> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPE> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBEL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCU> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAV> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TABS> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BPFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EXFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FHFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEGL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEHO> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEKI> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LELP> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENA> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LERI> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESO> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Turonian Age (Cretaceous Period) (93.9-89.4 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Campanian Age (Cretaceous Period) (83.7-72.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MDFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NME> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Campanian Age (Cretaceous Period) (83.7-72.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NON> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age - to - Campanian Age (Cretaceous Period) (85.7-72.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPE> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Campanian Age (Cretaceous Period) (83.7-72.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSP> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate and sandstone. Stratified bedrock. Occurs onshore. Deposited during the Devonian Period (419-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBEL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCU> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAV> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SSFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SVFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Santonian Age (Cretaceous Period) (85.7-83.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TABS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Campanian Age (Cretaceous Period) (83.7-72.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNFL> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Coniacian Age (Cretaceous Period) (89.4-85.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBH> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECF> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEGL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEHO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEKI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LELP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LERI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESM> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESO> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NME> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NON> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NCK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBEL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCU> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SECK> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAV> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AUSP> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MCMA3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TABS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA1> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA2> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA3> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TACH> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TEMA4> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beeding Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEBH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beachy Head Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caburn Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LECF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cliffe Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEGL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glynde Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEHO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hope Gap Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEKI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kingston Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LELP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Light Point Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LENA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Navigation Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LERI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ringmer Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shoreham Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LESO> <http://www.w3.org/2004/02/skos/core#prefLabel> "South Street Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NME> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meeching Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NON> <http://www.w3.org/2004/02/skos/core#prefLabel> "Old Nore Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NPE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peacehaven Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NSP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Splash Point Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PEEL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peel Group"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SBEL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Belle Tout Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuckmere Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haven Brow Beds"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TABS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bastion Steps Beds"@en .
