@@ -1,0 +1,39 @@
+name: Monthly Release
+
+on:
+  schedule:
+    - cron: '0 0 15 * *' # Runs at 00:00 UTC on the 15th of every month
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to create tags and releases
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get date
+        id: get_date
+        run: |
+          echo "date=$(date '+%Y.%m')" >> $GITHUB_OUTPUT
+          echo "date_full=$(date '+%Y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Create tag
+        run: git tag v${{ steps.get_date.outputs.date }}
+
+      - name: Push tag
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tags: true
+
+      - name: Create release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.get_date.outputs.date }}
+          name: "BGS Vocablaries ${{ steps.get_date.outputs.date }}"
+          body: "Snapshot of BGS Vocablaries on ${{ steps.get_date.outputs.date_full }}"
