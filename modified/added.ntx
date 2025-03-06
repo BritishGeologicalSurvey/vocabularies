@@ -1,8 +1,32 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608344> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2f1c46b3-c5ba-7132-e063-0937940a8b77> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608345> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2f1caed6-f339-77c7-e063-0937940a99f1> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608344> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608345> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608344> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608345> .
++<http://data.bgs.ac.uk/id/dataHolding/13608371> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/2f9a8e26-e258-5d9e-e063-0937940a9e15> .
++<http://data.bgs.ac.uk/id/dataHolding/13608371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608371> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608371> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CAMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CHLK"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Composite consisting of two or more rock units. See the entries for the constituent units for more information."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "113.2"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "93.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-03-05"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FYCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Hunstanton Formation and Ferriby Chalk Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Ferriby Chalk Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Hunstanton Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> <http://www.w3.org/2004/02/skos/core#altLabel> "Hunstanton Formation and Ferriby Chalk Formation (Undifferentiated)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#definition> "Calcareous mudstone and chalk. Bedrock. Occurs onshore. Formed during the Albian Age - to - Cenomanian Age (Cretaceous Period) (113.2-93.9 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#notation> "HFCK"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HFCK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hunstanton Formation and Ferriby Chalk Formation (Undifferentiated)"@en .
