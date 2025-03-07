@@ -1,3 +1,21 @@
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SELB> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SELB> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUCK> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WEEP> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/C> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCST> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/ANHY"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNCL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/C"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLCS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BOU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNCL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Clay."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KILDN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Siltstone and silty mudstone with subsidiary limestone and sandstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LONFN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Fissile dark grey shaly mudstones with abundant bivalves."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSA> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CASI> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Oxfordian Age (Jurassic Period) (161.5-154.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DIGS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Oxfordian Age (Jurassic Period) (161.5-154.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNCL> <http://www.w3.org/2004/02/skos/core#definition> "Clay. Stratified bedrock. Occurs onshore. Deposited during the Callovian Age - to - Oxfordian Age (Jurassic Period) (165.3-154.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DUNSH> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Callovian Age (Jurassic Period) (165.3-161.5 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FLOS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Oxfordian Age - to - Kimmeridgian Age (Jurassic Period) (161.5-149.2 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GVIN> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Oxfordian Age (Jurassic Period) (161.5-154.8 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LONFN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bathonian Age (Jurassic Period) (168.2-165.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSA> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TCN> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Age not entered."@en .
