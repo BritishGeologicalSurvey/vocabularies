@@ -133,7 +133,7 @@
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8742-7730> .
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/created> "2018-07-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/creator> <https://www.epimorphics.com> .
-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/modified> "2024-07-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/modified> "2025-03-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/publisher> <https://linked.data.gov.au/org/agldwg> .
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/rights> "(c) Commonwealth of Australia 2024"@en .
 <https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/source> <http://purl.org/linked-data/registry> .
@@ -148,6 +148,7 @@
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.0 - 2023-01 - addition of Concepts addition & original, as per updated Registry Item status codes" .
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.1 - 2023-05 - added colours" .
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.2 - 2024-07 - fixed incorrect prefLabels for unstable & original in the RDF that used 'stable'. Also fixed preferred namespace URI. Updated Nicholas' affiliation to ANU" .
+<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.3 - 2025-03 - minor errors in HTML fixed" .
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#definition> "This vocabulary is a re-published and only marginally changed version of the Registry Ontology's (http://epimorphics.com/public/vocabulary/Registry.html) *Status* vocabulary (online in RDF: http://purl.org/linked-data/registry). The only real change to content has been the addition of the term `unstable`. This re-publication has been performed to allow the IRIs of each vocab term (skos:Concept) to resolve to both human-readable and machine-readable forms of content (HTML and RDF), using HTTP content negotiation.\n\nNote that just like the original form of this vocabulary, while it is a SKOS vocabulary implemented as a single skos:ConceptScheme, it is also an OWL Ontology and that each *Status* is both a skos:Concept and a reg:Status individual."@en .
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://linked.data.gov.au/def/reg-statuses/accepted> .
 <https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://linked.data.gov.au/def/reg-statuses/notAccepted> .
