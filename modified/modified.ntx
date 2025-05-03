@@ -1,4 +1,14 @@
--<http://data.bgs.ac.uk/id/dataHolding/13607110> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/493169da-11d4-2073-e054-002128a47908> .
--<http://data.bgs.ac.uk/id/dataHolding/13607110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13607110> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607110> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use STK] \r\n\r\nIncludes Skelgill and Browgill Formations as separately defined: dominantly mudstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Unconformably overlies the Red Gill Formation of the Dent Group."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STK> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "The lower boundary of the group coincides with the base of the Skelgill Mudstone Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "443.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "About 50 metres."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Conformably overlain by the Brathay Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/SL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "432.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SCSH> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone. Stratified bedrock. Occurs onshore. Deposited during the Llandovery Epoch (Silurian Period) (443.1-432.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Priesthill Group [Cf Hagshaw Group]"@en .
