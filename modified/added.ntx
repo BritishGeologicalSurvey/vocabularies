@@ -1,6 +1,12 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBLW> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dark, flaggy quartzites, purple quartzose phyllites. White limestones. Calcareous flags and pebbly grits. (Correlative of Whitchells Group-Pelitic Group and Upper Psammitic Group)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBLW> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Drawn at base of phyllites of Whitehills Group where it rests conformably on the Boyne Limestone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBLW> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Not defined."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBLW> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Drawn at conformable upward passage from pebbly grit of the Whitehills Group to andalusite schists of the Boynaie Bay Group."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MGPS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall Garbh Psammite and Semipelite Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SRND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sron Nan Dias Pelite and Limestone Formation"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13608405> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/33ebc8ed-a45d-3522-e063-3050940af48b> .
++<http://data.bgs.ac.uk/id/dataHolding/13608411> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/3503168f-31b6-7aa6-e063-3050940a1aff> .
++<http://data.bgs.ac.uk/id/dataHolding/13608414> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/353d8173-fe20-7d7d-e063-3050940aedbd> .
++<http://data.bgs.ac.uk/id/dataHolding/13608405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608405> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608411> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608414> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608405> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608411> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608414> .
