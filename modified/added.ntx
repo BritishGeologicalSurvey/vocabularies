@@ -1,16 +1,23 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608101> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/044a2988-c46f-6b00-e063-0937940a68f8> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608218> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/16324f01-e756-3a2c-e063-0937940adada> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608280> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/22525bf2-14c7-7649-e063-0937940a6b2f> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608302> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/263b390c-4ec0-4f2f-e063-0937940a99d0> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608101> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608218> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608280> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608302> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608280> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608302> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608101> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608218> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BESA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOUS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOUS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BESA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYS> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BECB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/C"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BECB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SC"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BATU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Tuffite. Sand-grade, green to brown reworked ash."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BECB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A lenticular bed of clay and clayey sand occurring locally within the Becton Sand. \r\n\r\nAt outcrop, it consists of highly bioturbated, carbonaceous, clayey, very fine-grained sand and silt that passes eastward into clay-free sand. In the Ramnor Inclosure Borehole it consists of shelly sandy clay and clayey very fine-grained sand and silt that is lithologically similar to the Barton Clay (BAC). In the borehole there is a basal bed approx. 1.1 m thick of gravelly clay with shell debris. \r\n\r\nIn the Ramnor Inclosure Borehole the Becton Bunny Member yielded a moderately diverse fauna, mainly of bivalves and gastropods, indicative of shallow marine conditions."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AWSA> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Lies on basal Lista Formation (LIST) mudstone, or sometimes directly on grey mudstones of the Maureen Formation (MAUR)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASA> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Underlain by the Balmoral Tuffite unit (BATU)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BATU> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Underlain by the Andrew Sandstone unit (AWSA). The Andrew Sandstone thins rapidly southeastwards, such that the Balmoral Tuffite eventually rests directly on the basal Lista Formation (LIST) mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AWSA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Knox and Holloway (1992, p. 73) show a thickness of 121 m in 21/2-1, and approx. 209 m in 14/25-1."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASA> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Knox and Holloway (1992, p. 73) show a thickness of approx. 167.5 m in 21/2-1, and approx. 168.5 m in 14/25-1."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BATU> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Knox and Holloway (1992, p. 73) show a thickness of approx. 49 m in 21/2-1, and approx. 30 m in 14/25-1."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BECB> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "The Becton Bunny Member is thickest between Exbury and the Ramnor Inclosure Borehole. In the Ramnor Inclosure Borehole it is about 11.8 m thick."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AWSA> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain by the Balmoral Tuffite unit (BATU)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BASA> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain by mudstones of the Lista Formation (LIST)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BATU> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Overlain by the Balmoral Sandstone unit (BASA)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BESA> <http://www.w3.org/2004/02/skos/core#altLabel> "Mousa Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSA> <http://www.w3.org/2004/02/skos/core#altLabel> "Tay Sandstone Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOUS> <http://www.w3.org/2004/02/skos/core#altLabel> "Brodie Sandstone unit"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TAYS> <http://www.w3.org/2004/02/skos/core#altLabel> "Caran Sandstone unit"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BECB> <http://www.w3.org/2004/02/skos/core#definition> "Clay and clayey sand. Stratified bedrock. Occurs onshore. Deposited during the Paleogene Period (66-23.04 Ma BP)."@en .
