@@ -1,27 +1,78 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LAVA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL6> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/OLBA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PATS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FPBA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAAS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt with subsidiary feldspar-phyric basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Lava."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basalt and trace basaltic tuff, conglomerate and feldspar-phyric basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt with subsidiary conglomerate and trace feldspar-phyric basalt and mugearite."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL5> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt and trace mugearite."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL6> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basalt and trace feldspar-phyric hawaiite and olivine-basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-basalt and trace basaltic tuff, feldspar-phyric hawaiite, mugearite and volcaniclastic-breccia."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PATS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Feldspar-phyric basalt."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL> <http://www.w3.org/2004/02/skos/core#definition> "Lava. Stratified bedrock. Occurs onshore. Deposited during the Paleocene Epoch (Palaeogene Period) (66-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://www.w3.org/2004/02/skos/core#definition> "Basalt and trace basaltic tuff, conglomerate and feldspar-phyric basalt. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGL6> <http://www.w3.org/2004/02/skos/core#definition> "Basalt and trace feldspar-phyric hawaiite and olivine-basalt. Stratified bedrock. Occurs onshore. Deposited during the Paleocene Epoch (Palaeogene Period) (66-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EIGLB> <http://www.w3.org/2004/02/skos/core#definition> "Olivine-basalt and trace basaltic tuff, feldspar-phyric hawaiite, mugearite and volcaniclastic-breccia. Stratified bedrock. Occurs onshore. Deposited during the Paleocene Epoch (Palaeogene Period) (66-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PATS> <http://www.w3.org/2004/02/skos/core#definition> "Feldspar-phyric basalt. Stratified bedrock. Occurs onshore. Deposited during the Paleocene Epoch (Palaeogene Period) (66-56 Ma BP)."@en .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL1> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PXPBA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/HAW"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DALS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PELGP"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HWK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/WACKE"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWHF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/HALI"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MUG"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEIG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PTST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRU> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CAMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basalt lavas with interbedded agglomerate, conglomerate and sandstone. \r\n\r\nThe Basal Member occurs on Sanday. \r\n\r\nOn Canna, the Tighard Member, Cnoc Bhrostan Member, Carn a'Ghaill Member, Beul Lama Sgorr Member, and Eilean a'Bhàird Member are recognised. \r\n\r\nIn north-west Rum the Canna Lava Formation consists of four distinct members: the Lower Fionchra Member, Upper Fionchra Member, Guirdil Member, and Orval Member."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basalt and trace conglomerate and pyroxene-phyric basalt."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basalt and trace conglomerate and feldspar-phyric basalt."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Feldspar-phyric hawaiite with subsidiary conglomerate and hawaiite and trace basalt."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Feldspar-phyric hawaiite and trace hawaiite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basaltic-andesite and trace conglomerate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DBLB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Disturbed Blackheath Beds is regarded as a lithological variant of the Clay-with-flints Formation (McMillan et al., 2011)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Pyroxene-plagioclase-phyric andesite with subsidiary conglomerate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-phyric hawaiite with subsidiary conglomerate and trace olivine-basalt."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Mugearite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEIG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Porphyritic-rhyolitic pitchstone and trace ash, conglomerate and pitchstone."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Basaltic-andesite with subsidiary conglomerate."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GE> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "33.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL2> <http://www.w3.org/2004/02/skos/core#definition> "Basalt and trace conglomerate and pyroxene-phyric basalt. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL3> <http://www.w3.org/2004/02/skos/core#definition> "Basalt and trace conglomerate and feldspar-phyric basalt. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL4> <http://www.w3.org/2004/02/skos/core#definition> "Feldspar-phyric hawaiite with subsidiary conglomerate and hawaiite and trace basalt. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL5> <http://www.w3.org/2004/02/skos/core#definition> "Feldspar-phyric hawaiite and trace hawaiite. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNAL6> <http://www.w3.org/2004/02/skos/core#definition> "Basaltic-andesite and trace conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GUIRD> <http://www.w3.org/2004/02/skos/core#definition> "Pyroxene-plagioclase-phyric andesite with subsidiary conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LFION> <http://www.w3.org/2004/02/skos/core#definition> "Olivine-phyric hawaiite with subsidiary conglomerate and trace olivine-basalt. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORVAL> <http://www.w3.org/2004/02/skos/core#definition> "Mugearite. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEIG> <http://www.w3.org/2004/02/skos/core#definition> "Porphyritic-rhyolitic pitchstone and trace ash, conglomerate and pitchstone. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UFION> <http://www.w3.org/2004/02/skos/core#definition> "Basaltic-andesite with subsidiary conglomerate. Stratified bedrock. Occurs onshore. Deposited during the Eocene Epoch (Palaeogene Period) (56-33.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYIN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LYIN> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SEIG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sgurr Of Eigg Pitchstone Formation"@en .
