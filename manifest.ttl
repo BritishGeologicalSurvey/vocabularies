@@ -25,5 +25,11 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
             schema:description "An RDF file containing all the details of Agents referred to in vocabularies" ;
             schema:name "Agents" ;
+        ] ,
+        [
+            prof:hasArtifact "metadata/labels.ttl" ;
+            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing labels for the vocabularies" ;
+            schema:name "Labels" ;
         ] ;
 .
