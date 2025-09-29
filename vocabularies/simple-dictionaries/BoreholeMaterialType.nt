@@ -1,6 +1,5 @@
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/BoreholeMaterialType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
 <http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://www.w3.org/2004/02/skos/core#definition> "Dictionary table listing core material types and their short codes."@en .
@@ -168,3 +167,4 @@
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/UWCT> <http://www.w3.org/2004/02/skos/core#prefLabel> "UNWASHED CUTTINGS"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WCSM> <http://www.w3.org/2004/02/skos/core#prefLabel> "WAXED CORE SAMPLE"@en .
 <http://data.bgs.ac.uk/id/BoreholeMaterialType/WSCT> <http://www.w3.org/2004/02/skos/core#prefLabel> "WASHED CUTTINGS"@en .
+<http://data.bgs.ac.uk/ref/BoreholeMaterialType> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .

@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<http://data.bgs.ac.uk/ref/BritishGeologicalSurvey>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk"^^xsd:anyURI ;
+.

@@ -1,0 +1,18 @@
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://data.bgs.ac.uk/ref/catalogue>
+    a schema:DataCatalog ;
+    schema:hasPart
+        <http://data.bgs.ac.uk/ref/BoreholeMaterialType> ;
+    skos:historyNote "This catalogue was was created in 2025 on top of a pre-existing repository and vocab system"@en ;
+    schema:codeRepository "https://github.com/BritishGeologicalSurvey/vocabularies" ;
+    schema:contributor <https://kurrawong.ai> ;
+    schema:creator <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> ;
+    schema:dateCreated "2025"^^xsd:gYear ;
+    schema:dateModified "2025-09-26"^^xsd:date ;
+    schema:description """British Geological Survey's Semantic Web vocabularies of controlled terms""" ;
+    schema:name "BGS Vocabularies" ;
+    schema:publisher <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> ;
+.
