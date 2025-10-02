@@ -1,10 +1,19 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JC> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KE> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "165.3"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KM> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "100.5"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "66"^^<http://www.w3.org/2001/XMLSchema#double> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone, sandstone and siltstone with subsidiary limestone. Stratified bedrock. Occurs both onshore and offshore. Deposited during the Berriasian Age - to - Albian Age (Cretaceous Period) (143.1-100.5 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and sandstone and trace coal and limestone. Stratified bedrock. Occurs offshore. Deposited during the Callovian Age (Jurassic Period) - to - Berriasian Age (Cretaceous Period) (165.3-137.7 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone with subsidiary limestone. Stratified bedrock. Occurs offshore. Deposited during the Cenomanian Age - to - Maastrichtian Age (Cretaceous Period) (100.5-66 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/AND"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BA"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BREC"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CALSST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CONG"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FGOUGE"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SLST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Psammite; subsidiary pelite, quartzite and  semipelite, variably gneissose."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OORS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OORS> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OORS> <http://www.w3.org/2004/02/skos/core#altLabel> "Old Red Sandstone Supergroup"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#altLabel> "Orcadian Old Red Sandstone Supergroup [Obsolete: use ORS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOP> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#definition> "Conglomerate and sandstone with subsidiary andesite, basalt, mudstone and siltstone and trace breccia, calcareous sandstone and fault-gouge. Stratified bedrock. Occurs offshore. Deposited during the Pridoli Epoch (Silurian Period) - to - Late Devonian Epoch (Devonian Period) (422.7-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Tonian Period (Precambrian) (1000-720 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOP> .

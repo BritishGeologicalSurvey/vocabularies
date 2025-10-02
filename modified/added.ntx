@@ -1,10 +1,10 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JB> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KU> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "170.9"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/KE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GP> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "93.9"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "56"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRKN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone, sandstone and siltstone with subsidiary limestone. Stratified bedrock. Occurs both onshore and offshore. Deposited during the Berriasian Age - to - Cenomanian Age (Cretaceous Period) (143.1-93.9 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HMBG> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone and sandstone and trace coal and limestone. Stratified bedrock. Occurs offshore. Deposited during the Bajocian Age (Jurassic Period) - to - Berriasian Age (Cretaceous Period) (170.9-137.7 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STLN> <http://www.w3.org/2004/02/skos/core#definition> "Mudstone with subsidiary limestone. Stratified bedrock. Occurs offshore. Deposited during the Late Cretaceous Epoch (Cretaceous Period) - to - Paleocene Epoch (Palaeogene Period) (100.5-56 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CONG"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PEL"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PSAMM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SEMPEL"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ME> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Psammite; subsidiary pelite, quartzite and semipelite, variably gneissose."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ORS> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs offshore. Deposited during the Pridoli Epoch (Silurian Period) - to - Late Devonian Epoch (Devonian Period) (422.7-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WROS> <http://www.w3.org/2004/02/skos/core#definition> "Psammite with subsidiary conglomerate, pelite and semipelite. Stratified bedrock. Occurs onshore. Deposited during the Tonian Period (Precambrian) (1000-720 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOP> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHOP> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
