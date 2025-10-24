@@ -1,9 +1,4 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRHC> <http://www.w3.org/2004/02/skos/core#altLabel> "Upper Brodini Coal (South Wales)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LDSA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DORN> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBRO> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNQMD> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UBRO> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBRO> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UBRO> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LBRO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lower Brodini Coal (South Wales)"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UBRO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Upper Brodini Coal (South Wales)"@en .
+-<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/0226608b-ba6c-0aa2-e054-002128a47908> .
+-<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
+-<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13606289> .
