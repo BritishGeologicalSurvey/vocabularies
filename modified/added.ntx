@@ -1,16 +1,42 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608493> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/3c6345c5-98fb-bfbb-e063-3050940a3306> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608539> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/408e9c51-02db-3631-e063-3050940acb7a> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608559> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/41cf03f3-b7c5-9c7c-e063-3050940a34c6> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608560> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/41cf03f3-b7c6-9c7c-e063-3050940a34c6> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608493> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608539> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608559> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608560> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608539> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608493> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608559> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608560> .
++<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/0226608b-ba6c-0aa2-e054-002128a47908> .
++<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13606289> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13606289> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PGGN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sheets of granite and pegmatitic granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes the Cairn Trench Granite Pluton (CTGR) and Ben Tirran Granitic Intrusion-swarm."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "486.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/P> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/SH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/HM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/CS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "443.1"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://www.w3.org/2004/02/skos/core#definition> "Granite and pegmatitic granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period - to - Early Devonian Epoch (Devonian Period) (443.1-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#notation> "WHGN"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aberdeen Granite Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairn Trench Granite Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenshiels Tonalite Sheet"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hunt Hill Granitic Sheet-swarm"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIBL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hill Of Blairs Granite Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kemnay Granite Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WHGN> <http://www.w3.org/2004/02/skos/core#prefLabel> "White Hill Granite Cluster"@en .
