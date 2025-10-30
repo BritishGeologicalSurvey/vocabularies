@@ -1,16 +1,4 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
--<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2025-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period - to - Early Devonian Epoch (Devonian Period) (443.1-394.3 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADEEN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aberdeen Pluton"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CTGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairn Trench Intrusion"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Greenshiels Intrusion"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HHGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hunt Hill Intrusion"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIBL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hill Of Blairs Pluton"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KEMN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kemnay Pluton"@en .
+-<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/30b030fd-ea1e-6e66-e063-3050940a4175> .
+-<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
+-<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608395> .
