@@ -1,4 +1,51 @@
--<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/30b030fd-ea1e-6e66-e063-3050940a4175> .
--<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/dataHolding/13608395> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
--<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608395> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCSL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SAPEL"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "N/A"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVCH> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/P> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/VN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RORA> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "N/A"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKYL> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2829> <http://www.w3.org/2004/02/skos/core#altLabel> "Glen Kyllachy Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANHGR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABCH> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVCH> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDER> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKYL> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> <http://www.w3.org/2004/02/skos/core#definition> "Trace aplitic-foliated microgranite, foliated granite, foliated leucogranite, granodiorite and tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHILL> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLND> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Bedrock. Occurs onshore. Formed during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RORA> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADCL> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COORD> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKYL> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOYG> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ADCL> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COORD> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKYL> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOYG> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRG> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANHGR> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HOMI> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRTN> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ABCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aberchirder Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COORD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairns Of Ord Intrusion"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CVCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carvichen Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FDER> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forest Of Deer Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GKYL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glen Kyllachy Intrusion"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNKY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glen Kyllachy Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHILL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Longmanhill Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lochlundie Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MOYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moy Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGRA> <http://www.w3.org/2004/02/skos/core#prefLabel> "North-East Grampian Granitic Suite (Ordovician)"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/QCHAN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quilichan Granodiorite Vein Complex"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RORA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rora Tonalite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strichen Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strathspey Granite"@en .
