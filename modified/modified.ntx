@@ -1,0 +1,33 @@
+-<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#definition> "The item's status is stable and was supplied to the registry after initial creation"@en .
+-<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://linked.data.gov.au/def/reg-statuses> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8742-7730> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/created> "2018-07-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/creator> <https://www.epimorphics.com> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/modified> "2025-03-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/publisher> <https://linked.data.gov.au/org/agldwg> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/rights> "(c) Commonwealth of Australia 2024"@en .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/dc/terms/source> <http://purl.org/linked-data/registry> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/vocab/vann/preferredNamespacePrefix> "reg-status"@en .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/AGLDWG/reg-status> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionIRI> <https://linked.data.gov.au/def/reg-status/2.2> .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.0 - 2018-06 - as per Registry Ontology original" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 - 2020-06 - altered structure & metadata, not content, to conform to Vocab Publication Profile" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "1.2 - 2021-11 - changes IRI to reg-statuses; added unstable" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.0 - 2023-01 - addition of Concepts addition & original, as per updated Registry Item status codes" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.1 - 2023-05 - added colours" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.2 - 2024-07 - fixed incorrect prefLabels for unstable & original in the RDF that used 'stable'. Also fixed preferred namespace URI. Updated Nicholas' affiliation to ANU" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.3 - 2025-03 - minor errors in HTML fixed" .
+-<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#historyNote> "This vocabulary was derived from the Registry Ontology by Eplimorphics which itself was derived from ISO19135" .

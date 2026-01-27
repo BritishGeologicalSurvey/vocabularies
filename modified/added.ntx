@@ -1,12 +1,29 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608603> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/486b789b-f082-4f60-e063-3050940a619e> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608604> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/487e04a3-e92f-b2b7-e063-3050940afd2f> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608608> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/48f729dc-8fc1-1504-e063-3050940a7570> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608603> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608604> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608608> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608603> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608604> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608608> .
++<https://linked.data.gov.au/def/reg-statuses/accepted> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for use but not available" .
++<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#definition> "The item's status is stable and was supplied to the register after its creation"@en .
++<https://linked.data.gov.au/def/reg-statuses/addition> <http://www.w3.org/2004/02/skos/core#scopeNote> "Stable and usable. An addition to original register issue" .
++<https://linked.data.gov.au/def/reg-statuses/deprecated> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for use but not available" .
++<https://linked.data.gov.au/def/reg-statuses/experimental> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for testing use only" .
++<https://linked.data.gov.au/def/reg-statuses/invalid> <http://www.w3.org/2004/02/skos/core#scopeNote> "Not approved for use: invalid" .
++<https://linked.data.gov.au/def/reg-statuses/notAccepted> <http://www.w3.org/2004/02/skos/core#scopeNote> "Not approved for use" .
++<https://linked.data.gov.au/def/reg-statuses/original> <http://www.w3.org/2004/02/skos/core#scopeNote> "Stable and usable. Created at initial register issue" .
++<https://linked.data.gov.au/def/reg-statuses/reserved> <http://www.w3.org/2004/02/skos/core#scopeNote> "Placeholder: not yet approved for use" .
++<https://linked.data.gov.au/def/reg-statuses/retired> <http://www.w3.org/2004/02/skos/core#scopeNote> "Previously approved for use but no longer" .
++<https://linked.data.gov.au/def/reg-statuses/stable> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for use and available" .
++<https://linked.data.gov.au/def/reg-statuses/submitted> <http://www.w3.org/2004/02/skos/core#scopeNote> "Proposed for addition, not approved, not available for use" .
++<https://linked.data.gov.au/def/reg-statuses/superseded> <http://www.w3.org/2004/02/skos/core#scopeNote> "Previously approved for use but now replaced" .
++<https://linked.data.gov.au/def/reg-statuses/unstable> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for use but no longer available" .
++<https://linked.data.gov.au/def/reg-statuses/valid> <http://www.w3.org/2004/02/skos/core#scopeNote> "Approved for use but may be experimental" .
++<https://linked.data.gov.au/def/reg-statuses> <http://purl.org/vocab/vann/preferredNamespacePrefix> "rstatus"@en .
++<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionIRI> <https://linked.data.gov.au/def/reg-status/2.5> .
++<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2002/07/owl#versionInfo> "2.5 - 2026-01 - Differentiated Addition & Original by definition changes\n\n2.4 - 2026-01 - added scope notes to be used for use messages\n\n2.3 - 2025-03 - minor errors in HTML fixed\n\n2.2 - 2024-07 - fixed incorrect prefLabels for unstable & original in the RDF that used 'stable'. Also fixed preferred namespace URI. Updated Nicholas' affiliation to ANU\n\n2.1 - 2023-05 - added colours\n\n2.0 - 2023-01 - addition of Concepts addition & original, as per updated Registry Item status codes\n\n1.2 - 2021-11 - changes IRI to reg-statuses; added unstable\n\n1.1 - 2020-06 - altered structure & metadata, not content, to conform to Vocab Publication Profile\n\n1.0 - 2018-06 - as per Registry Ontology original" .
++<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/2004/02/skos/core#historyNote> "This vocabulary was derived from the Registry Ontology by Epimorphics which itself was derived from ISO19135" .
++<https://linked.data.gov.au/def/reg-statuses> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/linked-data/registry> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/codeRepository> "https://github.com/AGLDWG/reg-status"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/contributor> <https://orcid.org/0000-0002-8742-7730> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/copyrightNotice> "(c) Commonwealth of Australia 2024"@en .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/creator> <https://www.epimorphics.com> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/dateCreated> "2018-07-23"^^<http://www.w3.org/2001/XMLSchema#date> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/dateIssued> "2018-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/dateModified> "2026-01-27"^^<http://www.w3.org/2001/XMLSchema#date> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/publisher> <https://linked.data.gov.au/org/agldwg> .
++<https://linked.data.gov.au/def/reg-statuses> <https://schema.org/version> "2.5" .
