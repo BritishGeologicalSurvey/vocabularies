@@ -1,5 +1,41 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608613> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/495c6cb8-6049-7e2e-e063-3050940a2768> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608613> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608613> .
++<http://data.bgs.ac.uk/id/dataHolding/13480247> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df51-6362-37a8-e044-0003ba9b0d98> .
++<http://data.bgs.ac.uk/id/dataHolding/13605409> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df53-2a5b-37a8-e044-0003ba9b0d98> .
++<http://data.bgs.ac.uk/id/dataHolding/13607418> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/813b8fcf-dab5-28ae-e054-002128a47908> .
++<http://data.bgs.ac.uk/id/dataHolding/13480247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13605409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13480247> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13605409> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13607418> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480247> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607418> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13605409> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use EGNS] Hornblende schist with subsidiary amphibolite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHG> <http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H166> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DCLE> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AZ> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSHA> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JT> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GAS> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "319"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNRH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "449.75"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BLKB> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLCO> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CE> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/20CO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLFU> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAP> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S542> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/B> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.6m"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ILSI> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "At surface."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLEN> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/GI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOCL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/CX> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UDEV> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DMC> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "318"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MVSH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "477.1"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/YSDT> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "174.7"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4963> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGNS> <http://www.w3.org/2004/02/skos/core#altLabel> "Snarra Ness \"Group\" [Obsolete: use EGNS]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://www.w3.org/2004/02/skos/core#altLabel> "Eastern Gneisses"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Hornblende schist with subsidiary amphibolite. Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Formed during the Proterozoic Eon (Precambrian) (2500-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNAR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Snarra Ness \"Group\" [Obsolete: use EGNS]"@en .
