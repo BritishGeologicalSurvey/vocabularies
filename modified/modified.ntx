@@ -1,7 +1,9 @@
--<http://data.bgs.ac.uk/id/dataHolding/13608565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1119> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen-Y-Graig Tuff Member"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1758> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen-Y-Garnedd Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2078> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig-Y-Glyn Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig-Y-Glyn Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-Y-Garnedd Limestone Formation"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-Y-Graig Tuff Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUGI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NRV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SLMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STOD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TFASST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "BIOTITE-GRANITE, PORPHYRITIC PLUS TONALITE, PORPHYRITIC TO GRANODIORITE, PORPHYRITIC"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "TONALITE, PORPHYRITIC TO GRANODIORITE, PORPHYRITIC"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#definition> "Biotite-phyric granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boat Of Garten Pluton"@en .

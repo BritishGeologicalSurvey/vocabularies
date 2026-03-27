@@ -1,11 +1,13 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608656> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4d61b7f4-4ff6-5bd0-e063-3050940aa9a8> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608656> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608656> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1119> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen-y-graig Tuff Member"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1758> <http://www.w3.org/2004/02/skos/core#altLabel> "Pen-y-garnedd Limestone Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H2078> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig-y-glyn Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig-y-glyn Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-y-garnedd Limestone Formation"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PGT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-y-graig Tuff Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUGI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NRV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SLMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STOD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TFASST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite, granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes granite, granodiorite and dioritic plutons and intrusions."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Intrusions of porphyritic tonalite and porphyritic granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#definition> "Biotite-phyric granite and granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite and tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boat of Garten Pluton"@en .
