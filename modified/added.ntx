@@ -1,13 +1,39 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUGI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NRV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SLMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STOD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TFASST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite, granite."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/FOY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes granite, granodiorite and dioritic plutons and intrusions."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Intrusions of porphyritic tonalite and porphyritic granodiorite."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#definition> "Biotite-phyric granite and granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite and tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boat of Garten Pluton"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDGE> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/J> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/S"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Dune and beach sand made up largely of broken shell material."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone with subsidiary mudstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "2.58"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "168.2"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LU> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/JN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "0"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "165.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2026-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/2004/02/skos/core#definition> "Sand. Superficial deposits. Occurs onshore. Formed during the Quaternary Period (2.58-0 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/2004/02/skos/core#definition> "Limestone with subsidiary mudstone. Stratified bedrock. Occurs onshore. Deposited during the Bathonian Age (Jurassic Period) (168.2-165.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSA> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GOG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/2004/02/skos/core#notation> "MACHD"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/2004/02/skos/core#notation> "WYLF"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MACHD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machair deposits"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WYLF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wytchley Limestone Formation"@en .

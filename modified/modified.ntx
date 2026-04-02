@@ -1,9 +1,2 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HUGI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NRV> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/SLMDST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STOD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TFASST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "BIOTITE-GRANITE, PORPHYRITIC PLUS TONALITE, PORPHYRITIC TO GRANODIORITE, PORPHYRITIC"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "TONALITE, PORPHYRITIC TO GRANODIORITE, PORPHYRITIC"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#definition> "Biotite-phyric granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TOREH> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGTN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boat Of Garten Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WDGE> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/Q> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2026-02-16"^^<http://www.w3.org/2001/XMLSchema#date> .
