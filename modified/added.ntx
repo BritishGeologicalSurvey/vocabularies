@@ -1,24 +1,19 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608647> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4c34b55e-3f39-3508-e063-3050940aca58> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608649> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4c455bd1-882c-bc59-e063-3050940a1828> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608661> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4e5310d0-3fa9-8dfe-e063-3050940a2b43> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608662> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4e62f86d-d797-2567-e063-3050940a2aa2> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608663> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4edda9af-9a56-4d79-e063-3050940ac1eb> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608664> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4edfe95c-ed0f-a7dc-e063-3050940a3301> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608664> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608647> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608649> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608661> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608662> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608663> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608664> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608647> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608649> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608661> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608662> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608663> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608664> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DI"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MCGNR"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DIR"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GDP"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Several intrusions of diorite, tonalite and granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEAT> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes an unnamed large intrusion of granodiorite as well as numerous unnamed veins of (micro-) granitic-rock."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite. Includes an outer facies of porphyritic granodiorite, and an inner facies of non-porphyritic granodiorite, as well as several unnamed autoliths of dioritic-rock."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRON> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes Loch Sunart Granodiorite Pluton (STRLS) and Glen Sanda Granodiorite Intrusion-swarm, as well as unnamed intrusions of appinitic diorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://www.w3.org/2004/02/skos/core#definition> "Diorite, granodiorite and tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ludlow Epoch (Silurian Period) - to - Early Devonian Epoch (Devonian Period) (426.7-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEAT> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Wenlock Epoch (Silurian Period) - to - Early Devonian Epoch (Devonian Period) (432.9-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://www.w3.org/2004/02/skos/core#definition> "Biotite granodiorite and microgranitic-rock. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://www.w3.org/2004/02/skos/core#definition> "Dioritic-rock, granodiorite and porphyritic granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glen Sanda Facies (Strontian Pluton)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loch Sunart Facies (Strontian Pluton)"@en .
