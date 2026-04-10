@@ -1,9 +1,14 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/HBBGD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Biotite granodiorite."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Hornblende-biotite granodiorite."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMFD> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ludlow Epoch (Silurian Period) - to - Early Devonian Epoch (Devonian Period) (426.7-394.3 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEAT> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Wenlock Epoch (Silurian Period) - to - Early Devonian Epoch (Devonian Period) (432.9-394.3 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://www.w3.org/2004/02/skos/core#definition> "Biotite granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://www.w3.org/2004/02/skos/core#definition> "Hornblende-biotite granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRGS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glen Sanda Facies [Strontian Pluton]"@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loch Sunart Facies [Strontian Pluton]"@en .
+-<http://data.bgs.ac.uk/id/dataHolding/13608558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLINN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite and granodiorite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLUAG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGFD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/IGD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/3QRS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Coal. Stratified bedrock. Occurs onshore. Deposited during the Langsettian Substage (Carboniferous Period) (319-318 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GCS> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Deposited during the Early Devonian Epoch (Devonian Period) (419-394.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H756> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Stratified bedrock. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RKIT> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Courceyan Substage (Carboniferous Period) (359.3-346.7 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNSC> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNSC> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROMG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ross Of Mull Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROMG1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ross Of Mull Pluton, Phase 1"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROMG2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ross Of Mull Pluton, Phase 2"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ROMG3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ross Of Mull Pluton, Phase 3"@en .
