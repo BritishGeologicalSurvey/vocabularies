@@ -1,1 +1,4 @@
--<http://data.bgs.ac.uk/id/dataHolding/13608557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red-brown (2.5YR 4/4) well-consolidated gravel-rich diamicton with a sand-dominated matrix."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASGL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASGL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt An T-Srathain Member"@en .

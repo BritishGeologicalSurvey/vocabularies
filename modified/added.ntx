@@ -1,5 +1,8 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608660> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4debedf5-28ba-c336-e063-3050940a55c5> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608660> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608660> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STTI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STTI> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Duplicate: use STTI] Red-brown (2.5YR 4/4) well-consolidated gravel-rich diamicton with a sand-dominated matrix."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt an t-Strathain Till Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STTI> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt an t-Srathain Member [Duplicate: use STTI]"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt an t-Srathain Member [Duplicate: use STTI]"@en .
