@@ -1,4 +1,79 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Red-brown (2.5YR 4/4) well-consolidated gravel-rich diamicton with a sand-dominated matrix."@en .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASGL> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ASGL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> .
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ANSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt An T-Srathain Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHKG> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHKG> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDGR> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DAGB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MLMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HTL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DSLST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete] Red-brown sandy, silty, matrix-supported diamicton with isolated dropstone cobbles of Moine psammite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GARRY> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite with subsidiary leucogranite and trace diorite, intrusion-breccia and tuffisite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMOR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Microgranite and trace leucogranite and pegmatite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "At the type section, an erosional contact on Glaciofluvial outwash of the Main Late Devensian Glaciation; elsewhere mapping indicates unconformable contact on Old Red Sandstone bedrock. The till also interdigitates with the lower parts of the Hempriggs Sand Member locally."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRHS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Not seen; mapping indicates erosional contact on Till (Finglack Till Formation), Glaciofluvial outwash of the Main Late Devensian Glaciation, laid down prior to the Elgin Oscillation and Old Red Sandstone bedrock."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/REAY> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STHL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/I> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At least 2.5m thick at its type section; mapping indicates that the unit may reach 3 to 4m in thickness locally."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRHS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Composite sections indicate a typical thickness >10m; the land forms indicate a thickness of >20m locally. (see type localities of component members of the Formation."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HRGS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Composite sections indicate a typical thickness of  5-10m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHSI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Proved to 1.2m depth (unbottomed) in auger hole type section, but degraded exposures on the track to the top of Grange Hill, 83m NW of the auger hole.  Suggest that the unit may reach up to c.5m in thickness locally."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GRHS> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally the ground surface, but locally unconformably overlain by sandy Late Devensian Raised Beach Deposits or sandy Holocene Raised Marine Deposits."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MHSI> <http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> "Generally the ground surface, but locally unconformably overlain by sandy Late Devensian Raised Beach Deposits or sandy Holocene Raised Marine Deposits.  \r\n \r\n \r\n \r\n\r\n \r\n"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/deprecated> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDGR> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig An Daimh Member"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DHKG> <http://www.w3.org/2004/02/skos/core#altLabel> "Orbliston And Deanshillock Members Of The Teindland Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3285> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig An Daimh Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://www.w3.org/2004/02/skos/core#altLabel> "Craig An Daimh Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AAFS> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APT> <http://www.w3.org/2004/02/skos/core#definition> "Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Formed during the Llandovery Epoch (Silurian Period) (443.1-432.9 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAUM> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BORO> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSQ> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://www.w3.org/2004/02/skos/core#definition> "Obsolete name. Sandy diamicton. Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage (Quaternary Period) (.116-.0118 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL1> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL2> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL3> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAILU> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEDS> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUCB> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NTBG> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Formed during the Devensian Stage - to - Holocene Epoch (Quaternary Period) (.116-0 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARH> <http://www.w3.org/2004/02/skos/core#definition> "Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Formed during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> <http://www.w3.org/2004/02/skos/core#definition> "Superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://www.w3.org/2004/02/skos/core#definition> "Stratified superficial deposits. Occurs onshore. Age not entered."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AAFS> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APT> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAUM> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BORO> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSQ> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMOR> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL1> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL2> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL3> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAILU> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEDS> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUCB> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARH> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AAFS> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/APT> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAUM> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BORO> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSQ> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GMOR> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL1> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL2> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAIL3> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAILU> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LEDS> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LUCB> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PARH> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BAUM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bad Na H-Achlaise Ultramafic Rocks"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BORO> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt A'Mhuilinn Pseudoleucite-Syenite And Associated Rocks"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CDGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig An Daimh Gravel Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNSQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cnoc Na Sroine Quartz-Syenite"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EGTI> <http://www.w3.org/2004/02/skos/core#prefLabel> "East Grange Till Member [Obsolete]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orbliston And Deanshillock Members Of The Teindland Formation"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S755> <http://www.w3.org/2004/02/skos/core#prefLabel> "Craig An Daimh Member"@en .
