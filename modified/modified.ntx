@@ -1,1 +1,24 @@
--<http://data.bgs.ac.uk/id/dataHolding/13608551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Sills within, and contemporaneous with the Borrowdale Volcanic Group, the  lower boundary of which is defined at the contact of each sill. Most occur within the Borrodale Volcanic Group, though some are present in the Skiddaw Group and were previously interpreted as lava."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "419"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "419"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMBL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/LD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVGS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Individual sills up to 400m thick, typically much less."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INGL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Unit thickness is unknown, but the vent is about 50m in diameter."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMBR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c.0.5 square km in total area (c.3km long x 0.2km wide)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRBG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Unit thickness is not known, but the body is about 250 x 100m, with the main vent extending 100 x 40m."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNHI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Thickness, not known, 75 x 50 m in areal extent"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAP> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "A steep-sided, cylindrical pluton, with an outcrop area of about 8 km2."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOCG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Thickness not known, but individual vents vary from 5 x 50 m, to 250 x 100m. This unit may be one vent with two small subsidiary vents."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/D> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "359.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "359.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3949> <http://www.w3.org/2004/02/skos/core#altLabel> "Cairnsmore Of Fleet Pluton"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Silurian Period - to - Devonian Period (443.1-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairnsmore Of Fleet Pluton"@en .
