@@ -1,28 +1,136 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/ANDR"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMPY"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Numerous sheets and pipes of andesitic-rock, several sheets of lamprophyre, and numerous sheets and stocks of granodiorite."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVGS> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Sills within, and contemporaneous with the Borrowdale Volcanic Group, the lower boundary of which is defined at the contact of each sill. Most occur within the Borrodale Volcanic Group, though some are present in the Skiddaw Group and were previously interpreted as lava."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "410.5"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "410.5"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/EMBL> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BVGS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Individual sills up to 400 m thick, typically much less."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/INGL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Unit thickness is unknown, but the vent is about 50 m in diameter."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KMBR> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "c. 0.5 square km in total area (c. 3 km long x 0.2 km wide)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KRBG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Unit thickness is not known, but the body is about 250 x 100 m, with the main vent extending 100 x 40 m."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PNHI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Thickness, not known, 75 x 50 m in areal extent."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SHAP> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "A steep-sided, cylindrical pluton, with an outcrop area of about 8 sq km."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SOCG> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Thickness not known, but individual vents vary from 5 x 50 m, to 250 x 100 m. This unit may be one vent with two small subsidiary vents."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DE> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "394.3"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "394.3"^^<http://www.w3.org/2001/XMLSchema#double> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3949> <http://www.w3.org/2004/02/skos/core#altLabel> "Cairnsmore of Fleet Pluton"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BSTM> <http://www.w3.org/2004/02/skos/core#definition> "Andesitic-rock and granodiorite with subsidiary lamprophyre. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period - to - Devonian Period (443.1-359.3 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG1> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Emsian Age (Devonian Period) (410.5-394.3 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG2> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Emsian Age (Devonian Period) (410.5-394.3 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COFG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cairnsmore of Fleet Pluton"@en .
++<http://data.bgs.ac.uk/id/dataHolding/13608651> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/4c590b7f-ea3c-eb8d-e063-3050940af19d> .
++<http://data.bgs.ac.uk/id/dataHolding/13608680> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/50ab0a1b-2945-b877-e063-3050940a27f3> .
++<http://data.bgs.ac.uk/id/dataHolding/13608699> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/5128c4d4-f116-41fd-e063-3050940a2707> .
++<http://data.bgs.ac.uk/id/dataHolding/13608550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608651> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608699> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13608651> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608680> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/id/dataHolding/13608699> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608651> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608680> .
++<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608699> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/KDCP> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/T> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WCF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCSC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/BRPOCM"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BERG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MCGD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/HBT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/TO"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GD"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OTD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/MCGB"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/AND"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLR"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BADIN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A porphyritic, horneblende-diorite and microdiorite, dolerite and olivine-augite hornblendite. Radiometric age: 458 +/- 9 Ma (K-AR whole rock) (Rundle, 1979)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BERG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Layered cumulate gabbros and quartz-gabbros, forming the Mosedale Intrusions which have a calc-alkaline/transitional to tholeiitic composition, microgabbro, microgranite with apatite-bearing iron-rich microdiorite, micromonzodiorite and microgranite zones forming the tholeiitic Carrock Intrusions, quartz-phyric rhyolite of the Harestones Rhyolite, and a microgranite named the Iron Crag Microgranite. Several component intrusions have Ordovician radiometric ages (Mosedale Gabbros, Carrock intrusions)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A microgabbro, cutting the main mass of micrographic microgranite, a narrow marginal zone of apatite-bearing, iron-rich gabbro, microdiorite, micromonzodiorite and microgranite. Radiometric age: microgranite 452.4 +/- 4.1 Ma (U-Pb, zircon) (Millward and Evans, 2003)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Tonalite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Microgranodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Hornblendite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESK> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A pink, medium-grained muscovite granite, aphyric and porphyritic microgranite, coarse-grained granite, medium-grained granodiorite, microgranodiorite, biotite-rich granodiorite, and quartz-mica greisen locally containing topaz and quartz-andalusite rock associated with granite. The age of the granite is 450 +/- 3 Ma (U-Pb, zircon) (Hughes et al., 1996)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GALGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "This unit and the North England Subsuite (NEDP) encompass intrusions that occur to the north and south respectively of the Iapetus Suture trace."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Several interconnected sill-like bodies of tonalite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANXG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "All components of the Caledonian Supersuite (CIGSS) that occur within the Isle of Man."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes all granite plutonic intrusions of Early Devonian age in Northern England, including the exposed Shap Pluton (SHAP), the Skiddaw Pluton (SKID) and the concealed Weardale and Crummock Water intrusions. The Shap Pluton is the type pluton for this Suite. \r\n\r\nThis unit and the Galloway Subsuite (GALGR) encompass intrusions that occur to the south and north respectively of the Iapetus Suture trace."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granodiorite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OTD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Microgabbro and granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Sheets of dolerite and andesite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THKD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A garnet-bearing, alkali feldspar-quartz-plagioclase-phyric microgranite. Age: 451.0 +/- 1.1 (2-sigma) Ma (U-Pb, zircon) (Millward and Evans, 2003)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> "Not defined."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "486.9"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOH> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOI> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOM> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESK> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ENIN> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "A laccolith, about 1 km thick, and with an area of about 53 sq. km intruded into the Skiddaw Group and the lower part of the Borrowdale Volcanic Group."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HAWS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "At least eight plugs and dyke-like masses within a total area of 19 sq km, and having a combined outcrop of about 2.6 sq km."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMI> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "The individual sills range from c. 1 m (lamprophyre), to about 60 m (diorite). An aggregate thickness of 100 - 150 m is probable"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSRL> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Vertical thickness unknown; the surface outcrops extend over 2.5 km, with probable extensions at depth on all sides."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLED> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "Vertical thickness unknown; boreholes show the complex is approximately 16 km in diameter."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/THKD> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "A laccolith 0.5 to 1 km thick and with an area of about 12 sq. km intruded into the Skiddaw Group and lowermost part of the Borrowdale Volcanic Group."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/O> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/DL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "443.1"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "394.3"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BERG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTO> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMI> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSRL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD2> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD3> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANXG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGR> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLED> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BERG> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOH> <http://www.w3.org/2004/02/skos/core#definition> "Rhyolite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOI> <http://www.w3.org/2004/02/skos/core#definition> "Microgranite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CFCOM> <http://www.w3.org/2004/02/skos/core#definition> "Gabbro and quartz-gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMGR> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGD> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> <http://www.w3.org/2004/02/skos/core#definition> "Tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Actonian Substage (Ordovician Period) (451.25-450.5 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSH> <http://www.w3.org/2004/02/skos/core#definition> "Microgranodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://www.w3.org/2004/02/skos/core#definition> "Hornblendite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTO> <http://www.w3.org/2004/02/skos/core#definition> "Tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Llandovery Epoch (Silurian Period) - to - Late Devonian Epoch (Devonian Period) (443.1-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEDP> <http://www.w3.org/2004/02/skos/core#definition> "Granite with subsidiary greisen. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Early Devonian Epoch (Devonian Period) (419-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD1> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD2> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD3> <http://www.w3.org/2004/02/skos/core#definition> "Granodiorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/OTD> <http://www.w3.org/2004/02/skos/core#definition> "Granite and microgabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> <http://www.w3.org/2004/02/skos/core#definition> "Andesite and dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Ordovician Period (486.9-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGR> <http://www.w3.org/2004/02/skos/core#definition> "Granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Llandovery Epoch (Silurian Period) - to - Early Devonian Epoch (Devonian Period) (443.1-394.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLED> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-diorite and tonalite with subsidiary diorite and microtonalite and trace aplitic microgranite and pegmatite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Caradoc Series (Ordovician Period) (458.2-449.75 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BERG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRTO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUSH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LHTO> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MMI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSRL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/POGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SGGR> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLED> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MANXG> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRTN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD2> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NEGD3> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/DASH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dash Picrite"@en .
