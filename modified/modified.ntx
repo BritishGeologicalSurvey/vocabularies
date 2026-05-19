@@ -1,1 +1,20 @@
--<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/STRON> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes Loch Sunart Granodiorite Pluton (STRLS) and Glen Sanda Granodiorite Intrusion-swarm, as well as unnamed intrusions of appinitic diorite."@en .
+-<http://data.bgs.ac.uk/id/dataHolding/13480317> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/9df8df52-d7bf-37a8-e044-0003ba9b0d98> .
+-<http://data.bgs.ac.uk/id/dataHolding/13480317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/dataHolding/13480317> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
+-<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13480317> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ALFRD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CIGSS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CGMGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CIGSS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ESHET> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SHEGR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HIO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CIGSS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MSHET> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SHEGR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NWGRA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use CIGSS]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSHET> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "[Obsolete: use SHEGR]"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/S> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "419"^^<http://www.w3.org/2001/XMLSchema#double> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Silurian Period (443.1-419 Ma BP)."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CIGSS> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HISL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scottish Highlands Silurian Suite"@en .
