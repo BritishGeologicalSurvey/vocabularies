@@ -1,8 +1,10 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608718> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/53e43ff3-a6e2-c5df-e063-3050940a59b6> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608719> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/53e54006-cbf5-e2d3-e063-3050940aee51> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608719> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608718> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608719> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608718> .
-+<http://data.bgs.ac.uk/ref/ThirdPartyDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608719> .
++<http://data.bgs.ac.uk/id/dataHolding/13607097> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/482e073c-102b-3466-e054-002128a47908> .
++<http://data.bgs.ac.uk/id/dataHolding/13607097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
++<http://data.bgs.ac.uk/id/dataHolding/13607097> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
++<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13607097> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/AND"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLRQ"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BHPI> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Several sheets of andesitic pitchstone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes numerous quartz-dolerite cone-sheets, a few andesitic cone-sheets, and a few composite basic-silicic cone-sheets."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MUCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A component of the Hebridean Province (HBRID) comprising three geographically and petrologically related centres (Glen More (GLMO), Beinn Chaisgidle (BCHA) and Loch Ba (LOBA)) that occur in the mountains of southern Isle of Mull. Includes a wide variety of intrusive and extrusive igneous rocks, together with both sedimentary and metamorphic country rocks, particularly in major vent-complexes."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C1> <http://www.w3.org/2004/02/skos/core#definition> "Andesite and quartz-dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
