@@ -1,5 +1,11 @@
-+<http://data.bgs.ac.uk/id/dataHolding/13608736> <http://xmlns.com/foaf/0.1/homepage> <http://metadata.bgs.ac.uk/geonetwork/srv/eng/catalog.search#/metadata/5511bc33-c646-dc5b-e063-3050940ab1cf> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-+<http://data.bgs.ac.uk/id/dataHolding/13608736> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/DiscoveryMetadata> .
-+<http://data.bgs.ac.uk/ref/BGSDataHolding/> <http://www.w3.org/2004/02/skos/core#member> <http://data.bgs.ac.uk/id/dataHolding/13608736> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/AUDI"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLRQ"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCHA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nIntermediate and mafic intrusive rocks."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes a marginal augite diorite zone and a main quartz-dolerite zone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nFelsic, intermediate and mafic intrusive rocks."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOBA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nMicrogabbro with subsidiary gabbro and trace agglomerate, felsite, granophyric granite and rhyolite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-dolerite with subsidiary augite diorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD1> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall nan Con Gabbro Intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNMT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Torr na Moine Trachyte Plug"@en .

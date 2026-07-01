@@ -1,1 +1,8 @@
--<http://data.bgs.ac.uk/id/dataHolding/13608435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCHA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Intermediate and mafic intrusive rocks."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Felsic, intermediate and mafic intrusive rocks."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOBA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Microgabbro with subsidiary gabbro and trace agglomerate, felsite, granophyric granite and rhyolite."@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://www.w3.org/2004/02/skos/core#definition> "Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
+-<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall Nan Con Gabbro Intrusion"@en .
+-<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNMT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Torr Na Moine Trachyte Plug"@en .
