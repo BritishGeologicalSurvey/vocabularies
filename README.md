@@ -1,131 +1,150 @@
 # BGS Vocabularies
 
-This repository hosts the datasets of BGS controlled vocabularies in Linked Open Data form, serialised as N-Triples, for the purposes of bulk download for loading into a graph database/triplestore, and for publicly exposing the version history of the vocabularies.
+Datasets of British Geological Survey controlled vocabularies in Linked Open Data form,
+serialised as [N-Triples](https://www.w3.org/TR/n-triples/). Published here for bulk
+download into a graph database or triplestore, and to expose the version history of the
+vocabularies publicly.
 
-Content is updated nightly.
+The same data is served through an API at [data.bgs.ac.uk](https://data.bgs.ac.uk), with
+HTML user interface pages for some of the schemes. Use the API for individual concept
+lookups and content negotiation; use this repository when you want the whole dataset.
 
-The data is stored in BGS's own triplestore and is made available from there through an API at https://data.bgs.ac.uk, with user interface HTML pages also provided for some of the schemes.
+## How this repository is maintained
 
-## Versioning / Releases
+The vocabularies are maintained in relational databases at BGS and exported nightly.
+BGS's internal GitLab is the source of truth; **this GitHub repository is an automated
+mirror**, updated daily.
 
-Prior to the creation of this repository releases of vocablaries was a manual process. There are 2 previous released versions of the BGS Lexicon: 
+That has one consequence worth knowing: commits and pull requests made directly here
+cannot be merged, and will cause the mirror to stop updating until someone unpicks it.
+Please raise an [issue](../../issues) instead, or contact one of the data managers below.
 
-- September 2017 - http://data.bgs.ac.uk/id/dataHolding/13607204 
-- April 2019 - http://data.bgs.ac.uk/id/dataHolding/13607461 
+## Versioning and releases
 
-Starting July 2024 versioned releases are made every 3 months on the 15th on the month using calender versioning eg 2024.07. 
+Releases are calendar-versioned as `YYYY.MM` and cut monthly on the 15th, tagged both
+internally and here. Each release is a snapshot of the vocabularies on that date, with
+per-file statement counts and a diff summary against the previous release in the notes.
 
-## Repository Contents
+Before this repository existed, releases were manual. Two earlier versions of the BGS
+Lexicon are recorded in the BGS data catalogue:
 
-`625KGeologyMap_all.nt` BGS Geology 625k (DiGMapGB -625) contains the triples for the map features; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+- September 2017 — <http://data.bgs.ac.uk/id/dataHolding/13607204>
+- April 2019 — <http://data.bgs.ac.uk/id/dataHolding/13607461>
 
-`vocabularies/dataholding.nt` - Dataset Catalogue - contains a minimal set of triples for the items in our dataset catalogue, this consists of identifiers and a link to the landing page and is used primarily to handle PID and redirects.
+Quarterly `YYYY.MM` releases ran from July 2024; the cadence moved to monthly in
+September 2026.
 
-`vocabularies/earth-material-class.nt` - Earth Material Class (BGS Rock Classification Scheme) -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+## Repository contents
 
-`vocabularies/geochronology.nt` - BGS Geochronology - contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+### File naming conventions
 
-`vocabularies/lexicon-named-rock-unit.nt` - BGS Lexicon of Named Rock Units -  contains the triples for the concepts; the triples for the concept scheme and BGS defined predicates and resource types are currently contained in `metadata/linked-data-mappings.nt`
+Files are grouped by vocabulary. Within each group the suffix tells you what the file
+holds:
 
-`vocabularies/thesaurus.nt` - BGS Thesaurus of Geosciences - contains the complete set of triples for the BGS Thesaurus of Geosciences - describing the concept scheme and the concepts. ALl predicate and resource types are taken from common schemas (skos, dcterms).
+| Suffix | Contents |
+|:--|:--|
+| *(none)* | The concepts themselves — the main dataset for that vocabulary |
+| `-scheme-only` | Just the `skos:ConceptScheme` description, without the concepts. Useful for building a catalogue without loading millions of triples |
+| `-predicates` | BGS-defined predicates and resource types used by that vocabulary |
+| `-alignments-<target>` | `skos:exactMatch` / `closeMatch` links to an external vocabulary (`dbpedia`, `cgi`, `inspire`) |
+| `-colours` | Presentation colours (Geochronology only) |
 
-`metadata/linked-data-mappings.nt` contains the descriptions of some of the concept schemes above, description of all predicates and resource types used in the datasets (including capturing the labels of third party predicates), and alignments between BGS vocabulary terms and terms in third party vocabularies
+Predicate and resource-type definitions not carried in a per-vocabulary `-predicates`
+file are in `metadata/linked-data-mappings.nt`.
 
-## License
+### Vocabularies
 
-Thus repository's content are licensed under the [Open Government Licence 3.0 (OGL 3.0)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+**`vocabularies/GeoscienceThesaurus/`** — BGS Thesaurus of Geosciences. Complete and
+self-contained: the concept scheme and the concepts, using only SKOS and Dublin Core
+predicates.
+
+**`vocabularies/LexiconNamedRockUnit/`** — BGS Lexicon of Named Rock Units. The largest
+vocabulary here. `RockUnitRank` gives the lithostratigraphic hierarchy (group, formation,
+member and so on).
+
+**`vocabularies/EarthMaterialClass/`** — BGS Rock Classification Scheme.
+`RockName` and `RockComposite` cover named lithologies and composite materials;
+`RockClassAll` is the combined set.
+
+**`vocabularies/Geochronology/`** — BGS Geochronology, with `GeochronologyRank` for the
+chronostratigraphic hierarchy and alignments to the IUGS CGI, INSPIRE and DBpedia
+timescales.
+
+**`vocabularies/625kGeologyMap/`** — BGS Geology 625k (DiGMapGB-625). Triples for the map
+features themselves; the concept scheme and predicates are in
+`metadata/linked-data-mappings.nt`.
+
+**`vocabularies/DataCataloguePID/`** — Dataset catalogue. A minimal set of triples —
+identifiers plus a link to the landing page — used to resolve persistent identifiers and
+handle redirects.
+
+**`vocabularies/simple-dictionaries/`** — Smaller controlled lists used in BGS data
+capture, currently bedding surface structure and borehole material type.
+
+### Supporting directories
+
+**`metadata/`** — `linked-data-mappings.nt` holds concept scheme descriptions, all
+predicate and resource-type definitions used across the datasets (including labels for
+third-party predicates), and alignments to external vocabularies. `ref-predicates.nt` and
+`reg-status.nt` carry reference predicates and registry status.
+
+**`modified/`** — Superseded versions of statements that have been changed, retained for
+data management. Format is N-Triples-like with a leading `-` on each line, hence the
+`.ntx` extension. Not valid N-Triples; do not load directly into a triplestore.
+
+## Loading the data
+
+The files are plain N-Triples, so they concatenate. To load everything into a triplestore:
+
+```bash
+cat vocabularies/*/*.nt metadata/*.nt > bgs-vocabularies.nt
+```
+
+Or load a single vocabulary, for example the Thesaurus:
+
+```bash
+curl -sL https://raw.githubusercontent.com/BritishGeologicalSurvey/vocabularies/main/vocabularies/GeoscienceThesaurus/GeoscienceThesaurus.nt \
+  | rdfpipe -i nt -o turtle - > thesaurus.ttl
+```
+
+Note that `vocabularies/625kGeologyMap/625kGeologyMap_all.nt` is close to 100 MB. If you
+are cloning only to obtain the data, `git clone --depth 1` will save you a great deal of
+time and disk.
+
+## Related reading
+
+- [The BGS Rock Classification Scheme as linked data](https://doi.org/10.1016/j.acags.2023.100131) — Applied Computing and Geosciences
+- [Exposing and resolving persistent identifiers on the web](https://britishgeologicalsurvey.github.io/open%20data/persistent-identifiers/) — BGS developer blog
+
+## Licence
+
+Content in this repository is licensed under the
+[Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ## Contacts
 
+[Rachel Heaven](https://www.bgs.ac.uk/people/heaven-rachel-2/) — Lead developer, Thesaurus data manager
 
+[Tim McCormick](https://www.bgs.ac.uk/people/mccormick-timothy/) — Lexicon, Geochronology and Rock Classification Scheme data manager
 
-[Rachel Heaven](https://www.bgs.ac.uk/people/heaven-rachel-2/) *Lead developer, Thesaurus data manager*: 
+## Other sources of geoscience and environmental vocabularies
 
- 
-[Tim McCormick](https://www.bgs.ac.uk/people/mccormick-timothy/) *Lexicon, Geochronology and Rock Classification Scheme data manager*: 
-
-
-
-## Other Sources of Geoscience/Environment Vocabularies
-
-### GEMET
-
-https://www.eionet.europa.eu/gemet
-
-### SWEET ontology
-
-https://bioportal.bioontology.org/ontologies/SWEET
-
-### IUGS CGI Vocabularies
-
-Server: https://cgi.vocabs.ga.gov.au/
-Files: https://github.com/GeoscienceAustralia/cgi-vocabs (https://github.com/CGI-IUGS/cgi-vocabs)
-
-### EARTh
-
-https://vocabularyserver.com/cnr/ml/earth/en/index.php?tema=103230&/earth-sciences
-
-### Linked Earth
-
-Service down but files at - https://github.com/LinkedEarth/Ontology/ 
-
-### ISPRAM
-
-http://dati.isprambiente.it/ontology/core/#classes 
-
-### INSPIRE    
-
-https://inspire.ec.europa.eu/layer 
-https://inspire.ec.europa.eu/glossary
-https://inspire.ec.europa.eu/featureconcept
-https://inspire.ec.europa.eu/codelist
-
-### NERC Vocabulary Server NVS
-
-http://vocab.nerc.ac.uk/
-
-### Centre for Ecology and Hydrology (CEH)
-
-https://vocabs.ceh.ac.uk/en/
-
-### USGS
-
-https://apps.usgs.gov/thesaurus/
-https://volcanoes.usgs.gov/vsc/glossary/
-https://water.usgs.gov/glossaries.html
-
-### CSIRO
-
-https://github.com/CSIRO-enviro-informatics/info-engineering
-List of vocabs - https://csiro-enviro-informatics.github.io/info-engineering/cv.html 
-
-### BRGM
-
-https://data.geoscience.fr/ncl/
-
-### GSWA
-
-http://gswaprez.australiaeast.azurecontainer.io/vocprez
-
-### GSQ
-
-https://vocabs.gsq.digital/vocabulary/
-https://github.com/geological-survey-of-queensland/vocabularies
-
-### TNO
-
-https://ontology.tno.nl/ (doesn't look like geoscience is in here)
-
-### GBA (Austria)
-
-https://schmar00.github.io/gba-thesaurus/ 
-
-### GeoERA
-
-https://github.com/schmar00/project-vocabularies
-https://www.europe-geology.eu/data-and-services/vocabularies/ 
-
-### WikiData
-
-https://www.wikidata.org/wiki/Wikidata:Main_Page
-
+| | |
+|:--|:--|
+| GEMET | <https://www.eionet.europa.eu/gemet> |
+| SWEET ontology | <https://bioportal.bioontology.org/ontologies/SWEET> |
+| IUGS CGI | <https://cgi.vocabs.ga.gov.au/> — files at <https://github.com/CGI-IUGS/cgi-vocabs> |
+| EARTh | <https://vocabularyserver.com/cnr/ml/earth/en/index.php?tema=103230&/earth-sciences> |
+| Linked Earth | <https://github.com/LinkedEarth/Ontology/> (service currently down) |
+| ISPRA | <http://dati.isprambiente.it/ontology/core/#classes> |
+| INSPIRE | <https://inspire.ec.europa.eu/layer> · [glossary](https://inspire.ec.europa.eu/glossary) · [feature concepts](https://inspire.ec.europa.eu/featureconcept) · [codelists](https://inspire.ec.europa.eu/codelist) |
+| NERC Vocabulary Server | <http://vocab.nerc.ac.uk/> |
+| UKCEH | <https://vocabs.ceh.ac.uk/en/> |
+| USGS | [thesaurus](https://apps.usgs.gov/thesaurus/) · [volcano glossary](https://volcanoes.usgs.gov/vsc/glossary/) · [water glossaries](https://water.usgs.gov/glossaries.html) |
+| CSIRO | <https://csiro-enviro-informatics.github.io/info-engineering/cv.html> |
+| BRGM | <https://data.geoscience.fr/ncl/> |
+| GSWA | <http://gswaprez.australiaeast.azurecontainer.io/vocprez> |
+| GSQ | <https://vocabs.gsq.digital/vocabulary/> — files at <https://github.com/geological-survey-of-queensland/vocabularies> |
+| GBA (Austria) | <https://schmar00.github.io/gba-thesaurus/> |
+| GeoERA | <https://www.europe-geology.eu/data-and-services/vocabularies/> |
+| Wikidata | <https://www.wikidata.org/wiki/Wikidata:Main_Page> |
