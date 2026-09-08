@@ -6,17 +6,14 @@ download into a graph database or triplestore, and to expose the version history
 vocabularies publicly.
 
 The same data is served through an API at [data.bgs.ac.uk](https://data.bgs.ac.uk), with
-HTML user interface pages for some of the schemes. Use the API for individual concept
+[HTML user interface pages](https://vocab.bgs.ac.uk) for some of the schemes. Use the API for individual concept
 lookups and content negotiation; use this repository when you want the whole dataset.
 
 ## How this repository is maintained
 
-The vocabularies are maintained in relational databases at BGS and exported nightly.
-BGS's internal GitLab is the source of truth; **this GitHub repository is an automated
-mirror**, updated daily.
+The vocabularies are maintained in relational databases at BGS (the source of truth) and are exported nightly into our triplestore, and the nt files into an internal git repository which is mirrored on github.
 
-That has one consequence worth knowing: commits and pull requests made directly here
-cannot be merged, and will cause the mirror to stop updating until someone unpicks it.
+Commits and pull requests made directly on github cannot be merged, otherwise the mirror will stop updating.
 Please raise an [issue](../../issues) instead, or contact one of the data managers below.
 
 ## Versioning and releases
@@ -88,9 +85,7 @@ predicate and resource-type definitions used across the datasets (including labe
 third-party predicates), and alignments to external vocabularies. `ref-predicates.nt` and
 `reg-status.nt` carry reference predicates and registry status.
 
-**`modified/`** — Superseded versions of statements that have been changed, retained for
-data management. Format is N-Triples-like with a leading `-` on each line, hence the
-`.ntx` extension. Not valid N-Triples; do not load directly into a triplestore.
+**`modified/`** — Data management purposes only. Contains diff-like modifications to triples used to manage the nightly deletions and additions to the triplestore. Format is N-Triples-like, hence the `.ntx` extension. Not valid N-Triples; do not load into a triplestore. 
 
 ## Loading the data
 
