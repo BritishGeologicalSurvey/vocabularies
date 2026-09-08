@@ -1,0 +1,64 @@
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix odrl:    <http://www.w3.org/ns/odrl/2/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg:     <http://purl.org/linked-data/registry#> .
+@prefix status: <https://linked.data.gov.au/def/reg-statuses/> .
+@prefix licact:  <http://data.bgs.ac.uk/ref/licensing/action/> .
+
+#################################################################
+#  BGS Licensing Actions - concept scheme
+#################################################################
+
+licact:
+    a skos:ConceptScheme ;
+    dcterms:title "BGS Licensing Actions"@en ;
+    dcterms:description "Action terms used by BGS licences and TDM rights-reservation policies, for use as ODRL actions where no standard term yet exists."@en ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:rights "© UKRI. Published by the British Geological Survey."@en ;
+    reg:status status:experimental ;
+    rdfs:label "BGS Licensing Actions"@en ;
+    skos:prefLabel "BGS Licensing Actions"@en ;
+    skos:hasTopConcept
+        licact:modelDistribution ,
+        licact:textAndDataMining ,
+        licact:thirdPartyAiSubmission ,
+        licact:productReconstruction .
+
+licact:modelDistribution
+    a skos:Concept , odrl:Action ;
+    skos:inScheme licact: ;
+    skos:topConceptOf licact: ;
+    rdfs:label "Distribution of a model developed with the Information"@en ;
+    skos:prefLabel "Distribution of a model developed with the Information"@en ;
+    skos:definition "Sharing, selling, distributing or making available any model developed with the Information using AI or ML techniques."@en ;
+    skos:note "Local BGS action term pending a standard ODRL/TDM action IRI."@en .
+
+licact:textAndDataMining
+    a skos:Concept , odrl:Action ;
+    skos:inScheme licact: ;
+    skos:topConceptOf licact: ;
+    rdfs:label "AI/ML model training or development"@en ;
+    skos:prefLabel "AI/ML model training or development"@en ;
+    skos:altLabel "Text and data mining"@en ;
+    skos:definition "Using the Information to train, fine-tune, pre-train or otherwise develop an artificial-intelligence or machine-learning model, including any generative AI system, large language model or foundation model, that will be accessible to any third party."@en ;
+    rdfs:seeAlso <https://www.w3.org/community/reports/tdmrep/> ;
+    skos:note "Local BGS action term pending a standard ODRL/TDM action IRI; add skos:exactMatch when an endorsed term is published."@en .
+
+licact:thirdPartyAiSubmission
+    a skos:Concept , odrl:Action ;
+    skos:inScheme licact: ;
+    skos:topConceptOf licact: ;
+    rdfs:label "Submission to a third-party hosted AI service"@en ;
+    skos:prefLabel "Submission to a third-party hosted AI service"@en ;
+    skos:definition "Making the Information available to a third party by submitting it to a hosted AI service in circumstances where that third party is permitted to retain it for, or use it in, training or developing its models."@en ;
+    skos:note "Local BGS action term pending a standard ODRL/TDM action IRI."@en .
+
+licact:productReconstruction
+    a skos:Concept , odrl:Action ;
+    skos:inScheme licact: ;
+    skos:topConceptOf licact: ;
+    rdfs:label "Bulk replication or recreation of viewed Information"@en ;
+    skos:prefLabel "Bulk replication or recreation of viewed Information"@en ;
+    skos:definition "Using technical measures to download, replicate or recreate any substantial part of the Information made available to view. Up to 20 images per calendar month extracted from the data (e.g. screen grabs) is considered insubstantial."@en ;
+    skos:note "Used by the BGS Viewer Licence. Force is primarily the licence text and BGS database right; represented here so the rights graph mirrors the licence."@en .
