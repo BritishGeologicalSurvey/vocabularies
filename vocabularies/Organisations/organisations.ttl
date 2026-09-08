@@ -1,0 +1,84 @@
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix reg:     <http://purl.org/linked-data/registry#> .
+@prefix status:  <https://linked.data.gov.au/def/reg-statuses/> .
+@prefix bgsorg:  <http://data.bgs.ac.uk/id/org/> .
+@prefix orgref:  <http://data.bgs.ac.uk/ref/org> .
+
+#################################################################
+#  BGS Organisations - concept scheme
+#
+#  Organisations are dual-typed skos:Concept + org:Organization so
+#  that they satisfy Prez's vocpub / dd profiles (which constrain
+#  skos:Concept, skos:Collection and skos:ConceptScheme) while
+#  keeping correct organisational semantics for their use as
+#  odrl:assigner and dcterms:publisher.
+#
+#  The Scheme IRI is published under /ref/ to separate the schema 
+#  from the concrete organisational entities under /id/.
+#################################################################
+
+orgref:
+    a skos:ConceptScheme ;
+    dcterms:title "BGS Organisations"@en ;
+    dcterms:description "Organisations referenced by BGS linked data, including the licensor and publisher named in BGS licences and TDM rights-reservation policies."@en ;
+    dcterms:publisher bgsorg:bgs ;
+    dcterms:rights "© UKRI. Published by the British Geological Survey."@en ;
+    reg:status status:stable ;
+    rdfs:label "BGS Organisations"@en ;
+    skos:prefLabel "BGS Organisations"@en ;
+    skos:hasTopConcept bgsorg:ukri .
+
+#################################################################
+#  Concepts
+#  Hierarchy mirrors the organisational structure:
+#  UKRI > NERC > BGS, expressed with both skos:broader/narrower
+#  (for Prez navigation) and org:subOrganizationOf (for semantics).
+#################################################################
+
+bgsorg:ukri
+    a skos:Concept , org:Organization , foaf:Organization ;
+    skos:inScheme orgref: ;
+    skos:topConceptOf orgref: ;
+    rdfs:label "UK Research and Innovation"@en ;
+    skos:prefLabel "UK Research and Innovation"@en ;
+    skos:altLabel "UKRI"@en ;
+    skos:definition "The UK's national funding agency for research and innovation, and the body in which copyright in BGS materials vests."@en ;
+    foaf:name "UK Research and Innovation"@en ;
+    foaf:homepage <https://www.ukri.org/> ;
+    skos:narrower bgsorg:nerc ;
+    owl:sameAs <https://ror.org/001aqnf71> .
+
+bgsorg:nerc
+    a skos:Concept , org:Organization , foaf:Organization ;
+    skos:inScheme orgref: ;
+    rdfs:label "Natural Environment Research Council"@en ;
+    skos:prefLabel "Natural Environment Research Council"@en ;
+    skos:altLabel "NERC"@en ;
+    skos:definition "The UK's main agency for funding and managing research, training and knowledge exchange in the environmental sciences; a council of UK Research and Innovation."@en ;
+    foaf:name "Natural Environment Research Council"@en ;
+    foaf:homepage <https://www.ukri.org/councils/nerc/> ;
+    skos:broader bgsorg:ukri ;
+    skos:narrower bgsorg:bgs ;
+    org:subOrganizationOf bgsorg:ukri ;
+    owl:sameAs <https://ror.org/02b5d8509> .
+
+bgsorg:bgs
+    a skos:Concept , org:Organization , foaf:Organization ;
+    skos:inScheme orgref: ;
+    rdfs:label "British Geological Survey"@en ;
+    skos:prefLabel "British Geological Survey"@en ;
+    skos:altLabel "BGS"@en ;
+    skos:definition "The United Kingdom's national geological survey and a component body of the Natural Environment Research Council; the Licensor of Information made available under the BGS Open, Non-Commercial Use and Viewer licences."@en ;
+    foaf:name "British Geological Survey"@en ;
+    foaf:homepage <https://www.bgs.ac.uk/> ;
+    foaf:mbox <mailto:enquiries@bgs.ac.uk> ;
+    skos:broader bgsorg:nerc ;
+    org:subOrganizationOf bgsorg:nerc ;
+    owl:sameAs <https://ror.org/04a7gbp98> ;
+    skos:closeMatch <http://vocab.nerc.ac.uk/collection/B75/current/ORG00085/> ;
+    rdfs:seeAlso <https://www.wikidata.org/entity/Q919304> .
