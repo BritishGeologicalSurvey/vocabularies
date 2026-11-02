@@ -1,0 +1,60 @@
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/created> "2026-09-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/description> "Organisations referenced by BGS linked data, including the licensor and publisher named in BGS licences and TDM rights-reservation policies."@en .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/modified> "2026-09-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/rights> "© UKRI. Published by the British Geological Survey."@en .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/dc/terms/title> "BGS Organisations"@en .
+<http://data.bgs.ac.uk/ref/org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/org> <http://www.w3.org/2000/01/rdf-schema#label> "BGS Organisations"@en .
+<http://data.bgs.ac.uk/ref/org> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/ref/org> <http://www.w3.org/2004/02/skos/core#definition> "Organisations referenced by BGS linked data, including the licensor and publisher named in BGS licences and TDM rights-reservation policies."@en .
+<http://data.bgs.ac.uk/ref/org> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/org/ukri> .
+<http://data.bgs.ac.uk/ref/org> <http://www.w3.org/2004/02/skos/core#prefLabel> "BGS Organisations"@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://xmlns.com/foaf/0.1/homepage> <https://www.bgs.ac.uk/> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://xmlns.com/foaf/0.1/mbox> <mailto:enquiries@bgs.ac.uk> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://xmlns.com/foaf/0.1/name> "British Geological Survey"@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/ns/org#subOrganizationOf> <http://data.bgs.ac.uk/id/org/nerc> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2002/07/owl#sameAs> <https://ror.org/04a7gbp98> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2000/01/rdf-schema#label> "British Geological Survey"@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.wikidata.org/entity/Q919304> .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#altLabel> "BGS"@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/org/nerc> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://vocab.nerc.ac.uk/collection/B75/current/ORG00085/> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#definition> "The United Kingdom's national geological survey and a component body of the Natural Environment Research Council; the Licensor of Information made available under the BGS Open, Non-Commercial Use and Viewer licences."@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/org> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/2004/02/skos/core#prefLabel> "British Geological Survey"@en .
+<http://data.bgs.ac.uk/id/org/nerc> <http://xmlns.com/foaf/0.1/homepage> <https://www.ukri.org/councils/nerc/> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://xmlns.com/foaf/0.1/name> "Natural Environment Research Council"@en .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/ns/org#subOrganizationOf> <http://data.bgs.ac.uk/id/org/ukri> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2002/07/owl#sameAs> <https://ror.org/02b5d8509> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2000/01/rdf-schema#label> "Natural Environment Research Council"@en .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#altLabel> "NERC"@en .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/org/ukri> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#definition> "The UK's main agency for funding and managing research, training and knowledge exchange in the environmental sciences; a council of UK Research and Innovation."@en .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/org> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/id/org/nerc> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural Environment Research Council"@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://xmlns.com/foaf/0.1/homepage> <https://www.ukri.org/> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://xmlns.com/foaf/0.1/name> "UK Research and Innovation"@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2002/07/owl#sameAs> <https://ror.org/001aqnf71> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2000/01/rdf-schema#label> "UK Research and Innovation"@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#altLabel> "UKRI"@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#definition> "The UK's national funding agency for research and innovation, and the body in which copyright in BGS materials vests."@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/org> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/org/nerc> .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#prefLabel> "UK Research and Innovation"@en .
+<http://data.bgs.ac.uk/id/org/ukri> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/org> .
+

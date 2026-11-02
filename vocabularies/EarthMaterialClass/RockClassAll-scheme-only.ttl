@@ -1,0 +1,31 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX earthmaterialclass: <http://data.bgs.ac.uk/ref/EarthMaterialClass/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+earthmaterialclass:RockClassAll
+    a skos:ConceptScheme ;
+    dcterms:bibliographicCitation "British Geological Survey. [year]. The BGS Rock Classification Scheme [Linked Open Data]. Keyworth, Nottingham. Available from http://data.bgs.ac.uk/ref/EarthMaterialClass"@en ;
+    dcterms:creator <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:hasPart
+        earthmaterialclass:RockComposite ,
+        earthmaterialclass:RockDummy ,
+        earthmaterialclass:RockName ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll"@en ;
+    dcterms:isFormatOf <http://data.bgs.ac.uk/id/dataHolding/13480319> ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:title "The BGS Rock Classification Scheme"@en ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "The BGS Rock Classification Scheme classifies all types of earth material or other substance that may be recorded in a geological log or section. This is a combined scheme that consists of all concepts from the 3 sub-schemes. The 3 sub-schemes cover different sets of terms (single rocks, composite rocks, dummy rocks) and have different semantics of hierarchical relationship"@en ;
+    skos:prefLabel "The BGS Rock Classification Scheme"@en ;
+    dcat:landingPage <https://www.bgs.ac.uk/technologies/bgs-rock-classification-scheme/> ;
+.
+
+<http://data.bgs.ac.uk/id/org/bgs>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.

@@ -1,0 +1,142 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasFormality>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasGeographicalDistribution>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalentRelationship>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesisDescription>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyComponent>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalentRelationship>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasRevisionNumber>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasShapeType>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasSourceInfo>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasSpatialScopeOfDefinition>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasTheme>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasTypeLocality>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasUnitClass>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoType>
+    rdfs:label "has reference source info type"@en ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityType>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> ;
+.

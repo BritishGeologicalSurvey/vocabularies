@@ -1,0 +1,54 @@
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/created> "2026-09-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/description> "Action terms used by BGS licences and TDM rights-reservation policies, for use as ODRL actions where no standard term yet exists."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/modified> "2026-09-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/rights> "© UKRI. Published by the British Geological Survey."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/dc/terms/title> "BGS Licensing Actions"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2000/01/rdf-schema#label> "BGS Licensing Actions"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/experimental> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#definition> "Action terms used by BGS licences and TDM rights-reservation policies, for use as ODRL actions where no standard term yet exists."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> .
+<http://data.bgs.ac.uk/ref/licensing/action/> <http://www.w3.org/2004/02/skos/core#prefLabel> "BGS Licensing Actions"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Action> .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution of a model developed with the Information"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2004/02/skos/core#definition> "Sharing, selling, distributing or making available any model developed with the Information using AI or ML techniques."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2004/02/skos/core#note> "Local BGS action term pending a standard ODRL/TDM action IRI."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Distribution of a model developed with the Information"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/modelDistribution> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Action> .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk replication or recreation of viewed Information"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2004/02/skos/core#definition> "Using technical measures to download, replicate or recreate any substantial part of the Information made available to view. Up to 20 images per calendar month extracted from the data (e.g. screen grabs) is considered insubstantial."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2004/02/skos/core#note> "Used by the BGS Viewer Licence. Force is primarily the licence text and BGS database right; represented here so the rights graph mirrors the licence."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bulk replication or recreation of viewed Information"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/productReconstruction> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Action> .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2000/01/rdf-schema#label> "AI/ML model training or development"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/community/reports/tdmrep/> .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#altLabel> "Text and data mining"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#definition> "Using the Information to train, fine-tune, pre-train or otherwise develop an artificial-intelligence or machine-learning model, including any generative AI system, large language model or foundation model, that will be accessible to any third party."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#note> "Local BGS action term pending a standard ODRL/TDM action IRI; add skos:exactMatch when an endorsed term is published."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#prefLabel> "AI/ML model training or development"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/textAndDataMining> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Action> .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2000/01/rdf-schema#label> "Submission to a third-party hosted AI service"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2004/02/skos/core#definition> "Making the Information available to a third party by submitting it to a hosted AI service in circumstances where that third party is permitted to retain it for, or use it in, training or developing its models."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2004/02/skos/core#note> "Local BGS action term pending a standard ODRL/TDM action IRI."@en .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2004/02/skos/core#prefLabel> "Submission to a third-party hosted AI service"@en .
+<http://data.bgs.ac.uk/ref/licensing/action/thirdPartyAiSubmission> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/licensing/action/> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+

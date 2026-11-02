@@ -1,0 +1,35 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geochronology: <http://data.bgs.ac.uk/ref/Geochronology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+geochronology:Division
+    a skos:ConceptScheme ;
+    dcterms:created "2009-09-22"^^xsd:date ;
+    dcterms:creator <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/Geochronology/Division"@en ;
+    dcterms:modified "2023-08-02"^^xsd:date ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:source <https://doi.org/10.1016/C2011-1-08249-8> ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Geologic_time_scale> ,
+        <https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/geological-timechart/> ;
+    skos:definition "Divisions of geological time from source table DIC_GEOCHRON. The BGS Geochronology Dataset is based on The Geologic Time Scale 2012 by F M Gradstein, J G Ogg, M Schmitz and G Ogg (2012), with additions. The result is a composite geological time scale that will be updated as improved timescales become available."@en ;
+    skos:hasTopConcept "http://data.bgs.ac.uk/id/Geochronology/Division/XX"^^xsd:anyURI ;
+    skos:note "Originally created for internal use in corporate BGS relational database. Alignments to CGI timescale and INSPIRE timescale created by Tim McCormick, August 2023. Colour attribute on each Concept shows the ICS standard colour where concepts are an exact match"@en ;
+    skos:prefLabel "Geochronology Division"@en ;
+.
+
+geochronology:Rank
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+.
+
+<http://data.bgs.ac.uk/id/org/bgs>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.

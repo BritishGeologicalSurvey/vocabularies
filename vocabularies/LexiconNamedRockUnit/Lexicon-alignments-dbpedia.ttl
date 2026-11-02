@@ -1,0 +1,120 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/AEOLD>
+    rdfs:seeAlso <http://dbpedia.org/resource/Aeolian_processes> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/CALC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/CARB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Carbonate> ,
+        <http://dbpedia.org/resource/Evaporite> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/DCLST>
+    rdfs:seeAlso <http://dbpedia.org/resource/Turbidite> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/EXT>
+    rdfs:seeAlso <http://dbpedia.org/resource/Igneous_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/FINT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsic> ,
+        <http://dbpedia.org/resource/Magmatism> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/FLAVA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsic> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/FLUV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Alluvial_fan> ,
+        <http://dbpedia.org/resource/Alluvium> ,
+        <http://dbpedia.org/resource/Fluviatile> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/FMINT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsic> ,
+        <http://dbpedia.org/resource/Mafic> ,
+        <http://dbpedia.org/resource/Magmatism> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/INT>
+    rdfs:seeAlso <http://dbpedia.org/resource/Magmatism> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/LDE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lacustrine> ,
+        <http://dbpedia.org/resource/Sabkha> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/MET>
+    rdfs:seeAlso <http://dbpedia.org/resource/Metamorphic_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/METIG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsic> ,
+        <http://dbpedia.org/resource/Igneous_rock> ,
+        <http://dbpedia.org/resource/Mafic> ,
+        <http://dbpedia.org/resource/Metamorphism> ,
+        <http://dbpedia.org/resource/Protolith> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/METOP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Metamorphism> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/METSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Protolith> ,
+        <http://dbpedia.org/resource/Sedimentary_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/MINT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mafic> ,
+        <http://dbpedia.org/resource/Magmatism> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/MLAVA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Mafic> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/PELG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chalk> ,
+        <http://dbpedia.org/resource/Pelagic_sediment> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/SED>
+    rdfs:seeAlso <http://dbpedia.org/resource/Sedimentary_geology> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/LithogeneticType/VOLC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Volcaniclastic> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/Theme/BEDRCK>
+    rdfs:seeAlso <http://dbpedia.org/resource/Bedrock> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/Theme/MASMVT>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mass_wasting> ;
+.
+
+<http://data.bgs.ac.uk/id/Lexicon/Theme/SPRFCL>
+    rdfs:seeAlso <http://dbpedia.org/resource/Superficial_deposits> ;
+.

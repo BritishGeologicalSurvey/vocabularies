@@ -1,0 +1,66 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/ageValue>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/divisionList>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+    sh:order "1000" ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/end>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/hasRanks>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/rankList>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/start>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/subDivisions>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank>
+    sh:group <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> ;
+.

@@ -1,0 +1,3838 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ABAN>
+    rdfs:seeAlso <http://dbpedia.org/resource/Andesite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ABFP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Feldspar> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ADOS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AFUF>
+    rdfs:seeAlso <http://dbpedia.org/resource/Ultramafic_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AGPI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Picrite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AGTB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Agglomerate> ,
+        <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AGTT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Agglomerate> ,
+        <http://dbpedia.org/resource/Tuffite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AHMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AHPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ALCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ALRL>
+    rdfs:seeAlso <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AMHO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Hornblendite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AMHS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AMMO>
+    rdfs:seeAlso <http://dbpedia.org/resource/Amphibolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AMPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Pyroxene> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AMTA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Agglomerate> ,
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Mafic> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ANBF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Felsite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ANBR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Rhyolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ANDB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ANSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/APFU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsite> ,
+        <http://dbpedia.org/resource/Mafic> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARBR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Breccia> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Chert> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARCO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARDS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/AROCLS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARSE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ARSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ASPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BAAN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BABL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BADO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Dolerite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BAFELS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Felsite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BAHA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Hawaiite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BAHM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Hawaiite> ,
+        <http://dbpedia.org/resource/Mugearite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BALT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BAMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BANB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BARH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Hawaiite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BATL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BATR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Trachyte> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BCLACL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BCLVBR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BCSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BCSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BCSU>
+    rdfs:seeAlso <http://dbpedia.org/resource/Clast> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BLAL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BLMU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Mugearite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BLOBCP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BLSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BRCG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BRCMBR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Breccia> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BRSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BRSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BSBGPS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BSPBGP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/BTHB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Hyaloclastite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CAPS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CASP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CBTS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CGBR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CGFA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Arenite> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CHLSMU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CHSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chalk> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLAYCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chalk> ,
+        <http://dbpedia.org/resource/Clay> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLLI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Lignite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSISA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CLSSG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CMBB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Basanite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CMBO>
+    rdfs:seeAlso <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CMLC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CMLS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/COALM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/COSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/COSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/COWK>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPCS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPEP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPGB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPLQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPSP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CPXW>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Olivine> ,
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Pyroxenite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSFD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Claystone> ,
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSLFD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Claystone> ,
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMAGS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CSSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/CZDM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DBAT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Dolerite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DCSG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DFPBFP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Feldspar> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DGSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DIGB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DIGDGN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DIGN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DIMZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Monzonite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DIQD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLCM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLDO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLMA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Anhydrite> ,
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLMDSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DLPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMRC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chalk> ,
+        <http://dbpedia.org/resource/Diamicton> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMSG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DMZD>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DOCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Dolostone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DOGB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DOLMCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DOLS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DOSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DPTG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/DQMCGN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/ETPB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FACG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Arenite> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Feldspar> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FASL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Arenite> ,
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FEGG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FGLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FGLS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FGSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FGSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FLIR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FLMD>
+    rdfs:seeAlso <http://dbpedia.org/resource/Felsite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FMGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FPGM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FPHM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Hawaiite> ,
+        <http://dbpedia.org/resource/Mugearite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FQFP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Felsite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FRHMRH>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mafic> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FTLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/FTTT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Tuff> ,
+        <http://dbpedia.org/resource/Tuffite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GABD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GBMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GBMGBR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GBMS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GBNR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Norite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GBUM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Ultramafic_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GCSP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GCSQ>
+    rdfs:seeAlso <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDAD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granodiorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDDI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granodiorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Leucogranite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDPSIB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDQM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GDTM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Monzonite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GGFE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Felsite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GGPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Pegmatite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GGQM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GHMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Hornblende> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GLBA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMBA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMGB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMGD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GMSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNAM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Gneiss> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNDI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNGNP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNGNSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNMCGN>
+    rdfs:seeAlso <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNRMSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GNSSGN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPMD>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPMG>
+    rdfs:seeAlso <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Marble> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GPSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GQMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GQSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRCS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRGN>
+    rdfs:seeAlso <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRPA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Pegmatite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Mud> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GRSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GSSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GWMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/GWSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Schist> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HAMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Halite> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HAMU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Hawaiite> ,
+        <http://dbpedia.org/resource/Mugearite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HBGV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Hornblende> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HMGD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolerite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HMGMMG>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HMPF>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HMSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HPMP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HPSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HSPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HSSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/HSSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/IBTFST>
+    rdfs:seeAlso <http://dbpedia.org/resource/Breccia> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LAFM>
+    rdfs:seeAlso <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LATF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LATM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LATU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LBCI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Bauxite> ,
+        <http://dbpedia.org/resource/Clay> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LGQP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Leucogranite> ,
+        <http://dbpedia.org/resource/Quartz-porphyry> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LHMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Lamprophyre> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMAS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMCM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMCO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMGS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMPO>
+    rdfs:seeAlso <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LMSTMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LPDI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Lamprophyre> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LPMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Lamprophyre> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LSMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LSSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LSSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LTTB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Lapilli> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LTTG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/LTVS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MACS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Marble> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBAA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Augite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBAG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBBA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBCPCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Dolerite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBLT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBMMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MBPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MCSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDAD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDADR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDAM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Dolerite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDAN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDCB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Claystone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Smectite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDCL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDCO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDCS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Dolostone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDFEST>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDGYAN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Anhydrite> ,
+        <http://dbpedia.org/resource/Gypsum> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDHA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Halite> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDIT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDLI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lignite> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDLN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDLSSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDLY>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Lamprophyre> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDMP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDMS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Monzonite> ,
+        <http://dbpedia.org/resource/Syenite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDOMDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDPF>
+    rdfs:seeAlso <http://dbpedia.org/resource/Diorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDPHM>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSDAN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Anhydrite> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSDHA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Halite> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSDLI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lignite> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDSTC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDTF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDTT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Tuffite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MDWK>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MECA>
+    rdfs:seeAlso <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MECD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Diamictite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MELD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MFIRSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Igneous_rock> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MFLHY>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Hyaloclastite> ,
+        <http://dbpedia.org/resource/Lava> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGAL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Leucogranite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGBA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGBF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGBG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGBGB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGCP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Camptonite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGDH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Hornfels> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGHB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Hornblende> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGMA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granodiorite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGMG>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGMMG>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGTBAT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MGUR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MHLM>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLCM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLMC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Limestone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLPD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dunite> ,
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Troctolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLPE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLTC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MLTU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MMGAM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Gabbro> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MMLC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MMLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MMSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MMSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MPSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MPSM>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MPSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MPSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MQAS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Arenite> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MQPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSCI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Ferricrete> ,
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSDI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSDM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSDT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSFXR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSISL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSLL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSLS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSPP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSDN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSDNL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSDOL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSTCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Mudstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MSWSDN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MTMTT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Tuff> ,
+        <http://dbpedia.org/resource/Tuffite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MUBE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Benmoreite> ,
+        <http://dbpedia.org/resource/Mugearite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MUTR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mugearite> ,
+        <http://dbpedia.org/resource/Trachyte> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MVRSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MYCFB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Breccia> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/MZDO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Monzonite> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/NGBN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Norite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/NRGB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Norite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OBCN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Norite> ,
+        <http://dbpedia.org/resource/Pyroxene> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OGBN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Norite> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OGBT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Olivine> ,
+        <http://dbpedia.org/resource/Troctolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OGNB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OGNFGN>
+    rdfs:seeAlso <http://dbpedia.org/resource/Granite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OMGOB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/OXGB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Olivine> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PDMT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Troctolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PDMTIB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Troctolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PDMZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Monzonite> ,
+        <http://dbpedia.org/resource/Pyroxene> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PDPX>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Pyroxenite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PDTTRO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Troctolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PECS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PEGG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Pegmatite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PELM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PELQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PEPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PESE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Peridotite> ,
+        <http://dbpedia.org/resource/Serpentinite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PESL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PESP>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGCP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGFS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGLG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Leucogranite> ,
+        <http://dbpedia.org/resource/Pegmatite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Pegmatite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGMPGM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGNP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGNQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGQU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGRS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PGSF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PLPSSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PMFS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PMPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PMPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PMSMPM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PMSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PPGN>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PPSPC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSAA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSCA>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSGP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSGV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSHO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Hornfels> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSML>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lignite> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSMMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSMQF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Hornfels> ,
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPM>
+    rdfs:seeAlso <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPPGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSPY>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSQU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSQUSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSPGM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSPLB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSSPPL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PSTM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/PTGD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QFAD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Arenite> ,
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QFSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Feldspar> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartz> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QMPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QPPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QPSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QSPF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QSPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZCO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Quartzite> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZGP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZPE>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Quartzite> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/QZSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RADA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dacite> ,
+        <http://dbpedia.org/resource/Rhyolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RDMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dacite> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Rhyolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RFLP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Pyroclastic_rock> ,
+        <http://dbpedia.org/resource/Rhyolite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RHFT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Rhyolite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RHYI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Rhyolite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RYMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Rhyolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/RYTRLT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Rhyolite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SACG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SAGR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANCL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SANSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SARL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCGS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCHA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Amphibolite> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCHL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCML>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCON>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCOR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCOS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCSBL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SCSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDBC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDBR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDCAP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDCH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDCOLA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDCON>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDDS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDIR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDLI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Ironstone> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDMDC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDMDCB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDMDFL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDMDSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSLDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Seatearth> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SDSSLL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Seatearth> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SEDS2>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SEMG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gabbro> ,
+        <http://dbpedia.org/resource/Serpentinite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SEST>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Schist> ,
+        <http://dbpedia.org/resource/Serpentinite> ,
+        <http://dbpedia.org/resource/Tremolite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SGGP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SHGG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Granite> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SHGP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Hornblende> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SHPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SICH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Chert> ,
+        <http://dbpedia.org/resource/Ironstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SIMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SIMS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SISD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SISDM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SITS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Argillaceous> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLAS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLSCAP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLSCM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLSTC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLTF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SLTS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMCDO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Coal> ,
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Shale> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMDC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMDP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMLP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Serpentinite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMPM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMPQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SMSMI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPCL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Serpentinite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPCS>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPDO>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolostone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPGP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Graphite> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPGPCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPMC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPMR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mafic> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPMS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPE>
+    rdfs:seeAlso <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPEMP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gneiss> ,
+        <http://dbpedia.org/resource/Pelite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mica> ,
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPQP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPQZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPSCAP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPSQ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Quartzite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SPSSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Seatearth> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SRLV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Sedimentary_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSCL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSDL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSDS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSMDNL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Dolomite> ,
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSPG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSPS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Pelite> ,
+        <http://dbpedia.org/resource/Psammite> ,
+        <http://dbpedia.org/resource/Schist> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/SSSR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Seatearth> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STCL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STLM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Limestone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/STSS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Slate> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TDTB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TDTTB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TFLT>
+    rdfs:seeAlso <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TGDF>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TGDP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Granodiorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TMPBVR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TODI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TOQD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diorite> ,
+        <http://dbpedia.org/resource/Quartz> ,
+        <http://dbpedia.org/resource/Tonalite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TRAR>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Andesite> ,
+        <http://dbpedia.org/resource/Trachyte> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TRBB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Basalt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TRTL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TSAMD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TSTU>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TUAG>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Agglomerate> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TULA>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TUMH>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Hyaloclastite> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TUSD>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TUTT>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Tuff> ,
+        <http://dbpedia.org/resource/Tuffite> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TVSB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Basalt> ,
+        <http://dbpedia.org/resource/Lava> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/TVSR>
+    rdfs:seeAlso <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/UMGB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Ultramafic_rock> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VBMB>
+    rdfs:seeAlso <http://dbpedia.org/resource/Breccia> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VMBS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VMVSVC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VSSL>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sandstone> ,
+        <http://dbpedia.org/resource/Siltstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VSVB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/VSVC>
+    rdfs:seeAlso <http://dbpedia.org/resource/Sandstone> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/WEMB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/WSI>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/WSIM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/WSIMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Conglomerate_(geology)> ,
+        <http://dbpedia.org/resource/Mudstone> ,
+        <http://dbpedia.org/resource/Siltstone> ,
+        <http://dbpedia.org/resource/Wacke> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/WTMB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Breccia> ,
+        <http://dbpedia.org/resource/Tuff> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCPZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Peat> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Peat> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZSAD>
+    rdfs:seeAlso <http://dbpedia.org/resource/Loam> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZSP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Peat> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XCZSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XDCSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XDSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XDV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XDVSZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Diamicton> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XFSZCV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XLB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Boulders> ,
+        <http://dbpedia.org/resource/Cobble_(geology)> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XPMOMC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Mud> ,
+        <http://dbpedia.org/resource/Peat> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XPZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Peat> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSCB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Boulders> ,
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSVB>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Boulders> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSVCZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSVZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSWCV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSZC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XSZCV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XVSM>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Mud> ,
+        <http://dbpedia.org/resource/Sand> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XVSZ>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XVSZC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XZC>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XZCS>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Clay> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XZSV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XZSVP>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Peat> ,
+        <http://dbpedia.org/resource/Sand> ,
+        <http://dbpedia.org/resource/Silt> ;
+.
+
+<http://data.bgs.ac.uk/id/EarthMaterialClass/RockComposite/XZV>
+    rdfs:seeAlso
+        <http://dbpedia.org/resource/Gravel> ,
+        <http://dbpedia.org/resource/Silt> ;
+.

@@ -1,0 +1,23 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geochronology: <http://data.bgs.ac.uk/ref/Geochronology/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+geochronology:Rank
+    a skos:ConceptScheme ;
+    dcterms:created "2004-01-08"^^xsd:date ;
+    dcterms:creator <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    dcterms:modified "2023-07-10"^^xsd:date ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    skos:definition "Dictionary to constrain ranks of geochronological intervals used in Geochronology/Division (source table DIC_GEOCHRON). E.g. Eon; Era; Period; Epoch; Age."@en ;
+    skos:historyNote "Created for internal use in corporate BGS relational database"@en ;
+    skos:prefLabel "Geochronology Rank"@en ;
+.
+
+<http://data.bgs.ac.uk/id/org/bgs>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.

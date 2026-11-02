@@ -1,0 +1,212 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rank: <http://data.bgs.ac.uk/id/Geochronology/Rank/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+rank:CHRON
+    a skos:Concept ;
+    rdfs:label "Chron"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
+    skos:definition "Chron is not currently used by BGS as a geochronological rank."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Chron"@en ;
+.
+
+rank:AGE
+    a skos:Concept ;
+    rdfs:label "Age"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Age is a subdivision of an epoch, e.g. Oxfordian Age. The chronostratigraphical equivalent is Stage."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Age"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:EON
+    a skos:Concept ;
+    rdfs:label "Eon"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Eon is the primary division of geological time, e.g. Phanerozoic Eon. The chronostratigraphical equivalent is Eonothem."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Eon"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:EPOCH
+    a skos:Concept ;
+    rdfs:label "Epoch"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Epoch is a subdivision of a period, e.g. Late Jurassic Epoch. The chronostratigraphical equivalent is Series."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Epoch"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:ERA
+    a skos:Concept ;
+    rdfs:label "Era"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Era is a subdivision of an eon, e.g. Mesozoic Era. The chronostratigraphical equivalent is Erathem."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Era"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:MIS
+    a skos:Concept ;
+    rdfs:label "Marine Isotope Stage"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Marine isotope stage. Geologic Time Scale 2020, fig. 30.2."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Marine Isotope Stage"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:PERIOD
+    a skos:Concept ;
+    rdfs:label "Period"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Period is a subdivision of an era, e.g. Jurassic Period. The chronostratigraphical equivalent is System."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Period"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SERIES
+    a skos:Concept ;
+    rdfs:label "Series"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Series is the chronostratigraphical equivalent to Epoch."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Series"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:STAGE
+    a skos:Concept ;
+    rdfs:label "Stage"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Stage is the chronostratigraphical equivalent to Age."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Stage"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUB-AGE
+    a skos:Concept ;
+    rdfs:label "Sub Age"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Sub Age is an informal subdivision of an age. The chronostratigraphical equivalent is Substage."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Sub Age"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUB-EPOCH
+    a skos:Concept ;
+    rdfs:label "Sub Epoch"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Sub Epoch is an informal subdivision of an epoch, e.g. Early Pleistocene Epoch. The chronostratigraphical equivalent is Subseries."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Sub Epoch"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUB-ERA
+    a skos:Concept ;
+    rdfs:label "Sub Era"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Sub Era is an informal subdivision of an era, e.g. Early Palaeozoic."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Sub Era"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUBPERIOD
+    a skos:Concept ;
+    rdfs:label "Subperiod"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Subperiod is a subdivision of a period, e.g. Mississippian Subperiod."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Subperiod"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUBSERIES
+    a skos:Concept ;
+    rdfs:label "Subseries"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Subseries is the chronostratigraphical equivalent to Sub Epoch."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Subseries"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUBSTAGE
+    a skos:Concept ;
+    rdfs:label "Substage"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Substage is the chronostratigraphical equivalent to Sub Age."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Substage"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SUBSYSTEM
+    a skos:Concept ;
+    rdfs:label "Subsystem"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Subsystem is the chronostratigraphical equivalent to Subperiod."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "Subsystem"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+rank:SYSTEM
+    a skos:Concept ;
+    rdfs:label "System"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Geochronology/Rank"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "System is the chronostratigraphical equivalent to Period."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+    skos:prefLabel "System"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Geochronology/Rank> ;
+.
+
+<http://data.bgs.ac.uk/ref/Geochronology/Rank>
+    skos:hasTopConcept
+        rank:AGE ,
+        rank:EON ,
+        rank:EPOCH ,
+        rank:ERA ,
+        rank:MIS ,
+        rank:PERIOD ,
+        rank:SERIES ,
+        rank:STAGE ,
+        rank:SUB-AGE ,
+        rank:SUB-EPOCH ,
+        rank:SUB-ERA ,
+        rank:SUBPERIOD ,
+        rank:SUBSERIES ,
+        rank:SUBSTAGE ,
+        rank:SUBSYSTEM ,
+        rank:SYSTEM ;
+.

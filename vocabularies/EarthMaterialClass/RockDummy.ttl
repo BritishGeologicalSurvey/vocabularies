@@ -1,0 +1,90 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX rockdummy: <http://data.bgs.ac.uk/id/EarthMaterialClass/RockDummy/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+rockdummy:NOCO
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/NOCO> ;
+    skos:definition "No core recovered"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "NOCO"@en ;
+    skos:prefLabel "No core recovered"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+rockdummy:OPHO
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/OPHO> ;
+    skos:definition "Open hole"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "OPHO"@en ;
+    skos:prefLabel "Open hole"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+rockdummy:UKNOWN
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/UKNOWN> ;
+    skos:definition "Unknown/unclassified entry"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "UKNOWN"@en ;
+    skos:prefLabel "Unknown/unclassified entry"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+rockdummy:VOID
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/VOID> ;
+    skos:definition "Void"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "VOID"@en ;
+    skos:prefLabel "Void"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+rockdummy:WATR
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/WATR> ;
+    skos:definition "Water, type unspecified"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "WATR"@en ;
+    skos:prefLabel "Water, type unspecified"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+rockdummy:WATRS
+    a skos:Concept ;
+    dcterms:source "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    owl:sameAs <http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/WATRS> ;
+    skos:definition "Water, sea"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+    skos:notation "WATRS"@en ;
+    skos:prefLabel "Sea water"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> ;
+.
+
+<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy>
+    dcterms:created "2005-02-16"^^xsd:date ;
+    dcterms:modified "2009-05-05"^^xsd:date ;
+    skos:hasTopConcept
+        rockdummy:NOCO ,
+        rockdummy:OPHO ,
+        rockdummy:UKNOWN ,
+        rockdummy:VOID ,
+        rockdummy:WATR ,
+        rockdummy:WATRS ;
+.

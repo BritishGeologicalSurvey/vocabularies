@@ -1,0 +1,85 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX id-org: <http://data.bgs.ac.uk/id/org/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ref: <http://data.bgs.ac.uk/ref/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+id-org:bgs
+    a
+        skos:Concept ,
+        org:Organization ,
+        foaf:Organization ,
+        schema:Organization ;
+    rdfs:label "British Geological Survey"@en ;
+    rdfs:seeAlso <https://www.wikidata.org/entity/Q919304> ;
+    owl:sameAs <https://ror.org/04a7gbp98> ;
+    skos:altLabel "BGS"@en ;
+    skos:broader id-org:nerc ;
+    skos:closeMatch <http://vocab.nerc.ac.uk/collection/B75/current/ORG00085/> ;
+    skos:definition "The United Kingdom's national geological survey and a component body of the Natural Environment Research Council; the Licensor of Information made available under the BGS Open, Non-Commercial Use and Viewer licences."@en ;
+    skos:inScheme ref:org ;
+    skos:prefLabel "British Geological Survey"@en ;
+    org:subOrganizationOf id-org:nerc ;
+    foaf:homepage <https://www.bgs.ac.uk/> ;
+    foaf:mbox <mailto:enquiries@bgs.ac.uk> ;
+    foaf:name "British Geological Survey"@en ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.
+
+id-org:nerc
+    a
+        skos:Concept ,
+        org:Organization ,
+        foaf:Organization ;
+    rdfs:label "Natural Environment Research Council"@en ;
+    owl:sameAs <https://ror.org/02b5d8509> ;
+    skos:altLabel "NERC"@en ;
+    skos:broader id-org:ukri ;
+    skos:definition "The UK's main agency for funding and managing research, training and knowledge exchange in the environmental sciences; a council of UK Research and Innovation."@en ;
+    skos:inScheme ref:org ;
+    skos:narrower id-org:bgs ;
+    skos:prefLabel "Natural Environment Research Council"@en ;
+    org:subOrganizationOf id-org:ukri ;
+    foaf:homepage <https://www.ukri.org/councils/nerc/> ;
+    foaf:name "Natural Environment Research Council"@en ;
+.
+
+id-org:ukri
+    a
+        skos:Concept ,
+        org:Organization ,
+        foaf:Organization ;
+    rdfs:label "UK Research and Innovation"@en ;
+    owl:sameAs <https://ror.org/001aqnf71> ;
+    skos:altLabel "UKRI"@en ;
+    skos:definition "The UK's national funding agency for research and innovation, and the body in which copyright in BGS materials vests."@en ;
+    skos:inScheme ref:org ;
+    skos:narrower id-org:nerc ;
+    skos:prefLabel "UK Research and Innovation"@en ;
+    skos:topConceptOf ref:org ;
+    foaf:homepage <https://www.ukri.org/> ;
+    foaf:name "UK Research and Innovation"@en ;
+.
+
+ref:org
+    a skos:ConceptScheme ;
+    rdfs:label "BGS Organisations"@en ;
+    dcterms:created "2026-09-08"^^xsd:date ;
+    dcterms:creator id-org:bgs ;
+    dcterms:description "Organisations referenced by BGS linked data, including the licensor and publisher named in BGS licences and TDM rights-reservation policies."@en ;
+    dcterms:modified "2026-09-08"^^xsd:date ;
+    dcterms:publisher id-org:bgs ;
+    dcterms:rights "© UKRI. Published by the British Geological Survey."@en ;
+    dcterms:title "BGS Organisations"@en ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Organisations referenced by BGS linked data, including the licensor and publisher named in BGS licences and TDM rights-reservation policies."@en ;
+    skos:hasTopConcept id-org:ukri ;
+    skos:prefLabel "BGS Organisations"@en ;
+.

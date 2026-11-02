@@ -4,6 +4,10 @@
 <http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/modified> "2023-07-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://www.w3.org/2004/02/skos/core#definition> "Dictionary to constrain ranks of geochronological intervals used in Geochronology/Division (source table DIC_GEOCHRON). E.g. Eon; Era; Period; Epoch; Age."@en .
 <http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geochronology Rank"@en .
-<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
 <http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 

@@ -1,0 +1,24 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX earthmaterialclass: <http://data.bgs.ac.uk/ref/EarthMaterialClass/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+earthmaterialclass:RockName
+    a skos:ConceptScheme ;
+    dcterms:creator <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName"@en ;
+    dcterms:isPartOf <http://data.bgs.ac.uk/ref/EarthMaterialClass> ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:title "Rock Classification Scheme - single rock types sub-scheme"@en ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Subscheme of Rock Classification Scheme that classifies single rock types in a class-sub class hierarchy. Volumes 1 to 4 of published reports."@en ;
+    skos:prefLabel "Rock Classification Scheme - single rock types sub-scheme"@en ;
+.
+
+<http://data.bgs.ac.uk/id/org/bgs>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.

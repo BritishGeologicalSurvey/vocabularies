@@ -1,11 +1,986 @@
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/AUDI"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLRQ"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BCHA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nIntermediate and mafic intrusive rocks."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Includes a marginal augite diorite zone and a main quartz-dolerite zone."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GLMO> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nFelsic, intermediate and mafic intrusive rocks."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LOBA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres that occur in the mountains of southern Isle of Mull, together comprising the Mull Central Complex (MUCC). \r\n\r\nMicrogabbro with subsidiary gabbro and trace agglomerate, felsite, granophyric granite and rhyolite."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD1> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CHQ> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-dolerite with subsidiary augite diorite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD1> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GBPD> .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall nan Con Gabbro Intrusion"@en .
-+<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/TNMT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Torr na Moine Trachyte Plug"@en .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> <http://www.w3.org/ns/shacl#order> "350" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGS> <http://www.w3.org/ns/shacl#order> "700" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSDM> <http://www.w3.org/ns/shacl#order> "1100" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSEMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSEMC> <http://www.w3.org/ns/shacl#order> "1200" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSGC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSGC> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSLXN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSLXN> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> <http://www.w3.org/ns/shacl#order> "10" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> <http://www.w3.org/ns/shacl#order> "200" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> <http://www.w3.org/ns/shacl#order> "300" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> <http://www.w3.org/ns/shacl#order> "400" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/GRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/GRP> <http://www.w3.org/ns/shacl#order> "550" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> <http://www.w3.org/ns/shacl#order> "100" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> <http://www.w3.org/ns/shacl#order> "550" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> <http://www.w3.org/ns/shacl#order> "900" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> <http://www.w3.org/ns/shacl#order> "40" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> <http://www.w3.org/ns/shacl#order> "600" .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Dyke> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Dyke> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Fault> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Fault> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Unit> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/Unit> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasColourRGB> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasEarthMaterialClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasLexicon> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasMapCode> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasMapCode> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasRank> <http://www.w3.org/ns/shacl#order> "6500" .
++<http://data.bgs.ac.uk/ref/625KGeologyMap> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/DiscoveryMetadata> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/ns/dcat#landingPage> <https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasFormality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasGeographicalDistribution> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesisDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyComponent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRevisionNumber> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasShapeType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSourceInfo> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSpatialScopeOfDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTypeLocality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUnitClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Spatial/hasBoundingBox> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasBoundingBox> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasFootprint> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasFootprint> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasLocationDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasLocationDescription> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasPointLocation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasPointLocation> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Spatial> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.bgs.ac.uk/ref/isOnshoreOffshore> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/isOnshoreOffshore> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> <http://www.w3.org/ns/shacl#order> "5021" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> <http://www.w3.org/ns/shacl#order> "5011" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/twentyKMGridReference> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/twentyKMGridReference> <http://www.w3.org/ns/shacl#order> "5080" .
++<http://purl.org/dc/terms/abstract> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/abstract> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/accessRights> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/accessRights> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/contributor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/contributor> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/coverage> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/coverage> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/created> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/created> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/creator> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/creator> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/date> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/date> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/description> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/description> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/extent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/extent> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/format> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/format> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/hasPart> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://purl.org/dc/terms/hasPart> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://purl.org/dc/terms/identifier> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://purl.org/dc/terms/identifier> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/language> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/language> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/license> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/license> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/modified> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/modified> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/provenance> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/provenance> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/publisher> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/publisher> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/relation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/relation> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/replaces> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/replaces> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/rights> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/rights> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/source> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/source> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/spatial> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/spatial> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/subject> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/subject> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/temporal> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/temporal> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/title> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://purl.org/dc/terms/title> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://purl.org/dc/terms/type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://schema.org/latitude> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://schema.org/latitude> <http://www.w3.org/ns/shacl#order> "5020" .
++<http://schema.org/longitude> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://schema.org/longitude> <http://www.w3.org/ns/shacl#order> "5021" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#resource> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#resource> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#DeprecatedClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#DeprecatedClass> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/ns/shacl#order> "5031" .
++<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/ns/shacl#order> "5030" .
++<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#TopConcept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#TopConcept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#externalID> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#externalID> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/ns/shacl#order> "9000" .
++<http://xmlns.com/foaf/0.1/img> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/img> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://xmlns.com/foaf/0.1/page> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/page> <http://www.w3.org/ns/shacl#order> "9000" .
++<http://xmlns.com/foaf/0.1/phone> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/phone> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://xmlns.com/foaf/0.1/seeAlso> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://xmlns.com/foaf/0.1/seeAlso> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://xmlns.com/foaf/0.1/thumbnail> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/thumbnail> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/topic> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/topic> <http://www.w3.org/ns/shacl#order> "9000" .
++<https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> <http://www.w3.org/ns/shacl#order> "350" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGS> <http://www.w3.org/ns/shacl#order> "700" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSDM> <http://www.w3.org/ns/shacl#order> "1100" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSEMC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSEMC> <http://www.w3.org/ns/shacl#order> "1200" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSGC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSGC> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSLXN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/BGSLXN> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> <http://www.w3.org/ns/shacl#order> "10" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> <http://www.w3.org/ns/shacl#order> "200" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> <http://www.w3.org/ns/shacl#order> "300" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> <http://www.w3.org/ns/shacl#order> "400" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/GRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/GRP> <http://www.w3.org/ns/shacl#order> "550" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> <http://www.w3.org/ns/shacl#order> "500" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> <http://www.w3.org/ns/shacl#order> "100" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> <http://www.w3.org/ns/shacl#order> "550" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> <http://www.w3.org/ns/shacl#order> "900" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> <http://www.w3.org/ns/shacl#order> "40" .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyGroup> .
++<http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> <http://www.w3.org/ns/shacl#order> "600" .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasColourRGB> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasEarthMaterialClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasLexicon> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasMapCode> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasMapCode> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/625KGeologyMap/hasRank> <http://www.w3.org/ns/shacl#order> "6500" .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/componentRock> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/hasComponentNature> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/hasComponentPart> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/hasComponentRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/isComponentPartOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/subClassMain> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/subClassTAS> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/subClassUDCS> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/superClassMain> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/superClassTAS> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/superClassUDCS> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasFormality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasGeographicalDistribution> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesisDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyComponent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRevisionNumber> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasShapeType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSourceInfo> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSpatialScopeOfDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTypeLocality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUnitClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Spatial/hasBoundingBox> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasBoundingBox> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasFootprint> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasFootprint> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasLocationDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasLocationDescription> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/Spatial/hasPointLocation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Spatial/hasPointLocation> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/hasCurrentStatus> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.bgs.ac.uk/ref/isOnshoreOffshore> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/isOnshoreOffshore> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> <http://www.w3.org/ns/shacl#order> "5021" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> <http://www.w3.org/ns/shacl#order> "5011" .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/twentyKMGridReference> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/twentyKMGridReference> <http://www.w3.org/ns/shacl#order> "5080" .
++<http://purl.org/dc/terms/abstract> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/abstract> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/accessRights> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/accessRights> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/contributor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/contributor> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/coverage> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/coverage> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/created> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/created> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/creator> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/creator> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/date> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/date> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/description> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/description> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/extent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/extent> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/format> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/format> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/hasPart> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://purl.org/dc/terms/hasPart> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://purl.org/dc/terms/identifier> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://purl.org/dc/terms/identifier> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/FMT> .
++<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/ns/shacl#order> "10000" .
++<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/language> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/language> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/license> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/license> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/modified> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/modified> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/provenance> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/provenance> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/publisher> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://purl.org/dc/terms/publisher> <http://www.w3.org/ns/shacl#order> "13000" .
++<http://purl.org/dc/terms/relation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/relation> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/replaces> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/replaces> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/rights> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/rights> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://purl.org/dc/terms/source> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://purl.org/dc/terms/source> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://purl.org/dc/terms/spatial> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/spatial> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/subject> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://purl.org/dc/terms/subject> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/temporal> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://purl.org/dc/terms/temporal> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://purl.org/dc/terms/title> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://purl.org/dc/terms/title> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://purl.org/dc/terms/type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://purl.org/dc/terms/type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://schema.org/latitude> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://schema.org/latitude> <http://www.w3.org/ns/shacl#order> "5020" .
++<http://schema.org/longitude> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://schema.org/longitude> <http://www.w3.org/ns/shacl#order> "5021" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#resource> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#resource> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#DeprecatedClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#DeprecatedClass> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/ns/shacl#order> "5031" .
++<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/ns/shacl#order> "5030" .
++<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#TopConcept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#TopConcept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "Two concepts are sufficiently similar that they can be used interchangeably in some information retrieval applications."@en .
++<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has close match"@en .
++<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#externalID> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#externalID> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/ns/shacl#order> "3000" .
++<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/ns/shacl#order> "14000" .
++<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information."@en .
++<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "Landing Page"@en .
++<http://www.w3.org/ns/org#subOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization."@en .
++<http://www.w3.org/ns/org#subOrganizationOf> <http://www.w3.org/2000/01/rdf-schema#label> "sub-organization of"@en .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to a group of related properties for display purposes"@en .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/2000/01/rdf-schema#label> "Group"@en .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/ns/shacl#group> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/2000/01/rdf-schema#comment> "Relative order of the property or property group for display purposes such as form building"@en .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://www.w3.org/ns/shacl#order> <http://www.w3.org/ns/shacl#order> "6000" .
++<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/ns/shacl#order> "5000" .
++<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/LIC> .
++<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/ns/shacl#order> "11000" .
++<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/ns/shacl#order> "9000" .
++<http://xmlns.com/foaf/0.1/img> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/img> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/ID> .
++<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://xmlns.com/foaf/0.1/page> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/page> <http://www.w3.org/ns/shacl#order> "9000" .
++<http://xmlns.com/foaf/0.1/phone> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CON> .
++<http://xmlns.com/foaf/0.1/phone> <http://www.w3.org/ns/shacl#order> "12000" .
++<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://xmlns.com/foaf/0.1/seeAlso> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://xmlns.com/foaf/0.1/seeAlso> <http://www.w3.org/ns/shacl#order> "15000" .
++<http://xmlns.com/foaf/0.1/thumbnail> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/IMG> .
++<http://xmlns.com/foaf/0.1/thumbnail> <http://www.w3.org/ns/shacl#order> "4000" .
++<http://xmlns.com/foaf/0.1/topic> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DOC> .
++<http://xmlns.com/foaf/0.1/topic> <http://www.w3.org/ns/shacl#order> "9000" .
++<https://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the item"@en .
++<https://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@en .
++<https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the item"@en .
++<https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@en .
++<https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/CPT> .
++<https://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/ns/shacl#order> "2000" .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll> <http://www.w3.org/ns/dcat#landingPage> <https://www.bgs.ac.uk/technologies/bgs-rock-classification-scheme/> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll> <http://purl.org/dc/terms/created> "1899-12-30"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockClassAll> <http://purl.org/dc/terms/modified> "2025-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockComposite> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockDummy> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/EarthMaterialClass/RockName> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageDetermination> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/ageValueUncertainty> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/divisionList> <http://www.w3.org/ns/shacl#order> "1000" .
++<http://data.bgs.ac.uk/ref/Geochronology/end> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasGeochronologyRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/hasRanks> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/maxAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/minAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/olderDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankInOrderedList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/rankList> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/start> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/subDivisions> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Geochronology/youngerDivisionOfSameRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Geochronology/Division> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Geochronology/Rank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasDefinitionStatus> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasFormality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasGeographicalDistribution> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLateralEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesisDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyComponent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasLowerBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalent> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasObsoleteEquivalentRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRevisionNumber> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/NOTE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasShapeType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSourceInfo> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasSpatialScopeOfDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTheme> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasTypeLocality> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/EXT> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUnitClass> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/HIER> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasUpperBoundaryDefinition> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/AGE> .
++<http://data.bgs.ac.uk/ref/Lexicon/isLateralEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentInRelationship> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isObsoleteEquivalentOf> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isSourceInfoFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/PUB> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityFor> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/REL> .
++<http://data.bgs.ac.uk/ref/Lexicon/isTypeLocalityType> <http://www.w3.org/ns/shacl#group> <http://data.bgs.ac.uk/id/LinkedDataPredicateGroup/DESC> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/ns/dcat#landingPage> <https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasBroaderPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/A> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2OB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLRQ"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/OLGB"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/LMST"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GB"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GN"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/PDT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GBBY"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GBBY"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/CAT"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/FBRC"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMQD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/DOLRQ"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithology> "http://data.bgs.ac.uk/id/EarthMaterialClass/RockClassAll/GNGP"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres forming the Ardnamurchan peninsula, together comprising the Ardnamurchan Central Complex (ARDNA)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres forming the Ardnamurchan peninsula, together comprising the Ardnamurchan Central Complex (ARDNA)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARD3> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "One of three geographically and petrologically related centres forming the Ardnamurchan peninsula, together comprising the Ardnamurchan Central Complex (ARDNA)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARDNA> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A component of the Hebridean Province comprising three geographically and petrologically related centres (Ardnamurchan Centre 1 (ARD1), Ardnamurchan Centre 2 (ARD2), and Ardnamurchan Centre 3 (ARD3)) forming the Ardnamurchan peninsula. Includes a wide variety of intrusive and extrusive igneous rocks, together with both sedimentary and metamorphic country rocks, particularly in major vent-complexes."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2IB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Numerous basic cone-sheets, mainly porphyritic dolerite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2OB> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Numerous basic cone-sheets, mainly quartz-dolerite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3B> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "A few basic cone-sheets. Basalt, and dolerite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OGR> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Olivine-glomerocrystic gabbro."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CECH> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Volcaniclastic rocks with trace basalt and bytownite gabbro."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Limestone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Gabbro, peridotite, granite. Also intrusion-breccia, tuffisite and volcaniclastic-breccia."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL1> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Bytownite gabbro."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL2> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Bytownite gabbro."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "The Highland Boundary Fault Zone comprises a mix of fault breccia and cataclasite with locally complex associations with rocks of the Highland Border Complex including serpentinites and ophicarbonates. Later dolerite dykes have intruded along parts of the fault zone."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCND> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Microgranite, quartz-dolerite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MULL> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Several basaltic lavas and beds of volcaniclastic sedimentary rock."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMQD> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Quartz-dolerite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Granophyric granite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasLithologyDescription> "Cataclasite and mylonite with trace metalimestone, pelite, psammite and quartzite."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/E> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "635"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "635"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "635"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasOldestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasPredominantAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3AQG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3FLG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3GLG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3ILG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OGR> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OLG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OQG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3SML> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3UGB> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/M> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/F> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CWMC> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GGFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCND> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLS> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/U> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PRFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/UYFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasRockUnitRank> <http://data.bgs.ac.uk/id/Lexicon/RockUnitRank/ZN> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLS> <http://data.bgs.ac.uk/ref/Lexicon/hasThicknessDescription> "60m."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/AD> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAge> <http://data.bgs.ac.uk/id/Geochronology/Division/T> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "541"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://data.bgs.ac.uk/ref/Lexicon/hasYoungestAgeValue> "201.4"^^<http://www.w3.org/2001/XMLSchema#double> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://purl.org/dc/terms/modified> "2026-09-03"^^<http://www.w3.org/2001/XMLSchema#date> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACC> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt-y-clych Conglomerate Member (Form Facies) [Obsolete: use ACC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWB> <http://www.w3.org/2004/02/skos/core#altLabel> "Garnedd-wen Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1187> <http://www.w3.org/2004/02/skos/core#altLabel> "Slade and Redhill Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1298> <http://www.w3.org/2004/02/skos/core#altLabel> "Allt-y-clych Conglomerate Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1351> <http://www.w3.org/2004/02/skos/core#altLabel> "Bryn-glas Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1723> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant-y-moch Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3343> <http://www.w3.org/2004/02/skos/core#altLabel> "Cerrig Gwynion Grits Facies"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H3846> <http://www.w3.org/2004/02/skos/core#altLabel> "Bryn-glas Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H419> <http://www.w3.org/2004/02/skos/core#altLabel> "Nant-y-moch Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H4582> <http://www.w3.org/2004/02/skos/core#altLabel> "Cerrig Gwynion Grits Facies"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H945> <http://www.w3.org/2004/02/skos/core#altLabel> "Graig-wen Sandstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/S257> <http://www.w3.org/2004/02/skos/core#altLabel> "Cwm-yr-hob Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CECH> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKYC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL1> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUILC> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIP4> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUILP> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBW> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSM> <http://www.w3.org/2004/02/skos/core#broader> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMY> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AAQM> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-monzonite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AATO> <http://www.w3.org/2004/02/skos/core#definition> "Tonalite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ARDNA> <http://www.w3.org/2004/02/skos/core#definition> "Bedrock. Occurs onshore. Formed during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Ashgill Series (Ordovician Period) (449.75-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2IB> <http://www.w3.org/2004/02/skos/core#definition> "Dolerite with subsidiary basalt. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2OB> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-dolerite with subsidiary basalt. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3AQG> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3B> <http://www.w3.org/2004/02/skos/core#definition> "Basalt and dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3FLG> <http://www.w3.org/2004/02/skos/core#definition> "Fluxioned gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3GLG> <http://www.w3.org/2004/02/skos/core#definition> "Fluxioned gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OGR> <http://www.w3.org/2004/02/skos/core#definition> "Olivine-gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OQG> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3SML> <http://www.w3.org/2004/02/skos/core#definition> "Fluxioned gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3UGB> <http://www.w3.org/2004/02/skos/core#definition> "Gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ediacaran Period (Precambrian) (635-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ediacaran Period (Precambrian) (635-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CLN> <http://www.w3.org/2004/02/skos/core#definition> "Sandstone. Stratified bedrock. Occurs onshore. Deposited during the Pridoli Epoch (Silurian Period) (422.7-419 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNRP> <http://www.w3.org/2004/02/skos/core#definition> "Feldspathic peridotite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#definition> "Stratified bedrock. Occurs onshore. Deposited during the Ediacaran Period (Precambrian) (635-541 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Ashgill Series (Ordovician Period) (449.75-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL> <http://www.w3.org/2004/02/skos/core#definition> "Gabbro, granite, intrusion-breccia, peridotite, tuffisite and volcaniclastic-breccia. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL1> <http://www.w3.org/2004/02/skos/core#definition> "Bytownite gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL2> <http://www.w3.org/2004/02/skos/core#definition> "Bytownite gabbro. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/2004/02/skos/core#definition> "Cataclasite and fault-breccia. Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Formed during the Cambrian Period - to - Triassic Period (541-201.4 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCND> <http://www.w3.org/2004/02/skos/core#definition> "Microgranite and quartz-dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NLS> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Sheinwoodian Age (Silurian Period) (432.9-430.6 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBW> <http://www.w3.org/2004/02/skos/core#definition> "Limestone. Stratified bedrock. Occurs onshore. Deposited during the Ashgill Series (Ordovician Period) (449.75-443.1 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMQD> <http://www.w3.org/2004/02/skos/core#definition> "Quartz-dolerite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC> <http://www.w3.org/2004/02/skos/core#definition> "Granophyric granite. Igneous intrusive bedrock. Occurs onshore. Emplaced during the Paleogene Period (66-23.04 Ma BP)."@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WBFZ> <http://www.w3.org/2004/02/skos/core#definition> "Cataclasite and mylonite and trace blastomylonite, gneissose psammite, metalimestone, pelite, psammite and quartzite. Strongly deformed and/or metamorphosed bedrock. Occurs onshore. Formed during the Devonian Period (419-359.3 Ma BP)."@en .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> .
++<http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/2004/02/skos/core#isTopConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMY> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/WSM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUILC> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIL1> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUILP> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIP4> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BDH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CRUG> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKL> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/RBW> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SKYC> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CECH> .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/2004/02/skos/core#notation> "CCRM"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/2004/02/skos/core#notation> "CCVM"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#notation> "COVF"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/2004/02/skos/core#notation> "HBFZ"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AAQM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achnaha Quartz-monzonite Facies"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/AATQM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achnaha Tonalite-quartz-monzonite Intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/ACC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt-y-clych Conglomerate Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BBOQG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beinn Buidhe Older Quartz-gabbro Intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BGF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bryn-glas Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/BNOGB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beinn nan Ord Gabbro Ring-dyke"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2IB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Centre 2 Inner Basic Cone-sheet-swarm"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C2OB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Centre 2 Outer Basic Cone-sheet-swarm"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3AQG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achnaha Quartz-gabbro Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3B> <http://www.w3.org/2004/02/skos/core#prefLabel> "Centre 3 Basic Cone-sheet-swarm"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3FLG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fascadale Laminated Gabbro Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3GLG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Glendrian Laminated Gabbro Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Olivine-glomerocrystic Gabbro Raft Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/C3OQG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outer Quartz-gabbro Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CAMY> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cae'r mynach Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCRM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castell Cogan Rhyolite Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CCVM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coed Cochion Volcaniclastic Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CECH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Srath na Creitheach Volcaniclastic Rocks"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CMM> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clencher's Mill Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNRH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coire na Rainich Hybrid Ring-dyke"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CNRP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coire na Rainich Peridotite Raft"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/COVF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coomb Volcanic Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUILU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coire Uaigneich Granite"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CUIP1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Layered Peridotites, P1 (Cuillin Centre)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cerrig Gwynion Grits Facies"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/CYH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cwm-yr-hob Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GDQGB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garbh-dhail Quartz-gabbro Ring-intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GNWF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garnedd-wen Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/GWSA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Graig-wen Sandstone Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/H1298> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allt-y-clych Conglomerate Member (Form Facies) [Obsolete: use ACC]"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/HBFZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Highland Boundary Fault Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LAGB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lochan an Aodainn Gabbro Intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LCQGB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loch Caorach Quartz-gabbro Ring-intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/LLUE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lluest-y-Graig Member"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MNCND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall nan Con Net-veined Dolerite Roof Zone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/MTSQG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall an Tarmachain Summit Quartz-gabbro Intrusion"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/NF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nant-y-moch Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/PYN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pen-y-Lan Mudstone"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SLR> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slade and Redhill Formation"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SMQD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sgurr nam Meann Quartz-dolerite Ring-dyke"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Srath na Creitheach Centre"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meall Dearg Granite (Srath na Creitheach Centre)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruadh Stac Granite (Srath na Creitheach Centre)"@en .
++<http://data.bgs.ac.uk/id/Lexicon/NamedRockUnit/SNCC3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blaven Granite (Srath na Creitheach Centre)"@en .
++<http://data.bgs.ac.uk/ref/Lexicon/RockUnitRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
++<http://data.bgs.ac.uk/ref/Lexicon/RockUnitRank> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/ref/Lexicon/RockUnitRank> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
++<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
++<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .

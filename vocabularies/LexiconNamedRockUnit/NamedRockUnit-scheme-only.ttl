@@ -1,0 +1,26 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX lexicon: <http://data.bgs.ac.uk/ref/Lexicon/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+lexicon:NamedRockUnit
+    a skos:ConceptScheme ;
+    dcterms:bibliographicCitation "British Geological Survey. [year]. The BGS Lexicon of Named Rock Units [Linked Open Data]. Keyworth, Nottingham. Available from https://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"@en ;
+    dcterms:creator <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:identifier "http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit"@en ;
+    dcterms:publisher <http://data.bgs.ac.uk/id/org/bgs> ;
+    dcterms:title "BGS Lexicon of Named Rock Units"@en ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "The BGS Lexicon of Named Rock Units provides our definitions of the lithostratigraphic, lithodemic and lithomorphogenetic geological units of the UK and its continental shelf"@en ;
+    skos:prefLabel "BGS Lexicon of Named Rock Units"@en ;
+    dcat:landingPage <https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/> ;
+.
+
+<http://data.bgs.ac.uk/id/org/bgs>
+    a schema:Organization ;
+    schema:name "British Geological Survey" ;
+    schema:url "https://www.bgs.ac.uk/"^^xsd:anyURI ;
+.
