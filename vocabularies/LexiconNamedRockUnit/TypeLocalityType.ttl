@@ -1,0 +1,60 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX typelocalitytype: <http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+typelocalitytype:PT
+    a skos:Concept ;
+    rdfs:label "Partial Type Section"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Partial type section refers to a type section that does not encompass the entire thickness of the named geologic unit it helps to define."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+    skos:prefLabel "Partial Type Section"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+.
+
+typelocalitytype:RS
+    a skos:Concept ;
+    rdfs:label "Reference Section"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Reference section refers to sections, designated at time of original definition of a named geologic unit or subsequently, that illustrate the heterogeneity of the unit or some critical feature not exposed in the type section. Several reference sections may be designated to make a composite type section."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+    skos:prefLabel "Reference Section"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+.
+
+typelocalitytype:TA
+    a skos:Concept ;
+    rdfs:label "Type Area"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Type area refers to the geographic territory encompassing the type locality."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+    skos:prefLabel "Type Area"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+.
+
+typelocalitytype:TS
+    a skos:Concept ;
+    rdfs:label "Type Section"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "Type section refers to a geologic section that constitutes the basis for definition or recognition of a named geologic unit or boundary. The type section may be designated at time of original definition of the unit or boundary, or subsequently. It must be illustrative and representative of the unit or boundary being defined. Also known as a stratotype."@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+    skos:prefLabel "Type Section"@en ;
+    skos:topConceptOf <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> ;
+.
+
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType>
+    dcterms:created "2008-02-12"^^xsd:date ;
+    dcterms:modified "2024-08-09"^^xsd:date ;
+    skos:hasTopConcept
+        typelocalitytype:PT ,
+        typelocalitytype:RS ,
+        typelocalitytype:TA ,
+        typelocalitytype:TS ;
+.

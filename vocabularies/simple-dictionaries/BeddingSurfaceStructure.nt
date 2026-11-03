@@ -1,6 +1,6 @@
-<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/ref/BritishGeologicalSurvey> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/creator> <http://data.bgs.ac.uk/id/org/bgs> .
+<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/publisher> <http://data.bgs.ac.uk/id/org/bgs> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/dc/terms/identifier> "http://data.bgs.ac.uk/ref/BeddingSurfaceStructure"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/experimental> .
 <http://data.bgs.ac.uk/ref/BeddingSurfaceStructure> <http://www.w3.org/2004/02/skos/core#definition> "A dictionary of bed surface structures, eg. ripples, dessication cracks."@en .
@@ -176,3 +176,6 @@
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZMEAND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meandering Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFGRZRAD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radial Grazing Traces"@en .
 <http://data.bgs.ac.uk/id/BeddingSurfaceStructure/TFREST> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resting Traces"@en .
+<http://data.bgs.ac.uk/id/org/bgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/name> "British Geological Survey" .
+<http://data.bgs.ac.uk/id/org/bgs> <https://schema.org/url> "https://www.bgs.ac.uk/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .

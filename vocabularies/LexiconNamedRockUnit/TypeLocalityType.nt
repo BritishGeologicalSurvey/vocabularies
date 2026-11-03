@@ -1,0 +1,39 @@
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://purl.org/dc/terms/created> "2008-02-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://purl.org/dc/terms/modified> "2024-08-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://purl.org/dc/terms/source> "http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/2000/01/rdf-schema#label> "Partial Type Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/2000/01/rdf-schema#label> "Type Area"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/2000/01/rdf-schema#label> "Type Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/stable> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/2004/02/skos/core#definition> "Partial type section refers to a type section that does not encompass the entire thickness of the named geologic unit it helps to define."@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/2004/02/skos/core#definition> "Reference section refers to sections, designated at time of original definition of a named geologic unit or subsequently, that illustrate the heterogeneity of the unit or some critical feature not exposed in the type section. Several reference sections may be designated to make a composite type section."@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/2004/02/skos/core#definition> "Type area refers to the geographic territory encompassing the type locality."@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/2004/02/skos/core#definition> "Type section refers to a geologic section that constitutes the basis for definition or recognition of a named geologic unit or boundary. The type section may be designated at time of original definition of the unit or boundary, or subsequently. It must be illustrative and representative of the unit or boundary being defined. Also known as a stratotype."@en .
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> .
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> .
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> .
+<http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Partial Type Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reference Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type Area"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type Section"@en .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/PT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/RS> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TA> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+<http://data.bgs.ac.uk/id/Lexicon/TypeLocalityType/TS> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> .
+

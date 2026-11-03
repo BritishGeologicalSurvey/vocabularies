@@ -19,7 +19,7 @@ geochronology:Division
         <http://dbpedia.org/resource/Geologic_time_scale> ,
         <https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/geological-timechart/> ;
     skos:definition "Divisions of geological time from source table DIC_GEOCHRON. The BGS Geochronology Dataset is based on The Geologic Time Scale 2012 by F M Gradstein, J G Ogg, M Schmitz and G Ogg (2012), with additions. The result is a composite geological time scale that will be updated as improved timescales become available."@en ;
-    skos:hasTopConcept "http://data.bgs.ac.uk/id/Geochronology/Division/XX"^^xsd:anyURI ;
+    skos:hasTopConcept <http://data.bgs.ac.uk/id/Geochronology/Division/XX> ;
     skos:note "Originally created for internal use in corporate BGS relational database. Alignments to CGI timescale and INSPIRE timescale created by Tim McCormick, August 2023. Colour attribute on each Concept shows the ICS standard colour where concepts are an exact match"@en ;
     skos:prefLabel "Geochronology Division"@en ;
 .
