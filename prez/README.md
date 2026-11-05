@@ -24,7 +24,7 @@ Catalogue: <http://data.bgs.ac.uk/ref/BGSVocabularies> BGS Vocabularies ([`catal
 
 | Other dataset | Named graph | Triples | Version |
 |:--|:--|--:|:--|
-| [BGS discovery metadata (data holdings)](graphs/DiscoveryMetadata.ttl) | <http://data.bgs.ac.uk/ref/DiscoveryMetadata> | 3 | 2026-11-03T11:14:26Z |
+| [BGS discovery metadata (data holdings)](graphs/DiscoveryMetadata.ttl) | <http://data.bgs.ac.uk/ref/DiscoveryMetadata> | 7995 | 2026-11-05T12:45:53Z |
 | [BGS Geology 1:625 000 map units](graphs/625kGeologyMap.ttl) | <http://data.bgs.ac.uk/ref/625KGeologyMap> | 237119 | 2026-11-03T11:14:26Z |
 | [Registry statuses (AGLDWG)](graphs/RegistryStatuses.ttl) | <http://data.bgs.ac.uk/ref/reg-statuses> | 167 | 2026-11-03T11:14:26Z |
 
