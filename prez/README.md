@@ -6,7 +6,7 @@ Catalogue: <http://data.bgs.ac.uk/ref/BGSVocabularies> BGS Vocabularies ([`catal
 
 | Vocabulary | Concept scheme (named graph) | Concepts | Triples | Version |
 |:--|:--|--:|--:|:--|
-| [BGS Geoscience Thesaurus](vocabs/GeoscienceThesaurus.ttl) | <http://data.bgs.ac.uk/ref/GeoscienceThesaurus> | 6127 | 66866 | 2026-11-03T11:14:26Z |
+| [BGS Geoscience Thesaurus](vocabs/GeoscienceThesaurus.ttl) | <http://data.bgs.ac.uk/ref/GeoscienceThesaurus> | 6128 | 66873 | 2026-11-19T09:01:18Z |
 | [BGS Lexicon of Named Rock Units](vocabs/NamedRockUnit.ttl) | <http://data.bgs.ac.uk/ref/Lexicon/NamedRockUnit> | 18913 | 341189 | 2026-11-03T11:14:26Z |
 | [Lexicon Rock Unit Rank](vocabs/RockUnitRank.ttl) | <http://data.bgs.ac.uk/ref/Lexicon/RockUnitRank> | 86 | 861 | 2026-11-03T11:14:26Z |
 | [Lexicon Type Locality Type](vocabs/TypeLocalityType.ttl) | <http://data.bgs.ac.uk/ref/Lexicon/TypeLocalityType> | 4 | 49 | 2026-11-03T11:14:26Z |
@@ -24,7 +24,7 @@ Catalogue: <http://data.bgs.ac.uk/ref/BGSVocabularies> BGS Vocabularies ([`catal
 
 | Other dataset | Named graph | Triples | Version |
 |:--|:--|--:|:--|
-| [BGS discovery metadata (data holdings)](graphs/DiscoveryMetadata.ttl) | <http://data.bgs.ac.uk/ref/DiscoveryMetadata> | 7995 | 2026-11-05T12:45:53Z |
+| [BGS discovery metadata (data holdings)](graphs/DiscoveryMetadata.ttl) | <http://data.bgs.ac.uk/ref/DiscoveryMetadata> | 7998 | 2026-11-19T09:01:18Z |
 | [BGS Geology 1:625 000 map units](graphs/625kGeologyMap.ttl) | <http://data.bgs.ac.uk/ref/625KGeologyMap> | 237119 | 2026-11-03T11:14:26Z |
 | [Registry statuses (AGLDWG)](graphs/RegistryStatuses.ttl) | <http://data.bgs.ac.uk/ref/reg-statuses> | 167 | 2026-11-03T11:14:26Z |
 

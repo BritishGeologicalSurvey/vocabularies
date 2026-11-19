@@ -97,6 +97,16 @@ concept:6140
     skos:prefLabel "Climate"@en ;
 .
 
+concept:6144
+    a skos:Concept ;
+    rdfs:label "UKCCSRC"@en ;
+    dcterms:source "http://data.bgs.ac.uk/ref/GeoscienceThesaurus"^^xsd:anyURI ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    skos:definition "UKCCSRC"@en ;
+    skos:inScheme <http://data.bgs.ac.uk/ref/GeoscienceThesaurus> ;
+    skos:prefLabel "UKCCSRC"@en ;
+.
+
 concept:100
     a skos:Concept ;
     rdfs:label "Air entrainment"@en ;
@@ -89246,7 +89256,7 @@ concept:5060
 .
 
 <http://data.bgs.ac.uk/ref/GeoscienceThesaurus>
-    dcterms:modified "2022-10-24"^^xsd:date ;
+    dcterms:modified "2026-11-16"^^xsd:date ;
     skos:hasTopConcept
         concept:1008 ,
         concept:1014 ,
